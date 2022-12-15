@@ -53,6 +53,18 @@
         "content": "Secondary buttons"
       },
       {
+        "type": "color",
+        "id": "button_second_background",
+        "label": "Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "button_second_colors_text",
+        "label": "Text and border",
+        "default": "#232323"
+      },
+      {
         "type": "header",
         "content": "Background"
       },
