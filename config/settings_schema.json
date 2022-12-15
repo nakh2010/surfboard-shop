@@ -38,13 +38,13 @@
       },
       {
         "type": "color",
-        "id": "button_colors_background",
+        "id": "colors_button_background",
         "label": "Background",
         "default": "#005A87"
       },
       {
         "type": "color",
-        "id": "button_colors_text",
+        "id": "colors_button_text",
         "label": "Text",
         "default": "#ffffff"
       },
@@ -54,19 +54,31 @@
       },
       {
         "type": "color",
-        "id": "button_second_background",
+        "id": "colors_button_second_background",
         "label": "Background",
         "default": "#ffffff"
       },
       {
         "type": "color",
-        "id": "button_second_colors_text",
+        "id": "colors_button_second_text",
         "label": "Text and border",
         "default": "#005A87"
       },
       {
         "type": "header",
         "content": "Background"
+      },
+      {
+        "type": "color",
+        "id": "colors_bg",
+        "label": "Background",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "btn_alt_bg",
+        "label": "Background",
+        "default": "#ffffff"
       },
       {
         "type": "header",
