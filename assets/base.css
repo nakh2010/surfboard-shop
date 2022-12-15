@@ -1398,7 +1398,7 @@ button.shopify-payment-button__button--unbranded {
 .button::selection,
 .shopify-challenge__button::selection,
 .customer button::selection {
-  background-color: rgba(var(--color-button-text), 0.3);
+  background-color: var(--color-primary-button-background);
 }
 
 .button,
@@ -1445,7 +1445,7 @@ button.shopify-payment-button__button--unbranded {
 
 @media screen and (forced-colors: active) {
   .button.loading {
-    color: rgb(var(--color-foreground));
+    color: var(--color-primary-button-text);
   }
 }
 
