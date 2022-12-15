@@ -34,6 +34,21 @@
         "content": "Primary buttons"
       },
       {
+        "type": "color",
+        "id": "button_colors_background",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "button_colors_background_hover",
+        "label": "Background Hover"
+      },
+      {
+        "type": "color",
+        "id": "button_colors_text",
+        "label": "Text"
+      },
+      {
         "type": "header",
         "content": "Secondary buttons"
       },
