@@ -1687,6 +1687,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius-outset);
   box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) var(--color-base-text);
   z-index: -1;
+      opacity: 0.2;
 }
 
 .field:after,
