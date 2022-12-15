@@ -1726,6 +1726,7 @@ details[open] > .share-button__fallback {
   box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) var(--color-base-text);
   outline: 0;
   border-radius: var(--inputs-radius);
+      opacity: 0.2;
 }
 
 .field__input:focus-visible,
