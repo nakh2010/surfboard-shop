@@ -1579,18 +1579,18 @@ details[open] > .share-button__fallback {
 .share-button__close,
 .share-button__copy {
   background-color: transparent;
-  color: rgb(var(--color-foreground));
+  color: var(--color-base-link);
 }
 
 .share-button__copy:focus-visible,
 .share-button__close:focus-visible {
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-background);
   z-index: 2;
 }
 
 .share-button__copy:focus,
 .share-button__close:focus {
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-background);
   z-index: 2;
 }
 
