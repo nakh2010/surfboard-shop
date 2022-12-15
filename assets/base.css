@@ -2059,8 +2059,8 @@ input[type='checkbox'] {
 .quantity__input:-webkit-autofill,
 .quantity__input:-webkit-autofill:hover,
 .quantity__input:-webkit-autofill:active {
-  box-shadow: 0 0 0 10rem rgb(var(--color-background)) inset !important;
-  -webkit-box-shadow: 0 0 0 10rem rgb(var(--color-background)) inset !important;
+  box-shadow: 0 0 0 10rem var(--color-background) inset !important;
+  -webkit-box-shadow: 0 0 0 10rem var(--color-background) inset !important;
 }
 
 .quantity__input::-webkit-outer-spin-button,
@@ -2127,7 +2127,7 @@ input[type='checkbox'] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(var(--color-background));
+  background: var(--color-background);
   z-index: 4;
   display: flex;
   justify-content: center;
@@ -2149,8 +2149,8 @@ input[type='checkbox'] {
 
 .cart-count-bubble {
   position: absolute;
-  background-color: rgb(var(--color-button));
-  color: rgb(var(--color-button-text));
+  background-color: var(--color-primary-button-background);
+  color: var(--color-primary-button-text);
   height: 1.7rem;
   width: 1.7rem;
   border-radius: 100%;
