@@ -1464,7 +1464,7 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .button.loading > .loading-overlay__spinner .path {
-  stroke: rgb(var(--color-button-text));
+  stroke: var(--color-primary-button-text);
 }
 
 /* Button - social share */
@@ -1483,7 +1483,7 @@ button.shopify-payment-button__button--unbranded {
   display: flex;
   min-height: 2.4rem;
   align-items: center;
-  color: rgb(var(--color-link));
+  color: var(--color-base-link);
   margin-left: 0;
   padding-left: 0;
 }
@@ -1539,7 +1539,7 @@ details[open] > .share-button__fallback {
 }
 
 .share-button__fallback:before {
-  background: rgb(var(--color-background));
+  background: var(--color-background);
   pointer-events: none;
   content: '';
   position: absolute;
