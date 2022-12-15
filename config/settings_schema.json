@@ -17,17 +17,20 @@
       {
         "type": "color",
         "id": "colors_base",
-        "label": "Base"
+        "label": "Base",
+        "default": "#000000"
       },
       {
         "type": "color",
         "id": "colors_link",
-        "label": "Links"
+        "label": "Links",
+        "default": "#005A87"
       },
       {
         "type": "color",
         "id": "colors_heading",
-        "label": "Headings"
+        "label": "Headings",
+        "default": "#005A87"
       },
       {
         "type": "header",
@@ -36,17 +39,20 @@
       {
         "type": "color",
         "id": "button_colors_background",
-        "label": "Background"
+        "label": "Background",
+        "default": "#ffffff"
       },
       {
         "type": "color",
         "id": "button_colors_background_hover",
-        "label": "Background Hover"
+        "label": "Background Hover",
+        "default": "#ffffff"
       },
       {
         "type": "color",
         "id": "button_colors_text",
-        "label": "Text"
+        "label": "Text",
+        "default": "#ffffff"
       },
       {
         "type": "header",
