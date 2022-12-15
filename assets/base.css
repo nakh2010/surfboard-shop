@@ -1726,7 +1726,6 @@ details[open] > .share-button__fallback {
   box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) var(--color-base-text);
   outline: 0;
   border-radius: var(--inputs-radius);
-      opacity: 0.2;
 }
 
 .field__input:focus-visible,
@@ -1996,6 +1995,7 @@ input[type='checkbox'] {
   border-radius: var(--inputs-radius-outset);
   box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) var(--color-base-text);
   z-index: -1;
+      opacity: 0.2;
 }
 
 .quantity__input {
