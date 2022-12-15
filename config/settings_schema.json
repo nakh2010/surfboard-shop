@@ -40,13 +40,7 @@
         "type": "color",
         "id": "button_colors_background",
         "label": "Background",
-        "default": "#ffffff"
-      },
-      {
-        "type": "color",
-        "id": "button_colors_background_hover",
-        "label": "Background Hover",
-        "default": "#ffffff"
+        "default": "#005A87"
       },
       {
         "type": "color",
