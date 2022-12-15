@@ -72,12 +72,6 @@
         "type": "color",
         "id": "colors_bg",
         "label": "Background",
-        "default": "#fff"
-      },
-      {
-        "type": "color",
-        "id": "btn_alt_bg",
-        "label": "Background",
         "default": "#ffffff"
       },
       {
