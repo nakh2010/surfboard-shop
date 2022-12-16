@@ -4,85 +4,75 @@
     "theme_name": "Dawn",
     "theme_version": "7.0.1",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
         "type": "header",
-        "content": "t:settings_schema.colors.settings.header__1.content"
+        "content": "Text"
       },
       {
         "type": "color",
-        "id": "colors_solid_button_labels",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_solid_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_solid_button_labels.info"
+        "id": "colors_base",
+        "label": "Base",
+        "default": "#000000"
       },
       {
         "type": "color",
-        "id": "colors_accent_1",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_accent_1.label",
-        "info": "t:settings_schema.colors.settings.colors_accent_1.info"
-      },
-      {
-        "id": "gradient_accent_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_1.label"
+        "id": "colors_link",
+        "label": "Links",
+        "default": "#005A87"
       },
       {
         "type": "color",
-        "id": "colors_accent_2",
-        "default": "#334FB4",
-        "label": "t:settings_schema.colors.settings.colors_accent_2.label"
-      },
-      {
-        "id": "gradient_accent_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
+        "id": "colors_heading",
+        "label": "Headings",
+        "default": "#005A87"
       },
       {
         "type": "header",
-        "content": "t:settings_schema.colors.settings.header__2.content"
+        "content": "Primary buttons"
       },
       {
         "type": "color",
-        "id": "colors_text",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_text.label",
-        "info": "t:settings_schema.colors.settings.colors_text.info"
+        "id": "colors_button_background",
+        "label": "Background",
+        "default": "#E8581B"
       },
       {
         "type": "color",
-        "id": "colors_outline_button_labels",
-        "default": "#121212",
-        "label": "t:settings_schema.colors.settings.colors_outline_button_labels.label",
-        "info": "t:settings_schema.colors.settings.colors_outline_button_labels.info"
+        "id": "colors_button_text",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Secondary buttons"
       },
       {
         "type": "color",
-        "id": "colors_background_1",
-        "default": "#FFFFFF",
-        "label": "t:settings_schema.colors.settings.colors_background_1.label"
-      },
-      {
-        "id": "gradient_background_1",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_1.label"
+        "id": "colors_button_second_background",
+        "label": "Background",
+        "default": "#ffffff"
       },
       {
         "type": "color",
-        "id": "colors_background_2",
-        "default": "#F3F3F3",
-        "label": "t:settings_schema.colors.settings.colors_background_2.label"
+        "id": "colors_button_second_text",
+        "label": "Text and border",
+        "default": "#E8581B"
       },
       {
-        "id": "gradient_background_2",
-        "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+        "type": "header",
+        "content": "Background"
+      },
+      {
+        "type": "color",
+        "id": "colors_bg",
+        "label": "Background",
+        "default": "#ffffff"
       }
     ]
   },
