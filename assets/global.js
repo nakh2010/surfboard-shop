@@ -3964,7 +3964,7 @@ $(document).ready(function(){
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      arrow: false,
+      arrows: false,
       dots: false,
       autoplaySpeed: 5000,
   });
