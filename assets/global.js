@@ -3964,8 +3964,8 @@ $(document).ready(function(){
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      arrow: none;
-      dots: none;
+      arrow: false,
+      dots: false,
       autoplaySpeed: 5000,
   });
 });
