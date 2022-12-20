@@ -130,7 +130,6 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "background-1",
               "link": ""
             }
           },
@@ -139,7 +138,6 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
               "link": ""
             }
           },
@@ -148,7 +146,6 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
               "link": ""
             }
           },
@@ -157,7 +154,6 @@
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "accent-1",
               "link": ""
             }
           }
@@ -169,6 +165,7 @@
           "ce08ee3d-33fa-447d-90b3-a1921541dc94"
         ],
         "settings": {
+          "color_scheme": "accent-1"
         }
       },
       "header": {
