@@ -23,6 +23,36 @@
 {
   "name": "Announcement",
   "max_blocks": 12,
+  "settings": [
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "Accent 1"
+            },
+            {
+              "value": "accent-2",
+              "label": "Accent 2"
+            },
+            {
+              "value": "background-1",
+              "label": "Background 1"
+            },
+            {
+              "value": "background-2",
+              "label": "Background 2"
+            },
+            {
+              "value": "inverse",
+              "label": "Inverse"
+            }
+          ],
+          "default": "accent-1",
+          "label": "Color scheme"
+        }
+  ],
   "blocks": [
     {
       "type": "announcement",
@@ -53,34 +83,6 @@
           ],
           "default": "center",
           "label": "Text alignment"
-        },
-        {
-          "type": "select",
-          "id": "color_scheme",
-          "options": [
-            {
-              "value": "accent-1",
-              "label": "Accent 1"
-            },
-            {
-              "value": "accent-2",
-              "label": "Accent 2"
-            },
-            {
-              "value": "background-1",
-              "label": "Background 1"
-            },
-            {
-              "value": "background-2",
-              "label": "Background 2"
-            },
-            {
-              "value": "inverse",
-              "label": "Inverse"
-            }
-          ],
-          "default": "accent-1",
-          "label": "Color scheme"
         },
         {
           "type": "url",
