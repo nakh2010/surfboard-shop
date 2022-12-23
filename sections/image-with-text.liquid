@@ -81,85 +81,86 @@
    
   <div class="image-with-text-column isolate">
   {% if bg_style == 'image' %}
-  <div class="background_img_wr">
-       {%- if section.settings.image != blank -%}
-              <img class="large-screen--background"
-                srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
-                src="{{ section.settings.image | image_url: width: 1500 }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                alt="{{ section.settings.image.alt | escape }}"
-                loading="lazy"
-              >
-      {%- endif -%}
-
-      {%- if section.settings.image_tab != blank -%}
-              <img class="tablet--background"
-                srcset="{%- if section.settings.image_tab.width >= 165 -%}{{ section.settings.image_tab | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_tab.width >= 360 -%}{{ section.settings.image_tab | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_tab.width >= 535 -%}{{ section.settings.image_tab | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_tab.width >= 750 -%}{{ section.settings.image_tab | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_tab.width >= 1070 -%}{{ section.settings.image_tab | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_tab.width >= 1500 -%}{{ section.settings.image_tab | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_tab | image_url }} {{ section.settings.image_tab.width }}w"
-                src="{{ section.settings.image_tab | image_url: width: 1500 }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                alt="{{ section.settings.image_tab.alt | escape }}"
-                loading="lazy"
-              >
-      {%- endif -%}
-
-      {%- if section.settings.image_mob != blank -%}
-              <img class="mobile-screen--background"
-                srcset="{%- if section.settings.image_mob.width >= 165 -%}{{ section.settings.image_mob | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_mob.width >= 360 -%}{{ section.settings.image_mob | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_mob.width >= 535 -%}{{ section.settings.image_mob | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_mob.width >= 750 -%}{{ section.settings.image_mob | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_mob.width >= 1070 -%}{{ section.settings.image_mob | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_mob.width >= 1500 -%}{{ section.settings.image_mob | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_mob | image_url }} {{ section.settings.image_mob.width }}w"
-                src="{{ section.settings.image_mob | image_url: width: 1500 }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                alt="{{ section.settings.image_mob.alt | escape }}"
-                loading="lazy"
-              >
-      {%- endif -%}
-  </div>
+    <div class="background_img_wr">
+         {%- if section.settings.image != blank -%}
+                <img class="large-screen--background"
+                  srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                  src="{{ section.settings.image | image_url: width: 1500 }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ section.settings.image.alt | escape }}"
+                  loading="lazy"
+                >
+        {%- endif -%}
+  
+        {%- if section.settings.image_tab != blank -%}
+                <img class="tablet--background"
+                  srcset="{%- if section.settings.image_tab.width >= 165 -%}{{ section.settings.image_tab | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image_tab.width >= 360 -%}{{ section.settings.image_tab | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image_tab.width >= 535 -%}{{ section.settings.image_tab | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image_tab.width >= 750 -%}{{ section.settings.image_tab | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image_tab.width >= 1070 -%}{{ section.settings.image_tab | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image_tab.width >= 1500 -%}{{ section.settings.image_tab | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image_tab | image_url }} {{ section.settings.image_tab.width }}w"
+                  src="{{ section.settings.image_tab | image_url: width: 1500 }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ section.settings.image_tab.alt | escape }}"
+                  loading="lazy"
+                >
+        {%- endif -%}
+  
+        {%- if section.settings.image_mob != blank -%}
+                <img class="mobile-screen--background"
+                  srcset="{%- if section.settings.image_mob.width >= 165 -%}{{ section.settings.image_mob | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image_mob.width >= 360 -%}{{ section.settings.image_mob | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image_mob.width >= 535 -%}{{ section.settings.image_mob | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image_mob.width >= 750 -%}{{ section.settings.image_mob | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image_mob.width >= 1070 -%}{{ section.settings.image_mob | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image_mob.width >= 1500 -%}{{ section.settings.image_mob | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image_mob | image_url }} {{ section.settings.image_mob.width }}w"
+                  src="{{ section.settings.image_mob | image_url: width: 1500 }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ section.settings.image_mob.alt | escape }}"
+                  loading="lazy"
+                >
+        {%- endif -%}
+    </div>
   {% endif %}
-    <div class="wrapp_50-50">
+  
+    <div class="nak-imageWithText--grid">
       {% if section.settings.layout == 'right' %}
       {{ image_layout }}
       {% endif %}
       
-    <div class="content-wr content-po-{{ section.settings.layout }}">
-      <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
-        {%- for block in section.blocks -%}
-             {% if block.settings.sub_heading != blank %}
-              <h5 class="image-with-text__eyebrow font_color-section">
-                {{ block.settings.sub_heading | escape }}
-              </h5>
-               {% endif %}
-          {% if block.settings.heading != blank %}
-              <h2 class="image-with-text__heading font_color-section">
-                {{ block.settings.heading | escape }}
-              </h2>
-            {% endif %}
-           {% if block.settings.text != blank %}
-              <div class="image-with-text__text rte font_color-section">{{ block.settings.text }}</div>
+      <div class="content-wr content-po-{{ section.settings.layout }}">
+        <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
+          {%- for block in section.blocks -%}
+               {% if block.settings.sub_heading != blank %}
+                <h5 class="image-with-text__eyebrow font_color-section">
+                  {{ block.settings.sub_heading | escape }}
+                </h5>
+                 {% endif %}
+            {% if block.settings.heading != blank %}
+                <h2 class="image-with-text__heading font_color-section">
+                  {{ block.settings.heading | escape }}
+                </h2>
               {% endif %}
-              {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="label_btn custom-style-btn" >
-                  {{ block.settings.button_label | escape }}
-                </a>
-              {%- endif -%}
-        {%- endfor -%}
+             {% if block.settings.text != blank %}
+                <div class="image-with-text__text rte font_color-section">{{ block.settings.text }}</div>
+                {% endif %}
+                {%- if block.settings.button_label != blank -%}
+                  <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="label_btn custom-style-btn" >
+                    {{ block.settings.button_label | escape }}
+                  </a>
+                {%- endif -%}
+          {%- endfor -%}
+        </div>
       </div>
-    </div>
       {% if section.settings.layout == 'left' %}
       {{ image_layout }}
       {% endif %}
