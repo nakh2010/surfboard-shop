@@ -140,24 +140,24 @@
       <div class="nak-ImageWithText-text content-po-{{ section.settings.layout }}">
         <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
           {%- for block in section.blocks -%}
-               {% if block.settings.sub_heading != blank %}
+              {% if block.settings.sub_heading != blank %}
                 <h5 class="image-with-text__eyebrow font_color-section">
                   {{ block.settings.sub_heading | escape }}
                 </h5>
-                 {% endif %}
-            {% if block.settings.heading != blank %}
+              {% endif %}
+              {% if block.settings.heading != blank %}
                 <h2 class="image-with-text__heading font_color-section">
                   {{ block.settings.heading | escape }}
                 </h2>
               {% endif %}
              {% if block.settings.text != blank %}
                 <div class="image-with-text__text rte font_color-section">{{ block.settings.text }}</div>
-                {% endif %}
-                {%- if block.settings.button_label != blank -%}
-                  <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="label_btn custom-style-btn" >
-                    {{ block.settings.button_label | escape }}
-                  </a>
-                {%- endif -%}
+              {% endif %}
+              {%- if block.settings.button_label != blank -%}
+                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="label_btn custom-style-btn" >
+                  {{ block.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
           {%- endfor -%}
         </div>
       </div>
