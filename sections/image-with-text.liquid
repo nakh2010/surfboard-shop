@@ -140,9 +140,9 @@
     <div class="content-wr content-po-{{ section.settings.layout }}">
       <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
         {%- for block in section.blocks -%}
-             {% if block.settings.text__eyebrow != blank %}
+             {% if block.settings.sub_heading != blank %}
               <h5 class="image-with-text__eyebrow font_color-section">
-                {{ block.settings.text__eyebrow | escape }}
+                {{ block.settings.sub_heading | escape }}
               </h5>
                {% endif %}
           {% if block.settings.heading != blank %}
@@ -209,10 +209,10 @@
         "type": "select",
         "id": "font_color",
         "label": "Font Color",
-        "default": "dark_c",
+        "default": "dark",
         "options": [
           {
-            "value": "dark_c",
+            "value": "dark",
             "label": "Dark"
           },
           {
@@ -221,7 +221,7 @@
             }
         ]
       },
-        {
+      {
       "type": "select",
       "id": "layout",
       "label": "Content Position",
@@ -238,51 +238,51 @@
       ]
     },
     {
-    "type": "image_picker",
-    "id": "image",
-    "label": "Image - Desktop"
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image - Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_tab",
+      "label": "Image - Tablet"
     },
      {
-    "type": "image_picker",
-    "id": "image_tab",
-    "label": "Image - Tablet"
-    },
-     {
-    "type": "image_picker",
-    "id": "image_mob",
-    "label": "Image - Mobile"
+      "type": "image_picker",
+      "id": "image_mob",
+      "label": "Image - Mobile"
     }
-    ],
-      "blocks": [
+  ],
+  "blocks": [
     {
     "type": "heading",
     "name":"Content",
     "limit": 1,
     "settings": [   
       {
-      "type": "text",
-      "id": "text__eyebrow",
-      "label": "Eyebrow"
+        "type": "text",
+        "id": "sub_heading",
+        "label": "Sub-heading"
       },      
-        {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading"
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
       },
-        {
-      "type": "richtext",
-      "id": "text",
-      "label": "Text"
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text"
       },
-          {
-      "type": "text",
-      "id": "button_label",
-      "label": "Button Label"
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
       },
-            {
-      "type": "url",
-      "id": "button_link",
-      "label": "Link URL"
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Link URL"
       }
     ]
     }
