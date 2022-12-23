@@ -132,12 +132,12 @@
     </div>
   {% endif %}
   
-    <div class="nak-imageWithText--grid">
+    <div class="lsa-imageWithText--grid">
       {% if section.settings.layout == 'right' %}
       {{ image_layout }}
       {% endif %}
       
-      <div class="nak-ImageWithText-text content-po-{{ section.settings.layout }}">
+      <div class="lsa-ImageWithText-text content-po-{{ section.settings.layout }}">
         <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
           {%- for block in section.blocks -%}
               {% if block.settings.sub_heading != blank %}
