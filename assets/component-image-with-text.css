@@ -19,7 +19,7 @@
   position: relative;
   object-fit: cover;
 }
-.lsn-image-with-text.background-style--image .background_img_wr img.desk_bgr{
+.lsn-image-with-text.background-style--image .background_img_wr img.large-screen--background{
 
 }
 .lsn-image-with-text.background-style--image .background_img_wr img.tablet_bgr,
@@ -149,7 +149,7 @@ object-fit: cover;
   .lsn-image-with-text.background-style--image .background_img_wr img.tablet_bgr{
     display: block;
   }
-  .lsn-image-with-text.background-style--image .background_img_wr img.desk_bgr,
+  .lsn-image-with-text.background-style--image .background_img_wr img.large-screen--background,
   .lsn-image-with-text.background-style--image .background_img_wr img.mobile_bgr{
   display: none;
   }
@@ -175,7 +175,7 @@ object-fit: cover;
   .lsn-image-with-text.background-style--image .background_img_wr img.mobile_bgr{
     display: block;
   }
-  .lsn-image-with-text.background-style--image .background_img_wr img.desk_bgr,
+  .lsn-image-with-text.background-style--image .background_img_wr img.large-screen--background,
   .lsn-image-with-text.background-style--image .background_img_wr img.tablet_bgr{
   display: none;
   }
