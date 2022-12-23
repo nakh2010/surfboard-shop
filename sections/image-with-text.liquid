@@ -5,21 +5,21 @@
 
 <style>
   {% if bg_style == 'color' %}
-    #section-50-{{ section.id }} .image-with-text-column{
+    #image-with-text--{{ section.id }} .image-with-text-column{
       background-color: {{ background_color }};
     }
   {% elsif bg_style == 'transparent' %}
-    #section-50-{{ section.id }} .image-with-text-column{
+    #image-with-text--{{ section.id }} .image-with-text-column{
       background: transparent;
     }
   {% else %}
-    #section-50-{{ section.id }} .image-with-text-column{
+    #image-with-text--{{ section.id }} .image-with-text-column{
       position: relative;
     }
   {% endif %}
 </style>
 
-<div id="section-50-{{ section.id }}" class="Feature-Text-Image custom-50-50 bg_style_{{ bg_style }} font_style_{{ section.settings.font_color }}">
+<div id="image-with-text--{{ section.id }}" class="Feature-Text-Image custom-50-50 bg_style_{{ bg_style }} font_style_{{ section.settings.font_color }}">
 <div class="page-width">
   {% capture image_layout %}
     <div class="image-wr">
