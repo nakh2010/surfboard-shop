@@ -60,7 +60,7 @@
       {%- endif -%}
 
       {%- if section.settings.image_mob != blank -%}
-        <div class="mob_img feature-media_image-wrapper image-with-text__media">          
+        <div class="mobile_img feature-media_image-wrapper image-with-text__media">          
               <img
                 srcset="{%- if section.settings.image_mob.width >= 165 -%}{{ section.settings.image_mob | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if section.settings.image_mob.width >= 360 -%}{{ section.settings.image_mob | image_url: width: 360 }} 360w,{%- endif -%}
