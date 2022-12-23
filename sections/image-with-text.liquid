@@ -115,7 +115,7 @@
       {%- endif -%}
 
       {%- if section.settings.image_mob != blank -%}
-              <img class="mobile_bgr"
+              <img class="mobile-screen--background"
                 srcset="{%- if section.settings.image_mob.width >= 165 -%}{{ section.settings.image_mob | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if section.settings.image_mob.width >= 360 -%}{{ section.settings.image_mob | image_url: width: 360 }} 360w,{%- endif -%}
                   {%- if section.settings.image_mob.width >= 535 -%}{{ section.settings.image_mob | image_url: width: 535 }} 535w,{%- endif -%}
