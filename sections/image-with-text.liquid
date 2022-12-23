@@ -170,39 +170,40 @@
 </div>
 
 {% schema %}
+  {
+  "name": "Image with text",
+  "class": "shopify-section",
+  "settings": [
     {
-    "name": "50-50",
-    "class": "section",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Background Section"
-      },
-      {
-        "type": "select",
-        "id": "bg_style",
-        "label": "Background Style",
-        "default": "color",
-        "options": [
-          {
-            "value": "color",
-            "label": "Color"
-          },
-          {
-            "value": "image",
-            "label": "Image"
-            },
-            {
-            "value": "transparent",
-            "label": "Transparent"
-            }
-        ]
-      },
-      {
+      "type": "header",
+      "content": "General settings"
+    },
+    {
+      "type": "select",
+      "id": "bg_style",
+      "label": "Background Style",
+      "default": "color",
+      "options": [
+        {
+          "value": "color",
+          "label": "Color"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "transparent",
+          "label": "Transparent"
+        }
+      ]
+    },
+    {
       "type": "color",
       "id": "background_color",
       "label": "Background Color",
-      "default": "#F5F5F5"
+      "default": "#F5F5F5",
+      "info": "Background color of background style is Color"
     },
     {
         "type": "select",
@@ -287,10 +288,10 @@
     }
     ],
     "presets": [
-    {
-    "name": "50-50"
-    }
+      {
+        "name": "Image with text"
+      }
     ]
-    }
-    {% endschema %}
+ }
+{% endschema %}
 
