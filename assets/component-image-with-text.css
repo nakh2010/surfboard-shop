@@ -125,20 +125,13 @@
   border-radius: 20px;
   overflow: hidden;
 }
-
-
-
-@media screen and (min-width: 1025px) {
-
-  .lsn-image-with-text.background-style--image .background_img_wr img.tablet--background,
-  .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
-    display: none;
-  }
-  .lsn-image-with-text .tablet_img,
-  .lsn-image-with-text .mobile_img{
-    display: none;
-  }
-  
+.lsn-image-with-text.background-style--image .background_img_wr img.tablet--background,
+.lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
+  display: none;
+}
+.lsn-image-with-text .tablet_img,
+.lsn-image-with-text .mobile_img{
+  display: none;
 }
 
 
