@@ -83,7 +83,7 @@
   {% if bg_style == 'image' %}
   <div class="background_img_wr">
        {%- if section.settings.image != blank -%}
-              <img class="desk_bgr"
+              <img class="large-screen--background"
                 srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
                   {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
@@ -99,7 +99,7 @@
       {%- endif -%}
 
       {%- if section.settings.image_tab != blank -%}
-              <img class="tablet_bgr"
+              <img class="tablet--background"
                 srcset="{%- if section.settings.image_tab.width >= 165 -%}{{ section.settings.image_tab | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if section.settings.image_tab.width >= 360 -%}{{ section.settings.image_tab | image_url: width: 360 }} 360w,{%- endif -%}
                   {%- if section.settings.image_tab.width >= 535 -%}{{ section.settings.image_tab | image_url: width: 535 }} 535w,{%- endif -%}
