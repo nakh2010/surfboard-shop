@@ -19,13 +19,6 @@
   position: relative;
   object-fit: cover;
 }
-.lsn-image-with-text.background-style--image .background_img_wr img.large-screen--background{
-
-}
-.lsn-image-with-text.background-style--image .background_img_wr img.tablet--background,
-.lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
-display: none;
-}
 .lsn-image-with-text.background-style--image .lsn-imageWithText--grid{
   left: 50%;
   position: absolute;
@@ -209,6 +202,11 @@ object-fit: cover;
 
 
 @media screen and (min-width: 1025px) {
+
+  .lsn-image-with-text.background-style--image .background_img_wr img.tablet--background,
+  .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
+    display: none;
+  }
   
 }
 
