@@ -23,7 +23,7 @@
 
 }
 .lsn-image-with-text.background-style--image .background_img_wr img.tablet--background,
-.lsn-image-with-text.background-style--image .background_img_wr img.mobile_bgr{
+.lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
 display: none;
 }
 .lsn-image-with-text.background-style--image .wrapp_50-50{
@@ -150,7 +150,7 @@ object-fit: cover;
     display: block;
   }
   .lsn-image-with-text.background-style--image .background_img_wr img.large-screen--background,
-  .lsn-image-with-text.background-style--image .background_img_wr img.mobile_bgr{
+  .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
   display: none;
   }
   .lsn-image-with-text .wrapp_50-50 .content-wr {
@@ -172,7 +172,7 @@ object-fit: cover;
   .lsn-image-with-text .tablet_img{
     display: none;
   }
-  .lsn-image-with-text.background-style--image .background_img_wr img.mobile_bgr{
+  .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
     display: block;
   }
   .lsn-image-with-text.background-style--image .background_img_wr img.large-screen--background,
