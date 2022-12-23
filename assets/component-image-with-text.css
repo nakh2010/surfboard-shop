@@ -26,7 +26,7 @@
 .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
 display: none;
 }
-.lsn-image-with-text.background-style--image .nak-imageWithText--grid{
+.lsn-image-with-text.background-style--image .lsn-imageWithText--grid{
   left: 50%;
   position: absolute;
   top: 50%;
@@ -42,25 +42,25 @@ display: none;
   border-radius: 20px;
   overflow: hidden;
 }
-.lsn-image-with-text .nak-imageWithText--grid{
+.lsn-image-with-text .lsn-imageWithText--grid{
   align-items: center;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.lsn-image-with-text .nak-imageWithText--grid .nak-ImageWithText-text{
+.lsn-image-with-text .lsn-imageWithText--grid .lsn-ImageWithText-text{
   -ms-flex: 0 0 50%;
 flex: 0 0 50%;
 max-width: 50%;
 padding:80px;
 }
-.lsn-image-with-text .nak-imageWithText--grid .image-wrapp{
+.lsn-image-with-text .lsn-imageWithText--grid .image-wrapp{
 -ms-flex: 0 0 50%;
 flex: 0 0 50%;
 max-width: 50%;
 height: 100%;
 }
-.lsn-image-with-text .nak-imageWithText--grid .image-wrapp .feature-media_image-wrappapper{
+.lsn-image-with-text .lsn-imageWithText--grid .image-wrapp .feature-media_image-wrappapper{
 width: 100%;
 height: 100%;
 }
@@ -93,7 +93,7 @@ object-fit: cover;
 .lsn-image-with-text .custom-style-btn{
   background: transparent;
 }
-.lsn-image-with-text .nak-ImageWithText-text{
+.lsn-image-with-text .lsn-ImageWithText-text{
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -153,14 +153,14 @@ object-fit: cover;
   .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
   display: none;
   }
-  .lsn-image-with-text .nak-imageWithText--grid .nak-ImageWithText-text {
+  .lsn-image-with-text .lsn-imageWithText--grid .lsn-ImageWithText-text {
     padding: 80px 40px;
 }
 }
 
 
 @media screen and (max-width: 739px) {
-  .lsn-image-with-text .nak-imageWithText--grid {
+  .lsn-image-with-text .lsn-imageWithText--grid {
     display: grid;
     flex-direction: column;
     justify-content: space-around;
@@ -179,21 +179,21 @@ object-fit: cover;
   .lsn-image-with-text.background-style--image .background_img_wr img.tablet--background{
   display: none;
   }
-  .lsn-image-with-text .nak-imageWithText--grid .image-wrapp {
+  .lsn-image-with-text .lsn-imageWithText--grid .image-wrapp {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
     height: auto;
     order: 1;
 }
-.lsn-image-with-text .nak-imageWithText--grid .nak-ImageWithText-text{
+.lsn-image-with-text .lsn-imageWithText--grid .lsn-ImageWithText-text{
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
   padding: 50px 20px;
   order: 2;
 }
-.lsn-image-with-text.background-style--image .nak-imageWithText--grid {
+.lsn-image-with-text.background-style--image .lsn-imageWithText--grid {
   left: 50%;
   position: absolute;
   top: auto;
