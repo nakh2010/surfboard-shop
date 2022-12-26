@@ -131,9 +131,9 @@
       ],
       "settings": {
         "layout_style": "fifty-fifty",
-        "bg_style": "color",
+        "bg_style": "image",
         "background_color": "#F5F5F5",
-        "font_color": "dark",
+        "font_color": "light",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
         "image_tab": "shopify:\/\/shop_images\/50-50.jpg",
@@ -159,7 +159,7 @@
       ],
       "settings": {
         "layout_style": "fifty-fifty",
-        "bg_style": "color",
+        "bg_style": "image",
         "background_color": "#F5F5F5",
         "font_color": "dark",
         "layout": "left",
@@ -187,10 +187,12 @@
       ],
       "settings": {
         "layout_style": "fifty-fifty",
-        "bg_style": "color",
+        "bg_style": "image",
         "background_color": "#F5F5F5",
-        "font_color": "dark",
-        "layout": "left"
+        "font_color": "light",
+        "layout": "right",
+        "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg"
       }
     },
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36": {
@@ -212,10 +214,13 @@
       ],
       "settings": {
         "layout_style": "fifty-fifty",
-        "bg_style": "color",
+        "bg_style": "image",
         "background_color": "#F5F5F5",
         "font_color": "dark",
-        "layout": "left"
+        "layout": "right",
+        "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
+        "image_mob": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg"
       }
     }
   },
