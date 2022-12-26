@@ -79,7 +79,7 @@
     </div>
    {% endcapture %}
    
-  <div class="image-with-text-column isolate">
+  <div class="image-with-text-column isolate layout_{{ section.settings.layout_style }}">
   {% if bg_style == 'image' %}
     <div class="background_img_wr">
          {%- if section.settings.image != blank -%}
@@ -132,7 +132,7 @@
     </div>
   {% endif %}
   
-    <div class="lsn-imageWithText--grid">
+    <div class="lsn-imageWithText--grid ">
       {% unless bg_style == 'image' %}
         {% if section.settings.layout == 'right' %}
         {{ image_layout }}
