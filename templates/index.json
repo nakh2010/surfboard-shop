@@ -84,58 +84,138 @@
         "image_mob": "shopify:\/\/shop_images\/50-50.jpg"
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "disabled": true,
+    "79fc01ff-d308-4a41-bc66-4be176d3fd9a": {
+      "type": "image-with-text",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "635c73ed-ff57-4c62-9a15-f88ba58e37c0": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "635c73ed-ff57-4c62-9a15-f88ba58e37c0"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout_style": "fifty-fifty",
+        "bg_style": "transparent",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_tab": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_mob": "shopify:\/\/shop_images\/50-50.jpg"
+      }
+    },
+    "77dfab08-c8d3-4499-bcda-ad5e075a31d9": {
+      "type": "image-with-text",
+      "blocks": {
+        "84e07a95-ccfe-4b5e-b28d-b90027d498ed": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "84e07a95-ccfe-4b5e-b28d-b90027d498ed"
+      ],
+      "settings": {
+        "layout_style": "fifty-fifty",
+        "bg_style": "color",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_tab": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_mob": "shopify:\/\/shop_images\/50-50.jpg"
+      }
+    },
+    "42ed83cb-683f-4639-b6cd-3103e3b9b445": {
+      "type": "image-with-text",
+      "blocks": {
+        "aa0c80ea-8ae1-452b-bf38-66a3435f7313": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "aa0c80ea-8ae1-452b-bf38-66a3435f7313"
+      ],
+      "settings": {
+        "layout_style": "fifty-fifty",
+        "bg_style": "color",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_tab": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_mob": "shopify:\/\/shop_images\/50-50.jpg"
+      }
+    },
+    "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03": {
+      "type": "image-with-text",
+      "blocks": {
+        "037497cc-6047-4c5e-9574-0fc1be0247aa": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "037497cc-6047-4c5e-9574-0fc1be0247aa"
+      ],
+      "settings": {
+        "layout_style": "fifty-fifty",
+        "bg_style": "color",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left"
+      }
+    },
+    "c2c486e5-905b-4cf6-b9f0-a3dd21165f36": {
+      "type": "image-with-text",
+      "blocks": {
+        "5bb72a9b-d982-4d58-898a-b8d1fe0eea50": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "5bb72a9b-d982-4d58-898a-b8d1fe0eea50"
+      ],
+      "settings": {
+        "layout_style": "fifty-fifty",
+        "bg_style": "color",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left"
       }
     }
   },
@@ -143,6 +223,10 @@
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15",
     "ad6c824f-2954-44f9-8e8e-4673f1cc719f",
     "f2884c36-8a86-42c4-96d4-daab649574ed",
-    "multicolumn"
+    "79fc01ff-d308-4a41-bc66-4be176d3fd9a",
+    "77dfab08-c8d3-4499-bcda-ad5e075a31d9",
+    "42ed83cb-683f-4639-b6cd-3103e3b9b445",
+    "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03",
+    "c2c486e5-905b-4cf6-b9f0-a3dd21165f36"
   ]
 }
