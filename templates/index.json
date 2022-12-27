@@ -20,7 +20,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "color",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
@@ -76,7 +76,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "transparent",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
@@ -104,7 +104,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "transparent",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
@@ -132,7 +132,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "image",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "light",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
@@ -160,7 +160,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "image",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
@@ -188,7 +188,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "image",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "light",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
@@ -215,12 +215,166 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "image",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
         "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
         "image_mob": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg"
+      }
+    },
+    "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-0",
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-1",
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-2",
+        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "196a5b8e-cf58-41b4-8ded-9bd612e235ea": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17192392753437__196a5b8e-cf58-41b4-8ded-9bd612e235ea-1672108639f83f347f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17192392753437__196a5b8e-cf58-41b4-8ded-9bd612e235ea-1672108639f83f347f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17192392753437__196a5b8e-cf58-41b4-8ded-9bd612e235ea-1672108639f83f347f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__196a5b8e-cf58-41b4-8ded-9bd612e235ea-1672108639f83f347f-0",
+        "template--17192392753437__196a5b8e-cf58-41b4-8ded-9bd612e235ea-1672108639f83f347f-1",
+        "template--17192392753437__196a5b8e-cf58-41b4-8ded-9bd612e235ea-1672108639f83f347f-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "570b3992-3823-4b8c-b5fe-3ca5d8ee2c06": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17192392753437__570b3992-3823-4b8c-b5fe-3ca5d8ee2c06-1672108652091317f0-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17192392753437__570b3992-3823-4b8c-b5fe-3ca5d8ee2c06-1672108652091317f0-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17192392753437__570b3992-3823-4b8c-b5fe-3ca5d8ee2c06-1672108652091317f0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__570b3992-3823-4b8c-b5fe-3ca5d8ee2c06-1672108652091317f0-0",
+        "template--17192392753437__570b3992-3823-4b8c-b5fe-3ca5d8ee2c06-1672108652091317f0-1",
+        "template--17192392753437__570b3992-3823-4b8c-b5fe-3ca5d8ee2c06-1672108652091317f0-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -232,6 +386,9 @@
     "77dfab08-c8d3-4499-bcda-ad5e075a31d9",
     "42ed83cb-683f-4639-b6cd-3103e3b9b445",
     "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03",
-    "c2c486e5-905b-4cf6-b9f0-a3dd21165f36"
+    "c2c486e5-905b-4cf6-b9f0-a3dd21165f36",
+    "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7",
+    "196a5b8e-cf58-41b4-8ded-9bd612e235ea",
+    "570b3992-3823-4b8c-b5fe-3ca5d8ee2c06"
   ]
 }
