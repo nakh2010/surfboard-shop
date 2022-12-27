@@ -3,10 +3,11 @@
   display: flex;
 }
 .lsn-image-with-text.background-style--image .background_img_wr{
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: relative;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 .lsn-image-with-text.background-style--image .background_img_wr img{
   display: block;
