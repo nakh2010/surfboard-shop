@@ -27,6 +27,25 @@
     color:{{ section.settings.text_color}};
     border-color:{{ section.settings.text_color }};
   }
+  .newsletter-form__field-wrapper input:placehoder {
+     color:{{ section.settings.text_color}};
+  }
+  .newsletter-form__field-wrapper input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+     color:{{ section.settings.text_color}};
+  }
+  .newsletter-form__field-wrapper input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:{{ section.settings.text_color}};
+  }
+  .newsletter-form__field-wrapper input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:{{ section.settings.text_color}};
+  }
+  .newsletter-form__field-wrapper input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:{{ section.settings.text_color}};
+  }
+  .newsletter-form__field-wrapper input::-ms-input-placeholder { /* Microsoft Edge */
+    color:{{ section.settings.text_color}};
+  }
+
 
   @media screen and (min-width: 750px) {
     .footer {
