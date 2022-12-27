@@ -157,16 +157,6 @@
     order: 2;
   }
   .lsn-image-with-text.background-style--image .lsn-imageWithText--grid {
-    left: 50%;
-    position: absolute;
-    top: auto;
-    -webkit-transform: translate(-50%,0%);
-    -moz-transform: translate(-50%,0%);
-    -o-transform: translate(-50%,0%);
-    -ms-transform: translate(-50%,0%);
-    transform: translate(-50%,0%);
-    width: 100%;
-    bottom: 0;
   }
 }
 
