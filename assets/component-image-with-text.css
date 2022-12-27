@@ -80,7 +80,7 @@
   border-color: rgb(var(--color-primary-button-background));
 }
 @media screen and (min-width: 750px) {
-  .lsn-image-with-text .lsn-imageWithText--grid.grid--reverse{
+  .lsn-image-with-text .lsn-imageWithText--grid.grid--reverse.content-po-right{
         flex-direction: row-reverse;
   }
 }
