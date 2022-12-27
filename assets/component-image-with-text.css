@@ -79,6 +79,8 @@
 .lsn-image-with-text.font_style_light .lsn_button_style:hover{
   border-color: rgb(var(--color-primary-button-background));
 }
+
+
 @media screen and (min-width: 750px) {
   .lsn-image-with-text .lsn-imageWithText--grid.grid--reverse.content-po-right{
         flex-direction: row-reverse;
@@ -99,6 +101,9 @@
 
 
 @media screen and (max-width: 1024px) and (min-width: 750px){
+    .lsn-image-with-text .lsn-imageWithText--grid .lsn-ImageWithText-text {
+      padding: 112px 40px;
+  }
     .lsn-image-with-text .tablet_img{
       display: block;
     }
@@ -113,9 +118,6 @@
     .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
       display: none;
     }
-    .lsn-image-with-text .lsn-imageWithText--grid .lsn-ImageWithText-text {
-      padding: 80px 40px;
-  }
 }
 
 
