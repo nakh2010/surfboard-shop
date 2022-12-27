@@ -139,6 +139,11 @@
       display: none;
     }
   /*====== style of 65-36 layout ========*/
+  .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid {
+     display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid .image-wrapp{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
