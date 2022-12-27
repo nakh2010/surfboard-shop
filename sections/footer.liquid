@@ -15,7 +15,8 @@
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
-  .footer > * ,.newsletter-form__field-wrapper .field__label
+  .footer > * ,
+  .newsletter-form__field-wrapper .field__label,
   .footer-block__details-content .list-menu__item--link,
   .footer-block__heading{
     color:{{ section.settings.text_color}};
