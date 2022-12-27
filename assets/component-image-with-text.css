@@ -79,7 +79,11 @@
 .lsn-image-with-text.font_style_light .lsn_button_style:hover{
   border-color: rgb(var(--color-primary-button-background));
 }
-
+@media screen and (min-width: 750px) {
+  .lsn-image-with-text .lsn-imageWithText--grid.grid--reverse{
+        flex-direction: row-reverse;
+  }
+}
 @media screen and (min-width: 1025px) {
 
   .lsn-image-with-text.background-style--image .background_img_wr img.tablet--background,
