@@ -408,11 +408,13 @@ html.no-js .no-js-hidden {
   z-index: 0;
 }
 
+.lsn-section + .lsn-section,
 .section + .section {
   margin-top: var(--spacing-sections-mobile);
 }
 
 @media screen and (min-width: 750px) {
+  .lsn-section + .lsn-section,
   .section + .section {
     margin-top: var(--spacing-sections-desktop);
   }
