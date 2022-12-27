@@ -220,6 +220,10 @@
   --shadow-opacity: var(--media-shadow-opacity);
   --shadow-visible: var(--media-shadow-visible);
 }
+
+.lsn_button_style{
+  
+}
 /* Slider */
 .slick-slider
 {
