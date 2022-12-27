@@ -156,7 +156,7 @@
     padding: 30px 20px;
     order: 2;
   }
-  .lsn-image-with-text.background-style--image .lsn-imageWithText--grid {
+  .lsn-image-with-text.background-style--image .lsn-imageWithText--grid .lsn-ImageWithText-text{
   }
 }
 
