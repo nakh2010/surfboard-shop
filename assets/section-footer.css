@@ -31,7 +31,10 @@
     padding-right: calc(4rem / var(--font-body-scale));
   }
 }
-
+@media screen and (min-width: 1025px) {
+   .footer__content-top {
+   }
+}
 @media screen and (min-width: 750px) {
   .footer__content-top .grid {
     row-gap: 6rem;
