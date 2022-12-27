@@ -1,10 +1,11 @@
+
+.lsn-image-with-text .image-with-text-column {
+  display: flex;
+}
 .lsn-image-with-text.background-style--image .image-with-text-column{
   display: flex;
   border-radius: 20px;
   overflow: hidden;
-}
-.lsn-image-with-text .image-with-text-column {
-  display: flex;
 }
 .lsn-image-with-text.background-style--image .background_img_wr{
   display: block;
@@ -87,22 +88,10 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.lsn-image-with-text .image-with-text__eyebrow{
-}
-.lsn-image-with-text .image-with-text__heading{
-}
-.lsn-image-with-text .image-with-text__text{
-
-}
-.lsn-image-with-text .image-with-text__text p{
-
-}
-
 .lsn-image-with-text.background-style--transparent .image-wrapp{
   border-radius: 20px;
   overflow: hidden;
 }
-
 
 
 @media screen and (min-width: 1025px) {
