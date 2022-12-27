@@ -73,8 +73,8 @@
 .lsn-image-with-text.font_style_light *{
   color:#fff;
 }
-.lsn-image-with-text.font_style_dark *{
-
+.lsn-image-with-text.font_style_dark h3{
+    color: inherit;
 }
 .lsn-image-with-text.font_style_light .custom-style-btn{
   background: transparent;
