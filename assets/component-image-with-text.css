@@ -54,6 +54,12 @@
   width: 100%;
   height: 100%;
 }
+.lsn-image-with-text .lsn-imageWithText--grid .image-wrapp .image-with-text__media svg{
+      height: 100%;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
 .lsn-image-with-text.background-style--image .image-wrapp .image-with-text__media{
   display: none;
 }
