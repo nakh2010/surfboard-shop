@@ -199,6 +199,10 @@
         padding-top: 200px;
     padding-bottom: 22px;
   }
+  .lsn-image-with-text.background-style--transparent .lsn-imageWithText--grid .lsn-ImageWithText-text{
+    padding-left:0;
+    padding-right:0;
+  }
 }
 
 @media screen and (max-width: 479px) {
