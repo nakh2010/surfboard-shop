@@ -222,7 +222,17 @@
 }
 
 .lsn_button_style{
-  
+  border: 1px solid var(--color-base-text);
+    border-radius: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-base-text);
+    text-decoration: none;
+    padding: 10px 22px;
+    display: inline-block;
+    background: transparent;
 }
 /* Slider */
 .slick-slider
