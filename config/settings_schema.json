@@ -107,7 +107,7 @@
       {
         "type": "font_picker",
         "id": "type_body_font",
-        "default": "poppins_n3",
+        "default": "rajdhani_n4",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
       },
