@@ -318,32 +318,6 @@
         "layout": "left",
         "image_overlay_opacity": 0
       }
-    },
-    "b1fa79eb-669f-4f18-9d96-1bb32fe038d9": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17192392753437__b1fa79eb-669f-4f18-9d96-1bb32fe038d9-167211601843c05bdb-0": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Sub-heading",
-            "heading": "Heading",
-            "text": "<p>Talk about your brand<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__b1fa79eb-669f-4f18-9d96-1bb32fe038d9-167211601843c05bdb-0"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "transparent",
-        "background_color": "#F5F5F5",
-        "font_color": "dark",
-        "layout": "left",
-        "image_overlay_opacity": 0
-      }
     }
   },
   "order": [
@@ -356,7 +330,6 @@
     "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03",
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36",
     "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7",
-    "432603e4-96dd-409f-a896-fd21e4bf9763",
-    "b1fa79eb-669f-4f18-9d96-1bb32fe038d9"
+    "432603e4-96dd-409f-a896-fd21e4bf9763"
   ]
 }
