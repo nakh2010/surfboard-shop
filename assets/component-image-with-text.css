@@ -2,6 +2,16 @@
 .lsn-image-with-text .image-with-text-column {
   display: flex;
 }
+.lsn-image-with-text.background-style--image .background_img_wr:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: #000000;
+    opacity: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
 .lsn-image-with-text.background-style--image .background_img_wr{
     position: absolute;
     width: 100%;
