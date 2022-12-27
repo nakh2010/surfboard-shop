@@ -191,7 +191,7 @@
           "f58d1817-a338-488c-b5ca-6ca002f5ff85": {
             "type": "newsletter",
             "settings": {
-              "heading": "SIGN UP AND SAVE",
+              "newsletter_heading": "SIGN UP AND SAVE",
               "sub_heading": "Sign up for updates, promotions and 50% off first purchase."
             }
           },
@@ -209,11 +209,10 @@
               "menu": "footer"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "50640806-6a8f-40e5-b05d-26041c6fe2cf": {
+            "type": "social",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "GET CONNECTED"
             }
           }
         },
@@ -221,12 +220,10 @@
           "f58d1817-a338-488c-b5ca-6ca002f5ff85",
           "footer-0",
           "footer-1",
-          "footer-2"
+          "50640806-6a8f-40e5-b05d-26041c6fe2cf"
         ],
         "settings": {
-          "background_color": "#005A87",
-          "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "background_color": "#005a87",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
