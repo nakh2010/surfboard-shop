@@ -44,11 +44,11 @@
   max-width: 50%;
   height: 100%;
 }
-.lsn-image-with-text .lsn-imageWithText--grid .image-wrapp .feature-media_image-wrappapper{
+.lsn-image-with-text .lsn-imageWithText--grid .image-wrapp .image-with-text__media{
   width: 100%;
   height: 100%;
 }
-.lsn-image-with-text.background-style--image .image-wrapp .feature-media_image-wrappapper{
+.lsn-image-with-text.background-style--image .image-wrapp .image-with-text__media{
   display: none;
 }
 .lsn-image-with-text .image-wrapp{
