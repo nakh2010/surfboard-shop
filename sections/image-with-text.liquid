@@ -156,7 +156,7 @@
                 <div class="image-with-text__text rte font_color-section">{{ block.settings.text }}</div>
               {% endif %}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="label_btn custom-style-btn" >
+                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}" >
                   {{ block.settings.button_label | escape }}
                 </a>
               {%- endif -%}
@@ -308,6 +308,12 @@
         "type": "url",
         "id": "button_link",
         "label": "Link URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "button_style_secondary",
+        "label": "Use secondary button style",
+        "default": false
       }
     ]
     }
