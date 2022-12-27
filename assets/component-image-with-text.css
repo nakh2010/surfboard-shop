@@ -2,11 +2,6 @@
 .lsn-image-with-text .image-with-text-column {
   display: flex;
 }
-.lsn-image-with-text.background-style--image .image-with-text-column{
-  display: flex;
-  border-radius: 20px;
-  overflow: hidden;
-}
 .lsn-image-with-text.background-style--image .background_img_wr{
   display: block;
   width: 100%;

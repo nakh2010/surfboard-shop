@@ -7,7 +7,6 @@
   {% if bg_style == 'color' %}
     #image-with-text--{{ section.id }} .image-with-text-column{
       background-color: {{ background_color }};
-      display: flex;
       border-radius: 20px;
       overflow: hidden;
     }
@@ -18,6 +17,8 @@
   {% else %}
     #image-with-text--{{ section.id }} .image-with-text-column{
       position: relative;
+      border-radius: 20px;
+      overflow: hidden;
     }
   {% endif %}
 </style>
