@@ -161,5 +161,9 @@
 }
 
 @media screen and (max-width: 479px) {
+  .lsn-image-with-text.background-style--image .lsn-imageWithText--grid .lsn-ImageWithText-text {
+    padding-top: 150px;
+    padding-bottom: 22px;
+}
 }
 
