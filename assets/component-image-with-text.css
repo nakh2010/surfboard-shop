@@ -148,12 +148,14 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    order: 1;
   }
   .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid .lsn-ImageWithText-text{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 30px 90px;
+    order: 2;
   }
 
   
