@@ -89,7 +89,10 @@
 
 
 @media screen and (min-width: 1025px) {
-  .lsn-image-with-text .lsn-imageWithText--grid .image-wrapp{
+  .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid .image-wrapp{
+    
+  }
+  .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid .lsn-ImageWithText-text{
     
   }
 }
