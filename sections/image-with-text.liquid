@@ -143,14 +143,14 @@
     </div>
   {% endif %}
   
-    <div class="lsn-imageWithText--grid {% if bg_style == 'image' %} grid--reverse{% endif %}">
+    <div class="lsn-imageWithText--grid {% if bg_style == 'image' %} grid--reverse{% endif %} content-po-{{ section.settings.layout }}">
       {% unless bg_style == 'image' %}
         {% if section.settings.layout == 'right' %}
         {{ image_layout }}
         {% endif %}
       {% endunless %}
       
-      <div class="lsn-ImageWithText-text content-po-{{ section.settings.layout }}">
+      <div class="lsn-ImageWithText-text ">
         <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
           {%- for block in section.blocks -%}
               {% if block.settings.sub_heading != blank %}
