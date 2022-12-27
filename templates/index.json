@@ -25,7 +25,8 @@
         "layout": "right",
         "image": "shopify:\/\/shop_images\/50-2.jpg",
         "image_tab": "shopify:\/\/shop_images\/50-2.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-2.jpg"
+        "image_mob": "shopify:\/\/shop_images\/50-2.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "ad6c824f-2954-44f9-8e8e-4673f1cc719f": {
@@ -53,7 +54,8 @@
         "layout": "left",
         "image": "shopify:\/\/shop_images\/5050.jpg",
         "image_tab": "shopify:\/\/shop_images\/5050.jpg",
-        "image_mob": "shopify:\/\/shop_images\/5050.jpg"
+        "image_mob": "shopify:\/\/shop_images\/5050.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "f2884c36-8a86-42c4-96d4-daab649574ed": {
@@ -81,7 +83,8 @@
         "layout": "right",
         "image": "shopify:\/\/shop_images\/50-5.jpg",
         "image_tab": "shopify:\/\/shop_images\/50-5.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-5.jpg"
+        "image_mob": "shopify:\/\/shop_images\/50-5.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "79fc01ff-d308-4a41-bc66-4be176d3fd9a": {
@@ -109,7 +112,8 @@
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-50.jpg",
         "image_tab": "shopify:\/\/shop_images\/50-50.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-50.jpg"
+        "image_mob": "shopify:\/\/shop_images\/50-50.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "77dfab08-c8d3-4499-bcda-ad5e075a31d9": {
@@ -137,7 +141,8 @@
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-4.jpg",
         "image_tab": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-4.jpg"
+        "image_mob": "shopify:\/\/shop_images\/50-4.jpg",
+        "image_overlay_opacity": 50
       }
     },
     "42ed83cb-683f-4639-b6cd-3103e3b9b445": {
@@ -165,7 +170,8 @@
         "layout": "left",
         "image": "shopify:\/\/shop_images\/50-4.jpg",
         "image_tab": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-4.jpg"
+        "image_mob": "shopify:\/\/shop_images\/50-4.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03": {
@@ -192,7 +198,8 @@
         "font_color": "light",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg"
+        "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36": {
@@ -220,7 +227,8 @@
         "layout": "right",
         "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
         "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_mob": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg"
+        "image_mob": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
+        "image_overlay_opacity": 0
       }
     },
     "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7": {
