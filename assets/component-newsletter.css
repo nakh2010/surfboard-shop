@@ -10,7 +10,9 @@
 .newsletter-form__field-wrapper .field:before{
   display:none;
 }
-
+.newsletter-form__field-wrapper input{
+  border:1px solid;
+}
 @media screen and (min-width: 750px) {
   .newsletter-form {
     align-items: flex-start;
