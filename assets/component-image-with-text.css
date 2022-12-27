@@ -68,8 +68,10 @@
     color: inherit;
 }
 .lsn-image-with-text.font_style_light .lsn_button_style{
-  background: transparent;
   border-color: #fff;
+}
+.lsn-image-with-text.font_style_light .lsn_button_style:hover{
+  border-color: rgb(var(--color-primary-button-background));
 }
 
 @media screen and (min-width: 1025px) {
