@@ -2,7 +2,9 @@
   display: flex;
   flex-wrap: wrap;
 }
-
+.list-social .list-social__item:first-child a{
+      padding-left: 0;
+}
 @media only screen and (max-width: 749px) {
   .list-social {
     justify-content: center;
