@@ -138,6 +138,20 @@
     .lsn-image-with-text.background-style--image .background_img_wr img.mobile-screen--background{
       display: none;
     }
+  /*====== style of 65-36 layout ========*/
+  .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid .image-wrapp{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .lsn-image-with-text .layout_sixty-five .lsn-imageWithText--grid .lsn-ImageWithText-text{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+        padding: 112px 50px;
+  }
+
+  
 }
 
 @media screen and (max-width: 739px) {
