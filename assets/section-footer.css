@@ -26,15 +26,16 @@
   }
 
   .footer__content-top {
-    padding-bottom: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     padding-left: calc(4rem / var(--font-body-scale));
     padding-right: calc(4rem / var(--font-body-scale));
   }
 }
 @media screen and (min-width: 1025px) {
    .footer__content-top {
-         padding-top: 75px;
-    padding-bottom: 70px;
+      padding-top: 75px;
+      padding-bottom: 70px;
 
    }
 }
