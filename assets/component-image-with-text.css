@@ -12,6 +12,9 @@
     width: 100%;
     height: 100%;
 }
+.lsn-image-with-text.background-style--image.font_style_dark .background_img_wr:after{
+   background: #ffffff;
+}
 .lsn-image-with-text.background-style--image .background_img_wr{
     position: absolute;
     width: 100%;
