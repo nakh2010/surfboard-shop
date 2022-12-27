@@ -220,6 +220,10 @@
   --shadow-opacity: var(--media-shadow-opacity);
   --shadow-visible: var(--media-shadow-visible);
 }
+
+main .lsn-section{
+    margin-bottom: 100px;
+}
 /* Slider */
 .slick-slider
 {
