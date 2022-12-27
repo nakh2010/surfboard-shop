@@ -51,7 +51,7 @@
               >
         </div>
       {%- else -%}
-        <div class="mobile_img feature-media_image-wrapper image-with-text__media">
+        <div class="desktop_img feature-media_image-wrapper image-with-text__media">
           {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
         </div>
      {%- endif -%}
@@ -73,7 +73,7 @@
               >
         </div>
       {%- else -%}
-        <div class="mobile_img feature-media_image-wrapper image-with-text__media">
+        <div class="tablet_img feature-media_image-wrapper image-with-text__media">
           {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
         </div>
      {%- endif -%}
@@ -120,9 +120,7 @@
                   loading="lazy"
                 >
           {%- else -%}
-            <div class="mobile_img feature-media_image-wrapper image-with-text__media">
               {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-            </div>
          {%- endif -%}
   
         {%- if section.settings.image_tab != blank -%}
@@ -140,9 +138,7 @@
                   loading="lazy"
                 >
         {%- else -%}
-          <div class="mobile_img feature-media_image-wrapper image-with-text__media">
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-          </div>
        {%- endif -%}
   
         {%- if section.settings.image_mob != blank -%}
@@ -160,9 +156,7 @@
                   loading="lazy"
                 >
         {%- else -%}
-          <div class="mobile_img feature-media_image-wrapper image-with-text__media">
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-          </div>
        {%- endif -%}
     
     </div>
