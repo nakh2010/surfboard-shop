@@ -249,6 +249,18 @@
     margin-top: 12px;
     margin-bottom: 30px;
 }
+
+
+@media screen and (min-width: 1025px) {
+  .lsn__heading{
+ 
+  }
+
+}
+@media screen and (max-width: 1024px) and (min-width: 750px){
+
+}
+
 /* Slider */
 .slick-slider
 {
