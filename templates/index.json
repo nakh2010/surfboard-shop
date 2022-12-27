@@ -377,6 +377,35 @@
         "image": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_overlay_opacity": 0
       }
+    },
+    "2bac5155-b74f-4a51-bff4-da75eee511a7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17192392753437__2bac5155-b74f-4a51-bff4-da75eee511a7-1672116238c31741a0-0": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__2bac5155-b74f-4a51-bff4-da75eee511a7-1672116238c31741a0-0"
+      ],
+      "settings": {
+        "layout_style": "sixty-five",
+        "bg_style": "transparent",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/65-35-2.jpg",
+        "image_tab": "shopify:\/\/shop_images\/65-35-2.jpg",
+        "image_mob": "shopify:\/\/shop_images\/65-35-2.jpg",
+        "image_overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -391,6 +420,7 @@
     "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "29024dcd-d077-402b-9224-f0d15d3df938",
-    "2c4d7666-e253-4c57-a1f3-0df12ac1f5db"
+    "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
+    "2bac5155-b74f-4a51-bff4-da75eee511a7"
   ]
 }
