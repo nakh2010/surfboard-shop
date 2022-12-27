@@ -67,11 +67,11 @@
 .lsn-image-with-text.font_style_dark h2{
     color: inherit;
 }
-.lsn-image-with-text.font_style_light .custom-style-btn{
+.lsn-image-with-text.font_style_light .lsn_button_style{
   background: transparent;
   border-color: #fff;
 }
-.lsn-image-with-text .custom-style-btn{
+.lsn-image-with-text .lsn_button_style{
   background: transparent;
 }
 .lsn-image-with-text .lsn-ImageWithText-text{
