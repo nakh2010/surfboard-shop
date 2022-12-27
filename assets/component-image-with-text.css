@@ -120,8 +120,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 739px) {
   .lsn-image-with-text .lsn-imageWithText--grid {
     display: grid;
@@ -160,5 +158,8 @@
         padding-top: 200px;
     padding-bottom: 22px;
   }
+}
+
+@media screen and (max-width: 479px) {
 }
 
