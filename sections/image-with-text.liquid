@@ -24,7 +24,7 @@
       border-radius: 20px;
       overflow: hidden;
     }
-    #image-with-text--{{ section.id }} .image-with-text-column::after {
+    #image-with-text--{{ section.id }}.background-style--image .background_img_wr:after {
       opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
     }
   {% endif %}
