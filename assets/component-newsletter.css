@@ -6,6 +6,9 @@
   width: 100%;
   position: relative;
 }
+.newsletter-form__field-wrapper .field__input:focus{
+      box-shadow: none;
+}
 .newsletter-form__field-wrapper .field:after,
 .newsletter-form__field-wrapper .field:before{
   display:none;
