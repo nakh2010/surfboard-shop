@@ -234,6 +234,11 @@
     display: inline-block;
     background: transparent;
 }
+.lsn_button_style:hover{
+    color: var(--color-primary-button-text);
+    background-color: rgb(var(--color-primary-button-background));
+    border-color: rgb(var(--color-primary-button-background));
+}
 .lsn__eyebrow{
   
 }
