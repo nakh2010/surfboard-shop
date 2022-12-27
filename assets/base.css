@@ -253,12 +253,18 @@
 
 @media screen and (min-width: 1025px) {
   .lsn__heading{
- 
+     font-style: normal;
+    font-size: 34px;
+    line-height: 100%;
   }
 
 }
 @media screen and (max-width: 1024px) and (min-width: 750px){
-
+  .lsn__heading{
+     font-style: normal;
+    font-size: 28px;
+    line-height: 121%;
+  }
 }
 
 /* Slider */
