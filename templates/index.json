@@ -292,6 +292,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17192392753437__383d18f4-ddb8-4cb1-a87c-8cbdc762e55b-1672116238c31741a0-0": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__383d18f4-ddb8-4cb1-a87c-8cbdc762e55b-1672116238c31741a0-0"
+      ],
+      "settings": {
+        "layout_style": "sixty-five",
+        "bg_style": "color",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image_overlay_opacity": 0
+      }
+    },
+    "29024dcd-d077-402b-9224-f0d15d3df938": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17192392753437__29024dcd-d077-402b-9224-f0d15d3df938-1672116238c31741a0-0": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "Surfing",
+            "heading": "Surfing of every day",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
+            "button_label": "Learn more",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__29024dcd-d077-402b-9224-f0d15d3df938-1672116238c31741a0-0"
+      ],
+      "settings": {
+        "layout_style": "sixty-five",
+        "bg_style": "transparent",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image_overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -303,6 +355,8 @@
     "42ed83cb-683f-4639-b6cd-3103e3b9b445",
     "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03",
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36",
-    "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7"
+    "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7",
+    "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
+    "29024dcd-d077-402b-9224-f0d15d3df938"
   ]
 }
