@@ -33,6 +33,9 @@
 }
 @media screen and (min-width: 1025px) {
    .footer__content-top {
+         padding-top: 75px;
+    padding-bottom: 70px;
+
    }
 }
 @media screen and (min-width: 750px) {
