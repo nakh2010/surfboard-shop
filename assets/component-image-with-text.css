@@ -88,6 +88,11 @@
 /*====== style of 65-36 layout ========*/
 
 
+@media screen and (min-width: 1025px) {
+  .lsn-image-with-text .lsn-imageWithText--grid .image-wrapp{
+    
+  }
+}
 @media screen and (min-width: 750px) {
   .lsn-image-with-text .lsn-imageWithText--grid.grid--reverse.content-po-right{
         flex-direction: row-reverse;
