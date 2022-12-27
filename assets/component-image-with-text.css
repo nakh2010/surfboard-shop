@@ -85,6 +85,7 @@
 .lsn-image-with-text.font_style_light .lsn_button_style:hover{
   border-color: rgb(var(--color-primary-button-background));
 }
+/*====== style of 65-36 layout ========*/
 
 
 @media screen and (min-width: 750px) {
