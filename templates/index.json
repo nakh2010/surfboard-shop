@@ -375,6 +375,8 @@
         "font_color": "dark",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/65-35-2.jpg",
+        "image_tab": "shopify:\/\/shop_images\/65-35-2.jpg",
+        "image_mob": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_overlay_opacity": 0
       }
     },
