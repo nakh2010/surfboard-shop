@@ -143,17 +143,17 @@
         <div id="ImageWithText---{{ section.id }}" class="image-with-text__content_positon">
           {%- for block in section.blocks -%}
               {% if block.settings.sub_heading != blank %}
-                <h5 class="image-with-text__eyebrow font_color-section">
+                <h5 class="lsn__eyebrow">
                   {{ block.settings.sub_heading | escape }}
                 </h5>
               {% endif %}
               {% if block.settings.heading != blank %}
-                <h2 class="image-with-text__heading font_color-section">
+                <h2 class="image-with-text__heading">
                   {{ block.settings.heading | escape }}
                 </h2>
               {% endif %}
              {% if block.settings.text != blank %}
-                <div class="image-with-text__text rte font_color-section">{{ block.settings.text }}</div>
+                <div class="image-with-text__text rte">{{ block.settings.text }}</div>
               {% endif %}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="lsn_button_style" >
