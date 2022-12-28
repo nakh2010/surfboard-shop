@@ -155,8 +155,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 0;
+  padding-right: 0;
   align-content: space-between;
   flex-wrap: wrap;
 }
