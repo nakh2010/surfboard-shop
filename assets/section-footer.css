@@ -74,8 +74,11 @@
 }
 @media screen and (max-width: 1024px){
   .footer__content-top .footer-block.grid__item.footer-block--newsletter{
-        width: 100%;
+    width: 100%;
     order: 4;
+  }
+  .footer__content-top .footer-block.grid__item{
+    width: calc(33.3% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
   }
 }
 
