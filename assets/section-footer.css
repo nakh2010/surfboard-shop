@@ -88,6 +88,11 @@
     padding-bottom: 34px;
     padding-top: 35px;
   }
+  .footer__content-bottom {
+    padding-top: 0;
+    padding-bottom: 3rem;
+    border-top: none;
+}
 }
 
 .footer__content-bottom {
