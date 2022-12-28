@@ -45,8 +45,8 @@
   .footer__content-top {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    padding-left: calc(4rem / var(--font-body-scale));
-    padding-right: calc(4rem / var(--font-body-scale));
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media screen and (min-width: 1025px) {
