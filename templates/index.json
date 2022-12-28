@@ -313,7 +313,7 @@
       "settings": {
         "layout_style": "sixty-five",
         "bg_style": "color",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/65-35.jpg",
@@ -342,7 +342,7 @@
       "settings": {
         "layout_style": "sixty-five",
         "bg_style": "color",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/65-35.jpg",
@@ -371,7 +371,7 @@
       "settings": {
         "layout_style": "sixty-five",
         "bg_style": "transparent",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "right",
         "image": "shopify:\/\/shop_images\/65-35-2.jpg",
@@ -400,13 +400,26 @@
       "settings": {
         "layout_style": "sixty-five",
         "bg_style": "transparent",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_tab": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_mob": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_overlay_opacity": 0
+      }
+    },
+    "564a4077-cc5a-4406-81f4-2e363329004a": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -423,6 +436,7 @@
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "29024dcd-d077-402b-9224-f0d15d3df938",
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
-    "2bac5155-b74f-4a51-bff4-da75eee511a7"
+    "2bac5155-b74f-4a51-bff4-da75eee511a7",
+    "564a4077-cc5a-4406-81f4-2e363329004a"
   ]
 }
