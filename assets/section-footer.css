@@ -123,7 +123,7 @@
     row-gap: 1.5rem;
   }
   .footer__content-top .footer-block.grid__item.social_block{
-    
+    width: 100%;
   }
 }
 
