@@ -18,6 +18,9 @@
   letter-spacing: 0.01em;
   text-transform: capitalize;
 }
+.footer__content-top .footer__list-social a{
+      padding-top: 2px;
+}
 
 .footer:not(.color-background-1) {
   border-top: none;
