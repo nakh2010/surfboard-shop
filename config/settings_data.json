@@ -204,6 +204,7 @@
           },
           "a8bf6eae-a57f-431c-a5f4-ac3831cbcfa7": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "CONTACT US",
               "subtext": "<p>Email: <a href=\"mailto:lasaona@email.com\" title=\"mailto:lasaona@email.com\">lasaona@email.com<\/a><\/p><p>Tel: <a href=\"tel:04856 9442775\" title=\"tel:04856 9442775\">04856 9442775<\/a><\/p>"
@@ -224,6 +225,7 @@
         ],
         "settings": {
           "background_color": "#005a87",
+          "text_color": "#fff",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
