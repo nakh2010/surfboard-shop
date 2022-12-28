@@ -32,13 +32,9 @@
 }
 
 @media screen and (max-width: 749px) {
-  .footer .grid {
-    display: block;
-  }
-
   .footer-block.grid__item {
     padding: 0;
-    margin: 4rem 0;
+    margin:3rem 0;
     width: 100%;
   }
 
@@ -125,6 +121,9 @@
   .footer__content-bottom-wrapper {
     flex-wrap: wrap;
     row-gap: 1.5rem;
+  }
+  .footer__content-top .footer-block.grid__item.social_block{
+    
   }
 }
 
