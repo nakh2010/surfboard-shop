@@ -80,6 +80,10 @@
   .footer__content-top .footer-block.grid__item{
     width: calc(33.3% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
   }
+  .footer__content-top {
+    padding-bottom: 34px;
+    padding-top: 35px;
+  }
 }
 
 .footer__content-bottom {
