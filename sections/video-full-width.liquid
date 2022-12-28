@@ -1,13 +1,7 @@
 
-{% assign sub_header = section.settings.sub_header %}
-{% assign header = section.settings.header %}
-{% assign label = section.settings.label %}
-{% assign link = section.settings.link %}
-{% assign text_style = section.settings.text_style %}
-
 {{ 'component-video-fullwidth.css' | asset_url | stylesheet_tag }}
 
-<div class="lsn-video-fullWidth text_style_{{ text_style }}">
+<div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }}">
   <div class="video-section__media">
     {%- if section.settings.video_url.type == 'youtube' -%}
       <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1&loop=1&autoplay=1&mute=1&controls=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
@@ -16,14 +10,14 @@
     {%- endif -%}
   </div>
   <div class="video_caption">
-    {% if sub_header != blank %}
-      <span class="lsn__eyebrow">{{ sub_header }}</span>
+    {% if section.settings.sub_header != blank %}
+      <span class="lsn__eyebrow">{{ section.settings.sub_header }}</span>
     {% endif %}
-    {% if header != blank %}
-      <h2 class="lsn__heading">{{ header }}</h2>
+    {% if section.settings.header != blank %}
+      <h2 class="lsn__heading">{{ section.settings.header }}</h2>
     {% endif %}
-    {% if label != blank %}
-      <a class="lsn_button_style" href="{{ link }}">{{ label }}</a>
+    {% if section.settings.label != blank %}
+      <a class="lsn_button_style" href="{{ section.settings.link }}">{{ section.settings.label }}</a>
     {% endif %}
   </div>
 </div>
