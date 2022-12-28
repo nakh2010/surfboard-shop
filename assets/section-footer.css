@@ -8,6 +8,7 @@
 }
 .footer__content-top .footer-block.grid__item p,
 .footer__content-top .footer-block.grid__item a{
+      text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
