@@ -44,6 +44,12 @@
       padding-bottom: 70px;
 
    }
+  .footer__content-top .footer-block.grid__item{
+      width: calc(18% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
+  .footer__content-top .footer-block.grid__item.footer-block--newsletter{
+      width: calc(46% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
 }
 @media screen and (min-width: 750px) {
   .footer__content-top .grid {
