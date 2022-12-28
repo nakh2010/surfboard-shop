@@ -421,6 +421,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "88fb0358-4fac-4bb7-af72-50ce583c3cb7": {
+      "type": "video-full-width",
+      "settings": {
+        "text_style": "light",
+        "sub_header": "",
+        "header": "",
+        "label": "",
+        "link": "",
+        "video_1": "",
+        "video_2": "",
+        "video_3": ""
+      }
     }
   },
   "order": [
@@ -437,6 +450,7 @@
     "29024dcd-d077-402b-9224-f0d15d3df938",
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
     "2bac5155-b74f-4a51-bff4-da75eee511a7",
-    "564a4077-cc5a-4406-81f4-2e363329004a"
+    "564a4077-cc5a-4406-81f4-2e363329004a",
+    "88fb0358-4fac-4bb7-af72-50ce583c3cb7"
   ]
 }
