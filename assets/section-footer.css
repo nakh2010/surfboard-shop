@@ -125,6 +125,10 @@
   .footer__content-top .footer-block.grid__item.social_block{
     width: 100%;
   }
+  .footer__content-top .footer-block.grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    margin-top: 0;
+}
 }
 
 .footer__localization:empty + .footer__column--info {
