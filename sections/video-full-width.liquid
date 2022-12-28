@@ -82,24 +82,40 @@
           "content": "Video"
       },
       {
-          "type": "text",
-          "id": "video_1",
-          "label": "video URL"
-        },
-
-      {
-          "type": "text",
-          "id": "video_2",
-          "label": "video URL"
-        },
-      {
-          "type": "header",
-          "content": "Video - Mobile"
+        "type": "video_url",
+        "id": "video_url",
+        "accept": [
+          "youtube",
+          "vimeo"
+        ],
+        "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "label": "Video Url - Desktop",
+        "placeholder": "t:sections.video.settings.video_url.placeholder",
+        "info": "t:sections.video.settings.video_url.info"
       },
       {
-        "type": "text",
-        "id": "video_3",
-        "label": "video URL"
+        "type": "video_url",
+        "id": "video_url_tablet",
+        "accept": [
+          "youtube",
+          "vimeo"
+        ],
+        "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "label": "Video Url - Tablet",
+        "placeholder": "t:sections.video.settings.video_url.placeholder",
+        "info": "t:sections.video.settings.video_url.info"
+      },
+      {
+        "type": "video_url",
+        "id": "video_url_mobile",
+        "accept": [
+          "youtube",
+          "vimeo"
+        ],
+        "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "label": "Video Url - Mobile",
+        "placeholder": "t:sections.video.settings.video_url.placeholder",
+        "info": "t:sections.video.settings.video_url.info"
       }
 	],
     "presets": [
