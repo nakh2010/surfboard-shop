@@ -2,7 +2,9 @@
 .lsn--multi-column{
   
 }
-
+.lsn--multi-column .center-button{
+  
+}
  .lsn--multi-column .lsn-multicolumn-list{
     display: grid;
     grid-template-columns: repeat(2,1fr);
