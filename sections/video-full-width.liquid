@@ -11,11 +11,6 @@
         <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}?autoplay=1&loop=1&color=ef0800&title=0&byline=0&portrait=0&muted=true" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
       </div>
     {%- endif -%}
-
-  <video class="custom_video desk_vd" width="100%" autoplay loop muted playsinline>
-          <source src="{{ section.settings.video.sources[0].url }}" type="application/x-mpegURL">
-      </video>
-
   <div class="video_caption">
     {% if section.settings.sub_header != blank %}
       <span class="lsn__eyebrow">{{ section.settings.sub_header }}</span>
