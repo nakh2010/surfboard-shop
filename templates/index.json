@@ -417,12 +417,15 @@
         "label": "Button Label",
         "link": "",
         "text_style": "dark",
+        "video_link": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_link_mobile": "",
         "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
       }
     },
     "564a4077-cc5a-4406-81f4-2e363329004a": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
