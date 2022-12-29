@@ -417,8 +417,8 @@
         "label": "Button Label",
         "link": "",
         "text_style": "dark",
+        "video": "shopify:\/\/files\/videos\/Demo Background Sample Video.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_url_tablet": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
       }
     },
