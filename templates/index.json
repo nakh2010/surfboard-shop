@@ -428,7 +428,7 @@
         "sub_header": "Sub-heading",
         "header": "Heading",
         "columns_desktop": 5,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "button_label": "Button Label",
         "button_link": "",
         "columns_mobile": "1"
