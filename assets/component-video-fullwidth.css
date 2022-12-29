@@ -5,7 +5,7 @@
 }
 .lsn-video-fullWidth .video-section__media{
     overflow:hidden;
-    padding-bottom:calc(100vh - 150px);
+    padding-bottom:56.25%;
     position:relative;
     height:0;
     border-radius: 20px;
