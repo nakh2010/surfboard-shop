@@ -35,9 +35,6 @@
     max-width: 1000px;
     padding: 0 20px;
 }
-.lsn-video-fullWidth .video_caption a{
-    margin-bottom: 80px;
-}
 .lsn-video-fullWidth.text_style_light .video_caption span,
 .lsn-video-fullWidth.text_style_light .video_caption h2{
     color: #E3E3E1;
