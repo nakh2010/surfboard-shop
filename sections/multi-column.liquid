@@ -1,7 +1,7 @@
 
 {{ 'component-multi-column.css' | asset_url | stylesheet_tag }}
 
-<div class="lsn--multi-column" style="background:{{ section.settings.background_color }};">
+<div class="lsn--multi-column center" style="background:{{ section.settings.background_color }};">
   <div class="page-width">
     {% if section.settings.sub_header != blank %}
       <span class="lsn__eyebrow" style="color:{{ section.settings.font_color }};">
