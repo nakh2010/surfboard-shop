@@ -24,12 +24,26 @@
    position: relative;
 }
 .lsn-video-fullWidth .lsn__eyebrow:before{
-  content:"";
-  position: absolute;
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #000;
+    left: calc(100% + 10px);
+    top: 50%;
 }
 .lsn-video-fullWidth .lsn__eyebrow:after{
-  content:"";
-  position: absolute;
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #000;
+    right: calc(100% + 10px);
+    top: 50%;
+}
+.lsn-video-fullWidth.text_style_light .lsn__eyebrow:before,
+.lsn-video-fullWidth.text_style_light .lsn__eyebrow:after{
+   background: #fff;
 }
 .lsn-video-fullWidth .video_caption{
     width: 100%;
