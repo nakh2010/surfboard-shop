@@ -76,6 +76,8 @@
 .lsn-video-fullWidth.text_style_dark .video_caption h2{
     color: #000000;
 }
+.lsn-video-fullWidth .lsn_button_style{
+}
 @media screen and (min-width: 1120px){
 
 }
