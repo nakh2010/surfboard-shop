@@ -1,18 +1,5 @@
 {
   "sections": {
-    "564a4077-cc5a-4406-81f4-2e363329004a": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15": {
       "type": "image-with-text",
       "blocks": {
@@ -434,10 +421,23 @@
         "video_url_tablet": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
       }
+    },
+    "564a4077-cc5a-4406-81f4-2e363329004a": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/65-35-2.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "564a4077-cc5a-4406-81f4-2e363329004a",
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15",
     "ad6c824f-2954-44f9-8e8e-4673f1cc719f",
     "f2884c36-8a86-42c4-96d4-daab649574ed",
@@ -451,6 +451,7 @@
     "29024dcd-d077-402b-9224-f0d15d3df938",
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
     "2bac5155-b74f-4a51-bff4-da75eee511a7",
-    "53c726e4-4654-4b41-9515-d4db4c010a8b"
+    "53c726e4-4654-4b41-9515-d4db4c010a8b",
+    "564a4077-cc5a-4406-81f4-2e363329004a"
   ]
 }
