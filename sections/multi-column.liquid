@@ -3,14 +3,14 @@
 
 <div class="lsn--multi-column" style="background:{{ section.settings.background_color }};">
   <div class="page-width">
-    {% if section.settings.sub_heading != blank %}
+    {% if section.settings.sub_header != blank %}
       <span class="lsn__eyebrow" style="color:{{ section.settings.font_color }};">
-        {{ section.settings.sub_heading | escape }}
+        {{ section.settings.sub_header | escape }}
       </span>
     {% endif %}
-    {% if section.settings.heading != blank %}
+    {% if section.settings.header != blank %}
       <h2 class="lsn__heading" style="color:{{ section.settings.font_color }};">
-        {{ section.settings.heading | escape }}
+        {{ section.settings.header | escape }}
       </h2>
     {% endif %}
     <div class="lsn-multicolumn-list grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-mobile">
