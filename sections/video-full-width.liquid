@@ -8,20 +8,20 @@
           <source src="{{ section.settings.video_link }}" type="video/mp4">
         </video>
      {%- else -%}
-       
+      {%- if section.settings.video_url.type == 'youtube' -%}
+        <div class="video-section__media">
+          <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?autoplay=1&loop=1&mute=1&playlist={{ section.settings.video_url.id }}" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+        </div>
+      {%- else -%}
+        <div class="video-section__media">
+          <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}?autoplay=1&loop=1&color=ef0800&title=0&byline=0&portrait=0&muted=true" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
+        </div>
+      {%- endif -%}
      {%- endif -%}
   </div>
   <div class="video-section-small">
   </div>
-    {%- if section.settings.video_url.type == 'youtube' -%}
-      <div class="video-section__media">
-        <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?autoplay=1&loop=1&mute=1&playlist={{ section.settings.video_url.id }}" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
-      </div>
-    {%- else -%}
-      <div class="video-section__media">
-        <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}?autoplay=1&loop=1&color=ef0800&title=0&byline=0&portrait=0&muted=true" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
-      </div>
-    {%- endif -%}
+    
   <div class="video_caption">
     {% if section.settings.sub_header != blank %}
       <span class="lsn__eyebrow">{{ section.settings.sub_header }}</span>
