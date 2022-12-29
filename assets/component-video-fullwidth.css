@@ -37,11 +37,11 @@
 }
 .lsn-video-fullWidth.text_style_light .video_caption span,
 .lsn-video-fullWidth.text_style_light .video_caption h2{
-    color: #E3E3E1;
+    color: #ffffff;
 }
 .lsn-video-fullWidth.text_style_dark .video_caption span,
 .lsn-video-fullWidth.text_style_dark .video_caption h2{
-    color: #505050;
+    color: #000000;
 }
 @media screen and (min-width: 1120px){
 
