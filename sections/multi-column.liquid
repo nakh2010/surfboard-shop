@@ -1,9 +1,7 @@
-{% assign sub_header = section.settings.sub_header %}
-{% assign header = section.settings.header %}
 
-{{ 'component-symbols.css' | asset_url | stylesheet_tag }}
+{{ 'component-multi-column.css' | asset_url | stylesheet_tag }}
 
-<div class="custom-symbols">
+<div class="custom-symbols" style="background:{{ section.settings.background_color }};">
     <div class="page-width">
         <div class="cards_heading">
             {% if sub_header != blank %}
