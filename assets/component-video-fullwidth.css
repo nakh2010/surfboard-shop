@@ -70,6 +70,9 @@ display:none;
 
 }
 @media screen and (min-width: 750px){
+  .lsn-video-fullWidth .video-section-small{
+    display:none;
+  }
 
 }
 @media screen and (max-width: 1119px){
@@ -87,7 +90,11 @@ display:block;
     margin-bottom: 30px;
 }
 }
-@media screen and (max-width: 739px){
+@media screen and (max-width: 749px){
+   .lsn-video-fullWidth .video-section-large{
+      display:none;
+   }
+  
     .lsn-video-fullWidth .video-section__media video.desk_vd,
     .lsn-video-fullWidth .video-section__media video.tablet_vd{
     display:none;
