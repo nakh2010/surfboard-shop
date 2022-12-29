@@ -4,9 +4,11 @@
 <div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }}">
   <div class="video-section-large">
      {%- if section.settings.video_link != blank -%}
-       <video class="lsn_video" width="100%" autoplay loop muted playsinline>
-          <source src="{{ section.settings.video_link }}" type="video/mp4">
-        </video>
+       <div class="video-section__media">
+         <video class="lsn_video" width="100%" autoplay loop muted playsinline>
+            <source src="{{ section.settings.video_link }}" type="video/mp4">
+          </video>
+       </div>
      {%- else -%}
       {%- if section.settings.video_url.type == 'youtube' -%}
         <div class="video-section__media">
@@ -21,9 +23,11 @@
   </div>
   <div class="video-section-small">
     {%- if section.settings.video_link_mobile != blank -%}
-       <video class="lsn_video" width="100%" autoplay loop muted playsinline>
+      <div class="video-section__media">
+        <video class="lsn_video" width="100%" autoplay loop muted playsinline>
           <source src="{{ section.settings.video_link_mobile }}" type="video/mp4">
         </video>
+      </div>
      {%- else -%}
         {%- if section.settings.video_url_mobile.type == 'youtube' -%}
           <div class="video-section__media">
