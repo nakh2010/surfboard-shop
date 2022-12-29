@@ -87,6 +87,9 @@
 }
 
 @media screen and (max-width: 749px){
+  .lsn-video-fullWidth .video-section__media {
+    padding-bottom: calc(100vh - 120px);
+}
   .lsn-video-fullWidth .video-section-large{
     display:none;
   }
