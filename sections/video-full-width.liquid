@@ -3,7 +3,7 @@
 
 <div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }}">
   <div class="video-section-large">
-     {%- if section.settings.video_link -%}
+     {%- if section.settings.video_link != blank -%}
        <video class="lsn_video" width="100%" autoplay loop muted playsinline>
           <source src="{{ section.settings.video_link }}" type="video/mp4">
         </video>
@@ -20,7 +20,7 @@
      {%- endif -%}
   </div>
   <div class="video-section-small">
-    {%- if section.settings.video_link_mobile -%}
+    {%- if section.settings.video_link_mobile != blank -%}
        <video class="lsn_video" width="100%" autoplay loop muted playsinline>
           <source src="{{ section.settings.video_link_mobile }}" type="video/mp4">
         </video>
