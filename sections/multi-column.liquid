@@ -16,24 +16,26 @@
     <div class="lsn-multicolumn-list">
       {% for block in section.blocks %}
       <div class="lsn-multicolumn-item">
-          <span class="wr_img">
-              {%- if block.settings.image != blank -%}
-              <img
-                  srcset="{{ block.settings.image | image_url: width: 200 }}"
-                  src="{{ block.settings.image | image_url: width: 200 }}"
-                  sizes="(min-width: {{ settings.page_width }}px) 200px, (min-width: 750px) 200, 200"
-                  alt="{{ block.settings.image.alt | escape }}"
-                  loading="lazy"
-                  width="{{ block.settings.image.width }}"
-                  height="{{ block.settings.image.height }}"
+        <span class="wrapp_image">
+           {%- if block.settings.image != blank -%}
+              <img class="large-screen--background"
+                srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                src="{{ block.settings.image | image_url: width: 1500 }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
               >
-              {%- else -%}
-              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-              {%- endif -%}
-          </span>
-          {% if block.settings.text != blank %}
-          <p>{{ block.settings.text }}</p>
-          {% endif %}
+          {%- else -%}
+              {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+         {%- endif -%}
+        </span>
+
       </div>
       {% endfor %}
     </div>
