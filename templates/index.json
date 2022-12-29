@@ -412,10 +412,10 @@
     "53c726e4-4654-4b41-9515-d4db4c010a8b": {
       "type": "video-full-width",
       "settings": {
-        "sub_header": "Sub-heading",
-        "header": "Heading",
-        "label": "Button Label",
-        "link": "",
+        "sub_header": "Surfing",
+        "header": "Surfing provides many health benefits including shoulder and back strength – these muscles will strengthen from the paddling.",
+        "label": "Learn more",
+        "link": "shopify:\/\/collections\/all",
         "text_style": "dark",
         "video_link": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
