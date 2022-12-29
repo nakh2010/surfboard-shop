@@ -43,6 +43,8 @@
    color: #ffffff;
   border-color:#fff;
 }
+.lsn-video-fullWidth.text_style_light .lsn_button_style:hover{
+}
 .lsn-video-fullWidth.text_style_dark .video_caption span,
 .lsn-video-fullWidth.text_style_dark .video_caption h2{
     color: #000000;
