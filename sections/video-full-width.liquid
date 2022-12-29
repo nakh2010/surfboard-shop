@@ -1,6 +1,9 @@
 
 {{ 'component-video-fullwidth.css' | asset_url | stylesheet_tag }}
-
+<link href="https://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+<script src="https://vjs.zencdn.net/6.6.3/video.js"></script>
+<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls/dist/video js-contrib-hls.js"></script>
 <div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }}">
     {%- if section.settings.video_url.type == 'youtube' -%}
       <div class="video-section__media">
