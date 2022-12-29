@@ -37,6 +37,13 @@
       </div>
       {% endfor %}
     </div>
+    {%- if section.settings.button_label != blank -%}
+      <div class="center-button">
+        <a{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %} class="lsn_button_style" >
+          {{ section.settings.button_label | escape }}
+        </a>
+      </div>
+    {%- endif -%}
   </div>
 </div>
 
@@ -71,13 +78,13 @@
       },
       {
         "type": "text",
-        "id": "label",
+        "id": "button_label",
         "default": "Button Label",
         "label": "Button Label"
       },
       {
         "type": "url",
-        "id": "link",
+        "id": "button_link",
         "label": "Button URL"
       }
 	],
