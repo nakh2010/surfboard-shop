@@ -232,67 +232,6 @@
         "image_overlay_opacity": 0
       }
     },
-    "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-0",
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-1",
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-2",
-        "template--17192392753437__3deb30cf-5c17-4fd3-9c54-92dcaf659cd7-16721086399b30166e-3"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b": {
       "type": "image-with-text",
       "blocks": {
@@ -447,7 +386,6 @@
     "42ed83cb-683f-4639-b6cd-3103e3b9b445",
     "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03",
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36",
-    "3deb30cf-5c17-4fd3-9c54-92dcaf659cd7",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "29024dcd-d077-402b-9224-f0d15d3df938",
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
