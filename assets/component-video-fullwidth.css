@@ -92,9 +92,7 @@ display:block;
     .lsn-video-fullWidth .video-section__media video.mobile_vd{
     display:block;
     }
-    .lsn-video-fullWidth .video-section__media {
-        padding-bottom: calc(100vh - 100px);
-    }
+
     .lsn-video-fullWidth .video_caption a {
         margin-bottom: 0;
     }
@@ -104,7 +102,5 @@ display:block;
 }
 
 @media screen and (max-width: 479px){
-    .lsn-video-fullWidth .video-section__media {
-        padding-bottom: calc(100vh - 240px);
-    }
+
 }
