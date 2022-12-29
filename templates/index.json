@@ -409,6 +409,20 @@
         "image_overlay_opacity": 0
       }
     },
+    "ede3b668-ee9c-4876-b8e5-c5b32a33686a": {
+      "type": "video-full-width",
+      "settings": {
+        "sub_header": "Surfing",
+        "header": "Surfing provides many health benefits including shoulder and back strength – these muscles will strengthen from the paddling.",
+        "label": "Button Label",
+        "link": "",
+        "text_style": "light",
+        "video_link": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
+        "video_link_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a87000f179104d6286b2dba07ea01517.mp4",
+        "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+      }
+    },
     "53c726e4-4654-4b41-9515-d4db4c010a8b": {
       "type": "video-full-width",
       "settings": {
@@ -421,21 +435,6 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
         "video_link_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a87000f179104d6286b2dba07ea01517.mp4",
         "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-      }
-    },
-    "564a4077-cc5a-4406-81f4-2e363329004a": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/65-35-2.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
@@ -453,7 +452,7 @@
     "29024dcd-d077-402b-9224-f0d15d3df938",
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
     "2bac5155-b74f-4a51-bff4-da75eee511a7",
-    "53c726e4-4654-4b41-9515-d4db4c010a8b",
-    "564a4077-cc5a-4406-81f4-2e363329004a"
+    "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
+    "53c726e4-4654-4b41-9515-d4db4c010a8b"
   ]
 }
