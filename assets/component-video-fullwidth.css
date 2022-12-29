@@ -85,15 +85,7 @@
   }
 
 }
-@media screen and (max-width: 1119px){
 
-.lsn-video-fullWidth .video_caption a {
-    margin: 0 auto 40px;
-}
-.lsn-video-fullWidth .video_caption h2 {
-    margin-bottom: 30px;
-}
-}
 @media screen and (max-width: 749px){
   .lsn-video-fullWidth .video-section-large{
     display:none;
