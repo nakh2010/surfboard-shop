@@ -90,10 +90,4 @@
   .lsn-video-fullWidth .video-section-large{
     display:none;
   }
-  .lsn-video-fullWidth .video_caption a {
-      margin-bottom: 0;
-  }
-  .lsn-video-fullWidth .video_caption {
-      top: 80px;
-  }
 }
