@@ -2,6 +2,17 @@
 {{ 'component-video-fullwidth.css' | asset_url | stylesheet_tag }}
 
 <div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }}">
+  <div class="video-section-large">
+     {%- if section.settings.video_link -%}
+       <video class="custom_video desk_vd" width="100%" autoplay loop muted playsinline>
+          <source src="{{ section.settings.video_link }}" type="video/mp4">
+        </video>
+     {%- else -%}
+       
+     {%- endif -%}
+  </div>
+  <div class="video-section-small">
+  </div>
     {%- if section.settings.video_url.type == 'youtube' -%}
       <div class="video-section__media">
         <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?autoplay=1&loop=1&mute=1&playlist={{ section.settings.video_url.id }}" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}"></iframe>
