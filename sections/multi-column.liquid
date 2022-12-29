@@ -4,12 +4,12 @@
 <div class="custom-symbols " style="background:{{ section.settings.background_color }};">
   <div class="page-width">
     {% if block.settings.sub_heading != blank %}
-      <span class="lsn__eyebrow">
+      <span class="lsn__eyebrow" style="color:{{ section.settings.font_color }};">
         {{ block.settings.sub_heading | escape }}
       </span>
     {% endif %}
     {% if block.settings.heading != blank %}
-      <h2 class="lsn__heading">
+      <h2 class="lsn__heading" style="color:{{ section.settings.font_color }};">
         {{ block.settings.heading | escape }}
       </h2>
     {% endif %}
@@ -37,10 +37,10 @@
         </span>
         <div class="multicolumn-caption">
            {%- if block.settings.title != blank -%}
-            <h3>{{ block.settings.title | escape }}</h3>
+            <h3 style="color:{{ section.settings.font_color }};">{{ block.settings.title | escape }}</h3>
           {%- endif -%}
           {%- if block.settings.text != blank -%}
-            <div class="rte">{{ block.settings.text }}</div>
+            <div class="rte" style="color:{{ section.settings.font_color }};">{{ block.settings.text }}</div>
           {%- endif -%}
         </div>
 
