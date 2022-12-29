@@ -17,6 +17,9 @@
     {%- endif -%}
     
   </div>
+  <video class="custom_video desk_vd" width="100%" autoplay loop muted playsinline>
+          <source src="{{ section.settings.video }}" type="video/mp4">
+      </video>
   <div class="video_caption">
     {% if section.settings.sub_header != blank %}
       <span class="lsn__eyebrow">{{ section.settings.sub_header }}</span>
