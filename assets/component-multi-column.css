@@ -3,6 +3,12 @@
   
 }
 
+ .lsn--multi-column .lsn-multicolumn-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+
 @media screen and (min-width: 750px){
   .lsn--multi-column .lsn-multicolumn-list{
     display: grid;
