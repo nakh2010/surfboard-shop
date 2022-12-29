@@ -43,18 +43,31 @@
 
 {% schema %}
   {
-    "name": "Symbols",
+    "name": "Multi-column",
     "settings": [
-        {
-          "type": "text",
-          "id": "sub_header",
-          "label": "Sub-Header"
-        },
-        {
-          "type": "text",
-          "id": "header",
-          "label": "Header"
-        }
+      {
+        "type": "text",
+        "id": "sub_header",
+        "default": "Sub-heading",
+        "label": "Sub-Header"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "default": "Heading",
+        "label": "Header"
+      },
+      {
+        "type": "text",
+        "id": "label",
+        "default": "Button Label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Button URL"
+      }
 	],
     	"blocks": [
       {
