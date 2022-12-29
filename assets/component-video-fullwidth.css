@@ -20,7 +20,15 @@
     object-fit: cover;
   border: none;
 }
-
+.lsn-video-fullWidth .lsn__eyebrow{
+  
+}
+.lsn-video-fullWidth .lsn__eyebrow:before{
+  
+}
+.lsn-video-fullWidth .lsn__eyebrow:after{
+  
+}
 .lsn-video-fullWidth .video_caption{
     width: 100%;
     text-align: center;
