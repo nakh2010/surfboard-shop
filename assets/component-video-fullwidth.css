@@ -18,6 +18,7 @@
     width:100%;
     position:absolute;
     object-fit: cover;
+  border: none;
 }
 
 .lsn-video-fullWidth .video_caption{
