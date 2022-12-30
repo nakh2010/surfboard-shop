@@ -37,19 +37,13 @@
       <div class="lsn-multicolumn-item {% if section.settings.column_alignment == 'center' %} center{% endif %}">
         <span class="wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
            {%- if block.settings.image != blank -%}
-              <img class="image--main"
-                srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
-                src="{{ block.settings.image | image_url: width: 1500 }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                alt="{{ block.settings.image.alt | escape }}"
-                loading="lazy"
-              >
+              {%- capture sizes -%}(min-width: 1025px) 480px, (min-width: 750px) 480px, calc(100vw - 30px){%- endcapture -%}
+              {{ block.settings.image | image_url: width: 1420 | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '275, 550, 710, 1420',
+                class: 'multicolumn-card__image'
+              }}
           {%- else -%}
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
          {%- endif -%}
