@@ -35,9 +35,7 @@
 .lsn--multi-column .multicolumn-caption{
       padding: 0 6px;
 }
-.lsn--multi-column .lsn-multicolumn-list.grid--1-col-mobile{
-      display: block;
-}
+
 
 @media screen and (min-width: 1025px){
   .lsn--multi-column .multicolumn-caption{
@@ -56,6 +54,9 @@
  .lsn--multi-column .lsn-multicolumn-list .lsn-multicolumn-item {
    margin-bottom: 25px;
  }
+  .lsn--multi-column .lsn-multicolumn-list.grid--1-col-mobile{
+      display: block;
+  }
 }
 @media screen and (max-width: 639px){
 
