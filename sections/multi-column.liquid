@@ -28,6 +28,7 @@
       {% for block in section.blocks %}
       <div class="lsn-multicolumn-item {% if section.settings.column_alignment == 'center' %} center{% endif %}">
         <span class="wrapp_image">
+           <span class="wrapper-img-chill">
            {%- if block.settings.image != blank -%}
               <img class="large-screen--background"
                 srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -45,6 +46,7 @@
           {%- else -%}
               {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
          {%- endif -%}
+           </span>
         </span>
         <div class="multicolumn-caption">
            {%- if block.settings.title != blank -%}
