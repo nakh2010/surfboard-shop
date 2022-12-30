@@ -23,9 +23,14 @@
     max-width: 100%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     height: 100%;
     width: auto;
+    transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
 }
 
 @media screen and (min-width: 1025px){
