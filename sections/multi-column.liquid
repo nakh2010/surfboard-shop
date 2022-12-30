@@ -1,9 +1,9 @@
 
 {{ 'component-multi-column.css' | asset_url | stylesheet_tag }}
-<style>
+{%- style -%}
   #lsn--multi-column--{{ section.id }} .lsn_button_style{
   }
-</style>
+{%- endstyle -%}
   
 <div id="lsn--multi-column--{{ section.id }}" class="lsn--multi-column center" style="background:{{ section.settings.background_color }};">
   <div class="page-width">
