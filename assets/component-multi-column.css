@@ -11,7 +11,42 @@
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
-
+.lsn--multi-column .wrapp_image{
+  display: block;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+}
+.lsn--multi-column .wrapp_image .wrapper-img-chill{
+  height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.lsn--multi-column .wrapp_image .wrapper-img-chill img{
+  height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    border-radius: 100%;
+}
 @media screen and (min-width: 750px){
   .lsn--multi-column .lsn-multicolumn-list{
     display: grid;
