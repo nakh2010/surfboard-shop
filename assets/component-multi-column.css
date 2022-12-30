@@ -13,9 +13,19 @@
     margin-top: 40px;
   }
 .lsn--multi-column .wrapp_image{
+      display: block;
+    position: relative;
+    overflow: hidden;
 }
 .lsn--multi-column .wrapp_image svg,
 .lsn--multi-column .wrapp_image img{
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
 }
 
 @media screen and (min-width: 1025px){
