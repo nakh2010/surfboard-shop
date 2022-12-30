@@ -13,7 +13,9 @@
     margin-top: 40px;
   }
 .lsn--multi-column .wrapp_image{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .lsn--multi-column .wrapp_image .wrapper-img-chill svg,
 .lsn--multi-column .wrapp_image .wrapper-img-chill img{
