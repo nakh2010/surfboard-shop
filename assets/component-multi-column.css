@@ -13,17 +13,9 @@
     margin-top: 40px;
   }
 .lsn--multi-column .wrapp_image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .lsn--multi-column .wrapp_image svg,
 .lsn--multi-column .wrapp_image img{
-      display: block;
-    width: 100%;
-    max-width: 240px;
-    max-height: 240px;
-    margin: 0 auto;
 }
 
 @media screen and (min-width: 1025px){
