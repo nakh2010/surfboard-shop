@@ -51,6 +51,12 @@
     width: 100%;
     border-radius: 100%;
 }
+
+@media screen and (min-width: 1025px){
+  .lsn--multi-column .multicolumn-caption{
+        padding: 0 10px;
+  }
+}
 @media screen and (min-width: 750px){
   .lsn--multi-column .lsn-multicolumn-list{
     display: grid;
