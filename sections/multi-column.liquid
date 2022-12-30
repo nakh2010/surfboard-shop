@@ -25,8 +25,15 @@
       </h2>
     {% endif %}
     <div class="lsn-multicolumn-list grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-mobile">
+      {%- liquid
+          assign highest_ratio = 0
+          for block in section.blocks
+            if block.settings.image.aspect_ratio > highest_ratio
+              assign highest_ratio = block.settings.image.aspect_ratio
+            endif
+          endfor
+        -%}
       {% for block in section.blocks %}
-        {% assign highest_ratio = block.settings.image.aspect_ratio %}
       <div class="lsn-multicolumn-item {% if section.settings.column_alignment == 'center' %} center{% endif %}">
         <span class="wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
            {%- if block.settings.image != blank -%}
