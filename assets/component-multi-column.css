@@ -3,9 +3,6 @@
   display: block;
     padding: 40px 0;
 }
-.lsn--multi-column .center-button{
-  
-}
  .lsn--multi-column .lsn-multicolumn-list{
     display: block;
     margin-top: 40px;
@@ -37,7 +34,7 @@
 
 @media screen and (min-width: 1025px){
   .lsn--multi-column .multicolumn-caption{
-        padding: 0 10px;
+    padding: 0 10px;
   }
 }
 @media screen and (min-width: 750px){
@@ -58,6 +55,9 @@
     padding-bottom: 0 !important;
     margin: 0 auto;
 }
+  .lsn--multi-column .lsn-multicolumn-list .lsn-multicolumn-item:last-child{
+     margin-bottom: 0px;
+  }
 
 }
 @media screen and (max-width: 639px){
