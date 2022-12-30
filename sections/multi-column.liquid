@@ -12,15 +12,15 @@
   }
 {%- endstyle -%}
   
-<div id="lsn--multi-column--{{ section.id }}" class="lsn--multi-column center" style="background:{{ section.settings.background_color }};">
+<div id="lsn--multi-column--{{ section.id }}" class="lsn--multi-column" style="background:{{ section.settings.background_color }};">
   <div class="page-width">
     {% if section.settings.sub_header != blank %}
-      <span class="lsn__eyebrow" style="color:{{ section.settings.font_color }};">
+      <span class="lsn__eyebrow center" style="color:{{ section.settings.font_color }};">
         {{ section.settings.sub_header | escape }}
       </span>
     {% endif %}
     {% if section.settings.header != blank %}
-      <h2 class="lsn__heading" style="color:{{ section.settings.font_color }};">
+      <h2 class="lsn__heading center" style="color:{{ section.settings.font_color }};">
         {{ section.settings.header | escape }}
       </h2>
     {% endif %}
