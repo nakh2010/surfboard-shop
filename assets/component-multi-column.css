@@ -58,6 +58,9 @@
   .lsn--multi-column .lsn-multicolumn-list .lsn-multicolumn-item:last-child{
      margin-bottom: 0px;
   }
+  .lsn--multi-column .multicolumn-caption {
+    padding: 0;
+  }
 
 }
 @media screen and (max-width: 639px){
