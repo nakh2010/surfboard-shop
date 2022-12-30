@@ -7,9 +7,7 @@
   
 }
  .lsn--multi-column .lsn-multicolumn-list{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    display: block;
     margin-top: 40px;
   }
 .lsn--multi-column .wrapp_image{
@@ -57,9 +55,6 @@
 
 }
 @media screen and (max-width: 639px){
-  .lsn--multi-column .lsn-multicolumn-list.grid--1-col-mobile{
-      display: block;
-  }
 
 }
 
