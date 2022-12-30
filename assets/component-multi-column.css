@@ -52,6 +52,12 @@
  .lsn--multi-column .lsn-multicolumn-list .lsn-multicolumn-item {
    margin-bottom: 35px;
  }
+  .lsn--multi-column .wrapp_image {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0 !important;
+    margin: 0 auto;
+}
 
 }
 @media screen and (max-width: 639px){
