@@ -429,7 +429,7 @@
         "header": "Heading",
         "columns_desktop": 5,
         "column_alignment": "left",
-        "button_label": "Button Label",
+        "button_label": "",
         "button_link": "",
         "columns_mobile": "1"
       }
