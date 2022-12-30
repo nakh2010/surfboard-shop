@@ -19,7 +19,6 @@
     overflow: hidden;
     padding-bottom: 100%;
     position: relative;
-    background: #fff;
     border-radius: 100%;
 }
 .lsn--multi-column .wrapp_image .wrapper-img-chill{
@@ -37,7 +36,7 @@
 .lsn--multi-column .wrapp_image .wrapper-img-chill svg,
 .lsn--multi-column .wrapp_image .wrapper-img-chill img{
   height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
     margin: 0 auto;
     position: absolute;
