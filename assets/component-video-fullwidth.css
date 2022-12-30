@@ -85,8 +85,16 @@
   }
 
 }
+@media screen and (max-width: 1024px){
+  .lsn-video-fullWidth .video_caption{
+        padding: 0 40px;
+  }
+}
 
 @media screen and (max-width: 749px){
+  .lsn-video-fullWidth .video_caption{
+        padding: 0 20px;
+  }
     .lsn-video-fullWidth .lsn__eyebrow:before,
   .lsn-video-fullWidth .lsn__eyebrow:after {
     width: 40px;
