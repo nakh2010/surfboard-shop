@@ -57,7 +57,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     max-width: 1000px;
-    padding: 0 20px;
+    padding: 0 80px;
 }
 .lsn-video-fullWidth.text_style_light .video_caption span,
 .lsn-video-fullWidth.text_style_light .video_caption h2{
