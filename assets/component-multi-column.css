@@ -1,6 +1,7 @@
 
 .lsn--multi-column{
-  
+  display: block;
+    padding: 40px 0;
 }
 .lsn--multi-column .center-button{
   
