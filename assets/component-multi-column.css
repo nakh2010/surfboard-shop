@@ -17,6 +17,11 @@
 }
 .lsn--multi-column .wrapp_image .wrapper-img-chill svg,
 .lsn--multi-column .wrapp_image .wrapper-img-chill img{
+      display: block;
+    width: 100%;
+    max-width: 240px;
+    max-height: 240px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 1025px){
