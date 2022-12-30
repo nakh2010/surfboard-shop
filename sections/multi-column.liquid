@@ -1,9 +1,11 @@
 
 {{ 'component-multi-column.css' | asset_url | stylesheet_tag }}
 <style>
+  #lsn--multi-column--{{ section.id }} .lsn_button_style{
+  }
 </style>
   
-<div id="image-with-text--{{ section.id }}" class="lsn--multi-column center" style="background:{{ section.settings.background_color }};">
+<div id="lsn--multi-column--{{ section.id }}" class="lsn--multi-column center" style="background:{{ section.settings.background_color }};">
   <div class="page-width">
     {% if section.settings.sub_header != blank %}
       <span class="lsn__eyebrow" style="color:{{ section.settings.font_color }};">
