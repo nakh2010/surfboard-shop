@@ -432,11 +432,10 @@
         "font_color": "#ffffff",
         "sub_header": "",
         "header": "SHARPEYE SURFBOARD INFERNO SPECS",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "button_label": "",
-        "button_link": "",
-        "columns_mobile": "1"
+        "button_link": ""
       }
     },
     "2023aaba-9fd9-4eda-8848-9c1c6d30e563": {
