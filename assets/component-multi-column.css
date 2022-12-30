@@ -32,6 +32,9 @@
     -o-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
 }
+.lsn--multi-column .multicolumn-caption{
+      padding: 0 6px;
+}
 
 @media screen and (min-width: 1025px){
   .lsn--multi-column .multicolumn-caption{
