@@ -425,8 +425,8 @@
       "settings": {
         "background_color": "#005a87",
         "font_color": "#ffffff",
-        "sub_header": "Sub-heading",
-        "header": "Heading",
+        "sub_header": "",
+        "header": "SHARPEYE SURFBOARD INFERNO SPECS",
         "columns_desktop": 5,
         "column_alignment": "left",
         "button_label": "",
