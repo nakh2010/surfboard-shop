@@ -48,6 +48,11 @@
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
   }
+  .lsn--multi-column .lsn-multicolumn-list.grid--3-col-desktop{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 749px){
