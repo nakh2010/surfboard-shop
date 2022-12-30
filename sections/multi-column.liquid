@@ -5,6 +5,11 @@
       color: {{ section.settings.font_color }};
       border-color: {{ section.settings.font_color }};
   }
+  #lsn--multi-column--{{ section.id }} .lsn_button_style:hover {
+    color: var(--color-primary-button-text);
+    background-color: rgb(var(--color-primary-button-background));
+    border-color: rgb(var(--color-primary-button-background));
+  }
 {%- endstyle -%}
   
 <div id="lsn--multi-column--{{ section.id }}" class="lsn--multi-column center" style="background:{{ section.settings.background_color }};">
