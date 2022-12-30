@@ -57,10 +57,9 @@
   .lsn--multi-column .lsn-multicolumn-list.grid--1-col-mobile{
       display: block;
   }
-  .lsn--multi-column .wrapp_image {
+  .lsn--multi-column .wrapp_image svg, .lsn--multi-column .wrapp_image img{
     max-width: 240px;
     max-height: 240px;
-    margin: 0 auto;
 }
 }
 @media screen and (max-width: 639px){
