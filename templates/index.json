@@ -407,7 +407,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_6.png",
-            "title": "Column heading",
+            "title": "Column",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
           }
         },
@@ -415,7 +415,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_6.png",
-            "title": "Column heading",
+            "title": "Column",
             "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
           }
         }
