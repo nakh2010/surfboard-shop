@@ -9,19 +9,30 @@
     <div class="lsn-reviews-list">
       {% for block in section.blocks %}
       <div class="lsn-review-item">
-        <div class="multicolumn-caption">
-           {%- if block.settings.title != blank -%}
-            <h3 style="color:{{ section.settings.font_color }};">{{ block.settings.title | escape }}</h3>
+        <div class="review-name">
+          {%- if block.settings.name != blank -%}
+            <h3>{{ block.settings.name | escape }}</h3>
           {%- endif -%}
+          <span>verified purchase</span>
+        </div>
+          <span class="rv-stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </span>
           {%- if block.settings.text != blank -%}
             <div class="rte" style="color:{{ section.settings.font_color }};">{{ block.settings.text }}</div>
           {%- endif -%}
-        </div>
       </div>
       {% endfor %}
     </div>
   </div>
 </div>
+<style>
+  
+</style>
 
 
 {% schema %}
