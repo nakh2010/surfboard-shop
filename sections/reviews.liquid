@@ -1,7 +1,97 @@
+
+<div id="lsn--multi-column--{{ section.id }}" class="lsn--multi-column" style="background:{{ section.settings.background_color }};">
+  <div class="page-width">
+    {% if section.settings.header != blank %}
+      <h2 class="lsn__heading center" style="color:{{ section.settings.font_color }};">
+        {{ section.settings.header | escape }}
+      </h2>
+    {% endif %}
+    <div class="lsn-multicolumn-list grid--{{ section.settings.columns_desktop }}-col-desktop ">
+      {% for block in section.blocks %}
+      <div class="lsn-multicolumn-item {% if section.settings.column_alignment == 'center' %} center{% endif %}">
+        <div class="multicolumn-caption">
+           {%- if block.settings.title != blank -%}
+            <h3 style="color:{{ section.settings.font_color }};">{{ block.settings.title | escape }}</h3>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            <div class="rte" style="color:{{ section.settings.font_color }};">{{ block.settings.text }}</div>
+          {%- endif -%}
+        </div>
+
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Reviews",
+    "class": "reviews-section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#005A87"
+      },
+      {
+        "type": "color",
+        "id": "font_color",
+        "label": "Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "text",
+        "id": "header",
+        "default": "Heading",
+        "label": "Header"
+      }
+	],
+  "blocks": [
+      {
+        "type": "column",
+        "name": "column",
+        "settings": [
+		 {
+          "type": "text",
+          "id": "name",
+          "default": "Name",
+          "label": "Name"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
+          "label": "Text"
+        }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Reviews",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+    ]
   }
 {% endschema %}
 
