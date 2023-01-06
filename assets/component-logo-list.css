@@ -22,7 +22,10 @@
     -o-transform: translate(-50%,0%);
     -ms-transform: translate(-50%,0%);
 }
-.lsn__eyebrow{
+.lsn-logo-list .lsn__eyebrow{
     font-size: 28px;
     line-height: 34px;
+}
+.lsn-logo-list .lsn__heading{
+      text-transform: uppercase;
 }
