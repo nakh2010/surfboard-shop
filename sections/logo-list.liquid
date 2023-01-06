@@ -14,7 +14,9 @@
       </h2>
     {% endif %}
      {% if section.settings.text_description != blank %}
-      <div class="lsn-text_description center">{{ section.settings.text_description }}</div>
+      <div class="lsn-text_description center" style="color:{{ section.settings.font_color }};">
+       {{ section.settings.text_description }}
+       </div>
       {% endif %}
     </div>
     <div class="lsn-list-logo-item">
