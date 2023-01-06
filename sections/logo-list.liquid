@@ -6,6 +6,14 @@
       <p class="lsn-text_description center">{{ section.settings.text_description }}</p>
     </div>
     <div class="lsn-list-logo">
+       {%- liquid
+          assign highest_ratio = 0
+          for block in section.blocks
+            if block.settings.image.aspect_ratio > highest_ratio
+              assign highest_ratio = block.settings.image.aspect_ratio
+            endif
+          endfor
+        -%}
       {% for block in section.blocks %}
       {%- assign link = block.settings.link -%}
         <div class="lsn-list-logo-item">
