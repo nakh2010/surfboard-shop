@@ -4,6 +4,7 @@
 .lsn-logo-list .lsn__eyebrow{
     font-size: 28px;
     line-height: 34px;
+      margin: 0;
 }
 .lsn-logo-list .lsn__heading{
       text-transform: uppercase;
@@ -40,6 +41,9 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 750px){
-  
+  .lsn-logo-list .lsn__eyebrow {
+    font-size: 24px;
+    line-height: 34px;
+}
 }
 
