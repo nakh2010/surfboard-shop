@@ -1,3 +1,19 @@
+.lsn-header{
+  margin-bottom: 40px 
+}
+.lsn-logo-list .lsn__eyebrow{
+    font-size: 28px;
+    line-height: 34px;
+}
+.lsn-logo-list .lsn__heading{
+      text-transform: uppercase;
+      margin: 10px 0;
+}
+.lsn-text_description p{
+  font-size: 18px;
+    line-height: 34px;
+    margin: 0;
+}
 .lsn-list-logo-item{
   display: grid;
   grid-template-columns: repeat(6,1fr);
@@ -21,17 +37,4 @@
     -moz-transform: translate(-50%,0%);
     -o-transform: translate(-50%,0%);
     -ms-transform: translate(-50%,0%);
-}
-.lsn-logo-list .lsn__eyebrow{
-    font-size: 28px;
-    line-height: 34px;
-}
-.lsn-logo-list .lsn__heading{
-      text-transform: uppercase;
-      margin: 10px 0;
-}
-.lsn-text_description p{
-  font-size: 18px;
-    line-height: 34px;
-    margin: 0;
 }
