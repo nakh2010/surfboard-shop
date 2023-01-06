@@ -493,8 +493,10 @@
         "c34e25c0-8fcb-4787-95bd-35e60df4191c"
       ],
       "settings": {
-        "subheading": "Lorem Ipsum",
-        "heading": "Where does it come from?",
+        "background_color": "#ffffff",
+        "font_color": "#005A87",
+        "sub_header": "Lorem Ipsum",
+        "header": "Where does it come from?",
         "text_description": "<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<\/p>"
       }
     }
