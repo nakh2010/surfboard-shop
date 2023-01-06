@@ -57,5 +57,8 @@
     font-size: 18px;
     line-height: 34px;
     }
+  .lsn-list-logo-item {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 
