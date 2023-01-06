@@ -1,7 +1,6 @@
 {{ 'component-logo-list.css' | asset_url | stylesheet_tag }}
 
-
-<div class="lsn-logo-list">
+<div id="lsn-logo-list--{{ section.id }}" class="lsn-logo-list" style="background:{{ section.settings.background_color }};">
   <div class="page-width">
     <div class="lsn-header">
       {% if section.settings.sub_header != blank %}
