@@ -3,3 +3,8 @@
   grid-template-columns: repeat(6,1fr);
   gap: 20px;
 }
+.lsn-list-logo .wrapp_image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
