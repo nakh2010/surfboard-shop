@@ -10,11 +10,6 @@
       text-transform: uppercase;
       margin: 10px 0;
 }
-.lsn-description p{
-  font-size: 18px;
-    line-height: 34px;
-    margin: 0;
-}
 .lsn-list-logo-item{
   display: grid;
   grid-template-columns: repeat(6,1fr);
@@ -44,6 +39,10 @@
   .lsn-logo-list .lsn__eyebrow {
     font-size: 24px;
     line-height: 34px;
+}
+   .lsn-description{
+  font-size: 18px;
+    line-height: 22px;
 }
 }
 
