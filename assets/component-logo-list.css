@@ -60,5 +60,8 @@
   .lsn-list-logo-item {
     grid-template-columns: repeat(2,1fr);
   }
+  .lsn-header {
+    margin-bottom: 36px;
+}
 }
 
