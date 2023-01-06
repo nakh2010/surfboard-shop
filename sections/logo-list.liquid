@@ -4,8 +4,8 @@
 <div class="lsn-logo-list">
   <div class="page-width">
     <div class="lsn-header">
-      <p class="lsn-subheading center">{{ section.settings.subheading }}</p>
-      <h3 class="lsn-heading center">{{ section.settings.heading }}</h3>
+      <p class="lsn-subheading center">{{ section.settings.sub_header }}</p>
+      <h3 class="lsn-heading center">{{ section.settings.header }}</h3>
       <div class="lsn-text_description center">{{ section.settings.text_description }}</div>
     </div>
     <div class="lsn-list-logo-item">
@@ -45,19 +45,22 @@
     "class": "lsn-section",
     "tag": "section",
     "settings": [
-      {
+       {
         "type": "text",
-        "id": "subheading",
-        "label": "Subheading"
+        "id": "sub_header",
+        "default": "Sub-heading",
+        "label": "Sub-Header"
       },
       {
         "type": "text",
-        "id": "heading",
-        "label": "Heading"
+        "id": "header",
+        "default": "Heading",
+        "label": "Header"
       },
        {
         "type": "richtext",
         "id": "text_description",
+        "default": "<p>",
         "label": "Text Description"
       }
     ],
