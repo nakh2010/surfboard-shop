@@ -4,9 +4,9 @@
   <div class="page-width">
     <div class="lsn-header">
       {% if section.settings.sub_header != blank %}
-      <span class="lsn__eyebrow center" style="color:{{ section.settings.font_color }};">
+      <p class="lsn__eyebrow center" style="color:{{ section.settings.font_color }};">
         {{ section.settings.sub_header | escape }}
-      </span>
+      </p>
     {% endif %}
      {% if section.settings.header != blank %}
       <h2 class="lsn__heading center" style="color:{{ section.settings.font_color }};">
