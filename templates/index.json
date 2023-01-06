@@ -494,10 +494,64 @@
       ],
       "settings": {
         "background_color": "#ffffff",
-        "font_color": "#005A87",
+        "font_color": "#005a87",
+        "text_color": "#000000",
         "sub_header": "Lorem Ipsum",
         "header": "Where does it come from?",
         "text_description": "<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<\/p>"
+      }
+    },
+    "6d784db5-ca87-47b2-be23-32705c5d2c95": {
+      "type": "faqs",
+      "blocks": {
+        "5ce5c5c0-ff39-4172-8edb-40d04aa92706": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem Ipsum",
+            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+          }
+        },
+        "e5dffa02-6163-49fe-bfec-7419cd989d9f": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem Ipsum",
+            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+          }
+        },
+        "f9416e6e-17f8-4ea9-ab0e-90a13f7bbc3d": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem Ipsum",
+            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+          }
+        },
+        "5a1a47b7-8adf-44e2-a2a3-f450f0cce71a": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem Ipsum",
+            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+          }
+        },
+        "86aaa51b-35af-45e7-af30-1f2273968c5f": {
+          "type": "item",
+          "settings": {
+            "question": "Lorem Ipsum",
+            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5ce5c5c0-ff39-4172-8edb-40d04aa92706",
+        "e5dffa02-6163-49fe-bfec-7419cd989d9f",
+        "f9416e6e-17f8-4ea9-ab0e-90a13f7bbc3d",
+        "5a1a47b7-8adf-44e2-a2a3-f450f0cce71a",
+        "86aaa51b-35af-45e7-af30-1f2273968c5f"
+      ],
+      "settings": {
+        "sub_header": "",
+        "header": "",
+        "label": "",
+        "link": ""
       }
     }
   },
@@ -517,6 +571,7 @@
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
     "53c726e4-4654-4b41-9515-d4db4c010a8b",
     "31263647-91e9-402b-b96d-d3c190807fdf",
-    "2cd37e9f-b05c-4cdd-898b-7f27a9417a47"
+    "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
+    "6d784db5-ca87-47b2-be23-32705c5d2c95"
   ]
 }
