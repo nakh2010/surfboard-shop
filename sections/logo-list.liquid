@@ -15,8 +15,7 @@
           endfor
         -%}
       {% for block in section.blocks %}
-      {%- assign link = block.settings.link -%}
-        <div class="lsn-list-logo-item">
+      {%- assign link = block.settings.link -%} 
         <{% if link != blank %}a href="{{ link }}"{% else %}div{% endif %} class="lsn-wr-img">      
            <span class="lsn-wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
            {%- if block.settings.image != blank -%}
@@ -31,8 +30,7 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
          {%- endif -%}
         </span>
-        </{% if link != blank %}a{% else %}div{% endif %}>
-        </div>
+        </{% if link != blank %}a{% else %}div{% endif %}>   
       {% endfor %}
     </div>
   </div>
