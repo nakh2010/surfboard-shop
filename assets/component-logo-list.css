@@ -44,6 +44,9 @@
     max-width: 464px;
     margin: auto;
 }
+  .lsn-list-logo-item {
+    grid-template-columns: repeat(3,1fr);
+  }
 }
 @media screen and (max-width: 749px){
     .lsn-description{
