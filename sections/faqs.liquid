@@ -21,7 +21,7 @@
         <div class="faq_content">
             {% for block in section.blocks %}
             <div class="faq-item {% if forloop.last %} bdr_bottom{% endif %}">
-                <h4 class="faq-heading">{{block.settings.ques}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></h4>
+                <h4 class="faq-heading">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></h4>
                 <div class="js-faq-question rte-content" style="display:none">
                 {{block.settings.paragraph}}
                 </div>
@@ -30,3 +30,60 @@
         </div>
     </div>
 </div>
+
+{% schema %}
+  {
+    "name": "FAQs",
+    "settings": [
+        {
+          "type": "text",
+          "id": "sub_header",
+          "label": "Sub-Header"
+        },
+        {
+          "type": "text",
+          "id": "header",
+          "label": "Header"
+        },
+        {
+            "type": "header",
+            "content": "Button"
+        },
+        {
+            "type": "text",
+            "id": "label",
+            "label": "Button - Text"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Button - Url"
+          }
+
+	],
+    	"blocks": [
+      {
+        "type": "item",
+        "name": "item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "question",
+            "label": "Question"
+          },
+          {
+            "type": "richtext",
+            "id": "text_description",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "category": "Custom",
+      "name": "FAQs"
+    }
+    ]
+  }
+{% endschema %}
