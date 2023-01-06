@@ -251,7 +251,11 @@
    font-size: 20px;
     line-height: 130%;
 }
-
+.lsn-description p{
+  font-size: 18px;
+    line-height: 34px;
+    margin: 0;
+}
 
 @media screen and (min-width: 1025px) {
   .lsn__heading{
@@ -268,11 +272,19 @@
     line-height: 121%;
     margin-bottom: 22px;
   }
+  .lsn-description p{
+  font-size: 18px;
+    line-height: 22px;
+}
 }
 @media screen and (max-width: 749px) {
 .lsn__heading {
     margin-top: 8px;
     margin-bottom: 18px;
+}
+   .lsn-description p{
+  font-size: 16px;
+    line-height: 18px;
 }
 }
 
