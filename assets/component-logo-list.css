@@ -48,6 +48,7 @@
 @media screen and (max-width: 749px){
     .lsn-description{
     max-width: 328px;
+          margin: auto;
     }
     .lsn-logo-list .lsn__eyebrow {
     font-size: 18px;
