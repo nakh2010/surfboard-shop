@@ -128,7 +128,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
               "link": ""
             }
@@ -136,7 +136,7 @@
           "74ce2d61-bfe7-496e-b28d-224898af65db": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
               "link": ""
             }
@@ -144,7 +144,7 @@
           "ecb3eb5d-dde8-42f6-9523-10f6096fc2c6": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
               "link": ""
             }
@@ -152,7 +152,7 @@
           "ce08ee3d-33fa-447d-90b3-a1921541dc94": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
               "link": ""
             }
@@ -224,7 +224,7 @@
         ],
         "settings": {
           "background_color": "#005a87",
-          "text_color": "#fff",
+          "text_color": "#ffffff",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
