@@ -14,7 +14,7 @@
       </h2>
     {% endif %}
      {% if section.settings.text_description != blank %}
-      <div class="lsn-text_description center" style="color:{{ section.settings.font_color }};">
+      <div class="lsn-text_description center" style="color:{{ section.settings.text_color }};">
        {{ section.settings.text_description }}
        </div>
       {% endif %}
@@ -65,8 +65,14 @@
       {
         "type": "color",
         "id": "font_color",
-        "label": "Text Color",
+        "label": "Heading Color",
         "default": "#005A87"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#000000"
       },
        {
         "type": "text",
