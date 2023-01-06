@@ -1,12 +1,27 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
+<div class="custom-faq">
+    <div class="page-width">
+        <div class="sum_heading">
+            {% if sub_header != blank %}
+            <span>{{ sub_header }}</span>
+            {% endif %}
+            {% if header != blank %}
+            <h2 class="header_cap">{{ header }}</h2>
+            {% endif %}
+            {% if label != blank %}
+            <a class="label_btn custom-style-btn" href="{{ link }}">{{ label }}</a>
+            {% endif %}
+        </div>
+        <div class="faq_content">
+            {% for block in section.blocks %}
+            <div class="faq-item {% if forloop.last %} bdr_bottom{% endif %}">
+                <h4 class="faq-heading">{{block.settings.ques}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></h4>
+                <div class="js-faq-question rte-content" style="display:none">
+                {{block.settings.paragraph}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
