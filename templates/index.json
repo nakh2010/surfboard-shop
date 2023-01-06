@@ -437,6 +437,66 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "2cd37e9f-b05c-4cdd-898b-7f27a9417a47": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-0": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-empty.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-1": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-empty.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-2": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-empty.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-3": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-empty.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-4": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-empty.png",
+            "link": ""
+          }
+        },
+        "c34e25c0-8fcb-4787-95bd-35e60df4191c": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-empty.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-0",
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-1",
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-2",
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-3",
+        "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-4",
+        "c34e25c0-8fcb-4787-95bd-35e60df4191c"
+      ],
+      "settings": {
+        "subheading": "Lorem Ipsum",
+        "heading": "Where does it come from?",
+        "text_description": "<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<\/p>"
+      }
     }
   },
   "order": [
@@ -454,6 +514,7 @@
     "2bac5155-b74f-4a51-bff4-da75eee511a7",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
     "53c726e4-4654-4b41-9515-d4db4c010a8b",
-    "31263647-91e9-402b-b96d-d3c190807fdf"
+    "31263647-91e9-402b-b96d-d3c190807fdf",
+    "2cd37e9f-b05c-4cdd-898b-7f27a9417a47"
   ]
 }
