@@ -41,8 +41,10 @@
     line-height: 34px;
 }
    .lsn-description{
-  font-size: 18px;
-    line-height: 22px;
+    max-width: 464px;
+    margin: auto;
 }
+
+  
 }
 
