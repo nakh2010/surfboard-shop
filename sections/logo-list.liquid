@@ -4,9 +4,19 @@
 <div class="lsn-logo-list">
   <div class="page-width">
     <div class="lsn-header">
-      <p class="lsn-subheading center">{{ section.settings.sub_header }}</p>
-      <h3 class="lsn-heading center">{{ section.settings.header }}</h3>
+      {% if section.settings.sub_header != blank %}
+      <span class="lsn__eyebrow center" style="color:{{ section.settings.font_color }};">
+        {{ section.settings.sub_header | escape }}
+      </span>
+    {% endif %}
+     {% if section.settings.header != blank %}
+      <h2 class="lsn__heading center" style="color:{{ section.settings.font_color }};">
+        {{ section.settings.header | escape }}
+      </h2>
+    {% endif %}
+     {% if section.settings.text_description != blank %}
       <div class="lsn-text_description center">{{ section.settings.text_description }}</div>
+      {% endif %}
     </div>
     <div class="lsn-list-logo-item">
        {%- liquid
