@@ -1,0 +1,76 @@
+<div class="lsn-logo-list">
+  <div class="page-width">
+    <div class="lsn-list-logo">
+      {% for block in section.blocks %}
+      {%- assign link = block.settings.link -%}
+        <div class="lsn-list-logo-item">
+        <{% if link != blank %}a href="{{ link }}"{% else %}div{% endif %} class="lsn-wr-img">      
+           <span class="lsn-wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
+           {%- if block.settings.image != blank -%}
+              {%- capture sizes -%}(min-width: 1025px) 480px, (min-width: 750px) 480px, calc(100vw - 30px){%- endcapture -%}
+              {{ block.settings.image | image_url: width: 1420 | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '275, 550, 710, 1420',
+                class: 'multicolumn-card__image'
+              }}
+          {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+         {%- endif -%}
+        </span>
+        </{% if link != blank %}a{% else %}div{% endif %}>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Logo list",
+    "class": "lsn-section",
+    "tag": "section",
+    "settings": [
+
+  ],
+      "blocks": [
+      {
+        "type": "Thumbnails",
+        "name": "Thumbnails",
+        "settings": [
+         {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Logo list",
+      "blocks": [
+        {
+          "type": "Thumbnails"
+        },
+        {
+          "type": "Thumbnails"
+        },
+        {
+          "type": "Thumbnails"
+        },
+        {
+          "type": "Thumbnails"
+        },
+        {
+          "type": "Thumbnails"
+        }
+      ]
+    }
+    ]
+  }
+{% endschema %}
