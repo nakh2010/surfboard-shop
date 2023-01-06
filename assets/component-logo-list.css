@@ -1,14 +1,14 @@
-.lsn-list-logo{
+.lsn-list-logo-item{
   display: grid;
   grid-template-columns: repeat(6,1fr);
   gap: 20px;
 }
-.lsn-list-logo .lsn-wrapp_image {
+.lsn-list-logo-item .lsn-wrapp_image {
     display: block;
     position: relative;
     overflow: hidden;
 }
-.lsn-list-logo .lsn-wrapp_image img {
+.lsn-list-logo-item .lsn-wrapp_image img {
     display: block;
     max-width: 100%;
     position: absolute;
