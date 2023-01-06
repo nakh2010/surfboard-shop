@@ -3966,6 +3966,6 @@ $(document).ready(function(){
       autoplay: true,
       arrows: false,
       dots: false,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 3000,
   });
 });
