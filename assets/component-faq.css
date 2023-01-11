@@ -13,7 +13,7 @@
     position: relative;
     padding-right: 40px;
 }
-.lsn-faq .faq_content{
+.lsn-faqs .faq_content{
     -ms-flex: 0 0 58%;
     flex: 0 0 58%;
     max-width: 58%;
@@ -45,10 +45,8 @@
     padding-bottom: 20px;
 }
 .faq_content .faq-item .rte-content p {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 20px;
     display: block;
     margin: 0;
 }
