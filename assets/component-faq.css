@@ -1,0 +1,21 @@
+.lsn-faqs{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.lsn-faqs .sum_heading {
+    -ms-flex: 0 0 42%;
+    flex: 0 0 42%;
+    max-width: 42%;
+    position: relative;
+    padding-right: 40px;
+}
+.lsn-faq .faq_content {
+    -ms-flex: 0 0 58%;
+    flex: 0 0 58%;
+    max-width: 58%;
+    position: relative;
+}
