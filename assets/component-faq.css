@@ -20,13 +20,14 @@
     position: relative;
 }
 .faq_content .faq-item {
-    border-top: 1px solid #B3B3B3;
+    border-top: 0.5px solid #005A87;
 }
 .faq_content .faq-item .faq-heading {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    letter-spacing: 0.01em;
     margin: 0;
     padding: 19px 0;
     cursor: pointer;
