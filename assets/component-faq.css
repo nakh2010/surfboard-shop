@@ -13,9 +13,79 @@
     position: relative;
     padding-right: 40px;
 }
-.lsn-faq .faq_content {
+.lsn-faq .faq_content{
     -ms-flex: 0 0 58%;
     flex: 0 0 58%;
     max-width: 58%;
     position: relative;
+}
+.faq_content .faq-item {
+    border-top: 1px solid #B3B3B3;
+}
+.faq_content .faq-item .faq-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding: 19px 0;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq_content .faq-item .rte-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.faq_content .faq-item .rte-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    margin: 0;
+}
+.lsn-faqs .sum_heading .lsn__eyebrow {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    margin: 0;
+}
+.lsn-faqs .sum_heading .header_cap {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    display: block;
+    margin: 10px 0 0;
+}
+.lsn-faqs .lsn-style-btn{
+    margin-top: 50px;
+}
+.lsn-style-btn{
+    outline: none;
+    font-style: normal;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 17px 30px;
+    display: inline-block;
+    letter-spacing: 0;
+    text-decoration: none;
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
