@@ -21,7 +21,7 @@
         <div class="faq_content">
             {% for block in section.blocks %}
             <div class="faq-item {% if forloop.last %} bdr_bottom{% endif %}">
-                <h4 class="faq-heading">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></h4>
+                <p class="faq-heading">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></p>
                 <div class="js-faq-question rte-content" style="display:none">
                 {{block.settings.text_body}}
                 {%- if block.settings.video_url.type == "youtube" -%}
@@ -30,19 +30,27 @@
                 {%- if block.settings.video_url.type == "vimeo" -%}
                 <iframe src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}?controls=0&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=1" width="850" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                 {%- endif -%} 
-                <span class="lsn-wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
-                {%- if block.settings.image != blank -%}
-                {%- capture sizes -%}(min-width: 1025px) 480px, (min-width: 750px) 480px, calc(100vw - 30px){%- endcapture -%}
-                {{ block.settings.image | image_url: width: 1420 | image_tag:
-                loading: 'lazy',
-                sizes: sizes,
-                widths: '275, 550, 710, 1420',
-                class: 'multicolumn-card__image'
-                }}
+                {%- if section.settings.image != blank -%}
+                <div class="lsn_faq_img">          
+                    <img
+                      srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                        {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                        {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                        {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                        {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                        {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                        {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | image_url: width: 1500 }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy"
+                    >
+                </div>
                 {%- else -%}
+                <div class="lsn_faq_img">
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
                 {%- endif -%}
-                </span> 
                 </div>
             </div>
             {% endfor %}
