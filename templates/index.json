@@ -508,35 +508,41 @@
           "type": "item",
           "settings": {
             "question": "Lorem Ipsum",
-            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
+            "image": "shopify:\/\/shop_images\/65-35-2.jpg"
           }
         },
         "e5dffa02-6163-49fe-bfec-7419cd989d9f": {
           "type": "item",
           "settings": {
             "question": "Lorem Ipsum",
-            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": ""
           }
         },
         "f9416e6e-17f8-4ea9-ab0e-90a13f7bbc3d": {
           "type": "item",
           "settings": {
             "question": "Lorem Ipsum",
-            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": ""
           }
         },
         "5a1a47b7-8adf-44e2-a2a3-f450f0cce71a": {
           "type": "item",
           "settings": {
             "question": "Lorem Ipsum",
-            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": ""
           }
         },
         "86aaa51b-35af-45e7-af30-1f2273968c5f": {
           "type": "item",
           "settings": {
             "question": "Lorem Ipsum",
-            "text_description": "<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.<\/p>"
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": ""
           }
         }
       },
