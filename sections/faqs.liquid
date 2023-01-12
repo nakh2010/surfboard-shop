@@ -23,7 +23,26 @@
             <div class="faq-item {% if forloop.last %} bdr_bottom{% endif %}">
                 <h4 class="faq-heading">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></h4>
                 <div class="js-faq-question rte-content" style="display:none">
-                {{block.settings.paragraph}}
+                {{block.settings.text_body}}
+                {%- if block.settings.video_url.type == "youtube" -%}
+                <iframe src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                {%- endif -%}
+                {%- if block.settings.video_url.type == "vimeo" -%}
+                <iframe src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}?controls=0&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=1" width="850" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                {%- endif -%} 
+                <span class="lsn-wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
+                {%- if block.settings.image != blank -%}
+                {%- capture sizes -%}(min-width: 1025px) 480px, (min-width: 750px) 480px, calc(100vw - 30px){%- endcapture -%}
+                {{ block.settings.image | image_url: width: 1420 | image_tag:
+                loading: 'lazy',
+                sizes: sizes,
+                widths: '275, 550, 710, 1420',
+                class: 'multicolumn-card__image'
+                }}
+                {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                </span> 
                 </div>
             </div>
             {% endfor %}
@@ -71,12 +90,25 @@
           {
             "type": "text",
             "id": "question",
-            "label": "Question"
+            "label": "Question",
+            "default": "Question title"
           },
           {
             "type": "richtext",
-            "id": "text_description",
-            "label": "Content"
+            "id": "text_body",
+            "label": "Content",
+            "default": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.</p>"
+          },
+          {
+          "type": "video_url",
+          "id": "video_url",
+          "label": "Video link",
+          "accept": ["youtube", "vimeo"]
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
           }
         ]
       }
