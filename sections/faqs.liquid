@@ -18,11 +18,11 @@
             <a class="label_btn lsn-style-btn" href="{{ link }}">{{ label }}</a>
             {% endif %}
         </div>
-        <div class="faq_content">
+        <div class="lsn-faq_content">
             {% for block in section.blocks %}
-            <div class="faq-item {% if forloop.last %} bdr_bottom{% endif %}">
-                <p class="faq-heading">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></p>
-                <div class="js-faq-question rte-content" style="display:none">
+            <div class="lsn-faq-item {% if forloop.last %} bdr_bottom{% endif %}">
+                <p class="lsn-faq-heading">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></p>
+                <div class="lsn-js-faq-question rte-content" style="display:none">
                 {{block.settings.text_body}}
                 {%- if block.settings.video_url.type == "youtube" -%}
                 <iframe src="//www.youtube.com/embed/{{ block.settings.video_url.id }}?rel=0&showinfo=0&vq=720" width="850" height="480" frameborder="0" allow="autoplay" allowfullscreen></iframe>
