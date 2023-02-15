@@ -9,7 +9,7 @@
 
 <div class="lsn-faqs-wapper">
     <div class="page-width lsn-faqs">
-        <div class="lsn-faq_question">
+        <div class="sum_heading">
             {% if sub_header != blank %}
             <p class="lsn__eyebrow">{{ sub_header }}</p>
             {% endif %}
@@ -20,9 +20,9 @@
             <a class="label_btn lsn-style-btn" href="{{ link }}">{{ label }}</a>
             {% endif %}
         </div>
-        <div class="lsn-faq_body">
+        <div class="lsn-faq_content">
             {% for block in section.blocks %}
-            <div class="lsn-faq-item{% if forloop.last %} bdr_bottom{% endif %}">
+            <div class="lsn-faq-item {% if forloop.last %}bdr_bottom{% endif %}">
                 <p class="lsn-faq-question">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></p>
                 <div class="lsn-js-faq-body rte-content" style="display:none">
                 {{block.settings.text_body}}
@@ -32,21 +32,25 @@
                 {%- if block.settings.video_url.type == "vimeo" -%}
                 <iframe src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}?controls=0&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;muted=1" width="850" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
                 {%- endif -%} 
-                {%- if block.settings.image != blank -%}
+                {%- if section.settings.image != blank -%}
                 <div class="lsn_faq_img">          
                     <img
-                      srcset="{%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-                        {%- if block.settings.image.width >= 360 -%}{{ block.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                        {%- if block.settings.image.width >= 535 -%}{{ block.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-                        {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                        {%- if block.settings.image.width >= 1070 -%}{{ block.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-                        {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
-                      src="{{ block.settings.image | image_url: width: 1500 }}"
+                      srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                        {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                        {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                        {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                        {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                        {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                        {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                      src="{{ section.settings.image | image_url: width: 1500 }}"
                       sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
+                      alt="{{ section.settings.image.alt | escape }}"
                       loading="lazy"
                     >
+                </div>
+                {%- else -%}
+                <div class="lsn_faq_img">
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                 </div>
                 {%- endif -%}
                 </div>
