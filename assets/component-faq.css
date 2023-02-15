@@ -41,7 +41,7 @@
 .lsn-section-faq .lsn-faqs .lsn-faq_content .lsn-faq-question.open{
       border-bottom: 0.5px solid #005A87;
 }
-.lsn-section-faq .lsn-faq_body .faq-item .rte-content {
+.lsn-section-faq .lsn-js-faq-body .faq-item .rte-content {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -50,7 +50,7 @@
     margin: 0;
     padding-bottom: 20px;
 }
-.lsn-section-faq .lsn-faq_body .faq-item p {
+.lsn-section-faq .lsn-js-faq-body .faq-item p {
     font-size: 16px;
     line-height: 20px;
     display: block;
