@@ -504,54 +504,45 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95": {
       "type": "faqs",
       "blocks": {
-        "5ce5c5c0-ff39-4172-8edb-40d04aa92706": {
-          "type": "item",
+        "6f6c8bbd-0898-4700-b8dd-7355b3f18c81": {
+          "type": "Item",
           "settings": {
-            "question": "Lorem Ipsum",
+            "question": "Question title",
             "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8"
+          }
+        },
+        "91c35506-580b-4cfd-af69-1cdba86dc1d1": {
+          "type": "Item",
+          "settings": {
+            "question": "Question title",
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": "",
             "image": "shopify:\/\/shop_images\/65-35-2.jpg"
           }
         },
-        "e5dffa02-6163-49fe-bfec-7419cd989d9f": {
-          "type": "item",
+        "45e0f12d-3066-46cc-ab06-225c255644fa": {
+          "type": "Item",
           "settings": {
-            "question": "Lorem Ipsum",
+            "question": "Question title",
             "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
             "video_url": ""
           }
         },
-        "f9416e6e-17f8-4ea9-ab0e-90a13f7bbc3d": {
-          "type": "item",
+        "10b4cbc3-d626-4c10-a594-3add3b0b86f1": {
+          "type": "Item",
           "settings": {
-            "question": "Lorem Ipsum",
-            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
-            "video_url": ""
-          }
-        },
-        "5a1a47b7-8adf-44e2-a2a3-f450f0cce71a": {
-          "type": "item",
-          "settings": {
-            "question": "Lorem Ipsum",
-            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
-            "video_url": ""
-          }
-        },
-        "86aaa51b-35af-45e7-af30-1f2273968c5f": {
-          "type": "item",
-          "settings": {
-            "question": "Lorem Ipsum",
+            "question": "Question title",
             "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
             "video_url": ""
           }
         }
       },
       "block_order": [
-        "5ce5c5c0-ff39-4172-8edb-40d04aa92706",
-        "e5dffa02-6163-49fe-bfec-7419cd989d9f",
-        "f9416e6e-17f8-4ea9-ab0e-90a13f7bbc3d",
-        "5a1a47b7-8adf-44e2-a2a3-f450f0cce71a",
-        "86aaa51b-35af-45e7-af30-1f2273968c5f"
+        "6f6c8bbd-0898-4700-b8dd-7355b3f18c81",
+        "91c35506-580b-4cfd-af69-1cdba86dc1d1",
+        "45e0f12d-3066-46cc-ab06-225c255644fa",
+        "10b4cbc3-d626-4c10-a594-3add3b0b86f1"
       ],
       "settings": {
         "sub_header": "Surfing",
