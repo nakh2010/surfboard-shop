@@ -78,6 +78,9 @@
 .lsn-section-faq .lsn-faq_body{
       padding: 20px 0;
 }
+.lsn-section-faq .lsn-faq_content .lsn-faq-question.open svg{
+        transition: transform .3s ease-out;
+}
 .lsn-section-faq .lsn-faq_content .lsn-faq-question.open .icon-minus{
   display: block;
 }
