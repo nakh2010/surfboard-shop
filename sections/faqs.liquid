@@ -22,7 +22,7 @@
         </div>
         <div class="lsn-faq_content">
             {% for block in section.blocks %}
-            <div class="lsn-faq-item {% if forloop.first %}open {% endif %}bdr_bottom">
+            <div class="lsn-faq-item bdr_bottom">
                 <p class="lsn-faq-question">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></p>
                 <div class="lsn-js-faq-body rte-content" style="display:none">
                 {{block.settings.text_body}}
