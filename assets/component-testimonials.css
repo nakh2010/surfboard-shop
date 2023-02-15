@@ -1,24 +1,24 @@
-.custom_quote.bg_style_color .wrapp_quote{
+.custom_testimonials.bg_style_color .wrapp_testimonials{
     display: block;
     text-align: center;
     padding: 62px;
 }
-.custom_quote .wrapp_quote{
+.custom_testimonials .wrapp_testimonials{
     
 }
-.custom_quote.bg_style_color .sum_quote{
+.custom_testimonials.bg_style_color .sum_testimonials{
     display: block;
     margin: 0 auto;
     max-width: 800px;
 }
-.custom_quote.bg_style_transparent .sum_quote{
+.custom_testimonials.bg_style_transparent .sum_testimonials{
     display: block;
     margin: 0 auto;
     text-align: center;
     padding: 0 80px;
     text-align: center;
 }
-.custom_quote .sum_quote span{
+.custom_testimonials .sum_testimonials span{
     font-size: 16px;
     line-height: 19px;
     margin: 0;
@@ -26,44 +26,44 @@
     display: block;
     margin-bottom: 35px;
 }
-.custom_quote .sum_quote div{
+.custom_testimonials .sum_testimonials div{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
     display: block;
 }
-.custom_quote.bg_style_transparent .sum_quote div {
+.custom_testimonials.bg_style_transparent .sum_testimonials div {
     text-align: left;
 }
-.custom_quote .sum_quote .custom-style-btn{
+.custom_testimonials .sum_testimonials .custom-style-btn{
     margin-top: 35px;
 }
 @media screen and (max-width: 1119px) {
-    .custom_quote.bg_style_transparent .sum_quote div {
+    .custom_testimonials.bg_style_transparent .sum_testimonials div {
         text-align: center;
     }
-    .custom_quote.bg_style_color .wrapp_quote {
+    .custom_testimonials.bg_style_color .wrapp_testimonials {
         padding: 50px;
     }
-    .custom_quote.bg_style_transparent .sum_quote {
+    .custom_testimonials.bg_style_transparent .sum_testimonials {
         padding: 0 50px;
     }
 }
 @media screen and (max-width:739px) {
-    .custom_quote.bg_style_color .wrapp_quote {
+    .custom_testimonials.bg_style_color .wrapp_testimonials {
         padding: 80px 20px;
     }
-    .custom_quote .page-width{
+    .custom_testimonials .page-width{
         padding: 0;
     }
-    .custom_quote.bg_style_transparent .sum_quote {
+    .custom_testimonials.bg_style_transparent .sum_testimonials {
         padding: 0 20px;
     }
     
 }
 @media screen and (max-width:379px) {
-.custom_quote .sum_quote div {
+.custom_testimonials .sum_testimonials div {
     font-size: 20px;
     line-height: 32px;
 }
