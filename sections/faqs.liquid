@@ -9,7 +9,7 @@
 
 <div class="lsn-faqs-wapper">
     <div class="page-width lsn-faqs">
-        <div class="lsn-faq_heading">
+        <div class="lsn-faq_question">
             {% if sub_header != blank %}
             <p class="lsn__eyebrow">{{ sub_header }}</p>
             {% endif %}
@@ -20,7 +20,7 @@
             <a class="label_btn lsn-style-btn" href="{{ link }}">{{ label }}</a>
             {% endif %}
         </div>
-        <div class="lsn-faq_content">
+        <div class="lsn-faq_body">
             {% for block in section.blocks %}
             <div class="lsn-faq-item {% if forloop.last %}bdr_bottom{% endif %}">
                 <p class="lsn-faq-question">{{block.settings.question}}<span>{% render 'icon-plus-faq' %}{% render 'icon-minus-faq' %}</span></p>
