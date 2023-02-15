@@ -259,6 +259,22 @@
 .bdr_bottom{
   border-bottom: 0.5px solid #005A87;
 }
+.lsn-video{
+  overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.lsn-video iframe,
+.lsn-video video{
+  left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    border: none;
+}
 @media screen and (min-width: 1025px) {
   .lsn__heading{
      font-style: normal;
