@@ -68,3 +68,9 @@
 .lsn-section-faq .lsn-faq-item.open .lsn-js-faq-body{
   display: block;
 }
+.lsn_faq_img img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
