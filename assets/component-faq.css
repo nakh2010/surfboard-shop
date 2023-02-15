@@ -80,6 +80,9 @@
   width: 100%;
   max-width: 100%;
 }
+.lsn_faq_img{
+  margin-top: 15px;
+}
 .lsn-section-faq .lsn-faq_body{
       padding: 20px 0;
 }
