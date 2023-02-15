@@ -4,40 +4,40 @@
 {% assign text_color = section.settings.text_color %}
 
 {% assign eyebrow = section.settings.eyebrow %}
-{% assign quote = section.settings.quote %}
+{% assign testimonials = section.settings.testimonials %}
 
 {% assign label = section.settings.label %}
 {% assign link = section.settings.link %}
 
-{{ 'component-quote.css' | asset_url | stylesheet_tag }}
+{{ 'component-testimonials.css' | asset_url | stylesheet_tag }}
 
 {% style %}
     {% if bg_style == 'color' %}
-    #section-quote-{{ section.id }} .wrapp_quote{
+    #section-testimonials-{{ section.id }} .wrapp_testimonials{
       background-color: {{ bg_color }};
       border-radius: 20px;
       overflow: hidden;
     }
-    #section-quote-{{ section.id }} .wrapp_quote *{
+    #section-testimonials-{{ section.id }} .wrapp_testimonials *{
       color: {{ text_color }};
     }
     {% else %}
-      #section-quote-{{ section.id }} .wrapp_quote{
+      #section-testimonials-{{ section.id }} .wrapp_testimonials{
         background: transparent;
         color: {{ text_color }};
     }
     {% endif %}
 {% endstyle %}
 
-<div id="section-quote-{{ section.id }}" class="custom_quote bg_style_{{ bg_style }}">
+<div id="section-testimonials-{{ section.id }}" class="custom_testimonials bg_style_{{ bg_style }}">
     <div class="page-width">
-        <div class="wrapp_quote">
-            <div class="sum_quote">
+        <div class="wrapp_testimonials">
+            <div class="sum_testimonials">
                 {% if eyebrow != blank %}
                 <span>{{ eyebrow }}</span>
                 {% endif %}
-                {% if quote != blank %}
-                <div>{{ quote }}</div>
+                {% if testimonials != blank %}
+                <div>{{ testimonials }}</div>
                 {% endif %}
                 {% if label != blank %}
                 <a class="label_btn custom-style-btn" href="{{ link }}">{{ label }}</a>
@@ -51,7 +51,7 @@
 
 {% schema %}
   {
-    "name": "Quote",
+    "name": "testimonials",
     "class": "pdp-design",
     "settings": [
       {
@@ -93,8 +93,8 @@
       },
       {
         "type": "textarea",
-        "id": "quote",
-        "label": "Quote"
+        "id": "testimonials",
+        "label": "testimonials"
       },
       {
         "type": "header",
@@ -114,7 +114,7 @@
     "presets": [
     {
       "category": "Custom",
-      "name": "Quote"
+      "name": "testimonials"
     }
     ]
   }
