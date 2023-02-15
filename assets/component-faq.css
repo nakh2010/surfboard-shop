@@ -13,16 +13,16 @@
     position: relative;
     padding-right: 40px;
 }
-.lsn-faqs .faq_content{
+.lsn-faqs .lsn-faq_content{
     -ms-flex: 0 0 58%;
     flex: 0 0 58%;
     max-width: 58%;
     position: relative;
 }
-.faq_content .faq-item {
+.lsn-faq_content .faq-item {
     border-top: 0.5px solid #005A87;
 }
-.faq_content .faq-item .faq-heading {
+.lsn-faq_content .faq-item .faq-heading {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.faq_content .faq-item .rte-content {
+.lsn-faq_content .faq-item .rte-content {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -45,7 +45,7 @@
     margin: 0;
     padding-bottom: 20px;
 }
-.faq_content .faq-item .rte-content p {
+.lsn-faq_content .faq-item .rte-content p {
     font-size: 16px;
     line-height: 20px;
     display: block;
