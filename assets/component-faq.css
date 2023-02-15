@@ -48,7 +48,7 @@
     line-height: 19px;
     display: block;
     margin: 0;
-    padding-bottom: 20px;
+        padding: 20px 0;
 }
 .lsn-section-faq .lsn-js-faq-body p {
     font-size: 16px;
