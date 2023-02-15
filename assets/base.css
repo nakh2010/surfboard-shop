@@ -276,6 +276,7 @@
     object-fit: cover;
     border: none;
 }
+
 @media screen and (min-width: 1025px) {
   .lsn__heading{
      font-style: normal;
