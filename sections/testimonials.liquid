@@ -1,0 +1,121 @@
+{% assign bg_style = section.settings.bg_style %}
+{% assign bg_color = section.settings.bg_color %}
+
+{% assign text_color = section.settings.text_color %}
+
+{% assign eyebrow = section.settings.eyebrow %}
+{% assign quote = section.settings.quote %}
+
+{% assign label = section.settings.label %}
+{% assign link = section.settings.link %}
+
+{{ 'component-quote.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    {% if bg_style == 'color' %}
+    #section-quote-{{ section.id }} .wrapp_quote{
+      background-color: {{ bg_color }};
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    #section-quote-{{ section.id }} .wrapp_quote *{
+      color: {{ text_color }};
+    }
+    {% else %}
+      #section-quote-{{ section.id }} .wrapp_quote{
+        background: transparent;
+        color: {{ text_color }};
+    }
+    {% endif %}
+{% endstyle %}
+
+<div id="section-quote-{{ section.id }}" class="custom_quote bg_style_{{ bg_style }}">
+    <div class="page-width">
+        <div class="wrapp_quote">
+            <div class="sum_quote">
+                {% if eyebrow != blank %}
+                <span>{{ eyebrow }}</span>
+                {% endif %}
+                {% if quote != blank %}
+                <div>{{ quote }}</div>
+                {% endif %}
+                {% if label != blank %}
+                <a class="label_btn custom-style-btn" href="{{ link }}">{{ label }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Quote",
+    "class": "pdp-design",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Background section"
+      },
+      {
+        "type": "select",
+        "id": "bg_style",
+        "label": "Background Style",
+        "default": "color",
+        "options": [
+          {
+            "value": "color",
+            "label": "Color"
+          },
+        {
+        "value": "transparent",
+        "label": "Transparent"
+        }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "default": "#FFFFFF",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "default": "#000000",
+        "label": "Text Color"
+      },
+      {
+        "type": "text",
+        "id": "eyebrow",
+        "label": "Eyebrow"
+      },
+      {
+        "type": "textarea",
+        "id": "quote",
+        "label": "Quote"
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "label",
+        "label": "Button label"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Button URL"
+      }
+    ],
+    "presets": [
+    {
+      "category": "Custom",
+      "name": "Quote"
+    }
+    ]
+  }
+{% endschema %}
