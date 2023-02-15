@@ -550,6 +550,18 @@
         "label": "Learn more",
         "link": "#"
       }
+    },
+    "1a8a346b-0817-4df6-a5fd-b8cde55a1199": {
+      "type": "testimonials",
+      "settings": {
+        "bg_style": "color",
+        "bg_color": "#FFFFFF",
+        "text_color": "#000000",
+        "eyebrow": "",
+        "testimonials": "",
+        "label": "",
+        "link": ""
+      }
     }
   },
   "order": [
@@ -569,6 +581,7 @@
     "53c726e4-4654-4b41-9515-d4db4c010a8b",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
-    "6d784db5-ca87-47b2-be23-32705c5d2c95"
+    "6d784db5-ca87-47b2-be23-32705c5d2c95",
+    "1a8a346b-0817-4df6-a5fd-b8cde55a1199"
   ]
 }
