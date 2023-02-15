@@ -63,25 +63,3 @@
     display: block;
     margin: 10px 0 0;
 }
-.lsn-section-faq .lsn-faqs .lsn-style-btn{
-    margin-top: 30px;
-}
-.lsn-section-faq .lsn-style-btn{
-    outline: none;
-    font-style: normal;
-    border-radius: 50px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    padding: 11px 18px;
-    display: inline-block;
-    letter-spacing: 0;
-    text-decoration: none;
-    border: 1px solid #000;
-    background: transparent;
-    color: #000;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-}
