@@ -65,3 +65,6 @@
     display: block;
     margin: 10px 0 0;
 }
+.lsn-section-faq .lsn-faq-item.open .lsn-js-faq-body{
+  display: block;
+}
