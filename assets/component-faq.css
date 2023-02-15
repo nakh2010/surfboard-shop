@@ -81,11 +81,13 @@
 .lsn-section-faq .lsn-faq_content .lsn-faq-question.open svg{
         transition: transform .3s ease-out;
 }
-.lsn-section-faq .lsn-faq_content .lsn-faq-question.open .icon-minus{
-  display: block;
-}
+.lsn-section-faq .lsn-faq_content .lsn-faq-question .icon-minus,
 .lsn-section-faq .lsn-faq_content .lsn-faq-question.open .icon-plus{
   display: none;
 }
+.lsn-section-faq .lsn-faq_content .lsn-faq-question.open .icon-minus{
+  display: block;
+}
+
 
 
