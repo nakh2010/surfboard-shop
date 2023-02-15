@@ -111,5 +111,11 @@
     font-size: 16px;
     line-height: 22px;
   }
+  .lsn-section-faq .lsn-faqs .lsn-faq_content,
+  .lsn-section-faq .lsn-faqs .sum_heading{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
