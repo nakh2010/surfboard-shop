@@ -53,7 +53,7 @@
     font-size: 16px;
     line-height: 20px;
     display: block;
-    margin: 0;
+    margin-bottom: 15px;
 }
 .lsn-section-faq .sum_heading .lsn__eyebrow {
     font-size: 16px;
@@ -71,6 +71,10 @@
 }
 .lsn-section-faq .lsn-faq-item.open .lsn-js-faq-body{
   display: block;
+}
+.lsn_faq_img,
+.lsn-section-faq .lsn-video{
+  margin-bottom: 15px;
 }
 .lsn_faq_img img{
   width: 100%;
