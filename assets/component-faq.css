@@ -117,5 +117,8 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .lsn-section-faq .lsn-faqs{
+    row-gap: 20px;
+  }
 }
 
