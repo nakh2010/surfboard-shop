@@ -256,7 +256,9 @@
     line-height: 34px;
     margin: 0;
 }
-
+.bdr_bottom{
+  border-bottom: 0.5px solid #005A87;
+}
 @media screen and (min-width: 1025px) {
   .lsn__heading{
      font-style: normal;
