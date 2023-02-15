@@ -22,7 +22,7 @@
 .lsn-section-faq .lsn-faq_body .faq-item {
     border-top: 0.5px solid #005A87;
 }
-.lsn-section-faq .lsn-faqs .lsn-faq_content .lsn-faq-question{
+.lsn-section-faq .lsn-faq_content .lsn-faq-question{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -38,7 +38,7 @@
     justify-content: space-between;
   position: relative;
 }
-.lsn-section-faq .lsn-faqs .lsn-faq_content .lsn-faq-question.open{
+.lsn-section-faq .lsn-faq_content .lsn-faq-question.open{
       border-bottom: 0.5px solid #005A87;
 }
 .lsn-section-faq .lsn-js-faq-body{
@@ -56,13 +56,13 @@
     display: block;
     margin: 0;
 }
-.lsn-section-faq .lsn-faqs .sum_heading .lsn__eyebrow {
+.lsn-section-faq .sum_heading .lsn__eyebrow {
     font-size: 16px;
     line-height: 20px;
     display: block;
     margin: 0;
 }
-.lsn-section-faq .lsn-faqs .sum_heading .header_cap {
+.lsn-section-faq .sum_heading .header_cap {
     font-size: 34px;
     line-height: 34px;
     display: block;
@@ -75,10 +75,14 @@
   width: 100%;
   max-width: 100%;
 }
-.lsn-section-faq .lsn-faq_body {
+.lsn-section-faq .lsn-faq_body{
       padding: 20px 0;
 }
-
-
+.lsn-section-faq .lsn-faq_content .lsn-faq-question.open .icon-minus{
+  display: block;
+}
+.lsn-section-faq .lsn-faq_content .lsn-faq-question.open .icon-plus{
+  display: none;
+}
 
 
