@@ -46,9 +46,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    display: block;
     margin: 0;
-        padding: 20px 0;
+        padding: 20px;
 }
 .lsn-section-faq .lsn-js-faq-body p {
     font-size: 16px;
