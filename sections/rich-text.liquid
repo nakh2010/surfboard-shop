@@ -1,31 +1,38 @@
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+{{ 'component-rte.css' | asset_url | stylesheet_tag }}
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+{% assign bg_style = section.settings.bg_style %}
+{% assign bg_color = section.settings.bg_color %}
+{% assign text_color = section.settings.text_color %}
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+{% style %}
+    {% if bg_style == 'color' %}
+    #section-rich_text-{{ section.id }}{
+      background-color: {{ bg_color }};
+      border-radius: 20px;
+      overflow: hidden;
     }
-  }
-{%- endstyle -%}
+    #section-rich_text-{{ section.id }} .rich-text__wrapper *{
+      color: {{ text_color }};
+    }
+    {% else %}
+    #section-rich_text-{{ section.id }}{
+        background: transparent;
+    }
+    #section-rich_text-{{ section.id }} .rich-text__wrapper *{
+      color: {{ text_color }};
+    }
+    {% endif %}
+{% endstyle %}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+<div id="section-rich_text-{{ section.id }}" class="lsn_block-rich_text bg_style_{{ bg_style }}">
+  <div class="rich-text content-container section-{{ section.id }}-padding">
+    <div class="rich-text__wrapper">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
-              <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2 class="rich-text__heading rte {{ block.settings.heading_size }}">
                 {{ block.settings.heading | replace: 'p>', 'span>' }}
               </h2>
             {%- when 'caption' -%}
@@ -33,7 +40,7 @@
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
-              <div class="rich-text__text rte" {{ block.shopify_attributes }}>
+              <div class="rich-text__text rte">
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
@@ -54,7 +61,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.rich-text.name",
+  "name": "Rich text",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -64,20 +71,20 @@
       "options": [
         {
           "value": "left",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
+          "label": "left"
         },
         {
           "value": "center",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
+          "label": "center"
         },
         {
           "value": "right",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
+          "label": "right"
         }
       ],
       "default": "center",
-      "label": "t:sections.rich-text.settings.desktop_content_position.label",
-      "info": "t:sections.rich-text.settings.desktop_content_position.info"
+      "label": "Position content",
+      "info": "Position is automatically optimized for mobile."
     },
     {
       "type": "select",
@@ -85,78 +92,52 @@
       "options": [
         {
           "value": "left",
-          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+          "label": "left"
         },
         {
           "value": "center",
-          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+          "label": "center"
         },
         {
           "value": "right",
-          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+          "label": "right"
         }
       ],
       "default": "center",
-      "label": "t:sections.rich-text.settings.content_alignment.label"
+      "label": "center"
     },
-    {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "full_width",
-      "default": true,
-      "label": "t:sections.rich-text.settings.full_width.label"
-    },
-    {
+      {
       "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 40
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
-    }
+      "content": "Background section"
+      },
+      {
+        "type": "select",
+        "id": "bg_style",
+        "label": "Background Style",
+        "default": "color",
+        "options": [
+          {
+            "value": "color",
+            "label": "Color"
+          },
+        {
+        "value": "transparent",
+        "label": "Transparent"
+        }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "default": "#FFFFFF",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "default": "#000000",
+        "label": "Text Color"
+      }
   ],
   "blocks": [
     {
@@ -303,7 +284,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Rich text",
       "blocks": [
         {
           "type": "heading"
