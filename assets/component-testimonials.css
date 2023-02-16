@@ -33,9 +33,31 @@
 .lsn_block-testimonials.bg_style_transparent .sum_testimonials div {
     text-align: left;
 }
-.lsn_block-testimonials .sum_testimonials .custom-style-btn{
+.lsn_block-testimonials .sum_testimonials .lsn-style-btn{
     margin-top: 35px;
 }
+.lsn_block-testimonials .slick-dots{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0
+}
+.lsn_block-testimonials .slick-dots li button{
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    border: none;
+}
+.lsn_block-testimonials .slick-dots li.slick-active button{
+    background-color: #ccc;
+}
+
+
+
 @media screen and (max-width: 1119px) {
     .lsn_block-testimonials.bg_style_transparent .sum_testimonials div {
         text-align: center;
