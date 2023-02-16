@@ -582,6 +582,38 @@
         "bg_color": "#f5f5f5",
         "text_color": "#000000"
       }
+    },
+    "42413f49-f04b-45f6-b562-1c32ac6d3e06": {
+      "type": "testimonials",
+      "blocks": {
+        "7294e019-3bd2-44b1-bb7f-4136f76b7a6e": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
+            "label": "Learn more",
+            "link": "#"
+          }
+        },
+        "2ebaaccc-5172-4ed0-bd59-7ad5f5520e1d": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
+            "label": "Learn more",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "7294e019-3bd2-44b1-bb7f-4136f76b7a6e",
+        "2ebaaccc-5172-4ed0-bd59-7ad5f5520e1d"
+      ],
+      "settings": {
+        "bg_style": "color",
+        "bg_color": "#FFFFFF",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -602,6 +634,7 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
-    "1a8a346b-0817-4df6-a5fd-b8cde55a1199"
+    "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
+    "42413f49-f04b-45f6-b562-1c32ac6d3e06"
   ]
 }
