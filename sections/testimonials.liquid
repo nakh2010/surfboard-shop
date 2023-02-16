@@ -8,16 +8,16 @@
 
 {% style %}
     {% if bg_style == 'color' %}
-    #section-testimonials-{{ section.id }} .wrapp_testimonials{
+    #section-testimonials-{{ section.id }} .testimonials{
       background-color: {{ bg_color }};
       border-radius: 20px;
       overflow: hidden;
     }
-    #section-testimonials-{{ section.id }} .wrapp_testimonials *{
+    #section-testimonials-{{ section.id }} .testimonials *{
       color: {{ text_color }};
     }
     {% else %}
-      #section-testimonials-{{ section.id }} .wrapp_testimonials{
+      #section-testimonials-{{ section.id }} .testimonials{
         background: transparent;
         color: {{ text_color }};
     }
