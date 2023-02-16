@@ -1,5 +1,5 @@
   $(document).ready(function(){
-    $('.wrapp_testimonials').slick({
+    $('.testimonials').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,
