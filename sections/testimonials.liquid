@@ -3,11 +3,11 @@
 
 {% assign text_color = section.settings.text_color %}
 
-{% assign eyebrow = section.settings.eyebrow %}
-{% assign testimonials = section.settings.testimonials %}
+{% assign eyebrow = block.settings.eyebrow %}
+{% assign testimonials = block.settings.testimonials %}
 
-{% assign label = section.settings.label %}
-{% assign link = section.settings.link %}
+{% assign label = block.settings.label %}
+{% assign link = block.settings.link %}
 
 {{ 'component-testimonials.css' | asset_url | stylesheet_tag }}
 
@@ -28,10 +28,10 @@
     }
     {% endif %}
 {% endstyle %}
-
 <div id="section-testimonials-{{ section.id }}" class="custom_testimonials bg_style_{{ bg_style }}">
     <div class="page-width">
         <div class="wrapp_testimonials">
+         {%- for block in section.blocks -%}
             <div class="sum_testimonials">
                 {% if eyebrow != blank %}
                 <span>{{ eyebrow }}</span>
@@ -43,16 +43,14 @@
                 <a class="label_btn custom-style-btn" href="{{ link }}">{{ label }}</a>
                 {% endif %}
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>
-
-
-
 {% schema %}
   {
     "name": "Testimonials",
-    "class": "pdp-design",
+    "class": "tag-section",
     "settings": [
       {
         "type": "header",
@@ -85,7 +83,13 @@
         "id": "text_color",
         "default": "#000000",
         "label": "Text Color"
-      },
+      }
+    ],
+    "blocks": [
+      {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
       {
         "type": "text",
         "id": "eyebrow",
@@ -110,10 +114,11 @@
         "id": "link",
         "label": "Button URL"
       }
-    ],
+      ]
+      }
+      ],
     "presets": [
     {
-      "category": "Custom",
       "name": "Testimonials"
     }
     ]
