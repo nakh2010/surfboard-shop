@@ -8,23 +8,24 @@
 
 {% style %}
     {% if bg_style == 'color' %}
-    #section-testimonials-{{ section.id }} .testimonials{
+    #section-testimonials-{{ section.id }} .wrapper_testimonials{
       background-color: {{ bg_color }};
       border-radius: 20px;
       overflow: hidden;
     }
-    #section-testimonials-{{ section.id }} .testimonials *{
+    #section-testimonials-{{ section.id }} .wrapper_testimonials *{
       color: {{ text_color }};
     }
     {% else %}
-      #section-testimonials-{{ section.id }} .testimonials{
+      #section-testimonials-{{ section.id }} .wrapper_testimonials{
         background: transparent;
         color: {{ text_color }};
     }
     {% endif %}
 {% endstyle %}
-<div id="section-testimonials-{{ section.id }}" class="custom_testimonials bg_style_{{ bg_style }}">
+<div id="section-testimonials-{{ section.id }}" class="bg_style_{{ bg_style }}">
     <div class="page-width">
+      <div class="wrapper_testimonials">
         <div class="testimonials">
          {%- for block in section.blocks -%}
             <div class="sum_testimonials">
@@ -40,6 +41,7 @@
             </div>
             {% endfor %}
         </div>
+      </div>
     </div>
 </div>
 {% schema %}
