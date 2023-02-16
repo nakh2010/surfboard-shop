@@ -557,15 +557,25 @@
         "be549d38-0add-4704-83db-a5120c93431a": {
           "type": "testimonial",
           "settings": {
-            "eyebrow": "",
-            "testimonials": "",
-            "label": "",
-            "link": ""
+            "heading": "Lorem Ipsum",
+            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
+            "label": "Learn more",
+            "link": "#"
+          }
+        },
+        "a3fd1f0e-0836-49a6-a4c1-61aae29d5762": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
+            "label": "Learn more",
+            "link": "#"
           }
         }
       },
       "block_order": [
-        "be549d38-0add-4704-83db-a5120c93431a"
+        "be549d38-0add-4704-83db-a5120c93431a",
+        "a3fd1f0e-0836-49a6-a4c1-61aae29d5762"
       ],
       "settings": {
         "bg_style": "color",
