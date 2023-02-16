@@ -3,7 +3,7 @@
     text-align: center;
     padding: 62px;
 }
-.lsn_block-testimonials.bg_style_color .sum_testimonials{
+.lsn_block-testimonials .sum_testimonials{
     display: block;
     margin: 0 auto;
     max-width: 800px;
