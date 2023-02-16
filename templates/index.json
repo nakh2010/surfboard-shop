@@ -553,6 +553,20 @@
     },
     "1a8a346b-0817-4df6-a5fd-b8cde55a1199": {
       "type": "testimonials",
+      "blocks": {
+        "be549d38-0add-4704-83db-a5120c93431a": {
+          "type": "testimonial",
+          "settings": {
+            "eyebrow": "",
+            "testimonials": "",
+            "label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "be549d38-0add-4704-83db-a5120c93431a"
+      ],
       "settings": {
         "bg_style": "color",
         "bg_color": "#cccccc",
