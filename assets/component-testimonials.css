@@ -46,12 +46,16 @@
     background-color: #8f8e8e;
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1024px) {
     .lsn_block-testimonials. .wrapper_testimonials {
         padding: 50px;
     }
+    .lsn_block-testimonials .sum_testimonials div {
+        font-size: 20px;
+        line-height: 35px;
+    }
 }
-@media screen and (max-width:739px) {
+@media screen and (max-width:749px) {
     .lsn_block-testimonials .wrapper_testimonials {
         padding: 80px 20px;
     }
