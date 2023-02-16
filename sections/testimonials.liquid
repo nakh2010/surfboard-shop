@@ -3,12 +3,6 @@
 
 {% assign text_color = section.settings.text_color %}
 
-{% assign heading = block.settings.heading %}
-{% assign testimonials = block.settings.testimonials %}
-
-{% assign label = block.settings.label %}
-{% assign link = block.settings.link %}
-
 {{ 'testimonials.js' | asset_url | script_tag }}
 {{ 'component-testimonials.css' | asset_url | stylesheet_tag }}
 
@@ -34,14 +28,14 @@
         <div class="testimonials">
          {%- for block in section.blocks -%}
             <div class="sum_testimonials">
-                {% if heading != blank %}
-                <span>{{ heading }}</span>
+                {% if block.settings.heading != blank %}
+                <span>{{ block.settings.heading }}</span>
                 {% endif %}
-                {% if testimonials != blank %}
-                <div>{{ testimonials }}</div>
+                {% if block.settings.testimonials != blank %}
+                <div>{{ block.settings.testimonials }}</div>
                 {% endif %}
-                {% if label != blank %}
-                <a class="label_btn custom-style-btn" href="{{ link }}">{{ label }}</a>
+                {% if block.settings.label != blank %}
+                <a class="label_btn custom-style-btn" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
                 {% endif %}
             </div>
             {% endfor %}
