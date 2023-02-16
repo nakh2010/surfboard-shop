@@ -1,14 +1,14 @@
-.lsn_block-testimonials .bg_style_color .wrapper_testimonials{
+.lsn_block-testimonials.bg_style_color .wrapper_testimonials{
     display: block;
     text-align: center;
     padding: 62px;
 }
-.lsn_block-testimonials .bg_style_color .sum_testimonials{
+.lsn_block-testimonials.bg_style_color .sum_testimonials{
     display: block;
     margin: 0 auto;
     max-width: 800px;
 }
-.lsn_block-testimonials .bg_style_transparent .sum_testimonials{
+.lsn_block-testimonials.bg_style_transparent .sum_testimonials{
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -30,37 +30,37 @@
     line-height: 40px;
     display: block;
 }
-.lsn_block-testimonials .bg_style_transparent .sum_testimonials div {
+.lsn_block-testimonials.bg_style_transparent .sum_testimonials div {
     text-align: left;
 }
 .lsn_block-testimonials .sum_testimonials .custom-style-btn{
     margin-top: 35px;
 }
 @media screen and (max-width: 1119px) {
-    .lsn_block-testimonials .bg_style_transparent .sum_testimonials div {
+    .lsn_block-testimonials.bg_style_transparent .sum_testimonials div {
         text-align: center;
     }
-    .lsn_block-testimonials .bg_style_color .wrapper_testimonials {
+    .lsn_block-testimonials.bg_style_color .wrapper_testimonials {
         padding: 50px;
     }
-    .lsn_block-testimonials .bg_style_transparent .sum_testimonials {
+    .lsn_block-testimonials.bg_style_transparent .sum_testimonials {
         padding: 0 50px;
     }
 }
 @media screen and (max-width:739px) {
-    .lsn_block-testimonials .bg_style_color .wrapper_testimonials {
+    .lsn_block-testimonials.bg_style_color .wrapper_testimonials {
         padding: 80px 20px;
     }
     .lsn_block-testimonials .page-width{
         padding: 0;
     }
-    .lsn_block-testimonials .bg_style_transparent .sum_testimonials {
+    .lsn_block-testimonials.bg_style_transparent .sum_testimonials {
         padding: 0 20px;
     }
     
 }
 @media screen and (max-width:379px) {
-.lsn_block-testimonials  .sum_testimonials div {
+.lsn_block-testimonials .sum_testimonials div {
     font-size: 20px;
     line-height: 32px;
 }
