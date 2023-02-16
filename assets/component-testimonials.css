@@ -42,18 +42,19 @@
     list-style: none;
     margin: 0;
     margin-top: 30px;
-    padding: 0
+    padding: 0;
+    gap: 6px;
 }
 .lsn_block-testimonials .slick-dots li button{
     font-size: 0;
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #F5F5F5;
+    background-color: #ccc;
     border: none;
 }
 .lsn_block-testimonials .slick-dots li.slick-active button{
-    background-color: #ccc;
+    background-color: #8f8e8e;
 }
 
 
