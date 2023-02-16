@@ -1,4 +1,4 @@
-.lsn_block-testimonials.bg_style_color .wrapper_testimonials{
+.lsn_block-testimonials .wrapper_testimonials{
     display: block;
     text-align: center;
     padding: 62px;
@@ -7,13 +7,6 @@
     display: block;
     margin: 0 auto;
     max-width: 800px;
-}
-.lsn_block-testimonials.bg_style_transparent .sum_testimonials{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 80px;
-    text-align: center;
 }
 .lsn_block-testimonials .sum_testimonials span{
     font-size: 16px;
@@ -28,9 +21,6 @@
     font-size: 24px;
     line-height: 40px;
     display: block;
-}
-.lsn_block-testimonials.bg_style_transparent .sum_testimonials div {
-    text-align: left;
 }
 .lsn_block-testimonials .sum_testimonials .lsn-style-btn{
     margin-top: 35px;
@@ -56,34 +46,22 @@
     background-color: #8f8e8e;
 }
 
-
-
 @media screen and (max-width: 1119px) {
-    .lsn_block-testimonials.bg_style_transparent .sum_testimonials div {
-        text-align: center;
-    }
-    .lsn_block-testimonials.bg_style_color .wrapper_testimonials {
+    .lsn_block-testimonials. .wrapper_testimonials {
         padding: 50px;
-    }
-    .lsn_block-testimonials.bg_style_transparent .sum_testimonials {
-        padding: 0 50px;
     }
 }
 @media screen and (max-width:739px) {
-    .lsn_block-testimonials.bg_style_color .wrapper_testimonials {
+    .lsn_block-testimonials .wrapper_testimonials {
         padding: 80px 20px;
     }
     .lsn_block-testimonials .page-width{
         padding: 0;
-    }
-    .lsn_block-testimonials.bg_style_transparent .sum_testimonials {
-        padding: 0 20px;
-    }
-    
+    }  
 }
 @media screen and (max-width:379px) {
 .lsn_block-testimonials .sum_testimonials div {
     font-size: 20px;
     line-height: 32px;
-}
+ }
 }
