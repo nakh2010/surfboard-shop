@@ -3957,15 +3957,14 @@ customElements.define('product-recommendations', ProductRecommendations);
         return _;
     };
 
+    $('.announcement-bar__list').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: false,
+        dots: false,
+        autoplaySpeed: 3000,
+    });
 }));
 
-$(document).ready(function(){
-  $('.announcement-bar__list').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: false,
-      dots: false,
-      autoplaySpeed: 3000,
-  });
-});
+
