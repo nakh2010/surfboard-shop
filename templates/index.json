@@ -555,12 +555,8 @@
       "type": "testimonials",
       "settings": {
         "bg_style": "color",
-        "bg_color": "#FFFFFF",
-        "text_color": "#000000",
-        "eyebrow": "",
-        "testimonials": "",
-        "label": "",
-        "link": ""
+        "bg_color": "#cccccc",
+        "text_color": "#000000"
       }
     }
   },
