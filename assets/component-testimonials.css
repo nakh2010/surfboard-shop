@@ -47,7 +47,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .lsn_block-testimonials. .wrapper_testimonials {
+    .lsn_block-testimonials .wrapper_testimonials {
         padding: 50px;
     }
     .lsn_block-testimonials .sum_testimonials div {
