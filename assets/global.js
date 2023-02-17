@@ -3957,15 +3957,6 @@ customElements.define('product-recommendations', ProductRecommendations);
         return _;
     };
       setTimeout(function() {
-        //Announcement Bar
-        $('.announcement-bar__list').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            arrows: false,
-            dots: false,
-            autoplaySpeed: 3000,
-        });
          //Testimonials
      $('.testimonials').slick({
         slidesToShow: 1,
