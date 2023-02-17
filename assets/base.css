@@ -1389,10 +1389,7 @@ button.shopify-payment-button__button--unbranded {
   border-radius: 10px;
   border-color: rgb(var(--color-primary-button-background));
 }
-.button:hover{
-  background-color: rgb(var(--color-primary-button-background));
-  border: 0;
-}
+.button:hover,
 .button:focus-visible,
 .button:focus,
 .button.focused,
