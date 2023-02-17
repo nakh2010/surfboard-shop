@@ -1414,7 +1414,7 @@ button.shopify-payment-button__button--unbranded {
 .button.button--secondary:hover,
 .button.button--secondary:focus{
   background-color: rgb(var(--color-second-button-background));
-  color: var(--color-second-button-text);
+  color: var(--color-second-button-background);
 }
 .button::selection,
 .shopify-challenge__button::selection,
