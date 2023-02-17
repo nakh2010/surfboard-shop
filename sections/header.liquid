@@ -684,7 +684,7 @@
           this.isScrolling = setTimeout(() => {
             this.preventReveal = false;
           }, 66);
-
+          requestAnimationFrame(this.reset.bind(this));
           //requestAnimationFrame(this.hide.bind(this));
         }
       } else if (scrollTop <= this.headerBounds.top) {
