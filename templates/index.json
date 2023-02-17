@@ -24,6 +24,7 @@
         "template--17192392753437__744693ed-daf0-4781-afcd-07b59789972d-16766051260a90358c-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hero.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
