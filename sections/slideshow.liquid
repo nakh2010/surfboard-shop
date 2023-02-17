@@ -118,6 +118,11 @@
                 <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
               </div>
             {%- endif -%}
+          {%- if block.settings.anchor_label != blank -%}
+              <div class="anchor_link">
+                <a{% if block.settings.anchor_link %} href="{{ block.settings.anchor_link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="anchor_label">{% render 'icon-anchor' %}{{ block.settings.anchor_label | escape }}</a>
+              </div>
+            {%- endif -%}
           </div>
         </div>
       </div>
