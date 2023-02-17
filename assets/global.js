@@ -3958,7 +3958,7 @@ customElements.define('product-recommendations', ProductRecommendations);
     };
       setTimeout(function() {
         //Announcement Bar
-        $('.announcement-bar__list').slick({
+        //$('.announcement-bar__list').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
@@ -3978,6 +3978,33 @@ customElements.define('product-recommendations', ProductRecommendations);
         autoplay: false,
       });
       }, 1000);
+
+      var count = 0;
+    setTimeout(()=>{
+        count = 1;
+        $('.announcement-bar__list').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+            dots: false,
+            autoplaySpeed: 3000,
+
+    },2000) // Initialize the amount of time to delay , Its 2seconds currently.
+
+    if(count == 1){
+    $(function() {
+        $('.announcement-bar__list').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+            dots: false,
+            autoplaySpeed: 3000,
+        });
+      }
+
+
 
 
 }));
