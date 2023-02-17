@@ -672,9 +672,6 @@
 
       if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
 
-       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.top) {
-          console.log('toppppppp');
-       }
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.top) {
         if (this.preventHide) return;
         //requestAnimationFrame(this.hide.bind(this));
@@ -693,7 +690,7 @@
           //requestAnimationFrame(this.hide.bind(this));
         }
       } else if (scrollTop <= this.headerBounds.top) {
-        //requestAnimationFrame(this.reset.bind(this));
+        requestAnimationFrame(this.reset.bind(this));
       }
 
       this.currentScrollTop = scrollTop;
