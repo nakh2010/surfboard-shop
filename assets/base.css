@@ -1375,7 +1375,7 @@ button.shopify-payment-button__button--unbranded {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 0;
+      border: 1px solid;
   padding: 0 3rem;
   cursor: pointer;
   font: inherit;
@@ -1387,6 +1387,7 @@ button.shopify-payment-button__button--unbranded {
   appearance: none;
   background-color: rgb(var(--color-primary-button-background));
   border-radius: 10px;
+  border-color: rgb(var(--color-primary-button-background));
 }
 .button:hover{
   background-color: rgb(var(--color-primary-button-background));
