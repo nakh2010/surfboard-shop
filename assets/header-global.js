@@ -1,3 +1,2 @@
 var headerHeight = $('#shopify-section-header').outerHeight();
-console.log('headerHeight='+headerHeight);
-//$("#MainContent").css('background','#669084');
+$(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');

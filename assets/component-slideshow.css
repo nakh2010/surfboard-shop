@@ -3,7 +3,40 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
-
+.slideshow__text .anchor_link{
+      margin-top: 3.5rem;
+}
+.slideshow__text .anchor_link a{
+display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    padding-left: 15px;
+    position: relative;
+}
+.slideshow__text .anchor_link a svg{
+  display: block;
+  position: relative;
+  left: -13px;
+  transition: all 150ms ease-out;
+  -webkit-transition: all 350ms ease-out;
+  -moz-transition: all 350ms ease-out;
+  -ms-transition: all 350ms ease-out;
+  -o-transition: all 350ms ease-out;
+}
+.slideshow__text .anchor_link a:hover svg{
+    left: -5px;
+   -webkit-transition: all 350ms ease-out;
+  -moz-transition: all 350ms ease-out;
+  -ms-transition: all 350ms ease-out;
+  -o-transition: all 350ms ease-out;
+}
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
     padding-bottom: 3rem;
@@ -46,6 +79,7 @@ slideshow-component .slideshow.banner {
 
 .slideshow__text > * {
   max-width: 100%;
+      color: #fff;
 }
 
 @media screen and (max-width: 749px) {
@@ -123,12 +157,6 @@ slideshow-component .slideshow.banner {
 
 .spaced-section--full-width:last-child slideshow-component:not(.page-width) .slideshow__controls {
   border-bottom: none;
-}
-
-@media screen and (min-width: 750px) {
-  .slideshow__controls {
-    position: relative;
-  }
 }
 
 slideshow-component:not(.page-width) .slider-buttons {
