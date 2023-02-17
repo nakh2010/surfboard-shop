@@ -6,15 +6,16 @@
         "template--17192392753437__744693ed-daf0-4781-afcd-07b59789972d-16766051260a90358c-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hero-2.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
