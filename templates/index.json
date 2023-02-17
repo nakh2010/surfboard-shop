@@ -618,19 +618,10 @@
     "5f667432-0be1-451d-bf6f-c0aed292721e": {
       "type": "rich-text",
       "blocks": {
-        "6e5ee625-06a7-4e99-9ed6-e4b8c89f8b81": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Talk about your brand<\/p>"
           }
         },
         "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-1": {
@@ -643,25 +634,20 @@
           "type": "button",
           "settings": {
             "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "6e5ee625-06a7-4e99-9ed6-e4b8c89f8b81",
         "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-0",
         "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-1",
         "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
+        "desktop_content_position": "left",
         "content_alignment": "center",
         "bg_style": "color",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "text_color": "#000000"
       }
     }
