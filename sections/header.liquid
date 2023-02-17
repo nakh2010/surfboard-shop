@@ -676,7 +676,6 @@
         if (this.preventHide) return;
         //requestAnimationFrame(this.hide.bind(this));
         requestAnimationFrame(this.reveal.bind(this));
-        console.log('333');
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.top) {
         if (!this.preventReveal) {
           requestAnimationFrame(this.reveal.bind(this));
