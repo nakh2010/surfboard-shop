@@ -672,6 +672,9 @@
 
       if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
 
+       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.top) {
+          console.log('toppppppp');
+       }
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         if (this.preventHide) return;
         //requestAnimationFrame(this.hide.bind(this));
