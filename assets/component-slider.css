@@ -279,13 +279,13 @@ slider-component.slider-component-full-width {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.1rem solid rgba(var(--color-foreground), 0.5);
+  border: 0.1rem solid rgba(255,255,255, 0.5);
   padding: 0;
   display: block;
 }
 
 .slider-counter__link--active.slider-counter__link--dots .dot {
-  background-color: rgb(var(--color-foreground));
+  background-color: rgb(255,255,255);
 }
 
 @media screen and (forced-colors: active) {
@@ -295,7 +295,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
-  border-color: rgb(var(--color-foreground));
+  border-color: rgb(255,255,255);
 }
 
 .slider-counter__link--dots .dot,
@@ -310,17 +310,17 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--numbers {
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(255,255,255, 0.5);
   text-decoration: none;
 }
 
 .slider-counter__link--numbers:hover {
-  color: rgb(var(--color-foreground));
+  color: rgb(255,255,255);
 }
 
 .slider-counter__link--active.slider-counter__link--numbers {
   text-decoration: underline;
-  color: rgb(var(--color-foreground));
+  color: rgb(255,255,255);
 }
 
 .slider-buttons {
@@ -348,7 +348,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(255,255,255, 0.75);
   background: transparent;
   border: none;
   cursor: pointer;
@@ -360,7 +360,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button:not([disabled]):hover {
-  color: rgb(var(--color-foreground));
+  color: rgb(255,255,255);
 }
 
 .slider-button .icon {
@@ -368,7 +368,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button[disabled] .icon {
-  color: rgba(var(--color-foreground), 0.3);
+  color: rgba(255,255,255, 0.3);
   cursor: not-allowed;
 }
 
