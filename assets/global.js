@@ -3957,6 +3957,15 @@ customElements.define('product-recommendations', ProductRecommendations);
         return _;
     };
       setTimeout(function() {
+        //Announcement Bar
+        $('.announcement-bar__list').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+            dots: false,
+            autoplaySpeed: 3000,
+        });
          //Testimonials
      $('.testimonials').slick({
         slidesToShow: 1,
@@ -3968,36 +3977,9 @@ customElements.define('product-recommendations', ProductRecommendations);
         autoplaySpeed: 10000,
         autoplay: false,
       });
-      }, 1000);
+      }, 1500);
 
 }));
 
-var slider = $('.announcement-bar__list');
-
-slider.slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  prevArrow: '',
-  nextArrow: '',
-  fade: true,
-  speed: 5000
-});
-
-var durationList = $('.announcement-bar__item').map(function(index, item) {
-  return item.getAttribute('data-time');
-});
-
-var slideIndex = 0;
-var changeSlide = function(timing) {
-  setTimeout(function() {
-    if (timing !== 0) {
-      slider.slick('slickNext');
-    }
-    if (slideIndex >= durationList.length) slideIndex = 0;
-    changeSlide(durationList[slideIndex++]);
-
-  }, timing);
-}
-changeSlide(0);
 
 
