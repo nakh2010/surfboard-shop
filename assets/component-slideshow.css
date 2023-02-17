@@ -22,11 +22,16 @@ display: flex;
 }
 .slideshow__text .anchor_link a svg{
   display: block;
-    position: relative;
-    left: -18px;
+  position: relative;
+  left: -18px;
+  transition: all 150ms ease-out;
+  -webkit-transition: all 150ms ease-out;
+  -moz-transition: all 150ms ease-out;
+  -ms-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
 }
 .slideshow__text .anchor_link a:hover svg{
-      left: -5px;
+    left: -5px;
 }
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
