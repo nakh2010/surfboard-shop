@@ -26,6 +26,7 @@ display: flex;
     left: -18px;
 }
 .slideshow__text .anchor_link a:hover svg{
+      left: -5px;
 }
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
