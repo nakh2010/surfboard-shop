@@ -108,7 +108,18 @@
             {{ block.settings.image-tablet | image_url: width: 3840 | image_tag:
               loading: 'lazy',
               height: height,
-              class:'asasa',
+              class:'tablet-hero',
+              sizes: "100vw",
+              widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+            }}
+          {%- endif -%}
+      
+       {%- if block.settings.image-mobile -%}
+            {%- assign height = block.settings.image-mobile.width | divided_by: block.settings.image-mobile.aspect_ratio | round -%}
+            {{ block.settings.image-mobile | image_url: width: 3840 | image_tag:
+              loading: 'lazy',
+              height: height,
+              class:'mobile-hero',
               sizes: "100vw",
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }}
