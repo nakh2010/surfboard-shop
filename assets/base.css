@@ -1407,11 +1407,14 @@ button.shopify-payment-button__button--unbranded {
   box-shadow: inherit;
 }
 .button.button--secondary{
-  
+  background-color: rgb(var(--color-second-button-background));
+  color: var(--color-second-button-text);
+  border-color: rgb(var(--color-second-button-text));
 }
 .button.button--secondary:hover,
 .button.button--secondary:focus{
-  
+  background-color: rgb(var(--color-second-button-background));
+  color: var(--color-second-button-text);
 }
 .button::selection,
 .shopify-challenge__button::selection,
