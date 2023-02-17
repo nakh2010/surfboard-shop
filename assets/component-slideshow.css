@@ -11,7 +11,10 @@ slideshow-component {
     align-items: center;
     color: inherit;
 }
-.slideshow__text .anchor_link a{
+.slideshow__text .anchor_link a svg{
+  display: block;
+    position: relative;
+    left: -18px;
 }
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
