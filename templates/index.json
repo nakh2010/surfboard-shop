@@ -18,7 +18,7 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 30,
+            "image_overlay_opacity": 0,
             "color_scheme": "#ffffff",
             "text_alignment_mobile": "center"
           }
