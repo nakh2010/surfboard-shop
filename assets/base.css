@@ -2442,6 +2442,9 @@ input[type='checkbox'] {
   background-color: var(--color-background);
   z-index: 1;
 }
+.background-transparent.header-wrapper {
+  background: transparent;
+}
 .shopify-section-header-sticky .header-wrapper {
   background-color: var(--color-background);
 }
