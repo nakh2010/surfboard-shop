@@ -3980,7 +3980,7 @@ slider.slick({
   prevArrow: '',
   nextArrow: '',
   fade: true,
-  speed: 1000
+  speed: 5000
 });
 
 var durationList = $('.announcement-bar__item').map(function(index, item) {
