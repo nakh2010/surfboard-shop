@@ -3,7 +3,11 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
-
+.slideshow__text .anchor_link{
+      margin-top: 3.5rem;
+}
+.slideshow__text .anchor_link a{
+}
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
     padding-bottom: 3rem;
