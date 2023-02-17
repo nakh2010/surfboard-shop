@@ -1406,7 +1406,13 @@ button.shopify-payment-button__button--unbranded {
 .shopify-payment-button [role="button"]:focus:not(:focus-visible):not(.focused) {
   box-shadow: inherit;
 }
-
+.button.button--secondary{
+  
+}
+.button.button--secondary:hover,
+.button.button--secondary:focus{
+  
+}
 .button::selection,
 .shopify-challenge__button::selection,
 .customer button::selection {
