@@ -11,7 +11,7 @@
             "image-mobile": "shopify:\/\/shop_images\/mobile-hero.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "",
             "button_label": "Button label",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
