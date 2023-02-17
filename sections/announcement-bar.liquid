@@ -13,11 +13,10 @@
            <div class="announcement-bar__list">
              {%- for block in section.blocks -%}
             {%- if block.settings.text != blank -%}
-              {%- assign data-time = data-time | plus: 1000 -%}
               {%- if block.settings.link != blank -%}
                 <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
               {%- endif -%}
-                      <p class="announcement-bar__item {{ block.settings.text_alignment }}" {% if forloop.first %} "data-time = 1000" {%else%} data-time: {{ data-time }} {%endif%}>
+                      <p class="announcement-bar__item {{ block.settings.text_alignment }}">
                         {{ block.settings.text | escape }}
                       </p>
               {%- if block.settings.link != blank -%}
