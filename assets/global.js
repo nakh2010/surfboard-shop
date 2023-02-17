@@ -3979,31 +3979,33 @@ customElements.define('product-recommendations', ProductRecommendations);
       });
       }, 1000);
 
-      var count = 0;
-    setTimeout(()=>{
-        count = 1;
-        $('.announcement-bar__list').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            arrows: false,
-            dots: false,
-            autoplaySpeed: 3000,
+      var slider = $('.announcement-bar__list');
 
-    },2000) // Initialize the amount of time to delay , Its 2seconds currently.
-
-    if(count == 1){
-    $(function() {
-        $('.announcement-bar__list').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            arrows: false,
-            dots: false,
-            autoplaySpeed: 3000,
-        });
+      slider.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: '',
+        nextArrow: '',
+        fade: true,
+        speed: 1000
+      });
+      
+      var durationList = $('.announcement-bar__item').map(function(index, item) {
+        return item.getAttribute('data-time');
+      });
+      
+      var slideIndex = 0;
+      var changeSlide = function(timing) {
+        setTimeout(function() {
+          if (timing !== 0) {
+            slider.slick('slickNext');
+          }
+          if (slideIndex >= durationList.length) slideIndex = 0;
+          changeSlide(durationList[slideIndex++]);
+      
+        }, timing);
       }
-
+      changeSlide(0);
 
 
 
