@@ -675,7 +675,6 @@
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         if (this.preventHide) return;
         requestAnimationFrame(this.hide.bind(this));
-        console.log('333');
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         if (!this.preventReveal) {
           requestAnimationFrame(this.reveal.bind(this));
@@ -685,11 +684,10 @@
           this.isScrolling = setTimeout(() => {
             this.preventReveal = false;
           }, 66);
-          console.log('11111');
+          requestAnimationFrame(this.reveal.bind(this));
           //requestAnimationFrame(this.hide.bind(this));
         }
       } else if (scrollTop <= this.headerBounds.top) {
-        console.log('2222');
         requestAnimationFrame(this.reset.bind(this));
       }
 
