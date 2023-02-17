@@ -1386,6 +1386,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgb(var(--color-primary-button-background));
+  border-radius: 10px;
 }
 
 .button:before,
