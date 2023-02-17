@@ -3956,16 +3956,17 @@ customElements.define('product-recommendations', ProductRecommendations);
         }
         return _;
     };
-    //Announcement Bar
-    $('.announcement-bar__list').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        arrows: false,
-        dots: false,
-        autoplaySpeed: 3000,
-    });
-     //Testimonials
+      setTimeout(function() {
+        //Announcement Bar
+        $('.announcement-bar__list').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+            dots: false,
+            autoplaySpeed: 3000,
+        });
+         //Testimonials
      $('.testimonials').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -3976,7 +3977,7 @@ customElements.define('product-recommendations', ProductRecommendations);
         autoplaySpeed: 10000,
         autoplay: false,
       });
-
+      }, 1000);
 
 
 }));
