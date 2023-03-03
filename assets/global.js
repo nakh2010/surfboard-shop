@@ -627,7 +627,7 @@ class SlideshowComponent extends SliderComponent {
       a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        if("true" == e){
+        if('true' == e){
           autoplay: true,
         }else{
           autoplay: false,
