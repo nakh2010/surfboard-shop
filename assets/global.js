@@ -630,6 +630,7 @@ class SlideshowComponent extends SliderComponent {
         dots: false,
         autoplaySpeed: 3000,
       });
+      console.log('e='+e);
       if("true" == e){
         a.slick('slickSetOption', 'autoplay', true).slick('slickPlay');
       }else{
