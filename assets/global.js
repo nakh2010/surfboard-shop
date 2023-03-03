@@ -620,6 +620,7 @@ class SlideshowComponent extends SliderComponent {
     this.sliderFirstItemNode = this.slider.querySelector('.slideshow__slide');
     if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
 
+    var a = $(this);
     $('.lsn-slideshow').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -629,7 +630,7 @@ class SlideshowComponent extends SliderComponent {
       autoplaySpeed: 3000,
     });
     var autoplay = $('.lsn-slideshow').attr('data-autoplay');
-    console.log('autoplay==='+autoplay);
+    console.log('autoplay==='+autoplay+'---a'+a);
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
   }
   
