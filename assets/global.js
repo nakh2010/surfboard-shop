@@ -617,7 +617,7 @@ class SlideshowComponent extends SliderComponent {
 
     if (!this.sliderControlWrapper) return;
 
-    this.sliderFirstItemNode = this.slider.querySelector('.slideshow__slide');
+    this.sliderFirstItemNode = this.slider.querySelector('.lsn-slideshow');
     if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
 
     var a = $(this);
