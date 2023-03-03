@@ -621,17 +621,16 @@ class SlideshowComponent extends SliderComponent {
     if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
 
     $(".lsn-slideshow").each(function(e, t) {
-      var a = $(this);
+      var a = $(this),
+          autoplay = a.attr('data-autoplay');
       a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: autoplay,
         arrows: false,
         dots: false,
         autoplaySpeed: 3000,
       });
-      var autoplay = a.attr('data-autoplay');
-      console.log('autoplay==='+autoplay+'---a'+a);
     })
     
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
