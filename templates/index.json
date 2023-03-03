@@ -52,7 +52,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "auto_rotate": false
+        "auto_rotate": true
       }
     },
     "744693ed-daf0-4781-afcd-07b59789972d": {
