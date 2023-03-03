@@ -631,13 +631,16 @@ class SlideshowComponent extends SliderComponent {
         dots: false,
         autoplaySpeed: 3000,
       });
-      if("true" == e){
-         console.log('autoplay===true');
-        a.setOption("autoplay", true, true);
-      }else{
-        console.log('autoplay===false');
-        a.setOption("autoplay", false, true);
-      }
+      a.on('afterChange', function(event, slick, currentSlide) {
+        if("true" == e){
+           console.log('autoplay===true');
+          a.slick.setOption("autoplay", true, true);
+        }else{
+          console.log('autoplay===false');
+          a.slick.setOption("autoplay", false, true);
+        }
+      });
+
      
     })
     
