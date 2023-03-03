@@ -616,6 +616,16 @@ class SlideshowComponent extends SliderComponent {
     this.sliderFirstItemNode = this.slider.querySelector('.slideshow__slide');
     if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
 
+    var a = $(this);
+    a.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      autoplaySpeed: 3000,
+    });
+
     this.sliderControlLinksArray = Array.from(this.sliderControlWrapper.querySelectorAll('.slider-counter__link'));
     this.sliderControlLinksArray.forEach(link => link.addEventListener('click', this.linkToSlide.bind(this)));
     this.slider.addEventListener('scroll', this.setSlideVisibility.bind(this));
@@ -623,14 +633,7 @@ class SlideshowComponent extends SliderComponent {
 
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
   }
-  $('.lsn-slideshow').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    arrows: false,
-    dots: false,
-    autoplaySpeed: 3000,
-  });
+  
 
   setAutoPlay() {
     this.sliderAutoplayButton = this.querySelector('.slideshow__autoplay');
