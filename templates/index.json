@@ -10,7 +10,7 @@
             "image-tablet": "shopify:\/\/shop_images\/mobile-hero.jpg",
             "image-mobile": "shopify:\/\/shop_images\/mobile-hero.jpg",
             "heading": "Experience  the world’s  best surfboards  for monthly price",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "",
             "button_label": "Join free for 15 days",
             "link": "shopify:\/\/collections\/all",
@@ -56,7 +56,6 @@
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
     },
