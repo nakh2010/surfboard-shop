@@ -35,7 +35,7 @@
             "button_label": "Button label",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": true,
-            "anchor_label": "Anchor label",
+            "anchor_label": "",
             "anchor_link": "",
             "box_align": "middle-center",
             "show_text_box": true,
