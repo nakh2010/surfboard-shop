@@ -623,6 +623,7 @@ class SlideshowComponent extends SliderComponent {
     $(".lsn-slideshow").each(function(e, t) {
       var a = $(this);
       var e = a.attr('data-autoplay');
+       console.log('autoplay==='+e+'---a'+a);
       a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -631,7 +632,7 @@ class SlideshowComponent extends SliderComponent {
         dots: false,
         autoplaySpeed: 3000,
       });
-      console.log('autoplay==='+e+'---a'+a);
+     
     })
     
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
