@@ -621,8 +621,8 @@ class SlideshowComponent extends SliderComponent {
     if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
 
     $(".lsn-slideshow").each(function(e, t) {
-      var a = $(this),
-          autoplay = a.attr('data-autoplay');
+      var a = $(this);
+      var autoplay = a.attr('data-autoplay');
       a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -631,8 +631,25 @@ class SlideshowComponent extends SliderComponent {
         dots: false,
         autoplaySpeed: 3000,
       });
+      console.log('autoplay==='+autoplay+'---a'+a);
     })
     
+    if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
+  }
+  
+
+  setAutoPlay() {
+    this.sliderAutoplayButton = this.querySelector('.slideshow__autoplay');
+    this.autoplaySpeed = this.slider.dataset.speed * 1000;
+
+    this.sliderAutoplayButton.addEventListener('click', this.autoPlayToggle.bind(this));
+    this.addEventListener('mouseover', this.focusInHandling.bind(this));
+    this.addEventListener('mouseleave', this.focusOutHandling.bind(this));
+    this.addEventListener('focusin', this.focusInHandling.bind(this));
+    this.addEventListener('focusout', this.focusOutHandling.bind(this));
+
+    this.play();
+    this.autoplayButtonIsSetToPlay = true;
   }
 
 }
