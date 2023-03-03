@@ -7,10 +7,7 @@
 
   <div class="lsn-slideshow"
     id="Slider-{{ section.id }}"
-    aria-live="polite"
-    aria-atomic="true"
     data-autoplay="{{ section.settings.auto_rotate }}"
-    data-speed="{{ section.settings.change_slides_speed }}"
   >
     {%- for block in section.blocks -%}
       <style>
