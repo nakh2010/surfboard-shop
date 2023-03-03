@@ -628,10 +628,8 @@ class SlideshowComponent extends SliderComponent {
       dots: false,
       autoplaySpeed: 3000,
     });
-
-    this.sliderControlLinksArray = Array.from(this.sliderControlWrapper.querySelectorAll('.slider-counter__link'));
-    this.sliderControlLinksArray.forEach(link => link.addEventListener('click', this.linkToSlide.bind(this)));
-
+    var autoplay = this.slider.getAttribute('data-autoplay');
+    console.log('autoplay==='+autoplay);
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
   }
   
@@ -650,63 +648,6 @@ class SlideshowComponent extends SliderComponent {
     this.autoplayButtonIsSetToPlay = true;
   }
 
-
-  autoPlayToggle() {
-    this.togglePlayButtonState(this.autoplayButtonIsSetToPlay);
-    this.autoplayButtonIsSetToPlay ? this.pause() : this.play();
-    this.autoplayButtonIsSetToPlay = !this.autoplayButtonIsSetToPlay;
-  }
-
-  focusOutHandling(event) {
-    const focusedOnAutoplayButton = event.target === this.sliderAutoplayButton || this.sliderAutoplayButton.contains(event.target);
-    if (!this.autoplayButtonIsSetToPlay || focusedOnAutoplayButton) return;
-    this.play();
-  }
-
-  focusInHandling(event) {
-    const focusedOnAutoplayButton = event.target === this.sliderAutoplayButton || this.sliderAutoplayButton.contains(event.target);
-    if (focusedOnAutoplayButton && this.autoplayButtonIsSetToPlay) {
-      this.play();
-    } else if (this.autoplayButtonIsSetToPlay) {
-      this.pause();
-    }
-  }
-
-  play() {
-    this.slider.setAttribute('aria-live', 'off');
-    clearInterval(this.autoplay);
-    this.autoplay = setInterval(this.autoRotateSlides.bind(this), this.autoplaySpeed);
-  }
-
-  pause() {
-    this.slider.setAttribute('aria-live', 'polite');
-    clearInterval(this.autoplay);
-  }
-
-  togglePlayButtonState(pauseAutoplay) {
-    if (pauseAutoplay) {
-      this.sliderAutoplayButton.classList.add('slideshow__autoplay--paused');
-      this.sliderAutoplayButton.setAttribute('aria-label', window.accessibilityStrings.playSlideshow);
-    } else {
-      this.sliderAutoplayButton.classList.remove('slideshow__autoplay--paused');
-      this.sliderAutoplayButton.setAttribute('aria-label', window.accessibilityStrings.pauseSlideshow);
-    }
-  }
-
-  autoRotateSlides() {
-    const slideScrollPosition = this.currentPage === this.sliderItems.length ? 0 : this.slider.scrollLeft + this.slider.querySelector('.slideshow__slide').clientWidth;
-    this.slider.scrollTo({
-      left: slideScrollPosition
-    });
-  }
-
-  linkToSlide(event) {
-    event.preventDefault();
-    const slideScrollPosition = this.slider.scrollLeft + this.sliderFirstItemNode.clientWidth * (this.sliderControlLinksArray.indexOf(event.currentTarget) + 1 - this.currentPage);
-    this.slider.scrollTo({
-      left: slideScrollPosition
-    });
-  }
 }
 
 customElements.define('slideshow-component', SlideshowComponent);
