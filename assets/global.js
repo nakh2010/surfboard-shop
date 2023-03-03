@@ -622,7 +622,7 @@ class SlideshowComponent extends SliderComponent {
 
     $(".lsn-slideshow").each(function(e, t) {
       var a = $(this);
-      $('.lsn-slideshow').slick({
+      a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
