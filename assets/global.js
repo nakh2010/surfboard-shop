@@ -633,8 +633,10 @@ class SlideshowComponent extends SliderComponent {
       });
       a.on('afterChange', function(event, slick, currentSlide) {
         if("true" == e){
+           console.log('autoplay===true');
           slick.setOption("autoplay", true, true);
         }else{
+          console.log('autoplay===false');
           slick.setOption("autoplay", false, true);
         }
       });
