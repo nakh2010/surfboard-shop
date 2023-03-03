@@ -629,7 +629,7 @@ class SlideshowComponent extends SliderComponent {
       dots: false,
       autoplaySpeed: 3000,
     });
-    var autoplay = $('.lsn-slideshow').attr('data-autoplay');
+    var autoplay = a.attr('data-autoplay');
     console.log('autoplay==='+autoplay+'---a'+a);
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
   }
