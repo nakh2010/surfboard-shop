@@ -55,65 +55,6 @@
         "auto_rotate": false
       }
     },
-    "744693ed-daf0-4781-afcd-07b59789972d": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17192392753437__744693ed-daf0-4781-afcd-07b59789972d-16766051260a90358c-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hero-2.jpg",
-            "image-tablet": "shopify:\/\/shop_images\/mobile-hero.jpg",
-            "image-mobile": "shopify:\/\/shop_images\/mobile-hero.jpg",
-            "heading": "Experience  the world’s  best surfboards  for monthly price",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "Join free for 15 days",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "anchor_label": "How it works",
-            "anchor_link": "#",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "#ffffff",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17192392753437__744693ed-daf0-4781-afcd-07b59789972d-16766051260a90358c-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hero.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true,
-            "anchor_label": "",
-            "anchor_link": "",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__744693ed-daf0-4781-afcd-07b59789972d-16766051260a90358c-0",
-        "template--17192392753437__744693ed-daf0-4781-afcd-07b59789972d-16766051260a90358c-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15": {
       "type": "image-with-text",
       "blocks": {
@@ -768,7 +709,6 @@
   },
   "order": [
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
-    "744693ed-daf0-4781-afcd-07b59789972d",
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15",
     "ad6c824f-2954-44f9-8e8e-4673f1cc719f",
     "f2884c36-8a86-42c4-96d4-daab649574ed",
