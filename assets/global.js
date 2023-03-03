@@ -623,6 +623,14 @@ class SlideshowComponent extends SliderComponent {
 
     if (this.slider.getAttribute('data-autoplay') === 'true') this.setAutoPlay();
   }
+  $('.lsn-slideshow').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    dots: false,
+    autoplaySpeed: 3000,
+  });
 
   setAutoPlay() {
     this.sliderAutoplayButton = this.querySelector('.slideshow__autoplay');
