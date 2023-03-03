@@ -632,7 +632,11 @@ class SlideshowComponent extends SliderComponent {
         autoplaySpeed: 3000,
       });
       a.on('afterChange', function(event, slick, currentSlide) {
-        slick.setOption("autoplay", e, true);
+        if("true" == e){
+          slick.setOption("autoplay", true, true);
+        }else{
+          slick.setOption("autoplay", false, true);
+        }
       });
 
      
