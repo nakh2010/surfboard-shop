@@ -65,7 +65,7 @@ text-transform: uppercase;
       position: absolute;
     list-style: none;
     padding: 0;
-    bottom: 0;
+       bottom: 32px;
     width: 100%;
     text-align: center;
     margin: 0;
