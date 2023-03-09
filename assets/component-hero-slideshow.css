@@ -61,7 +61,18 @@ text-transform: uppercase;
   -ms-transition: all 350ms ease-out;
   -o-transition: all 350ms ease-out;
 }
-
+.lsn-slideshow .slick-dots{
+  
+}
+.lsn-slideshow .slick-dots li{
+  
+}
+.lsn-slideshow .slick-dots li button{
+  
+}
+.lsn-slideshow .slick-dots li.slick-active button{
+  
+}
 @media screen and (min-width: 1025px) {
   .lsn-slideshow .tablet-hero,
   .lsn-slideshow .mobile-hero{
