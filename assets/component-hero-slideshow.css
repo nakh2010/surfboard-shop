@@ -175,8 +175,12 @@ slideshow-component .slideshow.banner {
   max-width: 100%;
       color: #fff;
 }
-.text-style .slideshow__text .anchor_link svg > *{
+.slideshow__text .anchor_link svg > *{
       stroke: #000;
+    stroke-opacity: 1;
+}
+.text-style .slideshow__text .anchor_link svg > *{
+      stroke: #fff;
     stroke-opacity: 1;
 }
 
