@@ -615,6 +615,7 @@ class SlideshowComponent extends SliderComponent {
     this.sliderControlWrapper = this.querySelector('.slider-buttons');
     this.enableSliderLooping = true;
 
+    console.log('has slideshow');
     if (!this.sliderControlWrapper) return;
 
     this.sliderFirstItemNode = this.slider.querySelector('.lsn-slideshow');
