@@ -62,7 +62,16 @@ text-transform: uppercase;
   -o-transition: all 350ms ease-out;
 }
 .lsn-slideshow .slick-dots{
-  
+      position: absolute;
+    list-style: none;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
 }
 .lsn-slideshow .slick-dots li{
   
