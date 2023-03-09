@@ -536,7 +536,7 @@ class SliderComponent extends HTMLElement {
     this.prevButton = this.querySelector('button[name="previous"]');
     this.nextButton = this.querySelector('button[name="next"]');
 
-    if (!this.slider || !this.nextButton) return;
+    if (!this.slider) return;
     console.log('test');
 
     this.initPages();
