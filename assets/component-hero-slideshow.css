@@ -175,6 +175,10 @@ slideshow-component .slideshow.banner {
   max-width: 100%;
       color: #fff;
 }
+.text-style .slideshow__text .anchor_link svg > *{
+      stroke: #000;
+    stroke-opacity: 1;
+}
 
 
 @media screen and (max-width: 749px) {
