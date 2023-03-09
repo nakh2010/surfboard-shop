@@ -171,10 +171,11 @@ slideshow-component .slideshow.banner {
   max-width: 54.5rem;
 }
 
-.slideshow__text > * {
+.text-style .slideshow__text > * {
   max-width: 100%;
       color: #fff;
 }
+
 
 @media screen and (max-width: 749px) {
   slideshow-component.page-width .slideshow__text {
