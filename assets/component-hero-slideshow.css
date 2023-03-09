@@ -121,6 +121,11 @@ text-transform: uppercase;
     margin-top: 2.5rem;
   }
 }
+@media screen and (max-width: 539px) {
+  .lsn-slideshow .slideshow__media img {
+      max-height: calc(90vh - 100px);
+  }
+}
 
 slideshow-component {
   position: relative;
