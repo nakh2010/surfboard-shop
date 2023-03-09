@@ -40,7 +40,7 @@
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 40,
             "color_scheme": "#000000",
             "text_alignment_mobile": "center"
           }
