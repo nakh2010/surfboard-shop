@@ -7,6 +7,18 @@
 .lsn-slideshow .slideshow__media{
   position: relative;
 }
+.lsn-slideshow .slideshow__text-wrapper{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .lsn-slideshow .slideshow__media img{
      position: relative !important;
