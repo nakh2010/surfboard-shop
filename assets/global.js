@@ -605,6 +605,7 @@ class SlideshowComponent extends SliderComponent {
       a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        adaptiveHeight: true,
         arrows: false,
         dots: false,
         autoplaySpeed: 3000,
