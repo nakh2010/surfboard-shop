@@ -22,6 +22,8 @@ text-transform: uppercase;
 }
 .lsn-slideshow .slideshow__media svg{
    position: relative !important;
+   min-height: 80vh;
+   object-fit: cover;
 }
 .lsn-slideshow .slideshow__media img{
      position: relative !important;
@@ -29,6 +31,7 @@ text-transform: uppercase;
     height: auto !important;
     max-height: calc(100vh - 100px);
     object-fit: cover;
+    min-height: 80vh;
 }
 .lsn-slideshow .banner__buttons{
   letter-spacing: 0.5px;
