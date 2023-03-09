@@ -1,6 +1,9 @@
 .lsn-slideshow .desktop-hero{
   
 }
+.lsn-slideshow .slideshow__slide.slider__item{
+   position: relative;
+}
 .lsn-slideshow .slideshow__media{
   position: relative;
 }
