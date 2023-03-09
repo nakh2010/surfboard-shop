@@ -536,16 +536,23 @@ class SliderComponent extends HTMLElement {
     this.prevButton = this.querySelector('button[name="previous"]');
     this.nextButton = this.querySelector('button[name="next"]');
 
-    if (!this.slider) return;
     console.log('test');
-
-    this.initPages();
-    const resizeObserver = new ResizeObserver(entries => this.initPages());
-    resizeObserver.observe(this.slider);
-
-    this.slider.addEventListener('scroll', this.update.bind(this));
-    this.prevButton.addEventListener('click', this.onButtonClick.bind(this));
-    this.nextButton.addEventListener('click', this.onButtonClick.bind(this));
+     $(".lsn-slideshow").each(function(e, t) {
+          var a = $(this);
+          var e = a.attr('data-autoplay');
+          a.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            autoplaySpeed: 3000,
+          });
+          if("true" == e){
+            a.slick('slickSetOption', 'autoplay', true).slick('slickPlay');
+          }else{
+            a.slick('slickSetOption', 'autoplay', false).slick('slickPause');
+          }
+        })
   }
 
   initPages() {
