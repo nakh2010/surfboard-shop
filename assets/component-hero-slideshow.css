@@ -77,10 +77,16 @@ text-transform: uppercase;
   
 }
 .lsn-slideshow .slick-dots li button{
-  
+      font-size: 0;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    background: transparent;
 }
 .lsn-slideshow .slick-dots li.slick-active button{
-  
+  background: #fff;
 }
 @media screen and (min-width: 1025px) {
   .lsn-slideshow .tablet-hero,
