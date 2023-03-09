@@ -41,6 +41,8 @@
               sizes: "100vw",
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }}
+          {%- else -%}
+            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
       
        {%- if block.settings.image-mobile -%}
@@ -52,6 +54,8 @@
               sizes: "100vw",
               widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
             }}
+          {%- else -%}
+            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
       
         </div>
