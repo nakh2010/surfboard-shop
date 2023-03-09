@@ -604,6 +604,7 @@ class SlideshowComponent extends SliderComponent {
       var e = a.attr('data-autoplay');
       a.slick({
         slidesToShow: 1,
+        fade: true,
         slidesToScroll: 1,
         adaptiveHeight: true,
         arrows: false,
