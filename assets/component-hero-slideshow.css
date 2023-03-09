@@ -1,11 +1,17 @@
 .lsn-slideshow .desktop-hero{
   
 }
+.lsn-slideshow .slideshow__media{
+  position: relative;
+}
+
 .lsn-slideshow .slideshow__media img{
   position: relative;
   display: block;
   width: 100%;
   height: auto;
+  max-height: calc(100vh - 100px);
+  object-fit: cover;
 }
 
 @media screen and (min-width: 1025px) {
