@@ -1,5 +1,58 @@
 {
   "sections": {
+    "c88bee5d-5fab-4225-b59c-b888a3aae3c3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17192392753437__c88bee5d-5fab-4225-b59c-b888a3aae3c3-1678349821caab0606-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17192392753437__c88bee5d-5fab-4225-b59c-b888a3aae3c3-1678349821caab0606-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-2.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__c88bee5d-5fab-4225-b59c-b888a3aae3c3-1678349821caab0606-0",
+        "template--17192392753437__c88bee5d-5fab-4225-b59c-b888a3aae3c3-1678349821caab0606-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "auto_rotate": false
+      }
+    },
     "43aa2b18-a78b-4a0b-bbed-09022507f215": {
       "type": "hero-slideshow",
       "blocks": {
@@ -708,6 +761,7 @@
     }
   },
   "order": [
+    "c88bee5d-5fab-4225-b59c-b888a3aae3c3",
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15",
     "ad6c824f-2954-44f9-8e8e-4673f1cc719f",
