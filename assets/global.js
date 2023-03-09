@@ -620,13 +620,7 @@ customElements.define('slider-component', SliderComponent);
 class SlideshowComponent extends SliderComponent {
   constructor() {
     super();
-    this.sliderControlWrapper = this.querySelector('.slider-buttons');
-    this.enableSliderLooping = true;
 
-    if (!this.sliderControlWrapper) return;
-
-    this.sliderFirstItemNode = this.slider.querySelector('.lsn-slideshow');
-    if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
     console.log('has slideshow');
 
     $(".lsn-slideshow").each(function(e, t) {
