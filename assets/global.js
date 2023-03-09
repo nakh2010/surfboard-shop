@@ -597,8 +597,6 @@ class SlideshowComponent extends SliderComponent {
   constructor() {
     super();
 
-    console.log('has SlideshowComponent');
-
     $(".lsn-slideshow").each(function(e, t) {
       var a = $(this);
       var e = a.attr('data-autoplay');
@@ -608,7 +606,7 @@ class SlideshowComponent extends SliderComponent {
         slidesToScroll: 1,
         adaptiveHeight: true,
         arrows: false,
-        dots: false,
+        dots: true,
         autoplaySpeed: 3000,
       });
       if("true" == e){
