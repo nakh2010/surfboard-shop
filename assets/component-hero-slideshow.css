@@ -20,7 +20,7 @@ text-transform: uppercase;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+.lsn-slideshow .slideshow__media svg,
 .lsn-slideshow .slideshow__media img{
      position: relative !important;
     width: 100% !important;
