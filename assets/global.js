@@ -528,15 +528,7 @@ customElements.define('deferred-media', DeferredMedia);
 class SliderComponent extends HTMLElement {
   constructor() {
     super();
-    this.slider = this.querySelector('[id^="Slider-"]');
-    this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
-    this.enableSliderLooping = false;
-    this.currentPageElement = this.querySelector('.slider-counter--current');
-    this.pageTotalElement = this.querySelector('.slider-counter--total');
-    this.prevButton = this.querySelector('button[name="previous"]');
-    this.nextButton = this.querySelector('button[name="next"]');
-
-    console.log('test');
+    console.log('SliderComponent');
   }
 
   initPages() {
@@ -605,7 +597,7 @@ class SlideshowComponent extends SliderComponent {
   constructor() {
     super();
 
-    console.log('has slideshow');
+    console.log('has SlideshowComponent');
 
     $(".lsn-slideshow").each(function(e, t) {
       var a = $(this);
