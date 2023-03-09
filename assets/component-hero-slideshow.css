@@ -1,6 +1,9 @@
 .lsn-slideshow .desktop-hero{
   
 }
+.lsn-slideshow .slideshow__media img{
+  
+}
 
 @media screen and (min-width: 1025px) {
   .lsn-slideshow .tablet-hero,
