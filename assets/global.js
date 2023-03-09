@@ -615,11 +615,11 @@ class SlideshowComponent extends SliderComponent {
     this.sliderControlWrapper = this.querySelector('.slider-buttons');
     this.enableSliderLooping = true;
 
-    console.log('has slideshow');
     if (!this.sliderControlWrapper) return;
 
     this.sliderFirstItemNode = this.slider.querySelector('.lsn-slideshow');
     if (this.sliderItemsToShow.length > 0) this.currentPage = 1;
+    console.log('has slideshow');
 
     $(".lsn-slideshow").each(function(e, t) {
       var a = $(this);
