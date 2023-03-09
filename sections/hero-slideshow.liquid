@@ -6,7 +6,7 @@
 <slideshow-component class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" >
 
   <div class="lsn-slideshow"
-    id="Slider-{{ section.id }}"
+    id="Slide-{{ section.id }}-{{ forloop.index }}"
     data-autoplay="{{ section.settings.auto_rotate }}"
   >
     {%- for block in section.blocks -%}
