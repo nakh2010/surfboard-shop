@@ -29,7 +29,9 @@ text-transform: uppercase;
     object-fit: cover;
 }
 .lsn-slideshow .banner__buttons{
-  
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 1025px) {
