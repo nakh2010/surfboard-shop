@@ -537,22 +537,6 @@ class SliderComponent extends HTMLElement {
     this.nextButton = this.querySelector('button[name="next"]');
 
     console.log('test');
-     $(".lsn-slideshow").each(function(e, t) {
-          var a = $(this);
-          var e = a.attr('data-autoplay');
-          a.slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: false,
-            autoplaySpeed: 3000,
-          });
-          if("true" == e){
-            a.slick('slickSetOption', 'autoplay', true).slick('slickPlay');
-          }else{
-            a.slick('slickSetOption', 'autoplay', false).slick('slickPause');
-          }
-        })
   }
 
   initPages() {
