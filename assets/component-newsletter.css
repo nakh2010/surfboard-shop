@@ -105,7 +105,10 @@
 }
 }
 @media screen and (max-width: 749px) {
-
+.lsn_newsletter__wrapper .heading{
+      font-size: 30px;
+    line-height: 36px;
+}
   
 }
 
