@@ -8,7 +8,10 @@
   justify-content: center;
 }
 .mega_content_column{
-  
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
 }
 .wrapper-mega .mega-col.mega-menu__list{
       -ms-flex: 0 0 25%;
@@ -18,10 +21,12 @@
 }
 .mega_content_column .wrapper-img{
   display: block;
-  height: 100%;
+  height: 0%;
   opacity: 1;
   overflow: hidden;
-  padding-bottom: 125%;
+  padding-bottom: 120%;
+  background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
   position: relative;
 }
 .mega_content_column .wrapper-img .wrapper-img-chill{
