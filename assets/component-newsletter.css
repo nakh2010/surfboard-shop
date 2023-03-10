@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-.newsletter-form__field-wrapper .field__input {
+.lsn_email-form .newsletter-form__field-wrapper .field__input {
   margin-top: 0;
   margin-right: 25px;
   height: 55px;
@@ -85,15 +85,15 @@
     line-height: 48px;
     margin-bottom: 10px;
 }
-.newsletter__subheading>* {
+.lsn_email-form .newsletter__subheading>* {
     font-size: 16px;
     line-height: 20px;
 }
-  .newsletter-form__field-wrapper .field__label {
+.lsn_email-form .newsletter-form__field-wrapper .field__label {
     top: 9px;
     font-size: 14px;
 }
-  .newsletter-form__field-wrapper .field__input {
+.lsn_email-form .newsletter-form__field-wrapper .field__input {
   max-width: 320px;
 }
 .newsletter-form__button {
@@ -125,7 +125,7 @@
   width: 100%;
   max-width: 100%;
 }
-  .newsletter-form__field-wrapper .field__input{
+.lsn_email-form .newsletter-form__field-wrapper .field__input{
 margin-right: 0;
         margin-bottom: 12px;
   }
