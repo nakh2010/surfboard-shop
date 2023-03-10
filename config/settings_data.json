@@ -192,11 +192,26 @@
               "text_3": "LEASHES",
               "link_3": ""
             }
+          },
+          "b2aa7c0d-ca2b-4657-b548-093cd912e3c2": {
+            "type": "megastyletwo",
+            "settings": {
+              "heading": "SOFTBOARDS",
+              "image_1": "shopify:\/\/shop_images\/50-2.jpg",
+              "text_1": "Base",
+              "link_1": "",
+              "image_2": "shopify:\/\/shop_images\/50-4.jpg",
+              "text_2": "Surf",
+              "link_2": "",
+              "text_3": "",
+              "link_3": ""
+            }
           }
         },
         "block_order": [
           "6434226d-ae8d-4a6b-9022-400feb1a050d",
-          "ac8f9df1-70ba-421c-b2c1-9172780dde28"
+          "ac8f9df1-70ba-421c-b2c1-9172780dde28",
+          "b2aa7c0d-ca2b-4657-b548-093cd912e3c2"
         ],
         "settings": {
           "logo": "{{ shop.brand.logo }}",
