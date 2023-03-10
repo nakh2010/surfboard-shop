@@ -528,12 +528,10 @@
                                           <span class="wrapper-img-chill">
                                             {% if megaItem_image %}
                                               <img
-                                                  srcset="{{ megaItem_image | image_url }}"
-                                                  src="{{ megaItem_image | image_url: '360x' }}"
+                                                  srcset="{{ megaItem_image }}"
+                                                  src="{{ megaItem_image }}"
                                                   alt="{{ product.title }}"
                                                   loading="lazy"
-                                                  width="{{ megaItem_image.width }}"
-                                                  height="{{ megaItem_image.height }}"
                                                 >
                                             {% else %}
                                               {{ 'image' | placeholder_svg_tag: 'product-item' }}
