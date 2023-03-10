@@ -485,7 +485,7 @@
                                {% assign menu_title =  link.title %}
                                {% assign block_heading =  block.settings.heading %}
                                {% if menu_title == block_heading %}
-                                <div class="mega_content_column">
+                                <div class="mega_content_column collection-{{ block.settings.collection.products }}">
                                   {% for product in block.settings.collection.products limit: 4 %}
                                     <div class="mega_product">
                                       {% if product.featured_media %}
