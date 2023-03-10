@@ -60,7 +60,14 @@
   
 }
 .mega_content_column .proInfo .proName{
-  
+      font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    display: block;
+    margin: 0;
+    margin-top: 10px;
 }
 .mega_content_column .proInfo{
   
