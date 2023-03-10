@@ -8,7 +8,7 @@
         color: {{ section.settings.text_color }};
       }
      .lsn_wrapp-{{ section.id }} .lsn_newsletter__wrapper .heading{
-       font-size: {{ section.settings.heading_size }}px;
+       font-size: {{ block.settings.heading_size }};
      }
      .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
