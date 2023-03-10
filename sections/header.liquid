@@ -523,26 +523,27 @@
                                     {% capture megaItem_image %}image_{{ i }}{% endcapture %}
                                     {% capture megaItem_text %}text_{{ i }}{% endcapture %}
                                     {% capture megaItem_link %}link_{{ i }}{% endcapture %}
-                                    {{ global[megaItem_image] }}--
-                                    {% if megaItem_image != blank %}
+                                    {% if global[megaItem_image] != blank %}
                                     <div class="mega_image megaCol_item">
-                                      <a href="{{ megaItem_link }}">
+                                      <a href="{{ global[megaItem_link] }}">
                                         <span class="wrapper-img">
                                           <span class="wrapper-img-chill">
-                                            {% if megaItem_image %}
+                                            {% if global[megaItem_image] %}
                                               <img
-                                                  srcset="{{ megaItem_image }}"
-                                                  src="{{ megaItem_image }}"
-                                                  alt="{{ product.title }}"
+                                                  srcset="{{ global[megaItem_image] | image_url }}"
+                                                  src="{{ global[megaItem_image] | image_url: '360x' }}"
+                                                  alt="{{ global[megaItem_text] }}"
                                                   loading="lazy"
+                                                  width="{{ megaItem_image.width }}"
+                                                  height="{{ megaItem_image.height }}"
                                                 >
                                             {% else %}
                                               {{ 'image' | placeholder_svg_tag: 'product-item' }}
                                             {% endif %}
                                           </span>
                                         </span>
-                                        {% if megaItem_text != blank %}
-                                          <h4>{{ megaItem_text }}</h4>
+                                        {% if global[megaItem_text] != blank %}
+                                          <h4>{{ global[megaItem_text] }}</h4>
                                         {% endif %}
                                       </a>
                                     </div>
