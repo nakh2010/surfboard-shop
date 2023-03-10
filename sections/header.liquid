@@ -479,7 +479,12 @@
                               </li>
                             {%- endfor -%}
                           </ul>
-
+                          {% for block in section.blocks %}
+                           {% case block.type %}
+                             {%- when 'megastyleone' -%}
+                             {%- when 'megastyletwo' -%}
+                           {%- endcase -%}
+                          {% endfor %}
                         </div>
 
                       </div>
