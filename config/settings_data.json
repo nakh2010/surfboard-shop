@@ -170,6 +170,34 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "6434226d-ae8d-4a6b-9022-400feb1a050d": {
+            "type": "megastyleone",
+            "settings": {
+              "heading": "SURFBOARDS",
+              "menu": "main-menu",
+              "collection": ""
+            }
+          },
+          "ac8f9df1-70ba-421c-b2c1-9172780dde28": {
+            "type": "megastyletwo",
+            "settings": {
+              "menu": "main-menu",
+              "text_1": "",
+              "link_1": "",
+              "text_2": "",
+              "link_2": "",
+              "text_3": "",
+              "link_3": "",
+              "text_4": "",
+              "link_4": ""
+            }
+          }
+        },
+        "block_order": [
+          "6434226d-ae8d-4a6b-9022-400feb1a050d",
+          "ac8f9df1-70ba-421c-b2c1-9172780dde28"
+        ],
         "settings": {
           "logo": "{{ shop.brand.logo }}",
           "logo_width": 90,
