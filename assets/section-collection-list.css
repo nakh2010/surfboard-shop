@@ -59,3 +59,20 @@
 .collection-list-view-all {
   margin-top: 2rem;
 }
+
+.collection-list-subtitle{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #005A87;
+}
+.collection-list-title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #005A87;
+}
