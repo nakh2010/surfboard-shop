@@ -23,6 +23,7 @@
 }
 
 .newsletter-form__field-wrapper .field__input {
+  margin-top: 0;
   margin-right: 25px;
   height: 55px;
   background: transparent;
