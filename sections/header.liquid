@@ -485,7 +485,7 @@
                                {% assign menu_title =  link.title %}
                                {% assign block_heading =  block.settings.heading %}
                                {% if menu_title == block_heading %}
-                                <div class="mega_content_column collection-{{ block.settings.collection.products }}">
+                                <div class="mega_content_column collection-list">
                                   {% for product in block.settings.collection.products limit: 4 %}
                                     <div class="mega_product megaCol_item">
                                       <span class="wrapper-img">
@@ -516,7 +516,7 @@
                                 {% assign menu_title =  link.title %}
                                 {% assign block_heading =  block.settings.heading %}
                                  {% if menu_title == block_heading %}
-                                 <div class="mega_content_column">
+                                 <div class="mega_content_column gallery-list">
                                   {% assign global = block.settings %}
 
                                   {% for i in (1..3) %}
