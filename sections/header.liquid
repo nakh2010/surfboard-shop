@@ -459,7 +459,7 @@
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce border-none" tabindex="-1">
                         <div class="wrapper-mega">
-                          <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                          <ul class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
                             {%- for childlink in link.links -%}
                               <li>
                                 <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
