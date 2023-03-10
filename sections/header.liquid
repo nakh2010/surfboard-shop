@@ -486,6 +486,8 @@
                                {% assign block_heading =  block.settings.heading %}
                                {% if menu_title == block_heading %}
                                 <div class="mega_content_column">
+                                  {% for product in section.settings.collection.products limit: 4 %}
+                                  {% endfor %}
                                 </div>
                                {% endif %}
                              
@@ -1008,25 +1010,6 @@
         {
           "type": "url",
           "id": "link_3",
-          "label": "Link"
-        },
-        {
-          "type": "header",
-          "content": "Column Image 4"
-        },
-       {
-          "type": "image_picker",
-          "id": "image_4",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "text_4",
-          "label": "Text"
-        },
-        {
-          "type": "url",
-          "id": "link_4",
           "label": "Link"
         }
       ]
