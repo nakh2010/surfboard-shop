@@ -62,7 +62,7 @@
 .newsletter-form__message--success {
   margin-top: 2rem;
 }
-.newsletter-form__button {
+.lsn_email-form .newsletter-form__button {
   height: 100%;
   z-index: 2;
   background: #E8581B;
