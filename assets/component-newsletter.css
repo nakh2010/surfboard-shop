@@ -1,4 +1,4 @@
-.newsletter-form {
+.lsn_email-form .newsletter-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,7 +111,7 @@
       font-size: 30px;
     line-height: 36px;
 }
-  .newsletter-form,
+  .lsn_email-form .newsletter-form,
   .newsletter__subheading{
         max-width: 320px;
     margin: auto;
