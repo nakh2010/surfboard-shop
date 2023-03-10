@@ -57,7 +57,9 @@
   
 }
 .mega_content_column.collection-list{
-  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
 }
 .mega_content_column.gallery-list{
   
