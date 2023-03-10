@@ -488,18 +488,23 @@
                                 <div class="mega_content_column collection-{{ block.settings.collection.products }}">
                                   {% for product in block.settings.collection.products limit: 4 %}
                                     <div class="mega_product">
-                                      {% if product.featured_media %}
-                                        <img
-                                            srcset="{{ product.featured_media | image_url }}"
-                                            src="{{ product.featured_media | image_url: '360x' }}"
-                                            alt="{{ product.title }}"
-                                            loading="lazy"
-                                            width="{{ product.featured_media.width }}"
-                                            height="{{ product.featured_media.height }}"
-                                          >
-                                      {% else %}
-                                        {{ 'product-1' | placeholder_svg_tag: 'product-item' }}
-                                      {% endif %}
+                                      <span class="wrapper-img">
+                                        <span class="wrapper-img-chill">
+                                          {% if product.featured_media %}
+                                            <img
+                                                srcset="{{ product.featured_media | image_url }}"
+                                                src="{{ product.featured_media | image_url: '360x' }}"
+                                                alt="{{ product.title }}"
+                                                loading="lazy"
+                                                width="{{ product.featured_media.width }}"
+                                                height="{{ product.featured_media.height }}"
+                                              >
+                                          {% else %}
+                                            {{ 'product-1' | placeholder_svg_tag: 'product-item' }}
+                                          {% endif %}
+                                        </span>
+                                      </span>
+                                    <h3 class="proName">{{ product.title }}</h3>
                                     </div>
                                   {% endfor %}
                                 </div>
