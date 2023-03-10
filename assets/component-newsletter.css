@@ -101,8 +101,8 @@
 }
 }
 @media screen and (max-width: 1024px) {
-    .newsletter-form__field-wrapper .field__input,
-  .newsletter-form__button {
+  .lsn_email-form .newsletter-form__field-wrapper .field__input,
+    .lsn_email-form .newsletter-form__button {
     height: 40px;
   }
 }
