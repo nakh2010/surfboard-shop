@@ -484,11 +484,12 @@
                              {%- when 'megastyleone' -%}
                                {% assign menu_title =  link.title %}
                                {% assign block_heading =  block.settings.heading %}
+                             <p>{{ block_heading }}</p>
                              
                              {%- when 'megastyletwo' -%}
                                 {% assign menu_title =  link.title %}
                                 {% assign block_heading =  block.settings.heading %}
-                             
+                                 <p>{{ block_heading }}</p>
                            {%- endcase -%}
                           {% endfor %}
                         </div>
