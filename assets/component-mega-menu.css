@@ -80,9 +80,16 @@
     position: relative;
 }
 .mega_content_column.gallery-list a:before{
-  content:"";
-  position:absolute;
-  width:100%;
+   content: "";
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .mega_content_column.gallery-list h4{
   width: 100%;
