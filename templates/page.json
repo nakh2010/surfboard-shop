@@ -11,7 +11,7 @@
       "type": "banner-heading",
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
-        "heading": "",
+        "heading": "Heading",
         "text_color": "",
         "image_height": "medium"
       }
