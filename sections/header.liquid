@@ -458,26 +458,100 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce border-none" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
-                          {%- for childlink in link.links -%}
-                            <li>
-                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                {{ childlink.title | escape }}
-                              </a>
-                              {%- if childlink.links != blank -%}
-                                <ul class="list-unstyled" role="list">
-                                  {%- for grandchildlink in childlink.links -%}
-                                    <li>
-                                      <a href="{{ grandchildlink.url }}" class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                        {{ grandchildlink.title | escape }}
+                        <div class="wrapper-mega">
+                          <ul class="mega-col mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                            {%- for childlink in link.links -%}
+                              <li>
+                                <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                  {{ childlink.title | escape }}
+                                </a>
+                                {%- if childlink.links != blank -%}
+                                  <ul class="list-unstyled" role="list">
+                                    {%- for grandchildlink in childlink.links -%}
+                                      <li>
+                                        <a href="{{ grandchildlink.url }}" class="mega-menu__link link{% if grandchildlink.current %} mega-menu__link--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                          {{ grandchildlink.title | escape }}
+                                        </a>
+                                      </li>
+                                    {%- endfor -%}
+                                  </ul>
+                                {%- endif -%}
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                          {% for block in section.blocks %}
+                           {% case block.type %}
+                             {%- when 'megastyleone' -%}
+                               {% assign menu_title =  link.title %}
+                               {% assign block_heading =  block.settings.heading %}
+                               {% if menu_title == block_heading %}
+                                <div class="mega_content_column collection-{{ block.settings.collection.products }}">
+                                  {% for product in block.settings.collection.products limit: 4 %}
+                                    <div class="mega_product megaCol_item">
+                                      <span class="wrapper-img">
+                                        <span class="wrapper-img-chill">
+                                          {% if product.featured_media %}
+                                            <img
+                                                srcset="{{ product.featured_media | image_url }}"
+                                                src="{{ product.featured_media | image_url: '360x' }}"
+                                                alt="{{ product.title }}"
+                                                loading="lazy"
+                                                width="{{ product.featured_media.width }}"
+                                                height="{{ product.featured_media.height }}"
+                                              >
+                                          {% else %}
+                                            {{ 'product-1' | placeholder_svg_tag: 'product-item' }}
+                                          {% endif %}
+                                        </span>
+                                      </span>
+                                      <div class="proInfo">
+                                        <h3 class="proName">{{ product.title }}</h3>
+                                      </div>
+                                    </div>
+                                  {% endfor %}
+                                </div>
+                               {% endif %}
+                             
+                             {%- when 'megastyletwo' -%}
+                                {% assign menu_title =  link.title %}
+                                {% assign block_heading =  block.settings.heading %}
+                                 {% if menu_title == block_heading %}
+                                 <div class="mega_content_column">
+                                  {% for i in (1..3) %}
+                                    {% capture megaItem_image %}image_{{ i }}{% endcapture %}
+                                    {% capture megaItem_text %}text_{{ i }}{% endcapture %}
+                                    {% capture megaItem_link %}link_{{ i }}{% endcapture %}
+                                    {{ megaItem_image }}--
+                                    {% if megaItem_image != blank %}
+                                    <div class="mega_image megaCol_item">
+                                      <a href="{{ megaItem_link }}">
+                                        <span class="wrapper-img">
+                                          <span class="wrapper-img-chill">
+                                            {% if megaItem_image %}
+                                              <img
+                                                  srcset="{{ megaItem_image }}"
+                                                  src="{{ megaItem_image }}"
+                                                  alt="{{ product.title }}"
+                                                  loading="lazy"
+                                                >
+                                            {% else %}
+                                              {{ 'image' | placeholder_svg_tag: 'product-item' }}
+                                            {% endif %}
+                                          </span>
+                                        </span>
+                                        {% if megaItem_text != blank %}
+                                          <h4>{{ megaItem_text }}</h4>
+                                        {% endif %}
                                       </a>
-                                    </li>
-                                  {%- endfor -%}
-                                </ul>
-                              {%- endif -%}
-                            </li>
-                          {%- endfor -%}
-                        </ul>
+                                    </div>
+                                  {% endif %}
+                                  {% endfor %}
+                                 </div>
+                                 {% endif %}
+                           {%- endcase -%}
+                          {% endfor %}
+                        </div>
+
                       </div>
                     </details>
                   </header-menu>
@@ -986,25 +1060,6 @@
         {
           "type": "url",
           "id": "link_3",
-          "label": "Link"
-        },
-        {
-          "type": "header",
-          "content": "Column Image 4"
-        },
-       {
-          "type": "image_picker",
-          "id": "image_4",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "text_4",
-          "label": "Text"
-        },
-        {
-          "type": "url",
-          "id": "link_4",
           "label": "Link"
         }
       ]

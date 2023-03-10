@@ -1,7 +1,44 @@
 .mega-menu {
   position: static;
 }
-
+.wrapper-mega{
+      display: block;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+.mega_content_column{
+  
+}
+.mega_content_column .megaCol_item{
+  
+}
+.mega_content_column .wrapper-img{
+  
+}
+.mega_content_column .wrapper-img .wrapper-img-chill{
+  
+}
+.mega_content_column .wrapper-img img{
+  
+}
+.mega_content_column .proInfo{
+  
+}
+.mega_content_column .proInfo .proName{
+  
+}
+.mega_content_column .proInfo{
+  
+}
+.mega_content_column{
+  
+}
+.mega_content_column{
+  
+}
+.mega_content_column{
+  
+}
 .mega-menu__content {
   background-color: var(--color-background);
   border-left: 0;
@@ -40,6 +77,7 @@
   gap: 2.4rem 4rem;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   list-style: none;
+  padding:0;
 }
 
 .mega-menu__link {
