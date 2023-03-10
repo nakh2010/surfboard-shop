@@ -199,7 +199,6 @@
 
 .mega-menu__link:hover,
 .mega-menu__link--active {
-  color: rgb(var(--color-foreground));
   text-decoration: none;
 }
 
