@@ -2,7 +2,10 @@
   
 }
 .lsn_banner_heading .banner__content{
-  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .lsn_banner_heading{
   
