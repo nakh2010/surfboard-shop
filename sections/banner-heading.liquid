@@ -1,12 +1,32 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{{ 'component-banner_heading.css' | asset_url | stylesheet_tag }}
 
-{% stylesheet %}
-{% endstylesheet %}
+{% assign text_color = section.settings.text_color %}
 
-{% javascript %}
-{% endjavascript %}
+<div class="lsn_banner_heading">
+
+  {%- if section.settings.image != blank -%}
+    <div class="banner__media media">
+      {%-liquid
+        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+      -%}
+      {{ section.settings.image | image_url: width: 1500 | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+        alt: section.settings.image.alt | escape
+      }}
+    </div>
+  {%- else -%}
+    <div class="banner__media media">
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    </div>
+  {%- endif -%}
+  
+    <div class="page-width banner__content">
+      {% if section.settings.heading != blank %}
+      <h1>{{ section.settings.heading }}</h1>
+      {% endif %}
+    </div>
+</div>
+
