@@ -120,9 +120,11 @@
 .newsletter-form__button,
 .newsletter-form__field-wrapper .field__input{
   width: 100%;
-  max-width" 100%;
+  max-width: 100%;
 }
-
+  .newsletter-form__field-wrapper .field__input{
+margin-right: 0;
+  }
 }
 
 
