@@ -18,13 +18,6 @@
 .newsletter-form__field-wrapper input{
   border:1px solid;
 }
-@media screen and (min-width: 1025px) {
-  .newsletter-form {
-    align-items: flex-start;
-    max-width: 38rem;
-  }
-}
-
 .newsletter-form__field-wrapper {
   width: 100%;
 }
