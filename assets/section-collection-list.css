@@ -81,8 +81,7 @@
 .grid__item-3 { grid-area: third; }
 .grid__item-4 { grid-area: four; }
 
-.grid-container {
-  display: grid;
+.lsn_collection-list-item {
   display: grid;
   grid-template-areas:
     'first second third third'
