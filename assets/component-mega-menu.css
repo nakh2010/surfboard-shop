@@ -62,7 +62,9 @@
     gap: 15px;
 }
 .mega_content_column.gallery-list{
-  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
 }
 .mega_content_column{
   
