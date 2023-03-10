@@ -25,9 +25,16 @@
 }
 
 @media screen and (min-width: 750px){
-  
+  .lsn_banner_heading.banner--medium .banner__content .page-width{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 @media screen and (max-width: 749px){
+  .lsn_banner_heading.banner--medium .banner__content .page-width{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   
 }
