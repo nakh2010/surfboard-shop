@@ -18,7 +18,7 @@
       "type": "banner-heading",
       "settings": {
         "image": "{{ shop.brand.cover_image }}",
-        "heading": "Heading",
+        "heading": "Login",
         "text_color": "",
         "image_height": "medium"
       }
