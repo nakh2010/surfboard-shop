@@ -705,6 +705,28 @@
         "bg_color": "#ffffff",
         "text_color": "#000000"
       }
+    },
+    "20b75a62-f0bc-4af6-a6a6-5e3b831b6af8": {
+      "type": "testimonials",
+      "blocks": {
+        "template--17192392753437__20b75a62-f0bc-4af6-a6a6-5e3b831b6af8-1678410931f6637761-1": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Heading",
+            "testimonials": "Share what your customers are saying about your products, your company...",
+            "label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__20b75a62-f0bc-4af6-a6a6-5e3b831b6af8-1678410931f6637761-1"
+      ],
+      "settings": {
+        "bg_style": "color",
+        "bg_color": "#FFFFFF",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -728,6 +750,7 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "42413f49-f04b-45f6-b562-1c32ac6d3e06",
-    "5f667432-0be1-451d-bf6f-c0aed292721e"
+    "5f667432-0be1-451d-bf6f-c0aed292721e",
+    "20b75a62-f0bc-4af6-a6a6-5e3b831b6af8"
   ]
 }
