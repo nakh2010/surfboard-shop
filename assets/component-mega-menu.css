@@ -8,7 +8,10 @@
   justify-content: center;
 }
 .mega_content_column{
-  
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
 }
 .wrapper-mega .mega-col.mega-menu__list{
       -ms-flex: 0 0 25%;
