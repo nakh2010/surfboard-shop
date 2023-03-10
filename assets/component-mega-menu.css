@@ -1,6 +1,11 @@
 .mega-menu {
   position: static;
 }
+.wrapper-mega{
+      display: block;
+    margin: 0 auto;
+    max-width: 1080px;
+}
 
 .mega-menu__content {
   background-color: var(--color-background);
