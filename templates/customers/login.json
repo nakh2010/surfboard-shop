@@ -1,19 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-login",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "0c6e5e47-2ca1-439a-868d-d6a9b33099ac": {
-      "type": "banner-heading",
-      "settings": {
-        "heading": "Heading",
-        "text_color": "#fff"
-      }
-    },
     "banner-heading": {
       "type": "banner-heading",
       "settings": {
@@ -22,11 +8,17 @@
         "text_color": "",
         "image_height": "medium"
       }
+    },
+    "main": {
+      "type": "main-login",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner-heading",
-    "main",
-    "0c6e5e47-2ca1-439a-868d-d6a9b33099ac"
+    "main"
   ]
 }
