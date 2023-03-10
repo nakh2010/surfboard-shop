@@ -175,7 +175,6 @@
             "type": "megastyleone",
             "settings": {
               "heading": "SURFBOARDS",
-              "menu": "main-menu",
               "collection": ""
             }
           },
@@ -183,7 +182,6 @@
             "type": "megastyletwo",
             "settings": {
               "heading": "ACCESSORIES",
-              "menu": "main-menu",
               "text_1": "",
               "link_1": "",
               "text_2": "",
