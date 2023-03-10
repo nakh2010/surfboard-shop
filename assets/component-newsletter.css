@@ -113,7 +113,10 @@
         max-width: 320px;
     margin: auto;
   }
-
+.newsletter-form__field-wrapper .field {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
 
 
 }
