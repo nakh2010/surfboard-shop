@@ -10,10 +10,21 @@
      .lsn_wrapp-{{ section.id }} .lsn_newsletter__wrapper .heading{
        font-size: {{ section.settings.heading_size }}px;
      }
+     .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
   {%- endstyle -%}
   
-  <div class="lsn_wrapp-{{ section.id }} lsn_newsletter center">
-     <div class="lsn_newsletter__wrapper">
+  <div class="lsn_wrapp-{{ section.id }} lsn_newsletter">
+     <div class="lsn_newsletter__wrapper section-{{ section.id }}-pa">
         {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when '@app' -%}
@@ -90,7 +101,27 @@
           "id": "text_color",
           "default": "#000000",
           "label": "Text Color"
-        }
+        },
+       {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 64
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 64
+      }
     ],
     "blocks": [
       {
@@ -102,15 +133,17 @@
             "type": "text",
             "id": "heading",
             "default": "Subscribe to our emails",
-            "label": "Heading Text"
+            "label": "Heading text"
           },
           {
           "type": "range",
           "id": "heading_size",
-          "label": "Heading Size",
-          "default": 56,
           "min": 26,
-          "max": 60
+          "max": 60,
+          "step": 2,
+          "unit": "px",
+          "label": "Heading size",
+          "default": 56
           }
         ]
       },
