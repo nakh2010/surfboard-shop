@@ -30,6 +30,7 @@
 }
 .newsletter-form__field-wrapper input{
   border:1px solid;
+  background: transparent;
 }
 .newsletter-form__field-wrapper {
   width: 100%;
