@@ -27,14 +27,30 @@
 }
 
 @media screen and (min-width: 750px){
+  .lsn_banner_heading.banner--large .banner__content .page-width{
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
   .lsn_banner_heading.banner--medium .banner__content .page-width{
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .lsn_banner_heading.banner--small .banner__content .page-width{
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 
 @media screen and (max-width: 749px){
-  .lsn_banner_heading.banner--medium .banner__content .page-width{
+  .lsn_banner_heading.banner--large .banner__content .page-width{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+   .lsn_banner_heading.banner--medium .banner__content .page-width{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+   .lsn_banner_heading.banner--small .banner__content .page-width{
     padding-top: 120px;
     padding-bottom: 120px;
   }
