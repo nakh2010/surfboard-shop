@@ -111,7 +111,8 @@
       font-size: 30px;
     line-height: 36px;
 }
-  .newsletter-form{
+  .newsletter-form,
+  .newsletter__subheading{
         max-width: 320px;
     margin: auto;
   }
