@@ -487,6 +487,21 @@
                                {% if menu_title == block_heading %}
                                 <div class="mega_content_column">
                                   {% for product in section.settings.collection.products limit: 4 %}
+                                    <div class="mega_product">
+                                      {% if product.featured_media %}
+                                        <img
+                                            srcset="{{ product.featured_media | image_url }}"
+                                            src="{{ product.featured_media | image_url: '360x' }}"
+                                            alt=""
+                                            class="motion-reduce"
+                                            loading="lazy"
+                                            width="{{ product.featured_media.width }}"
+                                            height="{{ product.featured_media.height }}"
+                                          >
+                                      {% else %}
+                                        {{ 'product-1' | placeholder_svg_tag: 'product-item' }}
+                                      {% endif %}
+                                    </div>
                                   {% endfor %}
                                 </div>
                                {% endif %}
