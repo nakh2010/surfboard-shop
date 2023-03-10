@@ -76,3 +76,16 @@
   text-transform: uppercase;
   color: #005A87;
 }
+.grid__item-1 { grid-area: first; }
+.grid__item-2 { grid-area: second; }
+.grid__item-3 { grid-area: third; }
+.grid__item-4 { grid-area: four; }
+
+.grid-container {
+  display: grid;
+  display: grid;
+  grid-template-areas:
+    'first second third third'
+    'first four four four';
+  gap: 10px;
+}
