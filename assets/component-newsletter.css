@@ -52,12 +52,14 @@
 }
 
 .newsletter-form__button {
-  width: 4.4rem;
-  margin: 0;
-  right: var(--inputs-border-width);
-  top: 0;
   height: 100%;
   z-index: 2;
+  background: #E8581B;
+  position: relative;
+  border-radius: 5px;
+  height: 55px;
+  width: 160px;
+  font-size: 18px;
 }
 
 .newsletter-form__button:focus-visible {
