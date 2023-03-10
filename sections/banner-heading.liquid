@@ -23,10 +23,12 @@
     </div>
   {%- endif -%}
   
-    <div class="page-width banner__content">
-      {% if section.settings.heading != blank %}
-      <h1>{{ section.settings.heading }}</h1>
-      {% endif %}
+    <div class="banner__content">
+      <div class="page-width">
+        {% if section.settings.heading != blank %}
+        <h1>{{ section.settings.heading }}</h1>
+        {% endif %}
+      </div>
     </div>
 </div>
 
