@@ -3,7 +3,7 @@
     "banner-heading": {
       "type": "banner-heading",
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
+        "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
         "heading": "SIGN IN",
         "text_color": "",
         "image_height": "medium"
