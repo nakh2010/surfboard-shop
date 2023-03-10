@@ -20,12 +20,13 @@
         <h2 class="collection-list-title">{{ section.settings.title }}</h2>
       </div>
 
+<div class="lsn_collection-list-item">
   {%- for block in section.blocks -%}
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="lsn_collection-list__item grid__item">
             {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio %}
           </li>
         {%- endfor -%}
-  
+  </div>
 </div>
 
 {% schema %}
