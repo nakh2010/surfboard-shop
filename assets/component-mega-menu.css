@@ -25,6 +25,8 @@
   opacity: 1;
   overflow: hidden;
   padding-bottom: 125%;
+  background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
   position: relative;
 }
 .mega_content_column .wrapper-img .wrapper-img-chill{
