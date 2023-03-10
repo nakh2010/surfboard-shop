@@ -1,0 +1,157 @@
+  {{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+  
+  {%- style -%}
+    .lsn_wrapp-{{ section.id }}{
+      background-color: {{ section.settings.background_color }} ;
+    }
+     .lsn_wrapp-{{ section.id }} .lsn_newsletter__wrapper *{
+        color: {{ section.settings.text_color }};
+      }
+     .lsn_wrapp-{{ section.id }} .lsn_newsletter__wrapper .heading{
+       font-size: {{ section.settings.heading_size }}px;
+     }
+  {%- endstyle -%}
+  
+  <div class="lsn_wrapp-{{ section.id }} lsn_newsletter">
+     <div class="lsn_newsletter__wrapper">
+        {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when '@app' -%}
+            {% render block %}
+          {%- when 'heading' -%}
+            <h2 class="heading">{{ block.settings.heading }}</h2>
+          {%- when 'text' -%}
+            <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+          {%- when 'email_form' -%}
+            <div {{ block.shopify_attributes }}>
+              {% form 'customer', class: 'newsletter-form' %}
+                <input type="hidden" name="contact[tags]" value="newsletter">
+                <div class="newsletter-form__field-wrapper">
+                  <div class="field">
+                    <input
+                      id="NewsletterForm--{{ section.id }}"
+                      type="email"
+                      name="contact[email]"
+                      class="field__input"
+                      value="{{ form.email }}"
+                      aria-required="true"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      autocomplete="email"
+                      {% if form.errors %}
+                        autofocus
+                        aria-invalid="true"
+                        aria-describedby="Newsletter-error--{{ section.id }}"
+                      {% elsif form.posted_successfully? %}
+                        aria-describedby="Newsletter-success--{{ section.id }}"
+                      {% endif %}
+                      placeholder="{{ 'newsletter.label' | t }}"
+                      required
+                    >
+                    <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                      {{ 'newsletter.label' | t }}
+                    </label>
+                    <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                      {% render 'icon-arrow' %}
+                    </button>
+                  </div>
+                  {%- if form.errors -%}
+                    <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                  {%- endif -%}
+                </div>
+                {%- if form.posted_successfully? -%}
+                  <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+                {%- endif -%}
+              {% endform %}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+     </div>
+  </div>
+  
+  {% schema %}
+  {
+      "name": "Newsletter Form",
+      "class": "lsn-section",
+      "tag": "section",
+    "settings": [
+   {
+          "type": "header",
+          "content": "Background section"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "default": "#FFFFFF",
+          "label": "Background Color"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "default": "#000000",
+          "label": "Text Color"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "Heading",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "default": "Subscribe to our emails",
+            "label": "Heading Text"
+          },
+          {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading Size",
+          "default": 56,
+          "min": 26,
+          "max": 60
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "name": "text",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "default": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "label": "Description"
+          }
+        ]
+      },
+      {
+        "type": "email_form",
+        "name": "Email form",
+        "limit": 1
+      },
+      {
+        "type": "@app"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Newsletter Form",
+        "blocks": [
+          {
+            "type": "heading"
+          },
+          {
+            "type": "text"
+          },
+          {
+            "type": "email_form"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}
+  
