@@ -773,8 +773,7 @@
         "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": 56
+            "heading": "Get 50% off"
           }
         },
         "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1": {
@@ -796,7 +795,9 @@
       ],
       "settings": {
         "background_color": "#005a87",
-        "text_color": "#ffffff"
+        "text_color": "#ffffff",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     }
   },
