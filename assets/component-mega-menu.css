@@ -10,8 +10,11 @@
 .mega_content_column{
   
 }
-.mega_content_column .megaCol_item{
-  
+.wrapper-mega .mega-col.mega-menu__list{
+      -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
 }
 .mega_content_column .wrapper-img{
   display: block;
