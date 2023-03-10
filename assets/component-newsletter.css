@@ -6,7 +6,7 @@
   width: 100%;
   position: relative;
   margin: 25px auto 0;
-  max-width: 60rem;
+  max-width: 51rem;
 }
 .lsn_newsletter__wrapper .heading {
       font-weight: 700;
@@ -49,6 +49,9 @@
 }
 .newsletter-form__field-wrapper .field {
   z-index: 0;
+      display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .newsletter-form__message {
