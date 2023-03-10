@@ -79,6 +79,28 @@
   display: block;
     position: relative;
 }
+.mega_content_column.gallery-list a:before{
+  content:"";
+  position:absolute;
+  width:100%;
+}
+.mega_content_column.gallery-list h4{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 12px;
+  color: #fff;
+  z-index: 2;
+}
 .mega_content_column{
   
 }
