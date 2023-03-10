@@ -521,6 +521,7 @@
                                     {% capture megaItem_image %}image_{{ i }}{% endcapture %}
                                     {% capture megaItem_text %}text_{{ i }}{% endcapture %}
                                     {% capture megaItem_link %}link_{{ i }}{% endcapture %}
+                                    {{ megaItem_image }}--
                                     {% if megaItem_image != blank %}
                                     <div class="mega_image megaCol_item">
                                       <a href="{{ megaItem_link }}">
