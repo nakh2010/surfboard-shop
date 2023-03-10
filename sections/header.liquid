@@ -492,8 +492,7 @@
                                         <img
                                             srcset="{{ product.featured_media | image_url }}"
                                             src="{{ product.featured_media | image_url: '360x' }}"
-                                            alt=""
-                                            class="motion-reduce"
+                                            alt="{{ product.title }}"
                                             loading="lazy"
                                             width="{{ product.featured_media.width }}"
                                             height="{{ product.featured_media.height }}"
