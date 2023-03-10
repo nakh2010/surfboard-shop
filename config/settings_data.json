@@ -182,11 +182,14 @@
             "type": "megastyletwo",
             "settings": {
               "heading": "ACCESSORIES",
-              "text_1": "",
+              "image_1": "shopify:\/\/shop_images\/50-50.jpg",
+              "text_1": "FINS",
               "link_1": "",
-              "text_2": "",
+              "image_2": "shopify:\/\/shop_images\/65-35-2.jpg",
+              "text_2": "TRACTION",
               "link_2": "",
-              "text_3": "",
+              "image_3": "shopify:\/\/shop_images\/65-35.jpg",
+              "text_3": "LEASHES",
               "link_3": ""
             }
           }
