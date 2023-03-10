@@ -6,6 +6,9 @@
     line-height: 20px;
     margin-top: 16px;
 }
+.footer__newsletter {
+  max-width: 380px;
+}
 .footer__content-top .footer-block.grid__item p,
 .footer__content-top .footer-block.grid__item a{
       text-decoration: none;
