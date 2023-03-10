@@ -6,19 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "banner-heading": {
-      "type": "banner-heading",
-      "settings": {
-        "image": "{{ shop.brand.cover_image }}",
-        "heading": "Heading",
-        "text_color": "",
-        "image_height": "medium"
-      }
     }
   },
   "order": [
-    "banner-heading",
     "main"
   ]
 }
