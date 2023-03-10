@@ -86,7 +86,9 @@
   .newsletter-form__field-wrapper .field__input {
   max-width: 320px;
 }
-
+.newsletter-form__button {
+    font-size: 16px;
+}
 }
 
 .newsletter-form__button {
