@@ -705,14 +705,6 @@
         "bg_color": "#ffffff",
         "text_color": "#000000"
       }
-    },
-    "a7eae7dd-b6d3-4a3c-a836-70abd5326714": {
-      "type": "testimonials",
-      "settings": {
-        "bg_style": "color",
-        "bg_color": "#FFFFFF",
-        "text_color": "#000000"
-      }
     }
   },
   "order": [
@@ -736,7 +728,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "42413f49-f04b-45f6-b562-1c32ac6d3e06",
-    "5f667432-0be1-451d-bf6f-c0aed292721e",
-    "a7eae7dd-b6d3-4a3c-a836-70abd5326714"
+    "5f667432-0be1-451d-bf6f-c0aed292721e"
   ]
 }
