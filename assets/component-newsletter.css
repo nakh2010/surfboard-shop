@@ -47,7 +47,7 @@
 .newsletter-form__field-wrapper .field__label{
   top: 18px;
 }
-.newsletter-form__field-wrapper .field {
+.lsn_email-form .newsletter-form__field-wrapper .field {
   z-index: 0;
       display: flex;
     align-items: center;
