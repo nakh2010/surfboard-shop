@@ -30,6 +30,10 @@
   background: transparent;
 }
 
+.newsletter-form__field-wrapper .field__label{
+  top: 18px;
+  transition: top 18 ease,font-size 18 ease;
+}
 .newsletter-form__field-wrapper .field {
   z-index: 0;
 }
