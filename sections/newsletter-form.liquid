@@ -23,8 +23,8 @@
   }
   {%- endstyle -%}
   
-  <div class="lsn_wrapp-{{ section.id }} lsn_newsletter">
-     <div class="lsn_newsletter__wrapper section-{{ section.id }}-pa">
+  <div class="lsn_wrapp-{{ section.id }} lsn_wrapp-newsletter">
+     <div class="lsn_newsletter__wrapper section-{{ section.id }}-padding">
         {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when '@app' -%}
@@ -32,9 +32,9 @@
           {%- when 'heading' -%}
             <h2 class="heading">{{ block.settings.heading }}</h2>
           {%- when 'text' -%}
-            <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+            <div class="newsletter__subheading rte">{{ block.settings.text }}</div>
           {%- when 'email_form' -%}
-            <div {{ block.shopify_attributes }}>
+            <div class="lsn_email-form">
               {% form 'customer', class: 'newsletter-form' %}
                 <input type="hidden" name="contact[tags]" value="newsletter">
                 <div class="newsletter-form__field-wrapper">
