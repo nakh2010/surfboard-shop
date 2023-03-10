@@ -482,7 +482,13 @@
                           {% for block in section.blocks %}
                            {% case block.type %}
                              {%- when 'megastyleone' -%}
+                               {% assign menu_title =  link.title %}
+                               {% assign block_heading =  block.settings.heading %}
+                             
                              {%- when 'megastyletwo' -%}
+                                {% assign menu_title =  link.title %}
+                                {% assign block_heading =  block.settings.heading %}
+                             
                            {%- endcase -%}
                           {% endfor %}
                         </div>
