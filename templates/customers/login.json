@@ -1,5 +1,14 @@
 {
   "sections": {
+    "banner-heading": {
+      "type": "banner-heading",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
+        "heading": "Login",
+        "text_color": "",
+        "image_height": "medium"
+      }
+    },
     "main": {
       "type": "main-login",
       "settings": {
@@ -11,15 +20,7 @@
       "type": "banner-heading",
       "settings": {
         "heading": "Heading",
-        "text_color": "#fff"
-      }
-    },
-    "banner-heading": {
-      "type": "banner-heading",
-      "settings": {
-        "image": "{{ shop.brand.cover_image }}",
-        "heading": "Login",
-        "text_color": "",
+        "text_color": "#ffffff",
         "image_height": "medium"
       }
     }
