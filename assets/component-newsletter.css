@@ -5,6 +5,7 @@
   align-items: center;
   width: 100%;
   position: relative;
+  margin: 25px auto 0;
 }
 .newsletter-form__field-wrapper .field__input:focus{
       box-shadow: none;
