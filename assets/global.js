@@ -415,6 +415,8 @@ customElements.define('menu-drawer', MenuDrawer);
 class HeaderDrawer extends MenuDrawer {
   constructor() {
     super();
+    console.log('header-custom 12');
+    
   }
 
   openMenuDrawer(summaryElement) {
