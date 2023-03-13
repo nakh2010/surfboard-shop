@@ -10,7 +10,7 @@
   {%- endstyle -%}
 <announcement-component>
   <section class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-     <div class="announcement-bar__list">
+     <div id="sliderAnno-{{ section.id }}" class="announcement-bar__list">
        {%- for block in section.blocks -%}
       {%- if block.settings.text != blank -%}
         {%- assign data-time = data-time | plus: 1000 -%}
