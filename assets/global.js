@@ -531,17 +531,37 @@ class announcementComponent extends HTMLElement {
   constructor() {
     super();
     console.log('announcementComponent');
-    $('.announcement-bar__list').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: false,
-      dots: false,
-      autoplaySpeed: 3000,
-    });
   }
 }
 customElements.define('announcement-component', announcementComponent);
+class AnnoComponent extends announcementComponent {
+  constructor() {
+    super();
+    console.log('announcementComponent 5555');
+
+    $(".announcement-bar__list").each(function(e, t) {
+      var a = $(this);
+      var e = a.attr('data-autoplay');
+      a.slick({
+        slidesToShow: 1,
+        fade: true,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        arrows: false,
+        dots: true,
+        autoplaySpeed: 3000,
+      });
+      if("true" == e){
+        a.slick('slickSetOption', 'autoplay', true).slick('slickPlay');
+      }else{
+        a.slick('slickSetOption', 'autoplay', false).slick('slickPause');
+      }
+    })
+  }
+
+}
+
+customElements.define('announcement-component', AnnoComponent);
 
 // Create a class for the element
 class PopUpInfo extends HTMLElement {
