@@ -226,6 +226,7 @@
                                     {% assign block_heading =  block.settings.heading %}
                                      {% if menu_title == block_heading %}
                                      <div class="mobile_gallery_mega">
+                                      <div class="wr_gallery_scroll">
                                       {% assign global = block.settings %}
     
                                       {% for i in (1..3) %}
@@ -258,6 +259,7 @@
                                         </div>
                                       {% endif %}
                                       {% endfor %}
+                                       </div>
                                      </div>
                                      {% endif %}
                                {%- endcase -%}
