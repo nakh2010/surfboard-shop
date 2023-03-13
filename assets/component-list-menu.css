@@ -52,7 +52,11 @@
   width: 10rem;
   padding: 0.5rem;
 }
-
+@media screen and (min-width: 1200px) {
+  .header--middle-left .list-menu--inline {
+    column-gap: 15px;
+  }
+}
 @media screen and (min-width: 990px) {
    .header--middle-left .list-menu--inline {
     justify-content: center;
