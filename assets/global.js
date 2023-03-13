@@ -533,10 +533,6 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    initPages() {
-      this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
-      console.log('initPages='+sliderItemsToShow);
-    }
     
     console.log('announcementComponent');
     $('.announcement-bar__list').slick({
@@ -548,6 +544,11 @@ class announcementComponent extends HTMLElement {
       autoplaySpeed: 3000,
     });
   }
+  initPages() {
+    this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
+    console.log('initPages='+sliderItemsToShow);
+  }
+  
 }
 customElements.define('announcement-component', announcementComponent);
 
