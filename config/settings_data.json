@@ -135,6 +135,7 @@
           },
           "74ce2d61-bfe7-496e-b28d-224898af65db": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
@@ -143,6 +144,7 @@
           },
           "ecb3eb5d-dde8-42f6-9523-10f6096fc2c6": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
@@ -151,6 +153,7 @@
           },
           "ce08ee3d-33fa-447d-90b3-a1921541dc94": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "SALE OFF 50% BKACK FRIDAY",
               "text_alignment": "center",
