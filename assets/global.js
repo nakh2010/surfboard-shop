@@ -533,9 +533,14 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    this.querySelector('[id^="sliderAnno--"]').addEventListener(
-          console.log('announcement=')
-    );
+    this.querySelector('[id^="sliderAnno--"]').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      autoplaySpeed: 3000,
+    });
     
   }
   initPages() {
