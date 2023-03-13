@@ -530,6 +530,7 @@ customElements.define('deferred-media', DeferredMedia);
 class announcementComponent extends HTMLElement {
   constructor() {
     super();
+    this.slider = this.querySelector('[id^="sliderAnno-"]');
     console.log('announcementComponent');
     $('.announcement-bar__list').slick({
       slidesToShow: 1,
