@@ -534,9 +534,6 @@ class announcementComponent extends HTMLElement {
     let blockNumber = this.getAttribute("data-style");
     
     const lsnSlider = document.querySelectorAll('.lsn-slider');
-    const list = this.getElementsByClassName('lsn-slider');
-    const number = list.getAttribute("data-style");
-    console.log('lsnSlider='+blockNumber+'number='+list);
 
     this.initPages();
     $(".lsn-slider").each(function(e, t) {
