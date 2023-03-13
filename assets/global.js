@@ -533,7 +533,9 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    
+    const price = document.getElementById('sliderAnno-${this.dataset.section}');
+    console.log('announcement='+price);
+
   }
   initPages() {
     
@@ -546,7 +548,6 @@ class announcementComponent extends HTMLElement {
       dots: false,
       autoplaySpeed: 3000,
     });
-    console.log('announcement='+price);
   }
   
 }
