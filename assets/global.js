@@ -538,6 +538,7 @@ class announcementComponent extends HTMLElement {
   initPages() {
     
     const announcement = html.querySelector('.announcement-bar__list');
+    const price = document.getElementById('sliderAnno-${this.dataset.section}');
     $('.announcement-bar__list').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -546,7 +547,7 @@ class announcementComponent extends HTMLElement {
       dots: false,
       autoplaySpeed: 3000,
     });
-    console.log('announcement='+announcement);
+    console.log('announcement='+price);
   }
   
 }
