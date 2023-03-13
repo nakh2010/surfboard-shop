@@ -124,7 +124,15 @@
   
 }
 .mobile_gallery_mega{
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  column-gap: 8px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 0;
 }
 .mobile_gallery_mega{
   
