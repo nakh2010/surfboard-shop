@@ -744,10 +744,9 @@
       let observer = new IntersectionObserver((entries, observer) => {
         this.headerBounds = entries[0].intersectionRect;
         observer.disconnect();
-         console.log('header-custom 12');
+         //console.log('header-custom 12');
          var headerHeight = $('#shopify-section-header').outerHeight();
-         console.log(headerHeight+'headerHeight');
-    //$(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');
+         $(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');
       });
 
       observer.observe(this.header);
