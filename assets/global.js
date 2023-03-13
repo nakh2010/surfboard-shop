@@ -534,7 +534,7 @@ class announcementComponent extends HTMLElement {
 
     this.initPages();
     this.querySelector('[id^="sliderAnno--"]').addEventListener(
-          console.log('announcement=');
+          console.log('announcement=')
     );
     
   }
