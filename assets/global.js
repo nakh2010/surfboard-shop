@@ -531,6 +531,14 @@ class announcementComponent extends HTMLElement {
   constructor() {
     super();
     console.log('announcementComponent');
+    $('.announcement-bar__list').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      autoplaySpeed: 3000,
+    });
   }
 }
 customElements.define('announcement-component', announcementComponent);
@@ -843,15 +851,7 @@ class ProductRecommendations extends HTMLElement {
 customElements.define('product-recommendations', ProductRecommendations);
 
 
-//Announcement Bar
-$('.announcement-bar__list').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  arrows: false,
-  dots: false,
-  autoplaySpeed: 3000,
-});
+
  //Testimonials
 $('.testimonials').slick({
   slidesToShow: 1,
