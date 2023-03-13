@@ -1,5 +1,5 @@
-.background-transparent{
-  
+.background-transparent *{
+      color: #fff;
 }
 .background-transparent{
   
