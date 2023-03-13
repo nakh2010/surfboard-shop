@@ -415,7 +415,6 @@ customElements.define('menu-drawer', MenuDrawer);
 class HeaderDrawer extends MenuDrawer {
   constructor() {
     super();
-    console.log('header-custom 12');
     var headerHeight = $('#shopify-section-header').outerHeight();
     $(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');
   }
