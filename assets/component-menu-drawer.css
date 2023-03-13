@@ -48,8 +48,31 @@
   display: block;
   max-width: 200px;
 }
-.mobile_mega_collection{
-  
+.mobile_mega_collection h4{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #fff !important;
+  text-shadow: 0px 2px 2px rgb(0 0 0 / 65%);
 }
 .wr-button-close{
   
