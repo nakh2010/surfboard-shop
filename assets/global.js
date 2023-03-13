@@ -531,15 +531,25 @@ class announcementComponent extends HTMLElement {
   constructor() {
     super();
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    console.log('announcementComponent');
-    $('.announcement-bar__list').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: false,
-      dots: false,
-      autoplaySpeed: 3000,
-    });
+
+    this.initPages();
+    const resizeObserver = new ResizeObserver(entries => this.initPages());
+    resizeObserver.observe(this.slider);
+
+    initPages() {
+      this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
+      if (this.sliderItemsToShow.length < 2) return;
+      console.log('announcementComponent');
+      $('.announcement-bar__list').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: false,
+        dots: false,
+        autoplaySpeed: 3000,
+      });
+    }
+    
   }
 }
 customElements.define('announcement-component', announcementComponent);
