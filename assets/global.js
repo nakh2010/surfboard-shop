@@ -531,7 +531,7 @@ class announcementComponent extends HTMLElement {
   constructor() {
     super();
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    const lsnSlider = document.querySelectorAll('.lsn-slider');
+    const lsnSlider = document.querySelectorAll('.lsn-slider').getAttribute('data-style');
     console.log('lsnSlider='+lsnSlider);
 
     this.initPages();
