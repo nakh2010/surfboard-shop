@@ -740,7 +740,8 @@
       window.removeEventListener('scroll', this.onScrollHandler);
     }
     var headerHeight = $('#shopify-section-header').outerHeight();
-    $(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');
+         console.log(headerHeight+'headerHeight');
+    //$(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');
     
     createObserver() {
       let observer = new IntersectionObserver((entries, observer) => {
