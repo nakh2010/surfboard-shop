@@ -2,7 +2,8 @@
   position: initial;
 }
 .mobile_mega_collection{
-  
+      padding: 0.9rem 3.2rem;
+    overflow: hidden;
 }
 .mobile_mega_collection .wrapper-img{
   
