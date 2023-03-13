@@ -8,7 +8,7 @@
  }
   
   {%- endstyle -%}
-
+<announcement-component>
 <section class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
            <div class="announcement-bar__list">
              {%- for block in section.blocks -%}
@@ -27,7 +27,7 @@
                {%- endfor -%}
           </div>
 </section>
-
+</announcement-component>
 {% schema %}
 {
   "name": "Announcement",
