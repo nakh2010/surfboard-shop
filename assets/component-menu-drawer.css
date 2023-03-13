@@ -136,12 +136,17 @@
   scrollbar-width: none;
   margin: 0;
 }
-.mobile_gallery_mega{
-  
+/* Hide scrollbar for Chrome, Safari and Opera */
+.mobile_gallery_mega::-webkit-scrollbar {
+  display: none;
 }
+
+/* Hide scrollbar for IE, Edge and Firefox */
 .mobile_gallery_mega{
-  
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+
 #close-menu{
       float: right;
     width: 40px;
