@@ -16,7 +16,7 @@
 
 <announcement-component>
   <section class="announcement-bar gradient " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-     <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}slider {% endif %}announcement-bar__list count_block_{{ count_block }}">
+     <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}lsn-slider {% endif %}announcement-bar__list count_block_{{ count_block }}">
        {%- for block in section.blocks -%}
       {%- if block.settings.text != blank -%}
         {%- assign data-time = data-time | plus: 1000 -%}
