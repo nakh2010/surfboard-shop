@@ -541,7 +541,7 @@ class AnnouncementComponent extends announcementComponent {
   }
 
 }
-customElements.define('announcement-component', AnnouncementComponent);
+//customElements.define('announcement-component', AnnouncementComponent);
 
 // Create a class for the element
 class PopUpInfo extends HTMLElement {
@@ -576,7 +576,6 @@ class PopUpInfo extends HTMLElement {
 
     // Create some CSS to apply to the shadow dom
     const style = document.createElement("style");
-    console.log(style.isConnected);
 
     // Attach the created elements to the shadow dom
     shadow.appendChild(style);
