@@ -534,7 +534,9 @@ class announcementComponent extends HTMLElement {
 
     this.initPages();
     
-    console.log('announcementComponent');
+  }
+  initPages() {
+    console.log('announcement=');
     $('.announcement-bar__list').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -543,9 +545,6 @@ class announcementComponent extends HTMLElement {
       dots: false,
       autoplaySpeed: 3000,
     });
-  }
-  initPages() {
-    console.log('initPages=');
   }
   
 }
