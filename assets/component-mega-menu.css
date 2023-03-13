@@ -4,8 +4,9 @@
 .wrapper-mega {
   display: flex;
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1100px;
   justify-content: center;
+  padding:0 20px;
 }
 .mega_content_column{
     -ms-flex: 0 0 75%;
