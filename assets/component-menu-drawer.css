@@ -88,9 +88,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   position: relative;
   height: 100%;
   background: #fff;
-  color: var(--color-base-link);
 }
-
+.menu-drawer__inner-container *{
+  color: var(--color-base-link) !important;
+}
 .menu-drawer__navigation-container {
   display: grid;
   grid-template-rows: 1fr auto;
