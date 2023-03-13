@@ -533,9 +533,6 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    const resizeObserver = new ResizeObserver(entries => this.initPages());
-    resizeObserver.observe(this.slider);
-
     initPages() {
       this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
       console.log('initPages='+sliderItemsToShow);
