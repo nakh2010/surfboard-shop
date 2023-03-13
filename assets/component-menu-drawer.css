@@ -42,8 +42,11 @@
   -o-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
-.mobile_mega_collection{
-  
+.mobile_mega_collection a{
+  position: relative;
+  width: 100%;
+  display: block;
+  max-width: 200px;
 }
 .mobile_mega_collection{
   
