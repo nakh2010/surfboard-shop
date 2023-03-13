@@ -538,7 +538,6 @@ class announcementComponent extends HTMLElement {
 
     initPages() {
       this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
-      if (this.sliderItemsToShow.length < 2) return;
       console.log('initPages='+sliderItemsToShow);
     }
     
