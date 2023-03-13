@@ -739,15 +739,14 @@
       this.removeEventListener('preventHeaderReveal', this.hideHeaderOnScrollUp);
       window.removeEventListener('scroll', this.onScrollHandler);
     }
+    var headerHeight = $('#shopify-section-header').outerHeight();
+         console.log(headerHeight+'headerHeight');
 
     createObserver() {
       let observer = new IntersectionObserver((entries, observer) => {
         this.headerBounds = entries[0].intersectionRect;
         observer.disconnect();
          console.log('header-custom');
-        var headerHeight = $('#shopify-section-header').outerHeight();
-         console.log(headerHeight+'headerHeight');
-//$(".template-index #MainContent").css('position','relative').css('top','-'+headerHeight+'px');
       });
 
       observer.observe(this.header);
