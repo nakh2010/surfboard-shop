@@ -8,9 +8,15 @@
  }
   
   {%- endstyle -%}
+
+{%- assign count_block = 0 -%}
+{% for block in section.blocks %}
+{%- assign count_block = forloop.length -%} 
+{% endfor %}
+
 <announcement-component>
-  <section class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-     <div id="sliderAnno-{{ section.id }}" class="announcement-bar__list">
+  <section class="announcement-bar gradient " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+     <div id="sliderAnno-{{ section.id }}" class="announcement-bar__list count_block_{{ count_block }}">
        {%- for block in section.blocks -%}
       {%- if block.settings.text != blank -%}
         {%- assign data-time = data-time | plus: 1000 -%}
