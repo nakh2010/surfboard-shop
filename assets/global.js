@@ -533,7 +533,7 @@ class announcementComponent extends HTMLElement {
     console.log('announcementComponent');
   }
 }
-customElements.define('announcement-component', announcementComponent);
+customElements.define('anno-component', announcementComponent);
 class AnnoComponent extends announcementComponent {
   constructor() {
     super();
