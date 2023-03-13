@@ -531,11 +531,10 @@ class announcementComponent extends HTMLElement {
   constructor() {
     super();
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    const myAnchor = document.getElementsByClassName("lsn-slider") 
-    let text = this.getAttribute("data-style");
+    let blockNumber = this.getAttribute("data-style");
     
     const lsnSlider = document.querySelectorAll('.lsn-slider');
-    console.log('lsnSlider='+text);
+    console.log('lsnSlider='+blockNumber);
 
     this.initPages();
     $(".lsn-slider").each(function(e, t) {
