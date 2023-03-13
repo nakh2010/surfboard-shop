@@ -537,7 +537,7 @@ class announcementComponent extends HTMLElement {
   }
   initPages() {
     
-    const announcement = this.querySelector('.announcement-bar__list');
+    const announcement = html.querySelector('.announcement-bar__list');
     $('.announcement-bar__list').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
