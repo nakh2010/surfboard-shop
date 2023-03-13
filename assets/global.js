@@ -537,6 +537,10 @@ class announcementComponent extends HTMLElement {
     //if (blockNumber = 1) return;
 
     this.initPages();
+    
+  }
+  initPages() {
+    console.log('initPages');
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
@@ -548,20 +552,6 @@ class announcementComponent extends HTMLElement {
         autoplaySpeed: 3000,
       });
     })
-    
-  }
-  initPages() {
-    console.log('initPages');
-    /*
-    $('.announcement-bar__list').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: false,
-      dots: false,
-      autoplaySpeed: 3000,
-    });
-    */
   }
   
 }
