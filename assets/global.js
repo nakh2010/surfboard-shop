@@ -541,6 +541,7 @@ class AnnouncementComponent extends announcementComponent {
   }
 
 }
+customElements.define('announcement-component', AnnouncementComponent);
 
 class SliderComponent extends HTMLElement {
   constructor() {
