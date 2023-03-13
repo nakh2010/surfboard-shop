@@ -532,10 +532,10 @@ class announcementComponent extends HTMLElement {
     super();
     this.slider = this.querySelector('[id^="sliderAnno-"]');
     const myAnchor = document.getElementsByClassName("lsn-slider") 
-    let text = myAnchor.getAttribute("data-style");
+    //let text = myAnchor.getAttribute("data-style");
     
     const lsnSlider = document.querySelectorAll('.lsn-slider');
-    console.log('lsnSlider='+text);
+    console.log('lsnSlider='+myAnchor);
 
     this.initPages();
     $(".lsn-slider").each(function(e, t) {
