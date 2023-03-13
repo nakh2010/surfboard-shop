@@ -1,6 +1,9 @@
 .background-transparent *{
       color: #fff;
 }
+.section-header.shopify-section-header-sticky .background-transparent *{
+     color: #000;
+}
 .background-transparent{
   
 }
