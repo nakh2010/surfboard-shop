@@ -684,8 +684,12 @@ h6:empty {
   text-underline-offset: 0.3rem;
   color: var(--color-base-link);
   background-color: transparent;
-  font-size: 1.4rem;
   font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.01em;
 }
 
 .link--text {
