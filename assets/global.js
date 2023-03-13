@@ -292,7 +292,6 @@ class MenuDrawer extends HTMLElement {
     super();
 
     this.mainDetailsToggle = this.querySelector('details');
-    console.log('details===='+mainDetailsToggle);
 
     this.addEventListener('keyup', this.onKeyUp.bind(this));
     this.addEventListener('focusout', this.onFocusOut.bind(this));
@@ -534,9 +533,10 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    const price = document.querySelector('.announcement-bar__list');
-    console.log('announcement='+price);
-
+    this.querySelector('[id^="sliderAnno--"]').addEventListener(
+          console.log('announcement=');
+    );
+    
   }
   initPages() {
     
