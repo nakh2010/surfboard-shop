@@ -536,16 +536,7 @@ class announcementComponent extends HTMLElement {
     
   }
   initPages() {
-    this.querySelector('[id^="sliderAnno-"]').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      arrows: false,
-      dots: false,
-      autoplaySpeed: 3000,
-    });
     
-    /*
     $('.announcement-bar__list').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -554,7 +545,6 @@ class announcementComponent extends HTMLElement {
       dots: false,
       autoplaySpeed: 3000,
     });
-    */
   }
   
 }
