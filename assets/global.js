@@ -533,7 +533,7 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    const price = document.getElementById('sliderAnno-${this.dataset.section}');
+    const price = document.querySelector('.announcement-bar__list');
     console.log('announcement='+price);
 
   }
