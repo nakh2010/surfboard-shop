@@ -718,7 +718,6 @@
     constructor() {
       super();
     }
-    console.log('header-custom');
 
     connectedCallback() {
       this.header = document.getElementById('shopify-section-header');
@@ -742,6 +741,8 @@
     }
 
     createObserver() {
+          console.log('header-custom');
+
       let observer = new IntersectionObserver((entries, observer) => {
         this.headerBounds = entries[0].intersectionRect;
         observer.disconnect();
