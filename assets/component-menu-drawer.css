@@ -80,6 +80,46 @@
 .mobile_gallery_mega{
   padding: 0.9rem 3.2rem;
 }
+.mobile_gallery_mega .megaCol_item a {
+  display: block;
+  position: relative;
+}
+.mobile_gallery_mega .megaCol_item a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0,.3);
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.mobile_gallery_mega .megaCol_item h4 {
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  padding: 0 12px;
+  color: #fff;
+  z-index: 2;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: .01em;
+  text-shadow: 0px 2px 2px rgb(0 0 0 / 65%);
+}
 .mobile_gallery_mega{
   
 }
