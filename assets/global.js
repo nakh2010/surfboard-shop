@@ -545,8 +545,7 @@ class announcementComponent extends HTMLElement {
     });
   }
   initPages() {
-    this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
-    console.log('initPages='+sliderItemsToShow);
+    console.log('initPages=');
   }
   
 }
