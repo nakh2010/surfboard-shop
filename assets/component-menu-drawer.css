@@ -121,7 +121,9 @@
   text-shadow: 0px 2px 2px rgb(0 0 0 / 65%);
 }
 .mobile_gallery_mega .mega_image.megaCol_item{
-  
+  -ms-flex: 0 0 70%;
+  flex: 0 0 70%;
+  max-width: 70%;
 }
 .mobile_gallery_mega{
   display: flex;
