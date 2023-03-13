@@ -535,7 +535,7 @@ class announcementComponent extends HTMLElement {
     let text = this.getAttribute("data-style");
     
     const lsnSlider = document.querySelectorAll('.lsn-slider');
-    console.log('lsnSlider='+myAnchor);
+    console.log('lsnSlider='+text);
 
     this.initPages();
     $(".lsn-slider").each(function(e, t) {
