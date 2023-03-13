@@ -741,11 +741,10 @@
     }
 
     createObserver() {
-          console.log('header-custom');
-
       let observer = new IntersectionObserver((entries, observer) => {
         this.headerBounds = entries[0].intersectionRect;
         observer.disconnect();
+         console.log('header-custom');
       });
 
       observer.observe(this.header);
