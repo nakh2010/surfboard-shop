@@ -2657,7 +2657,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: var(--color-base-text);
+  color: var(--color-base-link);
 }
 
 .header__menu-item:hover {
