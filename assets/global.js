@@ -533,7 +533,7 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
 
     this.initPages();
-    this.querySelector('[id^="sliderAnno--"]').slick({
+    this.querySelector('[id^="sliderAnno-"]').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
