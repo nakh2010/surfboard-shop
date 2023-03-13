@@ -6,13 +6,41 @@
     overflow: hidden;
 }
 .mobile_mega_collection .wrapper-img{
-  
+  display: block;
+  height: 0%;
+  opacity: 1;
+  overflow: hidden;
+  padding-bottom: 120%;
+  background: rgba(0,0,0,.2);
+  border-radius: 5px;
+  position: relative;
 }
 .mobile_mega_collection .wrapper-img .wrapper-img-chill{
-  
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
 }
 .mobile_mega_collection .wrapper-img img{
-  
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
 }
 .mobile_mega_collection{
   
