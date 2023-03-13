@@ -528,6 +528,14 @@ class DeferredMedia extends HTMLElement {
 
 customElements.define('deferred-media', DeferredMedia);
 
+class announcementComponent extends HTMLElement {
+  constructor() {
+    super();
+    console.log('announcementComponent');
+  }
+}
+customElements.define('announcement-component', announcementComponent);
+
 class SliderComponent extends HTMLElement {
   constructor() {
     super();
