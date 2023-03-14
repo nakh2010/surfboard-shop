@@ -549,6 +549,7 @@ class announcementComponent extends HTMLElement {
         autoplay: true,
         fade: true,
         arrows: false,
+        draggable: true,
         dots: false,
         autoplaySpeed: 3000,
       });
