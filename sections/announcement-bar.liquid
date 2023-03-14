@@ -1,13 +1,13 @@
  
-   {{ 'section-announcement.css' | asset_url | stylesheet_tag }}
+{{ 'section-announcement.css' | asset_url | stylesheet_tag }}
 
- {%- style -%}
+{%- style -%}
  .announcement-bar{
    background-color: {{ section.settings.background_announcement }} !important;
    padding: 6px 10px;
  }
   
-  {%- endstyle -%}
+{%- endstyle -%}
 
 {%- assign count_block = 0 -%}
 {% for block in section.blocks %}
