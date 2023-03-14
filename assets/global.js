@@ -531,7 +531,6 @@ class announcementComponent extends HTMLElement {
     super();
     this.container = this.querySelector('.announcement-bar');
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    const num = this.slider.getAttribute("data-style");    
     
     this.initSlider();
     this.show();
@@ -539,9 +538,10 @@ class announcementComponent extends HTMLElement {
   }
   initSlider() {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    const num = this.slider.getAttribute("data-style");    
+    const numBlock = this.slider.getAttribute("data-style");    
     console.log('Announcement num ---'+num);
-    //if (!this.querySelector('.swiper')) return;
+    if (numBlock < 2) return;
+
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
