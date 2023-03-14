@@ -557,7 +557,9 @@ class announcementComponent extends HTMLElement {
   }
   show() {
     setTimeout(() => {
+      window.addEventListener('load', () => {
       this.style.display = "block";
+      });
     }, 3000)
   }
   
