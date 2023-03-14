@@ -14,6 +14,35 @@
 {%- assign count_block = forloop.length -%} 
 {% endfor %}
 
+
+<announcement-bar class="announcement-bar p4 color-style-2" data-slider-type="loop">
+  <div class="container container--fullwidth">
+    <div class="announcement-bar__inner">
+      <div class="announcement-bar__content center">
+          <div class="swiper">
+            <div class="swiper-wrapper" id="swiper-wrapper-6bb210adb5710d2db5">
+              {%- for block in section.blocks -%}
+              {%- if block.settings.text != blank -%}
+                <div class="swiper-slide swiper">
+                {%- assign data-time = data-time | plus: 1000 -%}
+                {%- if block.settings.link != blank -%}
+                  <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
+                {%- endif -%}
+                  <p class="announcement-bar__item {{ block.settings.text_alignment }}" {% if forloop.first %} "data-time = 1000" {%else%} data-time: {{ data-time }} {%endif%}>
+                    {{ block.settings.text | escape }}
+                  </p>
+                {%- if block.settings.link != blank -%}
+                  </a>
+                {%- endif -%}
+                </div>
+              {%- endif -%}
+              {%- endfor -%}
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</announcement-bar>
 <announcement-component  style="display: none;">
   <section class="announcement-bar gradient " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
      <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}lsn-slider {% endif %}announcement-bar__list count_block_{{ count_block }}" data-style="{{ count_block }}">
