@@ -540,8 +540,7 @@ class announcementComponent extends HTMLElement {
   
   }
   initSlider() {
-
-   $(".lsn-slider").each(function(e, t) {
+    $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
         slidesToShow: 1,
@@ -552,16 +551,12 @@ class announcementComponent extends HTMLElement {
         dots: false,
         autoplaySpeed: 3000,
       });
-    })
-    
+     })
   }
   show() {
-   window.addEventListener('load', () => {
-
       setTimeout(() => {
         this.style.display = "block";
       }, 3000)
-   });
   }
   
 }
