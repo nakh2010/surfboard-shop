@@ -529,16 +529,19 @@ customElements.define('deferred-media', DeferredMedia);
 class announcementComponent extends HTMLElement {
   constructor() {
     super();
-    this.element = this.querySelector('.announcement-bar');
+    this.container = this.querySelector('.announcement-bar');
     this.slider = this.querySelector('[id^="sliderAnno-"]');
     const num = this.slider.getAttribute("data-style");    
-    console.log('Announcement num ---'+num);
     
     this.initSlider();
     this.show();
   
   }
   initSlider() {
+    this.slider = this.querySelector('[id^="sliderAnno-"]');
+    const num = this.slider.getAttribute("data-style");    
+    console.log('Announcement num ---'+num);
+    //if (!this.querySelector('.swiper')) return;
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
