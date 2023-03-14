@@ -9,8 +9,6 @@ announcement-component{
   text-align: center;
   letter-spacing: 0.01em;
   margin: 0;
-  display: block;
-    width: 100%;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 750px){
