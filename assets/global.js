@@ -558,7 +558,7 @@ class announcementComponent extends HTMLElement {
   show() {
     setTimeout(() => {
       this.style.display = "block";
-    }, 300)
+    }, 3000)
   }
   
 }
