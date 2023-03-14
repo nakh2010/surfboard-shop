@@ -1,3 +1,7 @@
+announcement-component{
+  overflow: hidden;
+  display: block;
+}
 .announcement-bar__item{
   font-weight: 700;
   font-size: 18px;
