@@ -535,11 +535,11 @@ class announcementComponent extends HTMLElement {
     console.log('Announcement num ---'+num);
     
     this.slideshow();
-    
+    this.slider.style.display = "block";
   }
   slideshow() {
 
-    $(".lsn-slider").each(function(e, t) {
+   $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
         slidesToShow: 1,
@@ -550,6 +550,7 @@ class announcementComponent extends HTMLElement {
         autoplaySpeed: 3000,
       });
     })
+    
   }
   
 }
