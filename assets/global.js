@@ -535,12 +535,13 @@ class announcementComponent extends HTMLElement {
     
     const lsnSlider = document.querySelectorAll('.lsn-slider');
     //if (blockNumber = 1) return;
+    console.log('Announcement slideshow ---'+lsnSlider);
 
-    this.initPages();
+    this.slideshow();
     
   }
-  initPages() {
-    console.log('initPages');
+  slideshow() {
+    console.log('Announcement slideshow ');
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
