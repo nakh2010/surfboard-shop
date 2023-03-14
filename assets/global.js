@@ -537,13 +537,11 @@ class announcementComponent extends HTMLElement {
     
     this.slideshow();
 
-    $(window).on( "load", function() {
        setTimeout(function() {
          this.element = this.querySelector('.announcement-bar');
          this.element.style.display = "block";
         console.log('slide changed');
       }, 1000);
-    });
   
   }
   slideshow() {
