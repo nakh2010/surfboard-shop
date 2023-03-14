@@ -565,12 +565,6 @@ class announcementComponent extends HTMLElement {
 }
 customElements.define('announcement-component', announcementComponent);
 
-/*
-window.addEventListener('load', () => {
-  customElements.define('announcement-component', announcementComponent);
-});
-*/
-
 // Create a class for the element
 class PopUpInfo extends HTMLElement {
   constructor() {
