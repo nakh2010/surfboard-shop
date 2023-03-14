@@ -537,9 +537,9 @@ class announcementComponent extends HTMLElement {
     
   }
   slideshow() {
-    const lsnSlider = document.querySelectorAll('.lsn-slider');
+    const lsnSlider = document.getElementsByClassName('lsn-slider');
     const num = lsnSlider.getAttribute("data-style");
-    console.log('Announcement slideshow ---'+num);
+    console.log('Announcement slideshow ---'+lsnSlider);
     
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
