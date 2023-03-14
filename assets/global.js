@@ -577,7 +577,7 @@ class announcementComponent extends HTMLElement {
   }
   
 }
- // customElements.define('announcement-component', announcementComponent);
+customElements.define('announcement-component', announcementComponent);
 
 /*
 window.addEventListener('load', () => {
