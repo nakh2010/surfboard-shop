@@ -541,7 +541,7 @@ class announcementComponent extends HTMLElement {
   }
   initSlider() {
 
-   $(".lsn-slider").each(function(e, t) {
+   this.slider.each(function(e, t) {
       var a = $(this);
       a.slick({
         slidesToShow: 1,
