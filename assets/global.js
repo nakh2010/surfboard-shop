@@ -536,7 +536,9 @@ class announcementComponent extends HTMLElement {
     console.log('Announcement num ---'+num);
     
     this.slideshow();
-    this.style.display = "block";
+    setTimeout(function() {
+      this.style.display = "block";
+    }, 1000);
   
   }
   slideshow() {
