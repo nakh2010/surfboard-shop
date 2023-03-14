@@ -533,11 +533,16 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
     let blockNumber = this.getAttribute("data-style");    
     //if (blockNumber = 1) return;
+
+    this.slider = this.querySelector('.lsn-slider');
+    const num = this.slider.getAttribute("data-style");    
+    console.log('Announcement num ---'+num);
     this.slideshow();
     
   }
   slideshow() {
-    const lsnSlider = document.getElementsByClassName('lsn-slider').innerHTML;
+    const lsnSlider = document.getElementsByClassName('lsn-slider');
+    
    // const num = lsnSlider.getAttribute("data-style");
     console.log('Announcement slideshow ---'+lsnSlider);
     
