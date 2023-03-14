@@ -537,11 +537,7 @@ class announcementComponent extends HTMLElement {
     
     this.slideshow();
 
-       setTimeout(function() {
-         this.element = this.querySelector('.announcement-bar');
-         this.element.style.display = "block";
-        console.log('slide changed');
-      }, 1000);
+   this.element.style.display = "block";
   
   }
   slideshow() {
@@ -561,7 +557,9 @@ class announcementComponent extends HTMLElement {
   }
   
 }
-customElements.define('announcement-component', announcementComponent);
+window.addEventListener('load', () => {
+  customElements.define('announcement-component', announcementComponent);
+});
 
 // Create a class for the element
 class PopUpInfo extends HTMLElement {
