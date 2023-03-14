@@ -530,12 +530,13 @@ customElements.define('deferred-media', DeferredMedia);
 class announcementComponent extends HTMLElement {
   constructor() {
     super();
+    this.element = this.querySelector('.announcement-bar');
     this.slider = this.querySelector('[id^="sliderAnno-"]');
     const num = this.slider.getAttribute("data-style");    
     console.log('Announcement num ---'+num);
     
     this.slideshow();
-    this.slider.style.display = "block";
+    this.element.style.display = "block";
   }
   slideshow() {
 
