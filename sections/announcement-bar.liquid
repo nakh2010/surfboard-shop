@@ -14,41 +14,6 @@
 {%- assign count_block = forloop.length -%} 
 {% endfor %}
 
-<link href="https://cdn.shopify.com/s/files/1/0625/9326/9957/t/258/assets/section-announcement-bar.css?v=36307777000868930721676971904" rel="stylesheet" type="text/css" media="all">
-<link href="https://cdn.shopify.com/s/files/1/0625/9326/9957/t/258/assets/swiper-bundle.min.css?v=149083001509302440241676971908" rel="stylesheet" type="text/css" media="all">
-
-<announcement-bar class="announcement-bar p4 color-style-2" data-slider-type="loop">
-  <div class="container container--fullwidth">
-    <div class="announcement-bar__inner">
-      <div class="announcement-bar__content center">
-          <div class="swiper">
-            <div class="swiper-wrapper" id="swiper-wrapper-6bb210adb5710d2db5">
-              {%- for block in section.blocks -%}
-              {%- if block.settings.text != blank -%}
-                <div class="swiper-slide swiper">
-                {%- assign data-time = data-time | plus: 1000 -%}
-                {%- if block.settings.link != blank -%}
-                  <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
-                {%- endif -%}
-                  <p class="announcement-bar__item {{ block.settings.text_alignment }}" {% if forloop.first %} "data-time = 1000" {%else%} data-time: {{ data-time }} {%endif%}>
-                    {{ block.settings.text | escape }}
-                  </p>
-                {%- if block.settings.link != blank -%}
-                  </a>
-                {%- endif -%}
-                </div>
-              {%- endif -%}
-              {%- endfor -%}
-            </div>
-          </div>
-      </div>
-      <button class="announcement-bar__close p4" data-close-button="" aria-label="Close"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.80476 2.86195C3.54441 2.6016 3.1223 2.6016 2.86195 2.86195C2.6016 3.1223 2.6016 3.54441 2.86195 3.80476L7.05721 8.00002L2.86195 12.1953C2.6016 12.4556 2.6016 12.8777 2.86195 13.1381C3.1223 13.3984 3.54441 13.3984 3.80476 13.1381L8.00002 8.94283L12.1953 13.1381C12.4556 13.3984 12.8777 13.3984 13.1381 13.1381C13.3984 12.8777 13.3984 12.4556 13.1381 12.1953L8.94283 8.00002L13.1381 3.80476C13.3984 3.54441 13.3984 3.1223 13.1381 2.86195C12.8777 2.6016 12.4556 2.6016 12.1953 2.86195L8.00002 7.05721L3.80476 2.86195Z" fill="currentColor"></path>
-      </svg>
-      </button>
-    </div>
-  </div>
-</announcement-bar>
 <announcement-component  style="display: none;">
   <section class="announcement-bar gradient " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
      <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}lsn-slider {% endif %}announcement-bar__list count_block_{{ count_block }}" data-style="{{ count_block }}">
