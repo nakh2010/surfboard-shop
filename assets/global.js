@@ -539,7 +539,6 @@ class announcementComponent extends HTMLElement {
   initSlider() {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
     const numBlock = this.slider.getAttribute("data-style");    
-    console.log('Announcement num ---'+numBlock);
     if (numBlock < 2) return;
 
     $(".lsn-slider").each(function(e, t) {
@@ -557,7 +556,7 @@ class announcementComponent extends HTMLElement {
   }
   show() {
       setTimeout(() => {
-        this.style.display = "block";
+        //this.style.display = "block";
       }, 3000)
   }
   
