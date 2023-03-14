@@ -535,11 +535,11 @@ class announcementComponent extends HTMLElement {
     const num = this.slider.getAttribute("data-style");    
     console.log('Announcement num ---'+num);
     
-    this.slideshow();
+    this.initSlider();
     this.show();
   
   }
-  slideshow() {
+  initSlider() {
 
    $(".lsn-slider").each(function(e, t) {
       var a = $(this);
