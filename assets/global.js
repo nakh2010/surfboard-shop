@@ -531,10 +531,6 @@ class announcementComponent extends HTMLElement {
   constructor() {
     super();
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    let blockNumber = this.getAttribute("data-style");    
-    //if (blockNumber = 1) return;
-
-    this.slider = this.querySelector('.lsn-slider');
     const num = this.slider.getAttribute("data-style");    
     console.log('Announcement num ---'+num);
     
