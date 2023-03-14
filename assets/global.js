@@ -539,7 +539,7 @@ class announcementComponent extends HTMLElement {
   initSlider() {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
     const numBlock = this.slider.getAttribute("data-style");    
-    console.log('Announcement num ---'+num);
+    console.log('Announcement num ---'+numBlock);
     if (numBlock < 2) return;
 
     $(".lsn-slider").each(function(e, t) {
