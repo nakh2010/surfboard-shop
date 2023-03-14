@@ -18,7 +18,7 @@
   <section class="announcement-bar gradient " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
      <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}lsn-slider {% endif %}announcement-bar__list count_block_{{ count_block }}" data-style="{{ count_block }}">
        {%- for block in section.blocks -%}
-      {%- if block.settings.text != blank -%}
+        <div class="announcement-bar-item">
         {%- assign data-time = data-time | plus: 1000 -%}
         {%- if block.settings.link != blank -%}
           <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
@@ -29,8 +29,8 @@
         {%- if block.settings.link != blank -%}
           </a>
         {%- endif -%}
-      {%- endif -%}
-         {%- endfor -%}
+        </div>
+       {%- endfor -%}
     </div>
   </section>
 </announcement-component>
