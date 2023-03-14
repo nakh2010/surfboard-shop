@@ -537,15 +537,19 @@ class announcementComponent extends HTMLElement {
     this.slider = this.querySelector('.lsn-slider');
     const num = this.slider.getAttribute("data-style");    
     console.log('Announcement num ---'+num);
-    this.slideshow();
+    this.slider.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      arrows: false,
+      dots: false,
+      autoplaySpeed: 3000,
+    });
+    //this.slideshow();
     
   }
   slideshow() {
-    const lsnSlider = document.getElementsByClassName('lsn-slider');
-    
-   // const num = lsnSlider.getAttribute("data-style");
-    console.log('Announcement slideshow ---'+lsnSlider);
-    
+
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
       a.slick({
