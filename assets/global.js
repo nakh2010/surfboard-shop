@@ -547,7 +547,7 @@ class announcementComponent extends HTMLElement {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        fade: true,
+        fade: false,
         arrows: false,
         draggable: true,
         dots: false,
