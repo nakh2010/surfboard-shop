@@ -495,19 +495,21 @@
                       <fieldset class="js product-form__input {% if option.name == 'color' or option.name == 'Color' %} color_swatch{% endif %}">
                         <legend class="form__label">{{ option.name }}</legend>
                         {%- for value in option.values -%}
-                          <input
-                            type="radio"
-                            id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                            name="{{ option.name }}"
-                            value="{{ value | escape }}"
-                            form="{{ product_form_id }}"
-                            {% if option.selected_value == value %}
-                              checked
-                            {% endif %}
-                          >
-                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"{% if option.name == 'color' or option.name == 'Color' %}style="background-color: {{ value | split: ' ' | join: '' }}; background-image: url({{ value | handle | append: '.png' | file_url }});background-size:cover;background-repeat:no-repeat;" data-color="{{ value | escape }}"{% endif %}>
-                            {{ value }}
-                          </label>
+                          <div class="option-wrapp">
+                            <input
+                              type="radio"
+                              id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                              name="{{ option.name }}"
+                              value="{{ value | escape }}"
+                              form="{{ product_form_id }}"
+                              {% if option.selected_value == value %}
+                                checked
+                              {% endif %}
+                            >
+                            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"{% if option.name == 'color' or option.name == 'Color' %}style="background-color: {{ value | split: ' ' | join: '' }}; background-image: url({{ value | handle | append: '.png' | file_url }});background-size:cover;background-repeat:no-repeat;" data-color="{{ value | escape }}"{% endif %}>
+                              {{ value }}
+                            </label>
+                          </div>
                         {%- endfor -%}
                       </fieldset>
                     {%- endfor -%}
