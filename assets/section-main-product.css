@@ -312,7 +312,9 @@ fieldset.product-form__input .form__label {
 .product__info-container > * + * {
   margin: 1rem 0;
 }
-
+.product__info-container variant-radios {
+  margin-top: 2.5rem;
+}
 .product__info-container iframe {
   max-width: 100%;
 }
