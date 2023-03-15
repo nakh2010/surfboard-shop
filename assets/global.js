@@ -538,7 +538,7 @@ class announcementComponent extends HTMLElement {
   }
   initSlider() {
     this.slider = this.querySelector('[id^="sliderAnno-"]');
-    const numBlock = this.slider.getAttribute("data-style");    
+    const numBlock = this.slider.getAttribute("data-number");    
     if (numBlock < 2) return;
 
     $(".lsn-slider").each(function(e, t) {
@@ -572,7 +572,7 @@ class testimonialComponent extends HTMLElement {
   }
   initSlider() {
     this.slider = this.querySelector('[id^="lsn-testimonial-"]');
-    const numBlock = this.slider.getAttribute("data-style");    
+    const numBlock = this.slider.getAttribute("data-number");    
     if (numBlock < 2) return;
 
     $(".testimonials").each(function(e, t) {
