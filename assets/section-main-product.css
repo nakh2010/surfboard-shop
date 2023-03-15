@@ -268,9 +268,21 @@ fieldset.product-form__input .form__label {
   border: 0.5px solid var(--color-base-heading);
 }
 .product-form__input.color_swatch input[type=radio]+label svg{
-  
+  display: none;
+  max-width: 20px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-.product-form__input.color_swatch input[type=radio]:checked+label{
+.product-form__input.color_swatch input[type=radio]+label svg{
+}
+.product-form__input.color_swatch input[type=radio]:checked+label svg{
+  display: block;
 }
 
 /* Fallback */
