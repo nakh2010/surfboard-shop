@@ -27,25 +27,25 @@
 {%- assign count_block = forloop.length -%} 
 {% endfor %}
 <testimonial-component id="section-testimonials-{{ section.id }}" class="lsn_block-testimonials bg_style_{{ bg_style }}">
-    <div class="page-width">
-      <div class="wrapper_testimonials">
-        <div class="testimonials">
-         {%- for block in section.blocks -%}
-            <div class="sum_testimonials">
-                {% if block.settings.heading != blank %}
-                <span>{{ block.settings.heading }}</span>
-                {% endif %}
-                {% if block.settings.testimonials != blank %}
-                <div>{{ block.settings.testimonials }}</div>
-                {% endif %}
-                {% if block.settings.label != blank %}
-                <a class="label_btn lsn_button_style" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
+  <div class="page-width">
+    <div class="wrapper_testimonials">
+      <div class="testimonials" data-style="{{ count_block }}">
+       {%- for block in section.blocks -%}
+          <div class="sum_testimonials">
+              {% if block.settings.heading != blank %}
+              <span>{{ block.settings.heading }}</span>
+              {% endif %}
+              {% if block.settings.testimonials != blank %}
+              <div>{{ block.settings.testimonials }}</div>
+              {% endif %}
+              {% if block.settings.label != blank %}
+              <a class="label_btn lsn_button_style" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
+              {% endif %}
+          </div>
+          {% endfor %}
       </div>
     </div>
+  </div>
 </testimonial-component>
 {% schema %}
   {
