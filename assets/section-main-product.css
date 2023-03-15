@@ -258,7 +258,7 @@ fieldset.product-form__input .form__label {
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0 0.5rem rgba(var(--color-foreground), 0.55);
 }
-.product-form__input.color_swatch label{
+.product-form__input.color_swatch input[type='radio'] + label{
   width: 35px;
   height: 35px;
   left: 220px;
