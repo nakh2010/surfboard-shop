@@ -1,3 +1,6 @@
+.product__accordion.accordion details{
+  border-bottom: 1px solid #005A87;
+}
 .accordion summary {
   display: flex;
   position: relative;
