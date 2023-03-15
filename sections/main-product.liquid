@@ -682,6 +682,7 @@
 
               <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
             {%- when 'rating' -%}
+              {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
                   assign rating_decimal = 0
                    assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
@@ -715,6 +716,7 @@
                     {{ "accessibility.total_reviews" | t -}}
                   </span>
                 </p>
+              {%- endif -%}
 
               {%- when 'complementary' -%}
                 <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">

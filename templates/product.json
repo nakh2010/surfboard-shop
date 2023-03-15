@@ -18,11 +18,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "96e9a9d1-8307-4b45-8805-6d062335747f": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -83,7 +78,6 @@
       "block_order": [
         "title",
         "06b49b8b-119d-439a-acc5-f6078fb13727",
-        "96e9a9d1-8307-4b45-8805-6d062335747f",
         "price",
         "description",
         "collapsible-row-0",
