@@ -577,6 +577,33 @@ class PopUpInfo extends HTMLElement {
 customElements.define("popup-info", PopUpInfo);
 
 
+class testimonialComponent extends HTMLElement {
+  constructor() {
+    super();
+    this.initSlider();
+  }
+  initSlider() {
+    this.slider = this.querySelector('[id^="lsn-testimonial-"]');
+    const numBlock = this.slider.getAttribute("data-number");    
+    if (numBlock < 2) return;
+
+    $(".testimonials").each(function(e, t) {
+      var a = $(this);
+      a.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        speed: 300,
+        autoplaySpeed: 10000,
+        autoplay: false,
+      });
+      
+     })
+  }
+}
+customElements.define("testimonial-component", testimonialComponent);
+
 class SliderComponent extends HTMLElement {
   constructor() {
     super();
