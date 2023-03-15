@@ -493,7 +493,7 @@
                   >
                     {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input {% if option.name == 'color' or option.name == 'Color' %} color_swatch{% endif %}">
-                        <legend class="form__label">{{ option.name }}</legend>
+                        <legend class="form__label">{{ option.name }} {% render 'icon-checkmark' %}</legend>
                         {%- for value in option.values -%}
                             <input
                               type="radio"
