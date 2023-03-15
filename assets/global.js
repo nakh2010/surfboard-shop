@@ -576,7 +576,7 @@ class PopUpInfo extends HTMLElement {
 // Define the new element
 customElements.define("popup-info", PopUpInfo);
 
-
+/*
 class testimonialComponent extends HTMLElement {
   constructor() {
     super();
@@ -603,6 +603,8 @@ class testimonialComponent extends HTMLElement {
   }
 }
 customElements.define("testimonial-component", testimonialComponent);
+*/
+
 
 class SliderComponent extends HTMLElement {
   constructor() {
