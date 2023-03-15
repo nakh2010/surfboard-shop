@@ -168,7 +168,9 @@
   min-width: fit-content;
   border: none;
 }
+.product-form__input.color_swatch{
 
+}
 variant-radios,
 variant-selects {
   display: block;
