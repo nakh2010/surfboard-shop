@@ -45,6 +45,9 @@
 .accordion details[open] > summary .icon-caret {
   transform: rotate(180deg);
 }
+.accordion details[open] > summary .accordion-icon .icon-plus{
+  display:none;
+}
 
 .accordion__content {
   margin-bottom: 1.5rem;
