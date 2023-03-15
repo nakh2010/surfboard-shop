@@ -565,18 +565,33 @@ class announcementComponent extends HTMLElement {
 }
 customElements.define('announcement-component', announcementComponent);
 
-// Create a class for the element
-class PopUpInfo extends HTMLElement {
+class testimonialComponent extends HTMLElement {
   constructor() {
-    // Always call super first in constructor
     super();
+    this.initSlider();
+  }
+  initSlider() {
+    this.slider = this.querySelector('[id^="sliderAnno-"]');
+    const numBlock = this.slider.getAttribute("data-style");    
+    if (numBlock < 2) return;
 
-   
+    $(".testimonials").each(function(e, t) {
+      var a = $(this);
+      a.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        speed: 300,
+        infinite: true,
+        autoplaySpeed: 10000,
+        autoplay: false
+      });
+      
+     })
   }
 }
-
-// Define the new element
-customElements.define("popup-info", PopUpInfo);
+customElements.define("testimonial-component", testimonialComponent);
 
 
 class SliderComponent extends HTMLElement {
@@ -873,18 +888,6 @@ class ProductRecommendations extends HTMLElement {
 customElements.define('product-recommendations', ProductRecommendations);
 
 
-
- //Testimonials
-$('.testimonials').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  dots: true,
-  speed: 300,
-  infinite: true,
-  autoplaySpeed: 10000,
-  autoplay: false,
-});
 
 
 
