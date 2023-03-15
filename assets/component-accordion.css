@@ -48,6 +48,9 @@
 .accordion details > summary .accordion-icon .icon-minus{
   display:none;
 }
+.accordion details[open] > summary .accordion-icon .icon-minus{
+  display:block;
+}
 .accordion details[open] > summary .accordion-icon .icon-plus{
   display:none;
 }
