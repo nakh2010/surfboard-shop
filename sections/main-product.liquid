@@ -505,7 +505,7 @@
                               checked
                             {% endif %}
                           >
-                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+                          <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"{% if option.name == 'color' or option.name == 'Color' %}style="background-color: {{ value | split: ' ' | join: '' }}; background-image: url({{ value | handle | append: '.png' | file_url }});background-size:cover;background-repeat:no-repeat;" data-color="{{ value | escape }}"{% endif %}>
                             {{ value }}
                           </label>
                         {%- endfor -%}
