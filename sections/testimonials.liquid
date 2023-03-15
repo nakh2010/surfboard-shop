@@ -6,22 +6,26 @@
 {{ 'component-testimonials.css' | asset_url | stylesheet_tag }}
 
 {% style %}
-    {% if bg_style == 'color' %}
+  {% if bg_style == 'color' %}
+  #section-testimonials-{{ section.id }} .wrapper_testimonials{
+    background-color: {{ bg_color }};
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  #section-testimonials-{{ section.id }} .wrapper_testimonials *{
+    color: {{ text_color }};
+  }
+  {% else %}
     #section-testimonials-{{ section.id }} .wrapper_testimonials{
-      background-color: {{ bg_color }};
-      border-radius: 20px;
-      overflow: hidden;
-    }
-    #section-testimonials-{{ section.id }} .wrapper_testimonials *{
+      background: transparent;
       color: {{ text_color }};
-    }
-    {% else %}
-      #section-testimonials-{{ section.id }} .wrapper_testimonials{
-        background: transparent;
-        color: {{ text_color }};
-    }
-    {% endif %}
+  }
+  {% endif %}
 {% endstyle %}
+{%- assign count_block = 0 -%}
+{% for block in section.blocks %}
+{%- assign count_block = forloop.length -%} 
+{% endfor %}
 <testimonial-component id="section-testimonials-{{ section.id }}" class="lsn_block-testimonials bg_style_{{ bg_style }}">
     <div class="page-width">
       <div class="wrapper_testimonials">
