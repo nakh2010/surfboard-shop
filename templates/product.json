@@ -27,7 +27,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "description": {
@@ -39,7 +39,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
-            "icon": "leather",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -48,16 +48,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -81,7 +72,6 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-2",
-        "collapsible-row-3",
         "collapsible-row-1"
       ],
       "settings": {
