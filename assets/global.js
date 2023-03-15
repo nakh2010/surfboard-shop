@@ -583,9 +583,8 @@ class testimonialComponent extends HTMLElement {
         arrows: false,
         dots: true,
         speed: 300,
-        infinite: true,
         autoplaySpeed: 10000,
-        autoplay: false
+        autoplay: false,
       });
       
      })
