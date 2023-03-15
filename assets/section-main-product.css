@@ -239,7 +239,7 @@ fieldset.product-form__input .form__label {
   color: rgb(var(--color-background));
 }
 .product-form__input .option-wr{
-  
+    display: inline-block;
 }
 
 @media screen and (forced-colors: active) {
