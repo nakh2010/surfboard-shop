@@ -180,6 +180,12 @@ variant-selects {
 
 .product-form__input .form__label {
   padding-left: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: var(--color-base-heading);
 }
 
 fieldset.product-form__input .form__label {
