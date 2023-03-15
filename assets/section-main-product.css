@@ -168,8 +168,12 @@
   min-width: fit-content;
   border: none;
 }
-.product-form__input.color_swatch{
-
+.product-form__input.color_swatch label{
+  width: 35px;
+  height: 35px;
+  left: 220px;
+  border-radius: 5px;
+  padding: 0;
 }
 variant-radios,
 variant-selects {
