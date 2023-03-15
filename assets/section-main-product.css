@@ -265,6 +265,8 @@ fieldset.product-form__input .form__label {
   padding: 0;
   font-size: 0;
 }
+.product-form__input.color_swatch input[type=radio]:checked+label{
+}
 
 /* Fallback */
 .product-form__input input[type='radio'].focused + label,
