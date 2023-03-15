@@ -77,7 +77,7 @@
         "collapsible-row-1"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_position": "left",
         "gallery_layout": "thumbnail_slider",
         "media_size": "large",
