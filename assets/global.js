@@ -571,7 +571,7 @@ class testimonialComponent extends HTMLElement {
     this.initSlider();
   }
   initSlider() {
-    this.slider = this.querySelector('[id^="sliderAnno-"]');
+    this.slider = this.querySelector('[id^="lsn-testimonial-"]');
     const numBlock = this.slider.getAttribute("data-style");    
     if (numBlock < 2) return;
 
