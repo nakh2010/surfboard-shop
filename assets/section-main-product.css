@@ -1283,7 +1283,7 @@ a.product__text {
 .thumbnail-list__item::before {
   content: "";
   display: block;
-  padding-bottom: 100%;
+  padding-bottom: 115%;
 }
 
 .product:not(.featured-product) .product__view-details {
