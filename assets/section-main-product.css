@@ -1,24 +1,7 @@
 .product {
   margin: 0;
 }
-.quantity_and_buy{
-  
-}
-.quantity_and_buy .product-form__quantity{
-  
-}
-.quantity_and_buy product-form{
-      margin: 0;
-}
-.quantity_and_buy product-form{
-  
-}
-.quantity_and_buy{
-  
-}
-.quantity_and_buy{
-  
-}
+
 .product.grid {
   gap: 0;
 }
@@ -1344,3 +1327,22 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+.quantity_and_buy{
+  
+}
+.quantity_and_buy .product-form__quantity{
+  
+}
+.quantity_and_buy product-form{
+      margin: 0;
+}
+.quantity_and_buy product-form{
+  
+}
+.quantity_and_buy{
+  
+}
+.quantity_and_buy{
+  
+}
+
