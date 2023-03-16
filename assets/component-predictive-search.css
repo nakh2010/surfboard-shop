@@ -12,6 +12,7 @@
   border-bottom-left-radius: var(--popup-corner-radius);
   box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius) rgba(var(--color-shadow), var(--popup-shadow-opacity));
 }
+.template-index .search-modal.modal__content *,
 .template-index predictive-search *{
       color: #000;
 }
