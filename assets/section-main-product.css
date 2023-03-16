@@ -1161,7 +1161,7 @@ a.product__text {
   top: 0;
   left: 0;
   display: block;
-  height: 115%;
+  height: 100%;
   width: 100%;
   padding: 0;
   color: rgb(var(--color-base-text));
@@ -1177,8 +1177,6 @@ a.product__text {
   border-radius: 0;
       object-fit: cover;
     height: 100%;
-  display: block;
-      width: 100%;
 }
 
 .thumbnail[aria-current] {
