@@ -89,7 +89,7 @@
 .shopify-payment-button__button {
   font-family: inherit;
   min-height: 4.6rem;
-  border-radius: var(--inputs-radius);
+  border-radius: var(--inputs-radius) !important;
 }
 
 .shopify-payment-button__button [role="button"].focused,
