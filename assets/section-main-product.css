@@ -1067,7 +1067,18 @@ a.product__text {
 .slider--mobile.thumbnail-list:after {
   content: none;
 }
-
+.product--thumbnail_slider .thumbnail-slider{
+  position: relative;
+}
+.product--thumbnail_slider .thumbnail-slider button.slider-button{
+  
+}
+.product--thumbnail_slider .thumbnail-slider button.slider-button.slider-button--prev{
+  
+}
+.product--thumbnail_slider .thumbnail-slider button.slider-button.slider-button--next{
+  
+}
 @media screen and (min-width: 750px) {
   .product--stacked .thumbnail-list {
     display: none;
