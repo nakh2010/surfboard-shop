@@ -605,6 +605,9 @@ a.product__text {
 }
 
 @media screen and (min-width: 750px) and (max-width: 1024px) {
+  .product__title>* {
+    font-size: 30px;
+  }
   .product__media-list .product__media-item:first-child {
     padding-left: 0;
   }
