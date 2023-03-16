@@ -1178,6 +1178,7 @@ a.product__text {
       object-fit: cover;
     height: 100%;
   display: block;
+      width: 100%;
 }
 
 .thumbnail[aria-current] {
