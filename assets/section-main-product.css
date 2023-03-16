@@ -1337,7 +1337,6 @@ a.product__text {
   align-items: flex-end;
   justify-content: flex-start;
   margin-top: 25px;
-      column-gap: 10px;
 }
 .product__info-container .quantity_and_buy .product-form__quantity{
   max-width: 186px;
