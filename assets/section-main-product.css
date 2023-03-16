@@ -1340,8 +1340,8 @@ a.product__text {
   margin: 0;
   flex: 0 0 100%;
 }
-.product__info-container .quantity_and_buy product-form{
-  
+.product__info-container .quantity_and_buy product-form .product-form__buttons{
+  max-width: 200px;
 }
 .product__info-container .quantity_and_buy{
   
