@@ -535,7 +535,7 @@ a.product__text {
   .slider.slider--mobile .product__media-item.grid__item:first-of-type{
         margin-left: 0;
   }
-  .slider.slider--mobile .slider--mobile:after {
+  .slider--mobile:after {
     padding-left: 0;
 }
 
