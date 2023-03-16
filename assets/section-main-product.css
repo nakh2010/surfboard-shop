@@ -525,7 +525,9 @@ a.product__text {
 .product__media-list video {
   border-radius: calc(var(--media-radius) - var(--media-border-width));
 }
-
+.product--thumbnail_slider .product__media-list {
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 749px) {
   .product__media-list {
     margin-left: -2.5rem;
