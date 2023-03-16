@@ -1340,7 +1340,7 @@ a.product__text {
       column-gap: 10px;
 }
 .product__info-container .quantity_and_buy .product-form__quantity{
-  max-width: 186px;
+  max-width: 165px;
   margin-bottom: 0;
   flex: 0 0 50%;
 }
