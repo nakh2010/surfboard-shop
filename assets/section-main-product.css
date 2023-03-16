@@ -1351,6 +1351,7 @@ a.product__text {
   max-width: 200px;
 }
 .product__info-container .quantity_and_buy quantity-input{
+  width: calc(17rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
 }
 .product__info-container .quantity_and_buy .quantity:before{
   box-shadow: none;
