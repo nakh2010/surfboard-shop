@@ -1151,7 +1151,7 @@ a.product__text {
 
   .thumbnail-slider .thumbnail-list.slider--tablet-up {
     display: flex;
-    padding: 0.5rem;
+    padding: 0;
     flex: 1;
     scroll-padding-left: 0.5rem;
   }
