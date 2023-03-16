@@ -107,5 +107,8 @@
   }
 }
 @media screen and (max-width: 749px) {
-  
+  .price .price-item {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
