@@ -1333,11 +1333,12 @@ a.product__text {
   justify-content: flex-start;
 }
 .product__info-container .quantity_and_buy .product-form__quantity{
-      max-width: 186px;
-    margin-bottom: 0;
+  max-width: 186px;
+  margin-bottom: 0;
 }
 .product__info-container .quantity_and_buy product-form{
-      margin: 0;
+  margin: 0;
+  flex: 0 0 100%;
 }
 .product__info-container .quantity_and_buy product-form{
   
