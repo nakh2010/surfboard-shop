@@ -1133,7 +1133,7 @@ a.product__text {
 
   .thumbnail-slider .thumbnail-list.slider {
     display: flex;
-    padding: 0.5rem;
+    padding: 0rem;
     flex: 1;
     scroll-padding-left: 0.5rem;
   }
