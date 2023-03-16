@@ -317,6 +317,7 @@ fieldset.product-form__input .form__label {
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  border-radius: var(--inputs-radius);
 }
 
 .no-js .product-form__submit.button--secondary {
