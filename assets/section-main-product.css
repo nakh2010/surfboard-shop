@@ -1389,5 +1389,8 @@ a.product__text {
     flex: 0 0 100%;
     margin-top: 10px;
   }
+  .product__info-container .quantity_and_buy product-form .product-form__buttons {
+    max-width: 100%;
+  }
 }
 
