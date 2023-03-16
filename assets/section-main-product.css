@@ -529,6 +529,10 @@ a.product__text {
     margin-bottom: 10px;
 }
 @media screen and (max-width: 749px) {
+  .product__info-wrapper.grid__item{
+        margin-top: 22px;
+  }
+  
   .product__media-list {
     margin-left: -2.5rem;
     margin-bottom: 3rem;
