@@ -1153,7 +1153,7 @@ a.product__text {
     display: flex;
     padding: 0;
     flex: 1;
-    scroll-padding-left: 0.5rem;
+    scroll-padding-left: 0rem;
   }
 
   .product__media-wrapper .slider-mobile-gutter .slider-button {
