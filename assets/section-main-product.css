@@ -1328,7 +1328,9 @@ a.product__text {
   flex-shrink: 0;
 }
 .product__info-container .quantity_and_buy{
-  
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
 }
 .product__info-container .quantity_and_buy .product-form__quantity{
   
