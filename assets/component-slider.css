@@ -279,13 +279,13 @@ slider-component.slider-component-full-width {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.1rem solid rgba(255,255,255, 0.5);
+  border: 0.1rem solid rgba(0,0,0, 0.5);
   padding: 0;
   display: block;
 }
 
 .slider-counter__link--active.slider-counter__link--dots .dot {
-  background-color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
 }
 
 @media screen and (forced-colors: active) {
@@ -295,7 +295,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
-  border-color: rgb(255,255,255);
+  border-color: rgb(0,0,0);
 }
 
 .slider-counter__link--dots .dot,
@@ -310,17 +310,17 @@ slider-component.slider-component-full-width {
 }
 
 .slider-counter__link--numbers {
-  color: rgba(255,255,255, 0.5);
+  color: rgba(0,0,0, 0.5);
   text-decoration: none;
 }
 
 .slider-counter__link--numbers:hover {
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
 }
 
 .slider-counter__link--active.slider-counter__link--numbers {
   text-decoration: underline;
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
 }
 
 .slider-buttons {
@@ -365,7 +365,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button:not([disabled]):hover {
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
 }
 
 .slider-button .icon {
@@ -373,7 +373,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button[disabled] .icon {
-  color: rgba(255,255,255, 0.3);
+  color: rgba(0,0,0, 0.3);
   cursor: not-allowed;
 }
 
