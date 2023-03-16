@@ -1359,4 +1359,8 @@ a.product__text {
 .product__info-container .quantity__button{
   background: #EEEEEE !important;
 }
+.product__info-container .quantity_and_buy .quantity:after{
+  box-shadow: 0 0 0 var(--inputs-border-width) var(--color-base-link);
+}
+
 
