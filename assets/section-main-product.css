@@ -1385,5 +1385,9 @@ a.product__text {
   .product__info-container .quantity_and_buy {
     flex-wrap: wrap;
   }
+  .product__info-container .quantity_and_buy product-form {
+    flex: 0 0 100%;
+    margin-top: 10px;
+  }
 }
 
