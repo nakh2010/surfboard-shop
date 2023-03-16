@@ -1341,6 +1341,7 @@ a.product__text {
 .product__info-container .quantity_and_buy .product-form__quantity{
   max-width: 186px;
   margin-bottom: 0;
+  flex: 0 0 50%;
 }
 .product__info-container .quantity_and_buy product-form{
   margin: 0;
