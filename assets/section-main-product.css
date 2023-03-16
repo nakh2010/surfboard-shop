@@ -836,6 +836,9 @@ a.product__text {
     display: block;
     width: 100%;
   }
+  .product--thumbnail_slider .thumbnail-slider button.slider-button {
+    display: none;
+  }
 }
 
 .product-media-modal__content > * {
