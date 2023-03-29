@@ -837,6 +837,15 @@ customElements.define('slideshow-component', SlideshowComponent);
 class slideshowIndex extends HTMLElement {
   constructor() {
     super();
+    this.slider = this.querySelector('[id^="Slider-"]');
+    this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+
+    this.initPages();
+  
+  }
+  initPages() {
+    this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
+    if (this.sliderItemsToShow.length < 2) return;
 
     $(".lsn-slideshow").each(function(e, t) {
       var a = $(this);
@@ -856,6 +865,7 @@ class slideshowIndex extends HTMLElement {
         a.slick('slickSetOption', 'autoplay', false).slick('slickPause');
       }
     })
+    
   }
 
 }
