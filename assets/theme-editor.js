@@ -47,14 +47,14 @@ $(document).on('shopify:section:load', '.shopify-section__slideshow', function(e
 
 });
 
-$(document).on('shopify:section:deselect', '.shopify-section__slideshow', function(event) {
+$(document).on('shopify:block:deselect', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   slideshowSection.find('.lsn-slideshow').slick('unslick');
   
 });
 
-$(document).on('shopify:section:select', '.shopify-section__slideshow', function(event) {
+$(document).on('shopify:block:select', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   var slideshow = slideshowSection.find('.lsn-slideshow');
