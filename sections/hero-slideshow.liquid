@@ -9,7 +9,7 @@
     data-autoplay="{{ section.settings.auto_rotate }}"
   >
     {%- for block in section.blocks -%}
-      <div class="slideshow__slide slider__item"
+      <div class="slideshow__slide slider__item slideshow__index"
         id="SliderIndex-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
