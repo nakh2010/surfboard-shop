@@ -550,6 +550,7 @@
       "settings": {
         "background_color": "#ffffff",
         "font_color": "#005a87",
+        "columns_desktop": 5,
         "text_color": "#000000",
         "sub_header": "Lorem Ipsum",
         "header": "Where does it come from?",
