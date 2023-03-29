@@ -9,6 +9,317 @@ function getFocusableElements(container) {
   );
 }
 
+/**
+ * Plugin to handle home slideshow
+ */
+
+(function ($) {
+
+  'use strict';
+
+  var pluginName = 'trademarkHomeSlideshow',
+    namespace = 'plugin_' + pluginName;
+
+  /**
+   * The Plugin constructor
+   * @constructor
+   * @param {HTMLElement} element The element that will be monitored
+   */
+  function Plugin(element) {
+    this.slideshow = $(element);
+    this.slideshowAnchor = this.slideshow.find('.slideshow--anchor');
+    this.slideshowAnchorSlides = this.slideshowAnchor.find('.slideshow__slide');
+    this.slideshowMain = this.slideshow.find('.slideshow--main');
+    this.slideshowMainSlides = this.slideshowMain.find('.slideshow__slide');
+    this.slideshowSlidesCount = this.slideshowMainSlides.length;
+    this.slideshowCount = this.slideshow.find('.slideshow__current-slide');
+    this.slideshowButtons = this.slideshow.find('.slideshow__nav-button');
+    this.hasTransitionPending = false;
+    this.paused = false;
+
+    this.slideshow.find('.slideshow__nav-next').on('click', $.proxy(this.nextSlide, this));
+    this.slideshow.find('.slideshow__nav-prev').on('click', $.proxy(this.prevSlide, this));
+    this.slideshow.on('swipeleft', $.proxy(this.nextSlide, this));
+    this.slideshow.on('swiperight', $.proxy(this.prevSlide, this));
+
+    // If we have the autoplay set up, we activate it
+    this.hasAutoplay = (this.slideshow.attr('data-autoplay') === 'true');
+    this.autoplayCycleSpeed = parseInt(this.slideshow.attr('data-cycle-speed'));
+
+    if (this.hasAutoplay) {
+      this._setupAutoplay();
+    }
+
+    // We simulate an initial change so that various events can be hooked up correctly
+    var firstSlide = this.slideshowMainSlides.eq(0);
+    this._didChange(firstSlide, firstSlide);
+
+    // Setup the video (if any)
+
+    this.players = plyr.setup(this.slideshowMain.find('.plyr-video[data-type]'), {
+      controls: ['play-large'],
+      iconPrefix: 'icon-video'
+    }) || [];
+
+    var self = this;
+
+    this.players.forEach(function(player) {
+      player.on('play', $.proxy(self._videoStarted, self));
+      player.on('pause ended', $.proxy(self._videoEnded, self));
+    });
+  }
+
+  /**
+   * Clear the memory and remove any listener
+   */
+  Plugin.prototype.destroy = function() {
+    this.slideshow.off('swipeleft swiperight');
+    this.slideshowButtons.off('click');
+    clearInterval(this.timer);
+
+    this.players.forEach(function(player) {
+      player.destroy();
+    });
+
+    this.slideshow.removeData('plugin_trademarkHomeSlideshow');
+  };
+
+  /**
+   * Move to the next slide
+   */
+  Plugin.prototype.nextSlide = function() {
+    var currentAnchorSlide = this.slideshowAnchorSlides.filter('.slideshow__slide--active'),
+      prevOrNextAnchorSlide = currentAnchorSlide.next('.slideshow__slide'),
+      currentMainSlide = this.slideshowMainSlides.filter('.slideshow__slide--active'),
+      prevOrNextMainSlide = currentMainSlide.next('.slideshow__slide');
+
+    if (prevOrNextAnchorSlide.length === 0) {
+      prevOrNextAnchorSlide = this.slideshowAnchorSlides.first();
+    }
+
+    if (prevOrNextMainSlide.length === 0) {
+      prevOrNextMainSlide = (prevOrNextMainSlide.length !== 0) ? prevOrNextMainSlide : this.slideshowMainSlides.first();
+    }
+
+    this._move(currentAnchorSlide, prevOrNextAnchorSlide, currentMainSlide, prevOrNextMainSlide, 'next');
+
+    return false;
+  };
+
+  /**
+   * Move to the previous slide
+   */
+  Plugin.prototype.prevSlide = function() {
+    var currentAnchorSlide = this.slideshowAnchorSlides.filter('.slideshow__slide--active'),
+      prevOrNextAnchorSlide = currentAnchorSlide.prev('.slideshow__slide'),
+      currentMainSlide = this.slideshowMainSlides.filter('.slideshow__slide--active'),
+      prevOrNextMainSlide = currentMainSlide.prev('.slideshow__slide');
+
+    if (prevOrNextAnchorSlide.length === 0) {
+      prevOrNextAnchorSlide = this.slideshowAnchorSlides.last();
+    }
+
+    if (prevOrNextMainSlide.length === 0) {
+      prevOrNextMainSlide = (prevOrNextMainSlide.length !== 0) ? prevOrNextMainSlide : this.slideshowMainSlides.last();
+    }
+
+    this._move(currentAnchorSlide, prevOrNextAnchorSlide, currentMainSlide, prevOrNextMainSlide, 'previous');
+
+    return false;
+  };
+
+  /**
+   * Move to a specific slide
+   */
+  Plugin.prototype.goToSlide = function(index) {
+    var desiredIndex = parseInt(index) - 1,
+      currentAnchorSlide = this.slideshowAnchorSlides.filter('.slideshow__slide--active'),
+      prevOrNextAnchorSlide = this.slideshowAnchorSlides.eq(desiredIndex === 0 ? 1 : (desiredIndex + 1) % this.slideshowSlidesCount),
+      currentMainSlide = this.slideshowMainSlides.filter('.slideshow__slide--active'),
+      prevOrNextMainSlide = this.slideshowMainSlides.eq(desiredIndex),
+      currentIndex = this.slideshowMainSlides.index(currentMainSlide);
+
+    if (currentIndex === desiredIndex) {
+      return;
+    }
+
+    this._move(currentAnchorSlide, prevOrNextAnchorSlide, currentMainSlide, prevOrNextMainSlide, (currentIndex > desiredIndex) ? 'previous' : 'next');
+
+    return false;
+  };
+
+  /**
+   * Pause the autoplay
+   */
+  Plugin.prototype.pause = function() {
+    this.paused = true;
+  };
+
+  /**
+   * Restart the autoplay
+   */
+  Plugin.prototype.play = function() {
+    this.paused = false;
+  };
+
+  /**
+   * Add the various classes to properly animate all the slides
+   *
+   * @param currentAnchorSlide
+   * @param prevOrNextAnchorSlide
+   * @param currentMainSlide
+   * @param prevOrNextMainSlide
+   * @param direction
+   * @private
+   */
+  Plugin.prototype._move = function(currentAnchorSlide, prevOrNextAnchorSlide, currentMainSlide, prevOrNextMainSlide, direction) {
+    if (this.hasTransitionPending) {
+      return;
+    }
+
+    if (this.hasAutoplay && !this.paused) {
+      this._clearAutoplay();
+    }
+
+    var self = this;
+
+    this.slideshowButtons.attr('disabled', 'disabled');
+
+    this._willChange(currentMainSlide, prevOrNextMainSlide);
+
+    if (Modernizr.cssanimations) {
+      var animationClasses = 'slideshow__slide--animating ' + (direction === 'next' ? 'slideshow__slide--animating-rtl' : 'slideshow__slide--animating-ltr');
+
+      // 1st: add all the classes needed to trigger animations
+      prevOrNextAnchorSlide.addClass(animationClasses);
+      prevOrNextMainSlide.addClass(animationClasses);
+      currentMainSlide.addClass('slideshow__slide--removing');
+      currentAnchorSlide.addClass('slideshow__slide--removing');
+
+      // 2nd: listen to the event to properly removing the classes when animations are over
+      prevOrNextAnchorSlide.find('.slideshow__media-container').one('webkitAnimationEnd animationend', function() {
+        prevOrNextAnchorSlide.removeClass(animationClasses).addClass('slideshow__slide--active');
+        currentAnchorSlide.removeClass('slideshow__slide--active slideshow__slide--removing');
+      });
+
+      prevOrNextMainSlide.find('.slideshow__media').one('webkitAnimationEnd animationend', function() {
+        prevOrNextMainSlide.removeClass(animationClasses).addClass('slideshow__slide--active');
+        currentMainSlide.removeClass('slideshow__slide--active slideshow__slide--removing');
+
+        self.slideshowCount.text(prevOrNextMainSlide.attr('data-slide-index'));
+        self.slideshowButtons.removeAttr('disabled');
+
+        self._didChange(currentMainSlide, prevOrNextMainSlide);
+      });
+    } else {
+      prevOrNextAnchorSlide.addClass('slideshow__slide--active');
+      currentAnchorSlide.removeClass('slideshow__slide--active');
+
+      prevOrNextMainSlide.addClass('slideshow__slide--active');
+      currentMainSlide.removeClass('slideshow__slide--active');
+
+      this.slideshowCount.text(prevOrNextMainSlide.attr('data-slide-index'));
+      this.slideshowButtons.removeAttr('disabled');
+
+      this._didChange(currentMainSlide, prevOrNextMainSlide);
+    }
+  };
+
+  /**
+   * Callback that is called before the slide changes
+   */
+  Plugin.prototype._willChange = function(previousSlide, newSlide) {
+    this.hasTransitionPending = true;
+
+    if (!previousSlide.hasClass('slideshow__slide--video')) {
+      return;
+    }
+
+    // If the previous slide (the one that gonna disappear) is a video, we pause it
+
+    plyr.get(previousSlide.get(0))[0].pause();
+  };
+
+  /**
+   * Callback that is called after the slide has changed
+   */
+  Plugin.prototype._didChange = function(previousSlide, newSlide) {
+    this.hasTransitionPending = false;
+
+    if (this.hasAutoplay && !this.paused) {
+      this._setupAutoplay();
+    }
+  };
+
+  /**
+   * Setup the autoplay which allows to automatically change slide
+   */
+  Plugin.prototype._setupAutoplay = function() {
+    var self = this;
+
+    // If there is a previous timer, clear it
+    this._clearAutoplay();
+
+    this.timer = setInterval(function() {
+      if (!self.paused) {
+        self.nextSlide();
+      }
+    }, this.autoplayCycleSpeed);
+  };
+
+  /**
+   * Clear the autoplay
+   */
+  Plugin.prototype._clearAutoplay = function() {
+    if (this.timer) {
+      clearInterval(this.timer);
+    }
+
+    this.timer = null;
+  };
+
+  /**
+   * Called when a video starts playing
+   */
+  Plugin.prototype._videoStarted = function() {
+    if (this.hasAutoplay) {
+      this.paused = true;
+    }
+
+    this.slideshowMain.addClass('slideshow--video-playing');
+  };
+
+  /**
+   * Called when a video ends or is paused
+   */
+  Plugin.prototype._videoEnded = function() {
+    if (this.hasAutoplay) {
+      this.paused = false;
+    }
+
+    this.slideshowMain.removeClass('slideshow--video-playing');
+  };
+
+  $.fn[pluginName] = function(options) {
+    var method = false,
+      methodArgs = arguments;
+
+    if (typeof options == 'string') {
+      method = options;
+    }
+
+    return this.each(function() {
+      var plugin = $.data(this, namespace);
+
+      if (!plugin && !method) {
+        $.data(this, namespace, new Plugin(this, options));
+      } else if (method) {
+        callMethod(plugin, method, Array.prototype.slice.call(methodArgs, 1));
+      }
+    });
+  };
+}(jQuery));
+
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
   summary.setAttribute('aria-expanded', summary.parentNode.hasAttribute('open'));
