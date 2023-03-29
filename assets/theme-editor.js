@@ -47,26 +47,25 @@ $(document).on('shopify:section:load', '.shopify-section__slideshow', function(e
 
 });
 
-$(document).on('shopify:block:select', '.shopify-section__slideshow', function(event) {
-  var slideshowSection = $(event.target).closest('.slideshow-section');
+$(document).on('shopify:section:deselect', '.shopify-section__slideshow', function(event) {
+  var slideshowSection = $(event.target).find('.slideshow-section');
 
-  var slideshow = slideshowSection.find('.lsn-slideshow');
-
-  slideshow.slick('goTo', $(event.target).attr('data-slide-index'));
-
-  if (slideshow.attr('data-autoplay') === 'true') {
-    slideshow.slick('pause');
-  }
+  slideshowSection.find('.lsn-slideshow').slick('unslick');
   
 });
 
-$(document).on('shopify:block:deselect', '.shopify-section__slideshow', function(event) {
-  var slideshowSection = $(event.target).closest('.slideshow-section');
+$(document).on('shopify:section:select', '.shopify-section__slideshow', function(event) {
+  var slideshowSection = $(event.target).find('.slideshow-section');
 
   var slideshow = slideshowSection.find('.lsn-slideshow');
+  slideshowSection.find('.lsn-slideshow').slick({
+    slidesToShow: 1,
+    fade: true,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    arrows: false,
+    dots: true,
+    autoplaySpeed: 3000,
+  });
 
-  if (slideshow.attr('data-autoplay') === 'true') {
-    slideshow.slick('play');
-  }
-  
 });
