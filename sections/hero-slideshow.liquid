@@ -1,14 +1,6 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'component-hero-slideshow.css' | asset_url | stylesheet_tag }}
-{% if request.design_mode %}
-<script>
-  document.addEventListener("shopify:section:load", function(event) {
-    if(event.detail.sectionId === '{{section.id}}') {
-    $('.lsn-slideshow').slick();
-    }
-  });
-</script>
-{% endif %}
+
 
 <slideshow-index class="slideshow-section slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" >
 
