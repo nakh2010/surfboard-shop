@@ -837,8 +837,8 @@ customElements.define('slideshow-component', SlideshowComponent);
 class slideshowIndex extends HTMLElement {
   constructor() {
     super();
-    this.slider = this.querySelector('[id^="Slider-"]');
-    this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
+    this.slider = this.querySelector('[id^="SliderIndex-"]');
+    this.sliderItems = this.querySelectorAll('[id^="SliderIndex-"]');
 
     this.initPages();
   
