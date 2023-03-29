@@ -142,36 +142,57 @@
         "padding_bottom": 28
       }
     },
-    "5ef0e01c-1c33-4e11-9cc8-97fe61c19d4a": {
-      "type": "testimonials",
+    "5b5ee9e8-7535-4e5a-82fa-8c9858eb4c98": {
+      "type": "hero-slideshow",
       "blocks": {
-        "template--17192393081117__5ef0e01c-1c33-4e11-9cc8-97fe61c19d4a-1680077763d099a7e8-0": {
-          "type": "testimonial",
+        "template--17192393081117__5b5ee9e8-7535-4e5a-82fa-8c9858eb4c98-16800778089a1bc693-0": {
+          "type": "slide",
           "settings": {
-            "heading": "Heading",
-            "testimonials": "Share what your customers are saying about your products, your company...",
-            "label": "Learn more",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/tablet-hero.jpg",
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "template--17192393081117__5ef0e01c-1c33-4e11-9cc8-97fe61c19d4a-1680077763d099a7e8-1": {
-          "type": "testimonial",
+        "template--17192393081117__5b5ee9e8-7535-4e5a-82fa-8c9858eb4c98-16800778089a1bc693-1": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "heading": "Heading",
-            "testimonials": "Share what your customers are saying about your products, your company...",
-            "label": "Learn more",
-            "link": ""
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--17192393081117__5ef0e01c-1c33-4e11-9cc8-97fe61c19d4a-1680077763d099a7e8-0",
-        "template--17192393081117__5ef0e01c-1c33-4e11-9cc8-97fe61c19d4a-1680077763d099a7e8-1"
+        "template--17192393081117__5b5ee9e8-7535-4e5a-82fa-8c9858eb4c98-16800778089a1bc693-0",
+        "template--17192393081117__5b5ee9e8-7535-4e5a-82fa-8c9858eb4c98-16800778089a1bc693-1"
       ],
       "settings": {
-        "bg_style": "color",
-        "bg_color": "#FFFFFF",
-        "text_color": "#000000"
+        "layout": "full_bleed",
+        "auto_rotate": false
       }
     }
   },
@@ -179,6 +200,6 @@
     "main",
     "image-with-text",
     "product-recommendations",
-    "5ef0e01c-1c33-4e11-9cc8-97fe61c19d4a"
+    "5b5ee9e8-7535-4e5a-82fa-8c9858eb4c98"
   ]
 }
