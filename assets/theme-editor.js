@@ -19,6 +19,8 @@ document.addEventListener('shopify:block:deselect', function(event) {
   if (parentSlideshowComponent.autoplayButtonIsSetToPlay) parentSlideshowComponent.play();
 });
 
+
+
 //custom slideshow index
 $(document).on('shopify:section:unload', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
@@ -32,7 +34,15 @@ $(document).on('shopify:section:load', '.shopify-section__slideshow', function(e
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   var slideshow = slideshowSection.find('.lsn-slideshow');
-  console.log('shopify:section:load');
+  slideshowSection.find('.lsn-slideshow').slick({
+    slidesToShow: 1,
+    fade: true,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    arrows: false,
+    dots: true,
+    autoplaySpeed: 3000,
+  });
 
 });
 
