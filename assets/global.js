@@ -869,7 +869,6 @@ class slideshowIndex extends HTMLElement {
   }
 
 }
-
 customElements.define('slideshow-index', slideshowIndex);
 
 class VariantSelects extends HTMLElement {
