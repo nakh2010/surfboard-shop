@@ -55,38 +55,6 @@
         "auto_rotate": false
       }
     },
-    "1a8a346b-0817-4df6-a5fd-b8cde55a1199": {
-      "type": "testimonials",
-      "blocks": {
-        "be549d38-0add-4704-83db-a5120c93431a": {
-          "type": "testimonial",
-          "settings": {
-            "heading": "Lorem Ipsum",
-            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
-            "label": "Learn more",
-            "link": "#"
-          }
-        },
-        "a3fd1f0e-0836-49a6-a4c1-61aae29d5762": {
-          "type": "testimonial",
-          "settings": {
-            "heading": "Lorem Ipsum",
-            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
-            "label": "Learn more",
-            "link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "be549d38-0add-4704-83db-a5120c93431a",
-        "a3fd1f0e-0836-49a6-a4c1-61aae29d5762"
-      ],
-      "settings": {
-        "bg_style": "color",
-        "bg_color": "#f5f5f5",
-        "text_color": "#000000"
-      }
-    },
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15": {
       "type": "image-with-text",
       "blocks": {
@@ -639,6 +607,38 @@
         "link": "#"
       }
     },
+    "1a8a346b-0817-4df6-a5fd-b8cde55a1199": {
+      "type": "testimonials",
+      "blocks": {
+        "be549d38-0add-4704-83db-a5120c93431a": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
+            "label": "Learn more",
+            "link": "#"
+          }
+        },
+        "a3fd1f0e-0836-49a6-a4c1-61aae29d5762": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Lorem Ipsum",
+            "testimonials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat est vel tempor congue. Cras eu hendrerit arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae elit volutpat, lobortis nisi a, tincidunt nunc.",
+            "label": "Learn more",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "be549d38-0add-4704-83db-a5120c93431a",
+        "a3fd1f0e-0836-49a6-a4c1-61aae29d5762"
+      ],
+      "settings": {
+        "bg_style": "color",
+        "bg_color": "#f5f5f5",
+        "text_color": "#000000"
+      }
+    },
     "42413f49-f04b-45f6-b562-1c32ac6d3e06": {
       "type": "testimonials",
       "blocks": {
@@ -831,7 +831,6 @@
   },
   "order": [
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
-    "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "85c9c130-a9e1-4194-b6f6-03bc1796bc15",
     "ad6c824f-2954-44f9-8e8e-4673f1cc719f",
     "f2884c36-8a86-42c4-96d4-daab649574ed",
@@ -849,6 +848,7 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
+    "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "42413f49-f04b-45f6-b562-1c32ac6d3e06",
     "5f667432-0be1-451d-bf6f-c0aed292721e",
     "7e3d94ba-e488-4d3a-a795-81f17cd0a378",
