@@ -21,11 +21,10 @@ document.addEventListener('shopify:block:deselect', function(event) {
 
 
 document.addEventListener('shopify:block:select', function(event) {
-  const blockSelectedIsSlide = event.target.classList.contains('slideshow__slide');
+  const blockSelectedIsSlide = event.target.classList.contains('slideshow__index');
   if (!blockSelectedIsSlide) return;
 
   const parentSlideshowComponent = event.target.closest('slideshow-index');
-  parentSlideshowComponent.pause();
 
   setTimeout(function() {
     console.log('parentSlideshowComponent');
