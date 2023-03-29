@@ -22,14 +22,5 @@ document.addEventListener('shopify:block:deselect', function(event) {
 
 document.addEventListener('shopify:block:select', function(event) {
   const blockSelectedIsSlide = event.target.classList.contains('slideshow__index');
-  if (!blockSelectedIsSlide) return;
-
-  const parentSlideshowComponent = event.target.closest('slideshow-index');
-
-  setTimeout(function() {
-    console.log('parentSlideshowComponent');
-    parentSlideshowComponent.slider.scrollTo({
-      left: event.target.offsetLeft
-    });
-  }, 200);
+  console.log('parentSlideshowComponent');
 });
