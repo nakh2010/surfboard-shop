@@ -19,7 +19,7 @@
        </div>
       {% endif %}
     </div>
-    <div class="lsn-list-logo-item">
+    <div class="lsn-list-logo-item grid--{{ section.settings.columns_desktop }}-col-desktop" >
        {%- liquid
           assign highest_ratio = 0
           for block in section.blocks
