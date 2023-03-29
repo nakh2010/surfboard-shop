@@ -24,6 +24,7 @@ $(document).on('shopify:section:unload', '.shopify-section__slideshow', function
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   slideshowSection.find('.lsn-slideshow').slick('unslick');
+  console.log('shopify:section:unload');
   
 });
 
@@ -31,6 +32,7 @@ $(document).on('shopify:section:load', '.shopify-section__slideshow', function(e
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   var slideshow = slideshowSection.find('.lsn-slideshow');
+  console.log('shopify:section:load');
 
 });
 
