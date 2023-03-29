@@ -141,63 +141,11 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "a2c9a44e-b991-4601-8fa2-af12994bb3c8": {
-      "type": "hero-slideshow",
-      "blocks": {
-        "template--17192393081117__a2c9a44e-b991-4601-8fa2-af12994bb3c8-1680079071a77ca758-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17192393081117__a2c9a44e-b991-4601-8fa2-af12994bb3c8-1680079071a77ca758-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192393081117__a2c9a44e-b991-4601-8fa2-af12994bb3c8-1680079071a77ca758-0",
-        "template--17192393081117__a2c9a44e-b991-4601-8fa2-af12994bb3c8-1680079071a77ca758-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "auto_rotate": false
-      }
     }
   },
   "order": [
     "main",
     "image-with-text",
-    "product-recommendations",
-    "a2c9a44e-b991-4601-8fa2-af12994bb3c8"
+    "product-recommendations"
   ]
 }
