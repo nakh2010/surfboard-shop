@@ -28,6 +28,7 @@ document.addEventListener('shopify:block:select', function(event) {
   parentSlideshowComponent.pause();
 
   setTimeout(function() {
+    console.log('parentSlideshowComponent');
     parentSlideshowComponent.slider.scrollTo({
       left: event.target.offsetLeft
     });
