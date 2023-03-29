@@ -845,6 +845,7 @@ class slideshowIndex extends HTMLElement {
   }
   initPages() {
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
+    console.log(this.sliderItemsToShow.length);
     if (this.sliderItemsToShow.length < 2) return;
 
     $(".lsn-slideshow").each(function(e, t) {
