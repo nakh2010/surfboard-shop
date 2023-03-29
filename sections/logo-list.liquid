@@ -19,7 +19,7 @@
        </div>
       {% endif %}
     </div>
-    <div class="lsn-list-logo-item">
+    <div class="lsn-list-logo-item grid--{{ section.settings.columns_desktop }}-col-desktop" >
        {%- liquid
           assign highest_ratio = 0
           for block in section.blocks
@@ -72,10 +72,10 @@
         "type": "range",
         "id": "columns_desktop",
         "min": 3,
-        "max": 5,
+        "max": 6,
         "step": 1,
-        "default": 5,
-        "label": "t:sections.multicolumn.settings.columns_desktop.label"
+        "default": 6,
+        "label": "Number of columns on desktop"
       },
       {
         "type": "color",
