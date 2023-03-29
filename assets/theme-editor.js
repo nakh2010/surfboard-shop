@@ -18,3 +18,18 @@ document.addEventListener('shopify:block:deselect', function(event) {
   const parentSlideshowComponent = event.target.closest('slideshow-component');
   if (parentSlideshowComponent.autoplayButtonIsSetToPlay) parentSlideshowComponent.play();
 });
+
+
+document.addEventListener('shopify:block:select', function(event) {
+  const blockSelectedIsSlide = event.target.classList.contains('slideshow__slide');
+  if (!blockSelectedIsSlide) return;
+
+  const parentSlideshowComponent = event.target.closest('slideshow-index');
+  parentSlideshowComponent.pause();
+
+  setTimeout(function() {
+    parentSlideshowComponent.slider.scrollTo({
+      left: event.target.offsetLeft
+    });
+  }, 200);
+});
