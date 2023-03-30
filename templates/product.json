@@ -116,14 +116,14 @@
         "padding_bottom": 28
       }
     },
-    "9de68519-7e5e-4660-9d39-99b2d704e72e": {
-      "type": "slideshow",
+    "224bba91-ce8c-4882-80d9-9a60750100e2": {
+      "type": "hero-slideshow",
       "blocks": {
-        "template--17192393081117__9de68519-7e5e-4660-9d39-99b2d704e72e-168015163774262bf3-0": {
+        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-0": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
@@ -138,11 +138,11 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--17192393081117__9de68519-7e5e-4660-9d39-99b2d704e72e-168015163774262bf3-1": {
+        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-1": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
@@ -159,22 +159,18 @@
         }
       },
       "block_order": [
-        "template--17192393081117__9de68519-7e5e-4660-9d39-99b2d704e72e-168015163774262bf3-0",
-        "template--17192393081117__9de68519-7e5e-4660-9d39-99b2d704e72e-168015163774262bf3-1"
+        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-0",
+        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-1"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "accessibility_info": "Slideshow about our brand"
+        "auto_rotate": false
       }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "9de68519-7e5e-4660-9d39-99b2d704e72e"
+    "224bba91-ce8c-4882-80d9-9a60750100e2"
   ]
 }
