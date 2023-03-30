@@ -26,6 +26,7 @@ document.addEventListener('shopify:block:deselect', function(event) {
 document.addEventListener('shopify:block:select', function(event) {
 
   var indexItem = event.target.getAttribute("data-index");
+  console.log('lsn-slideshow indexItem'+indexItem);
   var slideshowSection = $(event.target).find('.slideshow-section');
   slideshowSection.find('.lsn-slideshow').slick('slickGoTo', indexItem, false);
   
