@@ -5,7 +5,7 @@ document.addEventListener('shopify:block:select', function(event) {
 
   const parentSlideshowComponent = event.target.closest('slideshow-component');
   parentSlideshowComponent.pause();
-
+console.log('11111111111');
   setTimeout(function() {
     parentSlideshowComponent.slider.scrollTo({
       left: event.target.offsetLeft
@@ -14,6 +14,7 @@ document.addEventListener('shopify:block:select', function(event) {
 });
 
 document.addEventListener('shopify:block:deselect', function(event) {
+  console.log('222222222');
   const blockDeselectedIsSlide = event.target.classList.contains('slideshow__slide');
   if (!blockDeselectedIsSlide) return;
   const parentSlideshowComponent = event.target.closest('slideshow-component');
