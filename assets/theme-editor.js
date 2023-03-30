@@ -39,13 +39,6 @@ document.addEventListener('shopify:block:select', function(event) {
   
 });
 
-$(document).on('shopify:section:deselect', '.shopify-section__slideshow', function(event) {
-  var slideshowSection = $(event.target).find('.slideshow-section');
-
-  slideshowSection.find('.lsn-slideshow').slick('unslick');
-   console.log('lsn-slideshow deselect');
-});
-
 $(document).on('shopify:section:select', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
@@ -63,13 +56,6 @@ $(document).on('shopify:section:select', '.shopify-section__slideshow', function
     });
   }, 200);
 
-});
-
-$(document).on('shopify:section:unload', '.shopify-section__slideshow', function(event) {
-  var slideshowSection = $(event.target).find('.slideshow-section');
-
-  slideshowSection.find('.lsn-slideshow').slick('unslick');
-  console.log('lsn-slideshow unload');
 });
 
 $(document).on('shopify:section:load', '.shopify-section__slideshow', function(event) {
