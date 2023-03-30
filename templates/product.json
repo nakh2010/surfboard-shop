@@ -115,10 +115,62 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "6ec3bd2e-bd26-4753-8dcc-12b31d5725aa": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--17192393081117__6ec3bd2e-bd26-4753-8dcc-12b31d5725aa-168016090742372f6c-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17192393081117__6ec3bd2e-bd26-4753-8dcc-12b31d5725aa-168016090742372f6c-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192393081117__6ec3bd2e-bd26-4753-8dcc-12b31d5725aa-168016090742372f6c-0",
+        "template--17192393081117__6ec3bd2e-bd26-4753-8dcc-12b31d5725aa-168016090742372f6c-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "auto_rotate": false
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "6ec3bd2e-bd26-4753-8dcc-12b31d5725aa"
   ]
 }
