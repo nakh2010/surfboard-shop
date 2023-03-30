@@ -94,13 +94,6 @@
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-  <script>
-    document.addEventListener("shopify:section:load", function(event) {
-    if(event.detail.sectionId === '{{section.id}}') {
-    $('.lsn-slideshow').slick();
-    }
-    });
-</script>
 {%- endif -%}
 
 {% schema %}
