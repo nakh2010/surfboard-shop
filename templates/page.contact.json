@@ -16,62 +16,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "9ce3a317-a7ee-47d8-aa38-e9307b0804d0": {
-      "type": "hero-slideshow",
-      "blocks": {
-        "template--17192392556829__9ce3a317-a7ee-47d8-aa38-e9307b0804d0-168016684025ebc315-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17192392556829__9ce3a317-a7ee-47d8-aa38-e9307b0804d0-168016684025ebc315-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392556829__9ce3a317-a7ee-47d8-aa38-e9307b0804d0-168016684025ebc315-0",
-        "template--17192392556829__9ce3a317-a7ee-47d8-aa38-e9307b0804d0-168016684025ebc315-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "auto_rotate": false
-      }
     }
   },
   "order": [
     "main",
-    "form",
-    "9ce3a317-a7ee-47d8-aa38-e9307b0804d0"
+    "form"
   ]
 }
