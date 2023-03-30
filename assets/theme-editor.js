@@ -36,7 +36,6 @@ $(document).on('shopify:section:select', '.shopify-section__slideshow', function
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   setTimeout(function() {
-    console.log('lsn-slideshow select');
     var slideshow = slideshowSection.find('.lsn-slideshow');
     slideshowSection.find('.lsn-slideshow').slick({
       slidesToShow: 1,
