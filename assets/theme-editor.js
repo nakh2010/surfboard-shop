@@ -25,12 +25,9 @@ document.addEventListener('shopify:block:deselect', function(event) {
 
 document.addEventListener('shopify:block:select', function(event) {
 
-  var index = event.target.getAttribute("data-index");
-  console.log('event.target='+index);
-  const blockSelectedIsSlide = event.target.classList.contains('slideshow__slideIndex');
+  var indexItem = event.target.getAttribute("data-index");
   var slideshowSection = $(event.target).find('.slideshow-section');
-  //slideshowSection.find('.lsn-slideshow').slick('slickGoTo', indexItem, false);
-
+  slideshowSection.find('.lsn-slideshow').slick('slickGoTo', indexItem, false);
   
 });
 
