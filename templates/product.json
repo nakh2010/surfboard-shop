@@ -115,62 +115,10 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "5b0aab8a-e7ad-41b0-8af5-756c59e480ba": {
-      "type": "hero-slideshow",
-      "blocks": {
-        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-0",
-        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "auto_rotate": false
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "5b0aab8a-e7ad-41b0-8af5-756c59e480ba"
+    "product-recommendations"
   ]
 }
