@@ -122,6 +122,7 @@
         "template--17192393081117__a0e7eba4-d46f-48c6-9072-79b494501c9f-16801634485f70e726-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/65-35-2.jpg",
             "heading": "Image slide",
             "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
@@ -139,6 +140,26 @@
           }
         },
         "36dfd154-60b8-4ea5-b83b-d2fbfe4cc7d3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mobile-hero.jpg",
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "42213dd7-3c25-497a-b49b-356115d367c9": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -160,7 +181,8 @@
       },
       "block_order": [
         "template--17192393081117__a0e7eba4-d46f-48c6-9072-79b494501c9f-16801634485f70e726-0",
-        "36dfd154-60b8-4ea5-b83b-d2fbfe4cc7d3"
+        "36dfd154-60b8-4ea5-b83b-d2fbfe4cc7d3",
+        "42213dd7-3c25-497a-b49b-356115d367c9"
       ],
       "settings": {
         "layout": "full_bleed",
