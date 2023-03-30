@@ -115,10 +115,42 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "93943d4f-1f72-4582-a098-37b1eeb18b92": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--17192393081117__93943d4f-1f72-4582-a098-37b1eeb18b92-16801633098d88a83f-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192393081117__93943d4f-1f72-4582-a098-37b1eeb18b92-16801633098d88a83f-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "auto_rotate": false
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "93943d4f-1f72-4582-a098-37b1eeb18b92"
   ]
 }
