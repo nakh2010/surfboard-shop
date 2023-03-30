@@ -115,10 +115,174 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "3b487a48-0f0c-4059-a18b-5f15b292a0c5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17192393081117__3b487a48-0f0c-4059-a18b-5f15b292a0c5-1680160045214a6fb5-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17192393081117__3b487a48-0f0c-4059-a18b-5f15b292a0c5-1680160045214a6fb5-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192393081117__3b487a48-0f0c-4059-a18b-5f15b292a0c5-1680160045214a6fb5-0",
+        "template--17192393081117__3b487a48-0f0c-4059-a18b-5f15b292a0c5-1680160045214a6fb5-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "9d2e8c3a-758f-427b-be5a-a92670268f51": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "template--17192393081117__9d2e8c3a-758f-427b-be5a-a92670268f51-1680160053da9990c6-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17192393081117__9d2e8c3a-758f-427b-be5a-a92670268f51-1680160053da9990c6-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192393081117__9d2e8c3a-758f-427b-be5a-a92670268f51-1680160053da9990c6-0",
+        "template--17192393081117__9d2e8c3a-758f-427b-be5a-a92670268f51-1680160053da9990c6-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "auto_rotate": false
+      }
+    },
+    "74b5afac-2f10-467d-87b7-cf1bc3401192": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17192393081117__74b5afac-2f10-467d-87b7-cf1bc3401192-1680160045214a6fb5-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17192393081117__74b5afac-2f10-467d-87b7-cf1bc3401192-1680160045214a6fb5-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "Anchor label",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192393081117__74b5afac-2f10-467d-87b7-cf1bc3401192-1680160045214a6fb5-0",
+        "template--17192393081117__74b5afac-2f10-467d-87b7-cf1bc3401192-1680160045214a6fb5-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "3b487a48-0f0c-4059-a18b-5f15b292a0c5",
+    "9d2e8c3a-758f-427b-be5a-a92670268f51",
+    "74b5afac-2f10-467d-87b7-cf1bc3401192"
   ]
 }
