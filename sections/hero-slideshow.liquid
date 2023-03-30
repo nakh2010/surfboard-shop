@@ -97,6 +97,20 @@
 
   <script src="{{ 'slick.js' | asset_url }}"></script>
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  <script>
+console.log('aaa');
+setTimeout(function() {
+  $('.lsn-slideshow').slick({
+      slidesToShow: 1,
+      fade: true,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      dots: true,
+      autoplaySpeed: 3000,
+    });
+}, 200);
+  </script>  
 {%- endif -%}
 
 {% schema %}
