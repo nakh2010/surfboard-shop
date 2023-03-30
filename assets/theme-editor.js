@@ -5,7 +5,6 @@ document.addEventListener('shopify:block:select', function(event) {
 
   const parentSlideshowComponent = event.target.closest('slideshow-component');
   parentSlideshowComponent.pause();
-console.log('11111111111');
   setTimeout(function() {
     parentSlideshowComponent.slider.scrollTo({
       left: event.target.offsetLeft
@@ -14,7 +13,6 @@ console.log('11111111111');
 });
 
 document.addEventListener('shopify:block:deselect', function(event) {
-  console.log('222222222');
   const blockDeselectedIsSlide = event.target.classList.contains('slideshow__slide');
   if (!blockDeselectedIsSlide) return;
   const parentSlideshowComponent = event.target.closest('slideshow-component');
@@ -28,7 +26,6 @@ $(document).on('shopify:section:unload', '.shopify-section__slideshow', function
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   slideshowSection.find('.lsn-slideshow').slick('unslick');
-  console.log('shopify:section:unload');
   
 });
 
