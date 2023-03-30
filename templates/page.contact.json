@@ -17,10 +17,10 @@
         "padding_bottom": 36
       }
     },
-    "1cbd05ac-f45e-40ed-adf1-21bcb0b6ecc8": {
+    "323ad0aa-2271-48b8-9db0-86c9d6a39170": {
       "type": "hero-slideshow",
       "blocks": {
-        "template--17192392556829__1cbd05ac-f45e-40ed-adf1-21bcb0b6ecc8-1680165524805a686a-0": {
+        "template--17192392556829__323ad0aa-2271-48b8-9db0-86c9d6a39170-16801656694d84bef5-0": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -39,7 +39,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "286683c2-1859-47fd-b1d0-ffcac745ea1e": {
+        "template--17192392556829__323ad0aa-2271-48b8-9db0-86c9d6a39170-16801656694d84bef5-1": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -60,8 +60,8 @@
         }
       },
       "block_order": [
-        "template--17192392556829__1cbd05ac-f45e-40ed-adf1-21bcb0b6ecc8-1680165524805a686a-0",
-        "286683c2-1859-47fd-b1d0-ffcac745ea1e"
+        "template--17192392556829__323ad0aa-2271-48b8-9db0-86c9d6a39170-16801656694d84bef5-0",
+        "template--17192392556829__323ad0aa-2271-48b8-9db0-86c9d6a39170-16801656694d84bef5-1"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -72,6 +72,6 @@
   "order": [
     "main",
     "form",
-    "1cbd05ac-f45e-40ed-adf1-21bcb0b6ecc8"
+    "323ad0aa-2271-48b8-9db0-86c9d6a39170"
   ]
 }
