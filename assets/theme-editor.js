@@ -26,13 +26,13 @@ $(document).on('shopify:section:deselect', '.shopify-section__slideshow', functi
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   slideshowSection.find('.lsn-slideshow').slick('unslick');
-  
+   console.log('lsn-slideshow deselect');
 });
 
 $(document).on('shopify:section:select', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
-  console.log('lsn-slideshow');
+  console.log('lsn-slideshow select');
   var slideshow = slideshowSection.find('.lsn-slideshow');
   slideshowSection.find('.lsn-slideshow').slick({
     slidesToShow: 1,
@@ -50,12 +50,13 @@ $(document).on('shopify:section:unload', '.shopify-section__slideshow', function
   var slideshowSection = $(event.target).find('.slideshow-section');
 
   slideshowSection.find('.lsn-slideshow').slick('unslick');
-  
+  console.log('lsn-slideshow unload');
 });
 
 $(document).on('shopify:section:load', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
+  console.log('lsn-slideshow load');
   var slideshow = slideshowSection.find('.lsn-slideshow');
   slideshowSection.find('.lsn-slideshow').slick({
     slidesToShow: 1,
