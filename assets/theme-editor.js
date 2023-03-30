@@ -32,17 +32,19 @@ $(document).on('shopify:section:deselect', '.shopify-section__slideshow', functi
 $(document).on('shopify:section:select', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
-  console.log('lsn-slideshow select');
-  var slideshow = slideshowSection.find('.lsn-slideshow');
-  slideshowSection.find('.lsn-slideshow').slick({
-    slidesToShow: 1,
-    fade: true,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-    arrows: false,
-    dots: true,
-    autoplaySpeed: 3000,
-  });
+  setTimeout(function() {
+    console.log('lsn-slideshow select');
+    var slideshow = slideshowSection.find('.lsn-slideshow');
+    slideshowSection.find('.lsn-slideshow').slick({
+      slidesToShow: 1,
+      fade: true,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      dots: true,
+      autoplaySpeed: 3000,
+    });
+  }, 200);
 
 });
 
@@ -56,16 +58,18 @@ $(document).on('shopify:section:unload', '.shopify-section__slideshow', function
 $(document).on('shopify:section:load', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
-  console.log('lsn-slideshow load');
-  var slideshow = slideshowSection.find('.lsn-slideshow');
-  slideshowSection.find('.lsn-slideshow').slick({
-    slidesToShow: 1,
-    fade: true,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-    arrows: false,
-    dots: true,
-    autoplaySpeed: 3000,
-  });
+  setTimeout(function() {
+    console.log('lsn-slideshow load');
+    var slideshow = slideshowSection.find('.lsn-slideshow');
+    slideshowSection.find('.lsn-slideshow').slick({
+      slidesToShow: 1,
+      fade: true,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      dots: true,
+      autoplaySpeed: 3000,
+    });
+  }, 500);
 
 });
