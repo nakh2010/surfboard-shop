@@ -23,38 +23,6 @@ document.addEventListener('shopify:block:deselect', function(event) {
 
 //custom slideshow index
 
-$(function () {
-    slick_slider();
-});
-
-$(document).on("shopify:section:load", function () {
-    slick_slider();
-});
-
-$(document).on("shopify:section:unload", function () {
-  slick_slider();
-});
-
-$(document).on("shopify:section:select", function () {
-  slick_slider();
-});
-
-$(document).on("shopify:section:deselect", function () {
-  slick_slider();
-});
-
-function slick_slider() {
-  $(".lsn-slideshow").not(".slick-initialized").slick({
-    slidesToShow: 1,
-    fade: true,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-    arrows: false,
-    dots: true,
-    autoplaySpeed: 3000,
-  });
-}
-
 document.addEventListener('shopify:block:select', function(event) {
 
   var indexItem = event.target.getAttribute("data-index");
