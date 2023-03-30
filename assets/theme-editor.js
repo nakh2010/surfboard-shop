@@ -22,6 +22,23 @@ document.addEventListener('shopify:block:deselect', function(event) {
 
 
 //custom slideshow index
+
+document.addEventListener('shopify:block:select', function(event) {
+   console.log('lsn-slideshow block select');
+  const blockSelectedIsSlide = event.target.classList.contains('slideshow__slideIndex');
+  var slideshowSection = $(event.target).find('.slideshow-section');
+  slideshowSection.find('.lsn-slideshow').slick({
+      slidesToShow: 1,
+      fade: true,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      dots: true,
+      autoplaySpeed: 3000,
+    });
+  
+});
+
 $(document).on('shopify:section:deselect', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
 
