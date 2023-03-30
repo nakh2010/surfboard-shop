@@ -116,10 +116,10 @@
         "padding_bottom": 28
       }
     },
-    "224bba91-ce8c-4882-80d9-9a60750100e2": {
+    "5b0aab8a-e7ad-41b0-8af5-756c59e480ba": {
       "type": "hero-slideshow",
       "blocks": {
-        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-0": {
+        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-0": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -138,7 +138,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-1": {
+        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-1": {
           "type": "slide",
           "settings": {
             "heading": "Image slide",
@@ -159,8 +159,8 @@
         }
       },
       "block_order": [
-        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-0",
-        "template--17192393081117__224bba91-ce8c-4882-80d9-9a60750100e2-1680151666dec5ce42-1"
+        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-0",
+        "template--17192393081117__5b0aab8a-e7ad-41b0-8af5-756c59e480ba-1680151666dec5ce42-1"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -171,6 +171,6 @@
   "order": [
     "main",
     "product-recommendations",
-    "224bba91-ce8c-4882-80d9-9a60750100e2"
+    "5b0aab8a-e7ad-41b0-8af5-756c59e480ba"
   ]
 }
