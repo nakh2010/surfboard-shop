@@ -12,6 +12,7 @@
         id="SliderIndex-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
+        data-index="{{ forloop.index }}"
         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
