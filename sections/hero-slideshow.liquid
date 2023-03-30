@@ -95,6 +95,20 @@
 {%- if request.design_mode -%}
   <script src="{{ 'slick.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+  <script>
+
+
+  $('.lsn-slideshow').slick({
+      slidesToShow: 1,
+      fade: true,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+      dots: true,
+      autoplaySpeed: 3000,
+    });
+
+  </script>  
 {%- endif -%}
 
 {% schema %}
