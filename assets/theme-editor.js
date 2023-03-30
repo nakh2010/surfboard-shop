@@ -45,14 +45,13 @@ $(document).on("shopify:section:deselect", function () {
 
 function slick_slider() {
   $(".lsn-slideshow").not(".slick-initialized").slick({
-    infinite: true,
     slidesToShow: 1,
+    fade: true,
     slidesToScroll: 1,
-    arrows: true,
-    prevArrow:
-      "<div class='slick-prev'><i class='fas fa-angle-left'></i></div>",
-    nextArrow:
-      "<div class='slick-next'><i class='fas fa-angle-right'></i></div>",
+    adaptiveHeight: true,
+    arrows: false,
+    dots: true,
+    autoplaySpeed: 3000,
   });
 }
 
