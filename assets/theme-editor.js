@@ -22,12 +22,19 @@ document.addEventListener('shopify:block:deselect', function(event) {
 
 
 //custom slideshow index
-document.addEventListener('shopify:section:select', function(event) {
-  var slideshowSection = event.target.classList.contains('lsn-slideshow');
+$(document).on('shopify:section:deselect', '.shopify-section__slideshow', function(event) {
+  var slideshowSection = $(event.target).find('.slideshow-section');
 
-  console.log('hero slideshow');
-  var parentSlideshowComponent = event.target.closest('slideshow-index');
-  slideshowSection.slick({
+  slideshowSection.find('.lsn-slideshow').slick('unslick');
+  
+});
+
+$(document).on('shopify:section:select', '.shopify-section__slideshow', function(event) {
+  var slideshowSection = $(event.target).find('.slideshow-section');
+
+  console.log('lsn-slideshow');
+  var slideshow = slideshowSection.find('.lsn-slideshow');
+  slideshowSection.find('.lsn-slideshow').slick({
     slidesToShow: 1,
     fade: true,
     slidesToScroll: 1,
@@ -38,16 +45,6 @@ document.addEventListener('shopify:section:select', function(event) {
   });
 
 });
-
-document.addEventListener('shopify:section:deselect', function(event) {
-  var slideshowSection = event.target.classList.contains('lsn-slideshow');
-
-  var parentSlideshowComponent = event.target.closest('slideshow-index');
-  slideshowSection.slick('unslick');
-  
-});
-
-
 
 $(document).on('shopify:section:unload', '.shopify-section__slideshow', function(event) {
   var slideshowSection = $(event.target).find('.slideshow-section');
