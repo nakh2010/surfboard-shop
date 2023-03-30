@@ -2,7 +2,7 @@
   letter-spacing: 0.01em;
 text-transform: uppercase;
 }
-.lsn-slideshow .slideshow__slide.slider__item{
+.lsn-slideshow .slideshow__slideIndex.slider__item{
    position: relative;
 }
 .lsn-slideshow .slideshow__media{
@@ -182,7 +182,7 @@ slideshow-component .slideshow.banner {
   gap: 0;
 }
 
-.slideshow__slide {
+.slideshow__slideIndex {
   padding: 0;
   position: relative;
   display: flex;
