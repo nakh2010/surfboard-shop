@@ -1,18 +1,18 @@
 <div class="lsn-popup">
   <div class="lsn-popup-image">
-      {%- if settings.image != blank -%}
-        <div class="desktop_img feature-media_image-wrapper image-with-text__media">          
+      {%- if settings.popup_image != blank -%}
+        <div class="popup_media">          
               <img
-                srcset="{%- if settings.image.width >= 165 -%}{{ settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if settings.image.width >= 360 -%}{{ settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if settings.image.width >= 535 -%}{{ settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if settings.image.width >= 750 -%}{{ settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if settings.image.width >= 1070 -%}{{ settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if settings.image.width >= 1500 -%}{{ settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ settings.image | image_url }} {{ settings.image.width }}w"
-                src="{{ settings.image | image_url: width: 1500 }}"
+                srcset="{%- if settings.popup_image.width >= 165 -%}{{ settings.popup_image | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if settings.popup_image.width >= 360 -%}{{ settings.popup_image | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if settings.popup_image.width >= 535 -%}{{ settings.popup_image | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if settings.popup_image.width >= 750 -%}{{ settings.popup_image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if settings.popup_image.width >= 1070 -%}{{ settings.popup_image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if settings.popup_image.width >= 1500 -%}{{ settings.popup_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ settings.popup_image | image_url }} {{ settings.popup_image.width }}w"
+                src="{{ settings.popup_image | image_url: width: 1500 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                alt="{{ settings.image.alt | escape }}"
+                alt="{{ settings.popup_image.alt | escape }}"
                 loading="lazy"
               >
         </div>
