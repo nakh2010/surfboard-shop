@@ -1437,6 +1437,12 @@
     "name": "Popup",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "popup_enabled",
+        "label": "Show popup",
+        "default": true
+      },
+      {
         "type": "image_picker",
         "id": "popup_image",
         "label": "Image"
