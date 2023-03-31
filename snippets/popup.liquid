@@ -24,7 +24,14 @@
   </div>
   <div class="lsn-popup-content">
     <div class="wr-content">
-    
+      {% if settings.popup_heading != blank %}
+        <h2 class="popup__heading">
+          {{ settings.popup_heading | escape }}
+        </h2>
+      {% endif %}
+     {% if settings.popup_text != blank %}
+        <p class="popup_text">{{ settings.popup_text }}</p>
+      {% endif %}
     </div>
   </div>
 </div>
