@@ -23,9 +23,16 @@
 .lsn-popup .lsn-popup-content{
   
 }
-.lsn-popup{
+.lsn-popup .lsn-popup-content .popup__heading{
   
 }
+.lsn-popup .lsn-popup-content .popup_text{
+  
+}
+.lsn-popup .lsn-popup-content .lsn_email-form{
+  
+}
+
 
 @media screen and (min-width: 750px) {
   .lsn-popup .lsn-popup-image{
