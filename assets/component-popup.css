@@ -29,7 +29,9 @@
     letter-spacing: 0;
 }
 .lsn-popup .lsn-popup-content .popup_text{
-  
+      display: block;
+    margin: 0;
+    margin-bottom: 20px;
 }
 .lsn-popup .lsn-popup-content .lsn_email-form{
   
