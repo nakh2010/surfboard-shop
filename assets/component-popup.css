@@ -23,7 +23,10 @@
     padding: 60px;
 }
 .lsn-popup .lsn-popup-content .popup__heading{
-  
+      display: block;
+    margin: 0;
+    margin-bottom: 5px;
+    letter-spacing: 0;
 }
 .lsn-popup .lsn-popup-content .popup_text{
   
