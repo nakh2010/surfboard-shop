@@ -33,12 +33,12 @@
         <p class="popup_text">{{ settings.popup_text }}</p>
       {% endif %}
       <div class="lsn_email-form">
-        {% form 'customer', class: 'newsletter-form' %}
+        {% form 'customer', class: 'popup-form' %}
         <input type="hidden" name="contact[tags]" value="Become a member">
-        <div class="newsletter-form__field-wrapper">
+        <div class="popup-form__field-wrapper">
           <div class="field">
             <input
-              id="NewsletterForm--{{ section.id }}"
+              id="popupForm--{{ section.id }}"
               type="email"
               name="contact[email]"
               class="field__input"
@@ -50,24 +50,24 @@
               {% if form.errors %}
                 autofocus
                 aria-invalid="true"
-                aria-describedby="Newsletter-error--{{ section.id }}"
+                aria-describedby="popup-error--{{ section.id }}"
               {% elsif form.posted_successfully? %}
-                aria-describedby="Newsletter-success--{{ section.id }}"
+                aria-describedby="popup-success--{{ section.id }}"
               {% endif %}
               placeholder="Enter your email address..."
               required
             >
-            <label class="field__label" for="NewsletterForm--{{ section.id }}">
+            <label class="field__label" for="popupForm--{{ section.id }}">
               Enter your email address...
             </label>
-            <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">Sign up now</button>
+            <button type="submit" class="popup-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'popup.button_label' | t }}">Sign up now</button>
           </div>
           {%- if form.errors -%}
-            <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+            <small class="popup-form__message form__message" id="popup-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
           {%- endif -%}
         </div>
         {%- if form.posted_successfully? -%}
-          <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+          <h3 class="popup-form__message popup-form__message--success form__message" id="popup-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'popup.success' | t }}</h3>
         {%- endif -%}
       {% endform %}
     </div>
