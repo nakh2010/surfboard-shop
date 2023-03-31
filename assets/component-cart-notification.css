@@ -4,6 +4,7 @@
 
 .cart-notification-wrapper .cart-notification {
   display: block;
+      background: #fff;
 }
 
 .cart-notification {
