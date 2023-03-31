@@ -3,9 +3,21 @@
   
 }
 .lsn-popup .wrapper-popup{
-  
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
 }
 .lsn-popup .lsn-popup-image{
+  
+}
+.lsn-popup .lsn-popup-image img{
   
 }
 .lsn-popup .lsn-popup-content{
@@ -17,10 +29,16 @@
 
 @media screen and (min-width: 750px) {
   .lsn-popup .lsn-popup-image{
-    
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
   }
   .lsn-popup .lsn-popup-content{
-    
+     -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
   }
 }
 @media screen and (max-width: 749px) {
