@@ -1,6 +1,9 @@
 
 .lsn-popup{
-  
+      display: block;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .lsn-popup .wrapper-popup{
     -ms-flex-wrap: wrap;
