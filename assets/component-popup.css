@@ -6,16 +6,7 @@
     margin: 0 auto;
 }
 .lsn-popup .wrapper-popup{
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: auto;
-    margin-left: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    width: 100%;
-    align-items: center;
+    display: block;
 }
 .lsn-popup .lsn-popup-image{
   
@@ -43,6 +34,18 @@
 
 
 @media screen and (min-width: 750px) {
+  .lsn-popup .wrapper-popup{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+}
   .lsn-popup .lsn-popup-image{
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
