@@ -110,6 +110,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
+    "cart_drawer_collection": "frontpage",
     "colors_solid_button_labels": "#ef0909",
     "colors_accent_1": "#092e4d",
     "gradient_accent_1": "",
