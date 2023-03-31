@@ -691,7 +691,7 @@ summary::-webkit-details-marker {
 *:focus-visible {
   outline: 0.2rem solid rgba(var(--color-primary-button-background), 0.5);
   outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+  box-shadow: 0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-primary-button-background), 0.3);
 }
 
@@ -700,7 +700,7 @@ summary::-webkit-details-marker {
 .no-js *:focus {
   outline: 0.2rem solid rgba(var(--color-primary-button-background), 0.5);
   outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+  box-shadow: 0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-primary-button-background), 0.3);
 }
 
@@ -745,7 +745,7 @@ summary::-webkit-details-marker {
 .focus-offset:focus-visible {
   outline: 0.2rem solid rgba(var(--color-primary-button-background), 0.5);
   outline-offset: 1rem;
-  box-shadow: 0 0 0 1rem rgb(var(--color-background)),
+  box-shadow: 0 0 0 1rem var(--color-background),
     0 0 0.2rem 1.2rem rgba(var(--color-primary-button-background), 0.3);
 }
 
@@ -753,7 +753,7 @@ summary::-webkit-details-marker {
 .no-js .focus-offset:focus {
   outline: 0.2rem solid rgba(var(--color-primary-button-background), 0.5);
   outline-offset: 1rem;
-  box-shadow: 0 0 0 1rem rgb(var(--color-background)),
+  box-shadow: 0 0 0 1rem var(--color-background),
     0 0 0.2rem 1.2rem rgba(var(--color-primary-button-background), 0.3);
 }
 
@@ -1452,7 +1452,7 @@ details[open] > .share-button__fallback {
 .share-button__fallback .field__input:-webkit-autofill {
   outline: 0.2rem solid rgba(var(--color-primary-button-background),.5);
   outline-offset: 0.1rem;
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-background)),0 0 0.5rem 0.4rem rgba(var(--color-primary-button-background),.3);
+  box-shadow: 0 0 0 0.1rem var(--color-background),0 0 0.5rem 0.4rem rgba(var(--color-primary-button-background),.3);
 }
 
 .share-button__fallback .field__input {
@@ -1821,7 +1821,7 @@ input[type='checkbox'] {
 }
 
 .quantity:before {
-  background: rgb(var(--color-background));
+  background: var(--color-background);
   pointer-events: none;
   content: '';
   position: absolute;
@@ -2671,7 +2671,7 @@ details-disclosure > details {
   border: var(--media-border-width) solid rgba(var(--color-primary-button-background), var(--media-border-opacity));
   border-radius: var(--media-radius);
   overflow: visible !important;
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-background);
 }
 
 .global-media-settings:after {
