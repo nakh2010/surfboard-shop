@@ -1,78 +1,80 @@
 {{ 'component-popup.css' | asset_url | stylesheet_tag }}
 
 <div class="lsn-popup">
-  <div class="lsn-popup-image">
-      {%- if settings.popup_image != blank -%}
-        <div class="popup_media">          
-              <img
-                srcset="{%- if settings.popup_image.width >= 165 -%}{{ settings.popup_image | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if settings.popup_image.width >= 360 -%}{{ settings.popup_image | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if settings.popup_image.width >= 535 -%}{{ settings.popup_image | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if settings.popup_image.width >= 750 -%}{{ settings.popup_image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if settings.popup_image.width >= 1070 -%}{{ settings.popup_image | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if settings.popup_image.width >= 1500 -%}{{ settings.popup_image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ settings.popup_image | image_url }} {{ settings.popup_image.width }}w"
-                src="{{ settings.popup_image | image_url: width: 1500 }}"
-                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                alt="{{ settings.popup_image.alt | escape }}"
-                loading="lazy"
-              >
-        </div>
-      {%- else -%}
-        <div class="popup_media">
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        </div>
-     {%- endif -%}
-  </div>
-  <div class="lsn-popup-content">
-    <div class="wr-content">
-      {% if settings.popup_heading != blank %}
-        <h2 class="popup__heading">
-          {{ settings.popup_heading | escape }}
-        </h2>
-      {% endif %}
-     {% if settings.popup_text != blank %}
-        <p class="popup_text">{{ settings.popup_text }}</p>
-      {% endif %}
-      <div class="lsn_email-form">
-        {% form 'customer', class: 'popup-form' %}
-        <input type="hidden" name="contact[tags]" value="Become a member">
-        <div class="popup-form__field-wrapper">
-          <div class="field">
-            <input
-              id="popupForm--{{ section.id }}"
-              type="email"
-              name="contact[email]"
-              class="field__input"
-              value="{{ form.email }}"
-              aria-required="true"
-              autocorrect="off"
-              autocapitalize="off"
-              autocomplete="email"
-              {% if form.errors %}
-                autofocus
-                aria-invalid="true"
-                aria-describedby="popup-error--{{ section.id }}"
-              {% elsif form.posted_successfully? %}
-                aria-describedby="popup-success--{{ section.id }}"
-              {% endif %}
-              placeholder="Enter your email address..."
-              required
-            >
-            <label class="field__label" for="popupForm--{{ section.id }}">
-              Enter your email address...
-            </label>
-            <button type="submit" class="popup-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'popup.button_label' | t }}">Sign up now</button>
+  <div class="wrapper-popup">
+    <div class="lsn-popup-image">
+        {%- if settings.popup_image != blank -%}
+          <div class="popup_media">          
+                <img
+                  srcset="{%- if settings.popup_image.width >= 165 -%}{{ settings.popup_image | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if settings.popup_image.width >= 360 -%}{{ settings.popup_image | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if settings.popup_image.width >= 535 -%}{{ settings.popup_image | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if settings.popup_image.width >= 750 -%}{{ settings.popup_image | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if settings.popup_image.width >= 1070 -%}{{ settings.popup_image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if settings.popup_image.width >= 1500 -%}{{ settings.popup_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ settings.popup_image | image_url }} {{ settings.popup_image.width }}w"
+                  src="{{ settings.popup_image | image_url: width: 1500 }}"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                  alt="{{ settings.popup_image.alt | escape }}"
+                  loading="lazy"
+                >
           </div>
-          {%- if form.errors -%}
-            <small class="popup-form__message form__message" id="popup-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
-          {%- endif -%}
-        </div>
-        {%- if form.posted_successfully? -%}
-          <h3 class="popup-form__message popup-form__message--success form__message" id="popup-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'popup.success' | t }}</h3>
-        {%- endif -%}
-      {% endform %}
+        {%- else -%}
+          <div class="popup_media">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+       {%- endif -%}
     </div>
+    <div class="lsn-popup-content">
+      <div class="wr-content">
+        {% if settings.popup_heading != blank %}
+          <h2 class="popup__heading">
+            {{ settings.popup_heading | escape }}
+          </h2>
+        {% endif %}
+       {% if settings.popup_text != blank %}
+          <p class="popup_text">{{ settings.popup_text }}</p>
+        {% endif %}
+        <div class="lsn_email-form">
+          {% form 'customer', class: 'popup-form' %}
+          <input type="hidden" name="contact[tags]" value="Become a member">
+          <div class="popup-form__field-wrapper">
+            <div class="field">
+              <input
+                id="popupForm--{{ section.id }}"
+                type="email"
+                name="contact[email]"
+                class="field__input"
+                value="{{ form.email }}"
+                aria-required="true"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                  autofocus
+                  aria-invalid="true"
+                  aria-describedby="popup-error--{{ section.id }}"
+                {% elsif form.posted_successfully? %}
+                  aria-describedby="popup-success--{{ section.id }}"
+                {% endif %}
+                placeholder="Enter your email address..."
+                required
+              >
+              <label class="field__label" for="popupForm--{{ section.id }}">
+                Enter your email address...
+              </label>
+              <button type="submit" class="popup-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'popup.button_label' | t }}">Sign up now</button>
+            </div>
+            {%- if form.errors -%}
+              <small class="popup-form__message form__message" id="popup-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+            {%- endif -%}
+          </div>
+          {%- if form.posted_successfully? -%}
+            <h3 class="popup-form__message popup-form__message--success form__message" id="popup-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'popup.success' | t }}</h3>
+          {%- endif -%}
+        {% endform %}
+      </div>
+      </div>
     </div>
   </div>
 </div>
