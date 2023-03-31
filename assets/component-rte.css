@@ -45,7 +45,7 @@
 }
 
 .rte a {
-  color: var(--color-base-link), var(--alpha-link));
+  color: rgba(var(--color-base-link), var(--alpha-link));
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness var(--duration-short) ease;
