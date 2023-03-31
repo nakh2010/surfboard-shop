@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background-color: rgb(var(--color-base-background-1));
+  background-color: var(--color-background);
   color: rgb(var(--color-base-text));
   font-size: 1.5rem;
   letter-spacing: 0.07rem;
@@ -124,8 +124,8 @@ h2,
   border: none;
   padding: 1.5rem 3rem;
   text-decoration: none;
-  background-color: rgb(var(--color-base-accent-1));
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1));
+  background-color: var(--color-base-text);
+  box-shadow: 0 0 0 0.1rem var(--color-base-text);
   color: rgb(var(--color-base-solid-button-labels));
   min-width: 12rem;
   height: auto;
@@ -139,7 +139,7 @@ h2,
 }
 
 .button:hover {
-  box-shadow: 0 0 0 0.2rem rgb(var(--color-base-accent-1));
+  box-shadow: 0 0 0 0.2rem var(--color-base-text);
 }
 
 .button--secondary {
@@ -177,7 +177,7 @@ h2,
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: rgb(var(--color-base-background-1));
+  background-color: var(--color-background);
   margin-bottom: 0.8rem;
   margin: 0 auto;
 }
@@ -278,7 +278,7 @@ h2,
   line-height: 1;
   padding: 0.6rem 1.3rem;
   text-align: center;
-  background-color: rgb(var(--color-base-background-1));
+  background-color: var(--color-background);
   border-color: rgba(var(--color-base-text), 0.04);
   color: rgb(var(--color-base-text));
 }
@@ -286,7 +286,7 @@ h2,
 .badge--inverse {
   background-color: rgb(var(--color-base-text));
   border-color: rgb(var(--color-base-text));
-  color: rgb(var(--color-base-background-1));
+  color: var(--color-background);
 }
 
 .caption-large {
@@ -345,21 +345,21 @@ h2,
 *:focus-visible {
   outline: 0.2rem solid rgba(var(--color-base-text), 0.5);
   outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-base-background-1)),
+  box-shadow: 0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
 .focused, .no-js *:focus {
-  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline: 0.2rem solid rgba(var(--color-base-text), 0.5);
   outline-offset: 0.3rem;
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+    0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
 .button:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1)),
-    0 0 0 0.3rem rgb(var(--color-base-background-1)),
+  box-shadow: 0 0 0 0.1rem var(--color-base-text),
+    0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
@@ -370,20 +370,20 @@ h2,
 }
 
 .button:focus {
-  box-shadow: 0 0 0 0.1rem rgb(var(--color-base-accent-1)),
-    0 0 0 0.3rem rgb(var(--color-base-background-1)),
+  box-shadow: 0 0 0 0.1rem var(--color-base-text),
+    0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
 .button--secondary:focus-visible {
   box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
-    0 0 0 0.3rem rgb(var(--color-base-background-1)),
+    0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
 .button--secondary:focus {
   box-shadow: 0 0 0 0.1rem rgb(var(--color-base-outline-button-labels)),
-    0 0 0 0.3rem rgb(var(--color-base-background-1)),
+    0 0 0 0.3rem var(--color-background),
     0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
 }
 
@@ -410,7 +410,6 @@ h2,
 }
 
 .gradient {
-  background: rgb(var(--color-base-background-1));
-  background: var(--gradient-base-background-1);
+  background: var(--color-background);
   background-attachment: fixed;
 }
