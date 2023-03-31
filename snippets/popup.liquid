@@ -71,7 +71,7 @@
             {%- endif -%}
           </div>
           {%- if form.posted_successfully? -%}
-            <h3 class="popup-form__message popup-form__message--success form__message" id="popup-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'popup.success' | t }}</h3>
+            <h3 class="popup-form__message popup-form__message--success form__message" id="popup-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}Thanks for subscribing</h3>
           {%- endif -%}
         {% endform %}
       </div>
