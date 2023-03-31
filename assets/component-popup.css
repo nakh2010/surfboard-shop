@@ -67,5 +67,8 @@
   }
 }
 @media screen and (max-width: 749px) {
+  .lsn-popup .lsn-popup-content {
+    padding: 30px;
+}
 
 }
