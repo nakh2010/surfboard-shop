@@ -28,7 +28,8 @@
     position: relative;
 }
 .lsn-popup .lsn-popup-content{
-  
+      display: block;
+    padding: 60px;
 }
 .lsn-popup .lsn-popup-content .popup__heading{
   
