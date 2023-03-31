@@ -1,9 +1,27 @@
 
-
-
+.lsn-popup{
+  
+}
+.lsn-popup .wrapper-popup{
+  
+}
+.lsn-popup .lsn-popup-image{
+  
+}
+.lsn-popup .lsn-popup-content{
+  
+}
+.lsn-popup{
+  
+}
 
 @media screen and (min-width: 750px) {
-
+  .lsn-popup .lsn-popup-image{
+    
+  }
+  .lsn-popup .lsn-popup-content{
+    
+  }
 }
 @media screen and (max-width: 749px) {
 
