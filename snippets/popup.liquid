@@ -63,8 +63,9 @@
               <label class="field__label" for="popupForm--{{ section.id }}">
                 Enter your email address...
               </label>
-              <button type="submit" class="button button--primary" name="commit" id="Subscribe" aria-label="{{ 'popup.button_label' | t }}">Sign up now</button>
             </div>
+            <button type="submit" class="button button--primary" name="commit" id="Subscribe" aria-label="{{ 'popup.button_label' | t }}">Sign up now</button>
+
             {%- if form.errors -%}
               <small class="popup-form__message form__message" id="popup-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
             {%- endif -%}
