@@ -29,8 +29,6 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'jquery-1.11.0.min.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'vendors.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
@@ -227,6 +225,7 @@
       <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
     {%- endif -%}
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     if (Shopify.designMode) {
