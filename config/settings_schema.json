@@ -1434,6 +1434,28 @@
     ]
   },
   {
+    "name": "Popup",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "popup_image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "popup_heading",
+        "default": "Free shipping when you become a member",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "popup_text",
+        "default": "Sign up below!",
+        "label": "Text"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.currency_format.name",
     "settings": [
       {
