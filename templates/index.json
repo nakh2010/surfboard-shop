@@ -512,7 +512,7 @@
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "fins",
             "collection_title": ""
           }
         },
@@ -520,14 +520,14 @@
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "collection_title": ""
+            "collection_title": "SKATE"
           }
         },
         "e64ed384-30a9-4fd6-a541-bc5418fac28d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
-            "collection_title": ""
+            "collection": "fins",
+            "collection_title": "SOFTBOARDS"
           }
         }
       },
