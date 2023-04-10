@@ -55,209 +55,6 @@
         "auto_rotate": false
       }
     },
-    "85c9c130-a9e1-4194-b6f6-03bc1796bc15": {
-      "type": "image-with-text",
-      "blocks": {
-        "92f7edb3-7ada-4229-ad2a-cb462bd5820d": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "92f7edb3-7ada-4229-ad2a-cb462bd5820d"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "color",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "right",
-        "image": "shopify:\/\/shop_images\/50-2.jpg",
-        "image_tab": "shopify:\/\/shop_images\/50-2.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-2.jpg",
-        "image_overlay_opacity": 0
-      }
-    },
-    "ad6c824f-2954-44f9-8e8e-4673f1cc719f": {
-      "type": "image-with-text",
-      "blocks": {
-        "7707fae2-f94d-466c-98ad-6c2ae42cad15": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "7707fae2-f94d-466c-98ad-6c2ae42cad15"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "color",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "left",
-        "image": "shopify:\/\/shop_images\/5050.jpg",
-        "image_tab": "shopify:\/\/shop_images\/5050.jpg",
-        "image_mob": "shopify:\/\/shop_images\/5050.jpg",
-        "image_overlay_opacity": 0
-      }
-    },
-    "f2884c36-8a86-42c4-96d4-daab649574ed": {
-      "type": "image-with-text",
-      "blocks": {
-        "26a5e691-7d6a-47ff-8d5e-d666d678af00": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "26a5e691-7d6a-47ff-8d5e-d666d678af00"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "transparent",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "right",
-        "image": "shopify:\/\/shop_images\/50-5.jpg",
-        "image_tab": "shopify:\/\/shop_images\/50-5.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-5.jpg",
-        "image_overlay_opacity": 0
-      }
-    },
-    "79fc01ff-d308-4a41-bc66-4be176d3fd9a": {
-      "type": "image-with-text",
-      "blocks": {
-        "635c73ed-ff57-4c62-9a15-f88ba58e37c0": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "635c73ed-ff57-4c62-9a15-f88ba58e37c0"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "transparent",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "left",
-        "image": "shopify:\/\/shop_images\/50-50.jpg",
-        "image_tab": "shopify:\/\/shop_images\/50-50.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-50.jpg",
-        "image_overlay_opacity": 0
-      }
-    },
-    "77dfab08-c8d3-4499-bcda-ad5e075a31d9": {
-      "type": "image-with-text",
-      "blocks": {
-        "84e07a95-ccfe-4b5e-b28d-b90027d498ed": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "84e07a95-ccfe-4b5e-b28d-b90027d498ed"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "image",
-        "background_color": "#f5f5f5",
-        "font_color": "light",
-        "layout": "left",
-        "image": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_tab": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_overlay_opacity": 30
-      }
-    },
-    "42ed83cb-683f-4639-b6cd-3103e3b9b445": {
-      "type": "image-with-text",
-      "blocks": {
-        "aa0c80ea-8ae1-452b-bf38-66a3435f7313": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "aa0c80ea-8ae1-452b-bf38-66a3435f7313"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "image",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "left",
-        "image": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_tab": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_mob": "shopify:\/\/shop_images\/50-4.jpg",
-        "image_overlay_opacity": 30
-      }
-    },
-    "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03": {
-      "type": "image-with-text",
-      "blocks": {
-        "037497cc-6047-4c5e-9574-0fc1be0247aa": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "037497cc-6047-4c5e-9574-0fc1be0247aa"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "image",
-        "background_color": "#f5f5f5",
-        "font_color": "light",
-        "layout": "right",
-        "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_mob": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_overlay_opacity": 0
-      }
-    },
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36": {
       "type": "image-with-text",
       "blocks": {
@@ -316,35 +113,6 @@
         "image_overlay_opacity": 0
       }
     },
-    "29024dcd-d077-402b-9224-f0d15d3df938": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17192392753437__29024dcd-d077-402b-9224-f0d15d3df938-1672116238c31741a0-0": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__29024dcd-d077-402b-9224-f0d15d3df938-1672116238c31741a0-0"
-      ],
-      "settings": {
-        "layout_style": "sixty-five",
-        "bg_style": "color",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "left",
-        "image": "shopify:\/\/shop_images\/65-35.jpg",
-        "image_tab": "shopify:\/\/shop_images\/65-35.jpg",
-        "image_mob": "shopify:\/\/shop_images\/65-35.jpg",
-        "image_overlay_opacity": 0
-      }
-    },
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db": {
       "type": "image-with-text",
       "blocks": {
@@ -367,7 +135,7 @@
         "bg_style": "transparent",
         "background_color": "#f5f5f5",
         "font_color": "dark",
-        "layout": "right",
+        "layout": "left",
         "image": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_tab": "shopify:\/\/shop_images\/65-35-2.jpg",
         "image_mob": "shopify:\/\/shop_images\/65-35-2.jpg",
@@ -671,42 +439,6 @@
         "text_color": "#000000"
       }
     },
-    "5f667432-0be1-451d-bf6f-c0aed292721e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>"
-          }
-        },
-        "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-0",
-        "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-1",
-        "template--17192392753437__5f667432-0be1-451d-bf6f-c0aed292721e-1676515786be4a7f0b-2"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "center",
-        "bg_style": "color",
-        "bg_color": "#ffffff",
-        "text_color": "#000000"
-      }
-    },
     "7e3d94ba-e488-4d3a-a795-81f17cd0a378": {
       "type": "featured-collection",
       "settings": {
@@ -811,19 +543,6 @@
     },
     "1678423731b1fd1efe": {
       "type": "apps",
-      "blocks": {
-        "6eb83384-facd-458c-a543-484faa6dc3e8": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "6eb83384-facd-458c-a543-484faa6dc3e8"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -831,16 +550,8 @@
   },
   "order": [
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
-    "85c9c130-a9e1-4194-b6f6-03bc1796bc15",
-    "ad6c824f-2954-44f9-8e8e-4673f1cc719f",
-    "f2884c36-8a86-42c4-96d4-daab649574ed",
-    "79fc01ff-d308-4a41-bc66-4be176d3fd9a",
-    "77dfab08-c8d3-4499-bcda-ad5e075a31d9",
-    "42ed83cb-683f-4639-b6cd-3103e3b9b445",
-    "5b71f4d5-aa31-41d4-b3cf-2752e3ab9f03",
     "c2c486e5-905b-4cf6-b9f0-a3dd21165f36",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "29024dcd-d077-402b-9224-f0d15d3df938",
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
     "2bac5155-b74f-4a51-bff4-da75eee511a7",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
@@ -850,7 +561,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "42413f49-f04b-45f6-b562-1c32ac6d3e06",
-    "5f667432-0be1-451d-bf6f-c0aed292721e",
     "7e3d94ba-e488-4d3a-a795-81f17cd0a378",
     "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
