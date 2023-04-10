@@ -27,13 +27,14 @@
 
      <div class="lsn_collection-list-item">
       {%- for block in section.blocks -%}
+        {% assign collectionName = block.settings.collection %}
         <div class="collection_item">
           <div class="collection_image">
           {% if section.settings.sub_header != blank %}
           {% else %}
           {% endif %}
           </div>
-          <h4 class="collection-name">{% if block.settings.collection_title != blank %}{{ block.settings.collection_title }}{% else %}{% endif %}</h4>
+          <h4 class="collection-name">{% if block.settings.collection_title != blank %}{{ block.settings.collection_title }}{% else %}{{ collectionName.title }}{% endif %}</h4>
         </div>
       {%- endfor -%}
       </div>
