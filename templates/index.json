@@ -505,25 +505,29 @@
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "collection_title": "BEST SALE"
           }
         },
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "collection_title": ""
           }
         },
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "collection_title": ""
           }
         },
         "e64ed384-30a9-4fd6-a541-bc5418fac28d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "frontpage",
+            "collection_title": ""
           }
         }
       },
@@ -535,10 +539,7 @@
       ],
       "settings": {
         "subtitle": "IF YOU LIKE SURFING",
-        "title": "YOU CAME TO THE RIGHT PLACE",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "image_ratio": "adapt"
+        "heading": "Heading"
       }
     },
     "1678423731b1fd1efe": {

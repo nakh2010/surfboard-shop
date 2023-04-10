@@ -45,6 +45,9 @@
 .popup-form__field-wrapper .field:before {
   box-shadow: none;
 }
+.popup-form__field-wrapper .field:after {
+    box-shadow: 0 0 0 var(--inputs-border-width) #d9d9d9;
+}
 
 @media screen and (min-width: 750px) {
   .lsn-popup .wrapper-popup{
