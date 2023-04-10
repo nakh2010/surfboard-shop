@@ -33,6 +33,8 @@
   display: block;
   margin: 0;
   margin-bottom: 20px;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
 }
 .lsn-popup .lsn-popup-content .lsn_email-form button{
   display: block;
