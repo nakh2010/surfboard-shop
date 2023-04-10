@@ -30,7 +30,16 @@
         {% assign collectionName = block.settings.collection %}
         <div class="collection_item">
           <div class="collection_image">
-          {% if section.settings.image != blank %}
+          {% if block.settings.image != blank %}
+             {%-liquid
+                assign image_height = block.settings.image.width -%}
+              {{ block.settings.image | image_url: width: 1500 | image_tag:
+                loading: 'lazy',
+                width: block.settings.image.width,
+                height: image_height,
+                widths: '960',
+                alt: block.settings.image.alt | escape
+              }}
           {% else %}
           {% endif %}
           </div>
