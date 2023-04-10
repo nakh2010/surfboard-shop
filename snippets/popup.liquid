@@ -57,11 +57,11 @@
                 {% elsif form.posted_successfully? %}
                   aria-describedby="popup-success--{{ section.id }}"
                 {% endif %}
-                placeholder="Enter your email address..."
+                placeholder="Enter your email"
                 required
               >
               <label class="field__label" for="popupForm--{{ section.id }}">
-                Enter your email address...
+                Enter your email
               </label>
             </div>
             <button type="submit" class="button button--primary" name="commit" id="Subscribe" aria-label="{{ 'popup.button_label' | t }}">Sign up now</button>
