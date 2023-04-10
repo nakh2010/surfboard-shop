@@ -30,7 +30,7 @@
         {% assign collectionName = block.settings.collection %}
         <div class="collection_item">
           <div class="collection_image">
-          {% if section.settings.sub_header != blank %}
+          {% if section.settings.image != blank %}
           {% else %}
           {% endif %}
           </div>
@@ -70,6 +70,11 @@
           "type": "collection",
           "id": "collection",
           "label": "Collection list"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         },
         {
           "type": "text",
