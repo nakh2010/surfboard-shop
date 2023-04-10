@@ -42,6 +42,9 @@
   width: 100%;
   margin-top: 10px;
 }
+.popup-form__field-wrapper .field:before {
+  box-shadow: none;
+}
 
 @media screen and (min-width: 750px) {
   .lsn-popup .wrapper-popup{
