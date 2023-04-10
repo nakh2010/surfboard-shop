@@ -26,6 +26,8 @@
   margin: 0;
   margin-bottom: 5px;
   letter-spacing: 0;
+  font-size: 5.6rem;
+  color: rgb(var(--color-primary-button-background));
 }
 .lsn-popup .lsn-popup-content .popup_text{
   display: block;
@@ -37,7 +39,6 @@
   width: 100%;
   margin-top: 10px;
 }
-
 
 @media screen and (min-width: 750px) {
   .lsn-popup .wrapper-popup{
