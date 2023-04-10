@@ -17,8 +17,12 @@
 <div class="lsn_collection-list-wrapper">
   <div class="page-width">
       <div class="lsn_title-header">
+       {% if section.settings.subtitle != blank %}
         <p class="collection-list-subtitle">{{ section.settings.subtitle }}</p>
+       {% endif %}
+       {% if section.settings.title != blank %}
         <h2 class="collection-list-title">{{ section.settings.title }}</h2>
+       {% endif %}
       </div>
 
      <div class="lsn_collection-list-item">
