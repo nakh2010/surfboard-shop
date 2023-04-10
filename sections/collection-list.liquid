@@ -27,9 +27,14 @@
 
      <div class="lsn_collection-list-item">
       {%- for block in section.blocks -%}
-        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="lsn_collection-list__item grid__item-{{ forloop.index }}">
-          {% render 'card-collection', card_collection: block.settings.collection, media_aspect_ratio: section.settings.image_ratio %}
-        </li>
+        <div class="collection_item">
+          <div class="collection_image">
+          {% if section.settings.sub_header != blank %}
+          {% else %}
+          {% endif %}
+          </div>
+          <h4 class="collection-name">{% if block.settings.collection_title != blank %}{{ block.settings.collection_title }}{% else %}{% endif %}</h4>
+        </div>
       {%- endfor -%}
       </div>
   </div>
