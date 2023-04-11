@@ -506,6 +506,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/65-35.jpg",
             "collection_title": "BEST SALE"
           }
         },
@@ -513,6 +514,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "fins",
+            "image": "shopify:\/\/shop_images\/istockphoto-1307041388-170667a.jpg",
             "collection_title": ""
           }
         },
