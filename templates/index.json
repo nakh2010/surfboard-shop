@@ -520,6 +520,7 @@
         },
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "frontpage",
             "collection_title": "SKATE"
