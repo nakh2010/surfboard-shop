@@ -61,6 +61,8 @@
 }
 
 @media screen and (min-width: 1025px) {
+  .wrapper-collection-grid.number_block_4 .collection-name{
+  }
 }
 
 @media screen and (min-width: 750px) {
