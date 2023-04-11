@@ -40,7 +40,10 @@
                 widths: '960',
                 alt: block.settings.image.alt | escape
               }}
+          {% elsif collectionName.image != blank %}
+             <img src="{{ collectionName.image.src | collection_img_url: 'large' }}" alt="{{ collectionName.title | escape  }}" />
           {% else %}
+            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
           {% endif %}
           </div>
           <h4 class="collection-name">{% if block.settings.collection_title != blank %}{{ block.settings.collection_title }}{% else %}{{ collectionName.title }}{% endif %}</h4>
