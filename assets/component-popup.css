@@ -37,6 +37,7 @@
   background-color: #ddd;
   text-align: center;
   font-size: 32px;
+  cursor: pointer;
 }
 .lsn-popup .lsn-popup-image img{
   display: block;
