@@ -1,4 +1,6 @@
- setTimeout(function showModal() {
-    $('#popup-form').modal('show');
-    setTimeout(showModal, 5000);
-  }, 5000);
+
+const myTimeout = setTimeout(myGreeting, 5000);
+
+function myGreeting() {
+  document.getElementById("popup-form").modal('show')
+}
