@@ -19,10 +19,10 @@
       grid-area: featured-col-2;
 }
 .lsn-collection-grid .wrapper-collection-grid .position-item-3{
-      grid-area: featured-col-3;
+      grid-area: featured-col-2;
 }
 .lsn-collection-grid .wrapper-collection-grid .position-item-4{
-      grid-area: featured-col-4;
+      grid-area: featured-col-1;
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item{
       position: relative;
