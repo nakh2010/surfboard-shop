@@ -1,6 +1,6 @@
 {{ 'component-popup.css' | asset_url | stylesheet_tag }}
 
-<div class="lsn-popup">
+<div id="popup-form" class="lsn-popup" style="display: none;">
   <div class="wrapper-popup">
     <div class="lsn-popup-image">
         {%- if settings.popup_image != blank -%}
@@ -79,3 +79,12 @@
     </div>
   </div>
 </div>
+
+<script>
+  $(document).ready(function(){
+   setTimeout(function showModal() {
+      $('#popup-form').modal('show');
+      setTimeout(showModal, 5000);
+    }, 5000);
+  });
+</script>
