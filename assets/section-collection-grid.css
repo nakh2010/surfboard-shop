@@ -46,7 +46,21 @@
   
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection-name{
-  
+      display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 122px;
+    color: rgb(var(--color-primary-button-background));
+    margin: 0;
+    padding: 8px 30px;
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item{
   
