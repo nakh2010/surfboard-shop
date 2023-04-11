@@ -14,7 +14,7 @@
      <div class="wrapper-collection-grid">
       {%- for block in section.blocks -%}
         {% assign collectionName = block.settings.collection %}
-        <div class="collection_item">
+        <div class="collection_item position-item-{{ forloop.index }}">
           <div class="collection_image">
           {% if block.settings.image != blank %}
              {%-liquid
