@@ -25,6 +25,27 @@
 .wrapper-collection-grid.number_block_4 .position-item-4{
       grid-area: area_4;
 }
+
+/*--- 3 block collection----*/
+.wrapper-collection-grid.number_block_3{
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(-webkit-min-content,-webkit-max-content) minmax(-webkit-min-content,-webkit-max-content) minmax(-webkit-min-content,-webkit-max-content);
+    grid-template-rows: minmax(min-content,max-content) minmax(min-content,max-content) minmax(min-content,max-content);
+    grid-template-areas:
+        "area_1 area_2 area_3";
+    gap: 10px;
+}
+.wrapper-collection-grid.number_block_3 .position-item-1{
+      grid-area: area_1;
+}
+.wrapper-collection-grid.number_block_3 .position-item-2{
+      grid-area: area_2;
+}
+.wrapper-collection-grid.number_block_3 .position-item-3{
+      grid-area: area_3;
+}
+
 .lsn-collection-grid .wrapper-collection-grid .collection_item{
       position: relative;
 }
