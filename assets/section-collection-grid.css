@@ -27,7 +27,7 @@
   
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item{
-  
+      position: relative;
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image{
       display: block;
