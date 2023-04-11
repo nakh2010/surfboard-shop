@@ -10,17 +10,6 @@
   background-color: rgba(0,0,0,0.4);
 }
 .lsn-popup .wrapper-popup{
- -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: auto;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  width: 100%;
-  align-items: center;
-  
   position: fixed;
   top: 50%;
   left: 50%;
