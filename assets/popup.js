@@ -1,5 +1,5 @@
 var modal = document.getElementById("popup-form");
-const myTimeout = setTimeout(myGreeting, 5000);
-function myGreeting() {
+const myTimeout = setTimeout(showPopup, 5000);
+function showPopup() {
   modal.style.display = "block";
 }
