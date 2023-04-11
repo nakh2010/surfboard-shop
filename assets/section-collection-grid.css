@@ -1,6 +1,34 @@
 .lsn-collection-grid{
   
 }
+
+/*--- 5 block collection----*/
+.wrapper-collection-grid.number_block_5{
+      display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(-webkit-min-content,-webkit-max-content) minmax(-webkit-min-content,-webkit-max-content) minmax(-webkit-min-content,-webkit-max-content);
+    grid-template-rows: minmax(min-content,max-content) minmax(min-content,max-content) minmax(min-content,max-content);
+    grid-template-areas:
+        "area_1 area_2"
+        "area_3 area_3"
+        "area_4 area_5";
+    gap: 10px;
+}
+.wrapper-collection-grid.number_block_5 .position-item-1{
+      grid-area: area_1;
+}
+.wrapper-collection-grid.number_block_5 .position-item-2{
+      grid-area: area_2;
+}
+.wrapper-collection-grid.number_block_5 .position-item-3{
+      grid-area: area_3;
+}
+.wrapper-collection-grid.number_block_5 .position-item-4{
+      grid-area: area_4;
+}
+.wrapper-collection-grid.number_block_5 .position-item-4{
+      grid-area: area_5;
+}
 /*--- 4 block collection----*/
 .wrapper-collection-grid.number_block_4{
       display: grid;
