@@ -1,7 +1,7 @@
 {{ 'component-popup.css' | asset_url | stylesheet_tag }}
 
 <div id="popup-form" class="lsn-popup modal" style="display: none;">
-  <div class="wrapper-popup">
+  <div class="wrapper-popup modal-content">
     <span class="popup-close-button">&times;</span>
     <div class="lsn-popup-image">
         {%- if settings.popup_image != blank -%}
