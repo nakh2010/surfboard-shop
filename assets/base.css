@@ -87,15 +87,6 @@
     background-color: rgb(var(--color-primary-button-background));
     border-color: rgb(var(--color-primary-button-background));
 }
-.lsn__subtitle{
-      font-size: 28px;
-    line-height: 34px;
-    text-align: center;
-    text-transform: uppercase;
-    display: block;
-    margin: 0;
-    color: var(--color-base-heading);
-}
 .lsn__heading{
       display: block;
     margin-top: 12px;
@@ -148,10 +139,6 @@
   font-size: 18px;
     line-height: 22px;
 }
-  .lsn__subtitle{
-      font-size: 24px;
-    line-height: 28px;
-}
 }
 @media screen and (max-width: 749px) {
 .lsn__heading {
@@ -161,10 +148,6 @@
    .lsn-description p{
   font-size: 16px;
     line-height: 18px;
-}
-   .lsn__subtitle{
-      font-size: 18px;
-    line-height: 22px;
 }
 }
 
@@ -1184,7 +1167,10 @@ summary::-webkit-details-marker {
   height: 100%;
   width: 100%;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .media > img {
   object-fit: cover;
   object-position: center center;
