@@ -87,6 +87,15 @@
     background-color: rgb(var(--color-primary-button-background));
     border-color: rgb(var(--color-primary-button-background));
 }
+.lsn__subtitle{
+      font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    color: var(--color-base-heading);
+}
 .lsn__heading{
       display: block;
     margin-top: 12px;
