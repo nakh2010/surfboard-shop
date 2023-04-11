@@ -137,23 +137,22 @@
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 750px){
+  .wrapper-collection-grid.number_block_3 .collection-name,
   .wrapper-collection-grid.number_block_4 .collection-name{
         font-size: 18px;
   }
+  .wrapper-collection-grid.number_block_3 .position-item-1 .collection-name,
   .wrapper-collection-grid.number_block_4 .position-item-1 .collection-name{
         font-size: 22px;
   }
 }
 @media screen and (max-width: 739px) {
-  .wrapper-collection-grid.number_block_3 .collection-name{
-        font-size: 16px;
-  }
-  .wrapper-collection-grid.number_block_3 .position-item-1 .collection-name{
-        font-size: 20px;
-  }
+
+  .wrapper-collection-grid.number_block_3 .collection-name,
   .wrapper-collection-grid.number_block_4 .collection-name{
         font-size: 16px;
   }
+  .wrapper-collection-grid.number_block_3 .position-item-1 .collection-name,
   .wrapper-collection-grid.number_block_4 .position-item-1 .collection-name{
         font-size: 20px;
   }
