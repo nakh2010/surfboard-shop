@@ -113,10 +113,12 @@
 }
 
 @media screen and (min-width: 1025px) {
+  .wrapper-collection-grid.number_block_5 .collection-name,
   .wrapper-collection-grid.number_block_4 .collection-name{
         font-size: 20px;
   }
-  .wrapper-collection-grid.number_block_4 .position-item-1 .collection-name{
+  .wrapper-collection-grid.number_block_4 .position-item-1 .collection-name,
+  .wrapper-collection-grid.number_block_5 .position-item-1 .collection-name{
         font-size: 28px;
   }
   .wrapper-collection-grid.number_block_3{
