@@ -23,9 +23,6 @@
 .lsn-collection-grid .wrapper-collection-grid .position-item-4{
       grid-area: featured-col-4;
 }
-.lsn-collection-grid .wrapper-collection-grid .position-item-5{
-  
-}
 .lsn-collection-grid .wrapper-collection-grid .collection_item{
       position: relative;
 }
@@ -41,9 +38,6 @@
     position: relative;
       height: 100%;
     object-fit: cover;
-}
-.lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image svg{
-  
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection-name{
       display: block;
@@ -61,9 +55,6 @@
     color: rgb(var(--color-primary-button-background));
     margin: 0;
     padding: 8px 30px;
-}
-.lsn-collection-grid .wrapper-collection-grid .collection_item{
-  
 }
 
 @media screen and (min-width: 1025px) {
