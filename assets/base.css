@@ -148,6 +148,10 @@
   font-size: 18px;
     line-height: 22px;
 }
+  .lsn__subtitle{
+      font-size: 24px;
+    line-height: 34px;
+}
 }
 @media screen and (max-width: 749px) {
 .lsn__heading {
@@ -157,6 +161,10 @@
    .lsn-description p{
   font-size: 16px;
     line-height: 18px;
+}
+   .lsn__subtitle{
+      font-size: 18px;
+    line-height: 30px;
 }
 }
 
