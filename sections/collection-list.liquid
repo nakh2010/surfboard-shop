@@ -21,25 +21,27 @@
       {%- for block in section.blocks -%}
         {% assign collectionName = block.settings.collection %}
         <div class="collection_item position-item-{{ forloop.index }}">
-          <div class="collection_image">
-          {% if block.settings.image != blank %}
-             {%-liquid
-                assign image_height = block.settings.image.width -%}
-              {{ block.settings.image | image_url: width: 1500 | image_tag:
-                loading: 'lazy',
-                width: block.settings.image.width,
-                height: image_height,
-                widths: '960',
-                alt: block.settings.image.alt | escape
-              }}
-          {% elsif collectionName.image != blank %}
-             <img src="{{ collectionName.image.src | collection_img_url: 'large' }}" alt="{{ collectionName.title | escape  }}" />
-          {% else %}
-            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-          {% endif %}
+          <a href="{{ collectionName.url }}">
+            <div class="collection_image">
+            {% if block.settings.image != blank %}
+               {%-liquid
+                  assign image_height = block.settings.image.width -%}
+                {{ block.settings.image | image_url: width: 1500 | image_tag:
+                  loading: 'lazy',
+                  width: block.settings.image.width,
+                  height: image_height,
+                  widths: '960',
+                  alt: block.settings.image.alt | escape
+                }}
+            {% elsif collectionName.image != blank %}
+               <img src="{{ collectionName.image.src | collection_img_url: 'large' }}" alt="{{ collectionName.title | escape  }}" />
+            {% else %}
+              {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            </div>
+            <h4 class="collection-name">{% if block.settings.collection_title != blank %}{{ block.settings.collection_title }}{% else %}{{ collectionName.title }}{% endif %}</h4>
+          </a>
           </div>
-          <h4 class="collection-name">{% if block.settings.collection_title != blank %}{{ block.settings.collection_title }}{% else %}{{ collectionName.title }}{% endif %}</h4>
-        </div>
       {%- endfor -%}
       </div>
   </div>
