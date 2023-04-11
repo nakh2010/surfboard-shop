@@ -98,4 +98,12 @@
   .lsn-popup .lsn-popup-content {
     padding: 30px;
   }
+  .lsn-popup .wrapper-popup {
+    max-width: 90%;
+    width: 100%;
+  }
+  .lsn-popup .lsn-popup-image img {
+    max-height: 340px;
+    object-position: top center;
+  }
 }
