@@ -20,7 +20,7 @@
   flex-flow: row wrap;
   width: 100%;
   align-items: center;
-  max-width: 1000px;
+  
   position: fixed;
   top: 50%;
   left: 50%;
@@ -89,6 +89,7 @@
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     width: 100%;
+    max-width: 1000px;
     align-items: center;
 }
   .lsn-popup .lsn-popup-image{
