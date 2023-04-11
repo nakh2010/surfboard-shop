@@ -11,7 +11,9 @@
   
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image img{
-  
+      display: block;
+    width: 100%;
+    position: relative;
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image svg{
   
