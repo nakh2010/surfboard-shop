@@ -2,7 +2,17 @@
   
 }
 .lsn-collection-grid .wrapper-collection-grid{
-  
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: minmax(-webkit-min-content,-webkit-max-content) minmax(-webkit-min-content,-webkit-max-content) minmax(-webkit-min-content,-webkit-max-content);
+    grid-template-rows: minmax(min-content,max-content) minmax(min-content,max-content) minmax(min-content,max-content);
+    grid-template-areas:
+        "featured subfeatured-1"
+        "featured subfeatured-2"
+        "featured subfeatured-3"
+        "featured subfeatured-4"
+        "featured .";
+    gap: 18px 24px;
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item{
   
