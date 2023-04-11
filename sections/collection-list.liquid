@@ -1,5 +1,11 @@
 {{ 'section-collection-grid.css' | asset_url | stylesheet_tag }}
 
+
+{%- assign number_block = 0 -%}
+{% for block in section.blocks %}
+{%- assign number_block = forloop.length -%} 
+{% endfor %}
+
 <div class="lsn-collection-grid">
   <div class="page-width">
       <div class="lsn_title-header">
@@ -11,7 +17,7 @@
        {% endif %}
       </div>
 
-     <div class="wrapper-collection-grid">
+     <div class="wrapper-collection-grid number_block_{{ number_block }}">
       {%- for block in section.blocks -%}
         {% assign collectionName = block.settings.collection %}
         <div class="collection_item position-item-{{ forloop.index }}">
