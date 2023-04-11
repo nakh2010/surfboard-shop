@@ -4,16 +4,22 @@
 .lsn-collection-grid .wrapper-collection-grid{
   
 }
-.lsn-collection-grid{
+.lsn-collection-grid .wrapper-collection-grid .collection_item{
   
 }
-.lsn-collection-grid{
+.lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image{
   
 }
-.lsn-collection-grid{
+.lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image img{
   
 }
-.lsn-collection-grid{
+.lsn-collection-grid .wrapper-collection-grid .collection_item .collection_image svg{
+  
+}
+.lsn-collection-grid .wrapper-collection-grid .collection_item .collection-name{
+  
+}
+.lsn-collection-grid .wrapper-collection-grid .collection_item{
   
 }
 
