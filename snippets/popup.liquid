@@ -80,12 +80,3 @@
   </div>
 </div>
 <script src="{{ 'popup.js' | asset_url }}" defer="defer"></script>
-
-<script>
-  $(document).ready(function(){
-   setTimeout(function showModal() {
-      $('#popup-form').modal('show');
-      setTimeout(showModal, 5000);
-    }, 5000);
-  });
-</script>
