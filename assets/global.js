@@ -1071,8 +1071,6 @@ class ProductRecommendations extends HTMLElement {
 
 customElements.define('product-recommendations', ProductRecommendations);
 
-
-
  //Testimonials
 $('.testimonials').slick({
   slidesToShow: 1,
