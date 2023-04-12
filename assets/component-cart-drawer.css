@@ -162,7 +162,9 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   height: 2.0rem;
   width: 2.0rem;
 }
-
+.drawer__close svg path{
+      fill: var(--color-base-heading);
+}
 .drawer__contents {
   flex-grow: 1;
   display: flex;
