@@ -28,6 +28,11 @@
             </div>
           </div>
           <div class="drawer-linklist-empty">
+            <div class="wrapper-list">
+            {%- for link in settings.sidebar-menu.links -%}
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            {%- endfor -%}  
+            </div>
           </div>
           
           {%- if settings.cart_drawer_collection != blank -%}
