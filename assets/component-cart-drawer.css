@@ -25,7 +25,8 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .drawer-linklist-empty{
-  
+      display: block;
+    margin-top: 40px;
 }
 .drawer-linklist-empty .wrapper-list{
   
