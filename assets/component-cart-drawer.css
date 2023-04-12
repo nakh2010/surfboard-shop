@@ -389,6 +389,13 @@ cart-drawer-items {
   flex-direction: column;
   gap: 0.6rem;
 }
+.cart-drawer .product-option-price{
+      font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: rgb(var(--color-primary-button-background));
+}
 
 .cart-drawer .unit-price {
   margin-top: 0.6rem;
