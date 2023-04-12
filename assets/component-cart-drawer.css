@@ -149,7 +149,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   height: 100%;
 }
 .lsn_drawer_shipping .progress .progress-bar {
-  background-color: #f12848;
+  background-color: var(--color-base-link);
 }
 .drawer__header {
   position: relative;
