@@ -185,20 +185,6 @@
         "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
       }
     },
-    "53c726e4-4654-4b41-9515-d4db4c010a8b": {
-      "type": "video-full-width",
-      "settings": {
-        "sub_header": "Surfing",
-        "header": "Surfing provides many health benefits including shoulder and back strength – these muscles will strengthen from the paddling.",
-        "label": "Learn more",
-        "link": "shopify:\/\/collections\/all",
-        "text_style": "dark",
-        "video_link": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=EngW7tLk6R8",
-        "video_link_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a87000f179104d6286b2dba07ea01517.mp4",
-        "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-      }
-    },
     "31263647-91e9-402b-b96d-d3c190807fdf": {
       "type": "multi-column",
       "blocks": {
@@ -511,39 +497,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5": {
-      "type": "newsletter-form",
-      "blocks": {
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get 50% off"
-          }
-        },
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0",
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1",
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-2"
-      ],
-      "settings": {
-        "background_color": "#005a87",
-        "text_color": "#ffffff",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
     }
   },
   "order": [
@@ -553,14 +506,12 @@
     "2c4d7666-e253-4c57-a1f3-0df12ac1f5db",
     "2bac5155-b74f-4a51-bff4-da75eee511a7",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
-    "53c726e4-4654-4b41-9515-d4db4c010a8b",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "42413f49-f04b-45f6-b562-1c32ac6d3e06",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
-    "25396aee-9226-46a3-9cd9-3a40f494d087",
-    "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5"
+    "25396aee-9226-46a3-9cd9-3a40f494d087"
   ]
 }
