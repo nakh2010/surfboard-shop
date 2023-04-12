@@ -45,7 +45,7 @@
               </div>
             {%- when 'button' -%}
               <div class="rich-text__buttons">
-                {%- if block.settings.button_link != blank -%}
+                {%- if block.settings.button_label != blank -%}
                   <a href="{{ block.settings.button_link }}" class="lsn_button_style">
                   {{ block.settings.button_label | escape }}
                   </a>
