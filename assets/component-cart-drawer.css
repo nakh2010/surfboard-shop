@@ -32,7 +32,7 @@
   padding: 0 1.5rem;
   border: 0.1rem solid rgba(var(--color-base-text), 0.2);
   border-right: 0;
-  background-color: var(--color-background);
+  background-color: #F5F5F5;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
 .drawer__inner-empty {
   height: 100%;
   padding: 0 1.5rem;
-  background-color: var(--color-background);
+  background-color: #F5F5F5;
   overflow: hidden;
   display: flex;
   flex-direction: column;
