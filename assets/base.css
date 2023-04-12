@@ -1900,7 +1900,7 @@ input[type='checkbox'] {
   left: var(--inputs-border-width);
   border: 0.1rem solid transparent;
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width) var(--color-base-text);
+  box-shadow: 0 0 0 var(--inputs-border-width) var(--color-base-link);
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
