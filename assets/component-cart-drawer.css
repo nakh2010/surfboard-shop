@@ -48,7 +48,12 @@
   display: flex;
   flex-direction: column;
 }
-
+.drawer__inner-empty .cart-count-empty{
+  
+}
+.drawer__inner-empty .progress-bar{
+  
+}
 .cart-drawer__warnings {
   display: flex;
   flex-direction: column;
