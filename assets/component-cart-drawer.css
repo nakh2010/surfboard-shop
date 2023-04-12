@@ -128,7 +128,6 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 
 .drawer__header {
   position: relative;
-  background-color: var(--color-background);
   padding: 1.5rem 0;
   display: flex;
   justify-content: space-between;
