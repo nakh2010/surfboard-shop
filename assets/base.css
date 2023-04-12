@@ -88,7 +88,7 @@
     border-color: rgb(var(--color-primary-button-background));
 }
 .lsn__subtitle{
-      font-size: 24px;
+      font-size: 28px;
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
@@ -138,6 +138,10 @@
 
 }
 @media screen and (max-width: 1024px) and (min-width: 750px){
+  .lsn__subtitle{
+      font-size: 24px;
+    line-height: 30px;
+  }
   .lsn__heading{
      font-style: normal;
     font-size: 28px;
@@ -150,14 +154,18 @@
 }
 }
 @media screen and (max-width: 749px) {
-.lsn__heading {
-    margin-top: 8px;
-    margin-bottom: 18px;
-}
-   .lsn-description p{
-  font-size: 16px;
-    line-height: 18px;
-}
+  .lsn__subtitle{
+      font-size: 18px;
+    line-height: 24px;
+  }
+  .lsn__heading {
+      margin-top: 8px;
+      margin-bottom: 18px;
+  }
+     .lsn-description p{
+    font-size: 16px;
+      line-height: 18px;
+  }
 }
 
 /* base */
