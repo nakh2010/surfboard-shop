@@ -411,8 +411,8 @@ cart-drawer-items {
 .cart-drawer quantity-input.quantity .quantity__button[name=minus]:focus {
     border-top: 1px solid var(--color-base-link);
     border-bottom: 1px solid var(--color-base-link);
-    border-top-right-radius: var(--inputs-radius);
-    border-bottom-right-radius: var(--inputs-radius);
+    border-top-left-radius: var(--inputs-radius);
+    border-bottom-left-radius: var(--inputs-radius);
 }
 .cart-drawer quantity-input.quantity .quantity__button[name=plus]:focus {
     border-top: 1px solid var(--color-base-link);
