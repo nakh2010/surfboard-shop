@@ -151,6 +151,18 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 .lsn_drawer_shipping .progress .progress-bar {
   background-color: var(--color-base-link);
 }
+.lsn_drawer_shipping .free-shipping-text{
+  
+}
+.lsn_drawer_shipping{
+  
+}
+.lsn_drawer_shipping{
+  
+}
+.lsn_drawer_shipping{
+  
+}
 .drawer__header {
   position: relative;
   padding: 1.5rem 0;
