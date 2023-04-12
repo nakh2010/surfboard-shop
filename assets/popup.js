@@ -3,7 +3,7 @@ var modal = document.getElementById("popup-form");
 // Get the popup_close element that closes the modal
 var popup_close = document.getElementsByClassName("popup-close-button")[0];
 
-const myTimeout = setTimeout(showPopup, 5000);
+//const myTimeout = setTimeout(showPopup, 5000);
 
 function showPopup() {
   modal.style.display = "block";
