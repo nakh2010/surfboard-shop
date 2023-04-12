@@ -60,7 +60,7 @@
       "settings": {
         "sub_header": "IF YOU LIKE SURFING",
         "header": "YOU CAME TO THE RIGHT PLACE",
-        "collection": "",
+        "collection": "frontpage",
         "products_to_show": 8,
         "columns_desktop": 5,
         "full_width": false,
