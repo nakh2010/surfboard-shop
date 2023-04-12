@@ -125,6 +125,10 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 .drawer.active .drawer__inner {
   transform: translateX(0);
 }
+.lsn_drawer_shipping{
+    display: block;
+    margin-bottom: 30px;
+}
 .lsn_drawer_shipping .progress {
   height: 0.8rem;
   background-color: #d7d6d6;
