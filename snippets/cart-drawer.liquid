@@ -50,6 +50,27 @@
         <h2 class="drawer__heading">{{ 'sections.cart.title' | t }}</h2>
         <button class="drawer__close" type="button" onclick="this.closest('cart-drawer').close()" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
       </div>
+      <div class="drawer_linklist-empty">
+        {% assign priceNumber = 500 %}
+        {% assign priceTotal = priceNumber | times: 100 %}
+        {% assign percent = cart.total_price | times: 100 | divided_by: priceTotal %}
+        {% if percent > 100 %}
+          {% assign percent = 100 %}
+        {% endif %}
+        <div class="shipping-calculator"> 
+          <p class="text-center free-shipping-text">
+            {% if percent == 100 %}
+              FREE SHIPPING WILL BE APPLIED AT CHECKOUT
+              {% else %} 
+              {% assign spend_price = priceTotal | minus: cart.total_price  %}
+              {{ spend_price | money }} away from free shipping
+            {% endif %}
+          </p>
+         <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{ percent }}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" cart-total-price="{{cart.total_price}}"></div>
+          </div>
+        </div>
+      </div>
       <cart-drawer-items {% if cart == empty %}class=" is-empty"{% endif %}>
         <form action="{{ routes.cart_url }}" id="CartDrawer-Form" class="cart__contents cart-drawer__form" method="post">
           <div id="CartDrawer-CartItems" class="drawer__contents js-contents">
