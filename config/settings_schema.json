@@ -1520,10 +1520,9 @@
         "content": "t:settings_schema.cart.settings.cart_drawer.header"
       },
       {
-        "type": "collection",
-        "id": "cart_drawer_collection",
-        "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
-        "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
+        "type": "link_list",
+        "id": "menu",
+        "label": "Featured collection"
       }
     ]
   }
