@@ -15,6 +15,10 @@
   visibility: visible;
 }
 
+.drawer.active #CartDrawer{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 .drawer__inner {
   height: 100%;
   width: 40rem;
