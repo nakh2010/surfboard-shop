@@ -55,7 +55,7 @@
                 FREE SHIPPING WILL BE APPLIED AT CHECKOUT
                 {% else %} 
                 {% assign spend_price = priceTotal | minus: cart.total_price  %}
-                {{ spend_price | money }} away from free shipping
+                Spend {{ spend_price | money }} more and get free shipping!  
               {% endif %}
             </p>
            <div class="progress">
