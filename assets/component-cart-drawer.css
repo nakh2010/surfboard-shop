@@ -311,6 +311,7 @@ cart-drawer-items {
   background: #FFFFFF;
   border-radius: 5px;
   margin-bottom: 15px;
+  padding: 16px 12px;
 }
 
 .cart-drawer .cart-item:last-child {
