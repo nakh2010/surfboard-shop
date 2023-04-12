@@ -70,6 +70,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+      justify-content: flex-start;
+    padding-top: 100px;
 }
 .drawer__inner-empty .cart__empty-text{
     font-size: 16px;
