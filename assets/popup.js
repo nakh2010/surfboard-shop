@@ -51,7 +51,7 @@ function getCookie(cname) {
 $(document).ready(function() {
 
   var check_cookie = getCookie('popup-newsletter');
-  console.log(check_cookie);
+  console.log('popup-newsletter '+check_cookie);
   
   var time_expired = 60;
   var date = new Date();
@@ -59,7 +59,6 @@ $(document).ready(function() {
 
 
   if(check_cookie == ''){
-    console.log('check_cookie blank');
     setCookie('popup-newsletter','expire_1_day',1);
     setTimeout(function(){ showPopup(); }, 3000);
   }
