@@ -52,7 +52,7 @@
       </div>
       
       <cart-drawer-items {% if cart == empty %}class=" is-empty"{% endif %}>
-        <div class="drawer_linklist-empty">
+        <div class="lsn_drawer_shipping">
           {% assign priceNumber = 500 %}
           {% assign priceTotal = priceNumber | times: 100 %}
           {% assign percent = cart.total_price | times: 100 | divided_by: priceTotal %}
