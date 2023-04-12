@@ -11,14 +11,14 @@ function showPopup() {
 
 // When the user clicks on popup_close (x), close the modal
 popup_close.onclick = function() {
-  jQuery.cookie('popup-newsletter', 'Yes');
+  jQuery.setCookie('popup-newsletter', 'Yes');
   modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    jQuery.cookie('popup-newsletter', 'Yes');
+    jQuery.setCookie('popup-newsletter', 'Yes');
     modal.style.display = "none";
   }
 }
