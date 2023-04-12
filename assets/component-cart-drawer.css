@@ -10,7 +10,9 @@
   background-color: rgba(var(--color-base-text), 0.5);
   transition: visibility var(--duration-default) ease;
 }
-
+.is-empty .lsn_drawer_shipping{
+      display: none;
+}
 .drawer.active {
   visibility: visible;
 }
