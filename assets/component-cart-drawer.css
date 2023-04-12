@@ -144,7 +144,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #007bff;
+  background-color: #D9D9D9;
   transition: width .6s ease;
   height: 100%;
 }
