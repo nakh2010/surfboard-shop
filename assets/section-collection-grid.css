@@ -143,6 +143,7 @@
   }
 }
 
+
 @media screen and (min-width: 750px) {
 
   .wrapper-collection-grid.number_block_4{
@@ -206,6 +207,9 @@
   .wrapper-collection-grid.number_block_4 .position-item-1 .collection-name{
         font-size: 22px;
   }
+  .lsn-collection-grid .lsn__heading {
+    margin-bottom: 30px;
+ }
 }
 @media screen and (max-width: 739px) {
 
@@ -218,5 +222,8 @@
   .wrapper-collection-grid.number_block_3 .position-item-1 .collection-name,
   .wrapper-collection-grid.number_block_4 .position-item-1 .collection-name{
         font-size: 20px;
+  }
+  .lsn-collection-grid .lsn__heading {
+    margin-bottom: 22px;
   }
 }
