@@ -131,6 +131,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   border-radius: 25px;
+  overflow: hidden;
 }
 .lsn_drawer_shipping .progress-bar {
   display: -ms-flexbox;
@@ -145,6 +146,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   white-space: nowrap;
   background-color: #007bff;
   transition: width .6s ease;
+  height: 100%;
 }
 .lsn_drawer_shipping .progress .progress-bar {
   background-color: #f12848;
