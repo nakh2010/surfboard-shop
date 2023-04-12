@@ -16,7 +16,11 @@
 .drawer.active {
   visibility: visible;
 }
-
+.cart__empty-text{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
 .drawer.active #CartDrawer .drawer__inner{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
