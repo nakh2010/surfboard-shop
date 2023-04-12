@@ -24,6 +24,18 @@
 .drawer.active #CartDrawer .drawer__inner{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+.drawer-linklist-empty{
+  
+}
+.drawer-linklist-empty .wrapper-list{
+  
+}
+.drawer-linklist-empty .wrapper-list a{
+  
+}
+.drawer-linklist-empty .wrapper-list a:hover{
+  
+}
 
 .drawer__inner {
   height: 100%;
