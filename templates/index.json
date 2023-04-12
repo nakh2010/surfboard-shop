@@ -341,42 +341,6 @@
         "image_mob": "shopify:\/\/shop_images\/65-35.jpg",
         "image_overlay_opacity": 0
       }
-    },
-    "2afc71ce-0d0f-4377-99b1-0b6d220dde93": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17192392753437__2afc71ce-0d0f-4377-99b1-0b6d220dde93-168126902955469fb3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>"
-          }
-        },
-        "template--17192392753437__2afc71ce-0d0f-4377-99b1-0b6d220dde93-168126902955469fb3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17192392753437__2afc71ce-0d0f-4377-99b1-0b6d220dde93-168126902955469fb3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__2afc71ce-0d0f-4377-99b1-0b6d220dde93-168126902955469fb3-0",
-        "template--17192392753437__2afc71ce-0d0f-4377-99b1-0b6d220dde93-168126902955469fb3-1",
-        "template--17192392753437__2afc71ce-0d0f-4377-99b1-0b6d220dde93-168126902955469fb3-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "bg_style": "color",
-        "bg_color": "#FFFFFF",
-        "text_color": "#000000"
-      }
     }
   },
   "order": [
@@ -387,7 +351,6 @@
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
-    "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "2afc71ce-0d0f-4377-99b1-0b6d220dde93"
+    "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b"
   ]
 }
