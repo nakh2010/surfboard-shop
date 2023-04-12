@@ -58,9 +58,9 @@
     "25396aee-9226-46a3-9cd9-3a40f494d087": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
+        "sub_header": "IF YOU LIKE SURFING",
+        "header": "YOU CAME TO THE RIGHT PLACE",
+        "description": "<p>sdsd<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "",
@@ -77,9 +77,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": false
       }
     },
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a": {
