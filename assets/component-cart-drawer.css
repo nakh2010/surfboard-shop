@@ -350,9 +350,6 @@ cart-drawer-items {
 .cart-drawer .cart-items th {
   border-bottom: 0.1rem solid rgba(var(--color-base-text), 0.08);
 }
-.cart-drawer .cart-items td {
-    padding-top: 0;
-}
 
 .cart-drawer .cart-item:last-child {
   margin-bottom: 1.5rem;
@@ -361,6 +358,14 @@ cart-drawer-items {
 .cart-drawer .cart-item .loading-overlay {
   right: 5px;
   padding-top: 2.5rem;
+}
+
+.cart-drawer .cart-items td {
+  padding-top: 0;
+}
+
+.cart-drawer .cart-item > td + td {
+  padding-left: 0;
 }
 
 .cart-drawer .cart-item__details {
