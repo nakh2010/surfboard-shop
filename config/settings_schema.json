@@ -1521,7 +1521,8 @@
       },
       {
         "type": "link_list",
-        "id": "menu",
+        "id": "sidebar-menu",
+        "default": "main-menu",
         "label": "Featured collection"
       }
     ]
