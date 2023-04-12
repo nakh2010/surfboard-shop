@@ -34,15 +34,15 @@
 <div class="lsn-featured-collection">
   <div class="collection {% if section.settings.full_width %} collection--full-width{% endif %}">
      <div class="lsn-header">
-        {% if section.settings.sub_header != blank %}
-        <p class="lsn__subtitle center">
-          {{ section.settings.sub_header | escape }}
-        </p>
-      {% endif %}
        {% if section.settings.header != blank %}
         <h2 class="lsn__heading center">
           {{ section.settings.header | escape }}
         </h2>
+      {% endif %}
+     {% if section.settings.description != blank %}
+        <div class="lsn-description center">
+          {{ section.settings.description | escape }}
+        </div>
       {% endif %}
     </div>
 
