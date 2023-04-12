@@ -161,15 +161,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
     margin-bottom: 12px;
     color: var(--color-base-heading);
 }
-.lsn_drawer_shipping{
-  
-}
-.lsn_drawer_shipping{
-  
-}
-.lsn_drawer_shipping{
-  
-}
+
 .drawer__header {
   position: relative;
   padding: 1.5rem 0;
@@ -328,6 +320,7 @@ cart-drawer-items {
 
 .cart-drawer .cart-items thead {
   margin-bottom: 0.5rem;
+  display: none;
 }
 
 .cart-drawer .cart-items thead th:first-child,
