@@ -1,7 +1,9 @@
 .lsn-collection-grid{
   
 }
-
+.lsn-collection-grid .lsn__heading {
+    margin-bottom: 40px;
+}
 /*--- 5 block collection----*/
 .wrapper-collection-grid.number_block_5{
       display: grid;
