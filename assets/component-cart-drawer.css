@@ -159,8 +159,8 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 }
 
 .drawer__close svg {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 2.0rem;
+  width: 2.0rem;
 }
 
 .drawer__contents {
