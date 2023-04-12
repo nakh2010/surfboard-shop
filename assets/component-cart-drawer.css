@@ -31,7 +31,17 @@
   
 }
 .drawer-linklist-empty .wrapper-list a{
-  
+      font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-base-heading);
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
 }
 .drawer-linklist-empty .wrapper-list a:hover{
   
