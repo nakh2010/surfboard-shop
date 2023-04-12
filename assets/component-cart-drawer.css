@@ -125,7 +125,30 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 .drawer.active .drawer__inner {
   transform: translateX(0);
 }
-
+.lsn_drawer_shipping .progress {
+  height: 0.8rem;
+  background-color: #d7d6d6;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+.lsn_drawer_shipping .progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
+.lsn_drawer_shipping .progress .progress-bar {
+  background-color: #f12848;
+}
 .drawer__header {
   position: relative;
   padding: 1.5rem 0;
