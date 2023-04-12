@@ -439,66 +439,6 @@
         "text_color": "#000000"
       }
     },
-    "7e3d94ba-e488-4d3a-a795-81f17cd0a378": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "frontpage",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5": {
-      "type": "newsletter-form",
-      "blocks": {
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get 50% off"
-          }
-        },
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0",
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1",
-        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-2"
-      ],
-      "settings": {
-        "background_color": "#005a87",
-        "text_color": "#ffffff",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "54bbbde7-3046-46a0-a30b-90e054ab36fb": {
       "type": "collection-list",
       "blocks": {
@@ -545,12 +485,6 @@
         "heading": "YOU CAME TO THE RIGHT PLACE"
       }
     },
-    "1678423731b1fd1efe": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "25396aee-9226-46a3-9cd9-3a40f494d087": {
       "type": "featured-collection",
       "settings": {
@@ -577,6 +511,39 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5": {
+      "type": "newsletter-form",
+      "blocks": {
+        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get 50% off"
+          }
+        },
+        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-0",
+        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-1",
+        "template--17192392753437__c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5-16784160383d7044c1-2"
+      ],
+      "settings": {
+        "background_color": "#005a87",
+        "text_color": "#ffffff",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -592,10 +559,8 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "1a8a346b-0817-4df6-a5fd-b8cde55a1199",
     "42413f49-f04b-45f6-b562-1c32ac6d3e06",
-    "7e3d94ba-e488-4d3a-a795-81f17cd0a378",
-    "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
-    "1678423731b1fd1efe",
-    "25396aee-9226-46a3-9cd9-3a40f494d087"
+    "25396aee-9226-46a3-9cd9-3a40f494d087",
+    "c748a3f1-4ba5-41cc-9613-a4bfbb7d77c5"
   ]
 }
