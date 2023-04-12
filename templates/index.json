@@ -55,33 +55,31 @@
         "auto_rotate": false
       }
     },
-    "c2c486e5-905b-4cf6-b9f0-a3dd21165f36": {
-      "type": "image-with-text",
-      "blocks": {
-        "5bb72a9b-d982-4d58-898a-b8d1fe0eea50": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Surfing of every day",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br\/><\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "5bb72a9b-d982-4d58-898a-b8d1fe0eea50"
-      ],
+    "25396aee-9226-46a3-9cd9-3a40f494d087": {
+      "type": "featured-collection",
       "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "image",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "right",
-        "image": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_tab": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_mob": "shopify:\/\/shop_images\/beautiful-girl-walks-with-surfboard-wild-beach-amazing-view-from-top_1.jpg",
-        "image_overlay_opacity": 0
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a": {
@@ -348,44 +346,16 @@
         "image_mob": "shopify:\/\/shop_images\/65-35.jpg",
         "image_overlay_opacity": 0
       }
-    },
-    "25396aee-9226-46a3-9cd9-3a40f494d087": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
-    "c2c486e5-905b-4cf6-b9f0-a3dd21165f36",
+    "25396aee-9226-46a3-9cd9-3a40f494d087",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
-    "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "25396aee-9226-46a3-9cd9-3a40f494d087"
+    "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b"
   ]
 }
