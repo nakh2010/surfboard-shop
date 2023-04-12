@@ -405,6 +405,9 @@ cart-drawer-items {
   padding-top: 0;
   grid-column: 2 / 5;
 }
+.cart-drawer quantity-input.quantity{
+      min-height: 40px;
+}
 @media screen and (max-width: 1024px) {
   .drawer__inner-empty {
       padding-top: 20px;
