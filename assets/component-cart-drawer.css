@@ -216,9 +216,14 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   padding: 1.5rem 0;
 }
 .drawer__footer:before{
-  content:"";
-  position:absolute;
+ content: "";
+  position: absolute;
   background-color: var(--color-background);
+  width: 500px;
+  height: 100%;
+  z-index: 1;
+  left: -20px;
+  top: 0;
 }
 
 cart-drawer-items.is-empty + .drawer__footer {
