@@ -519,7 +519,9 @@ cart-drawer-items {
 .cart-drawer details[open]>summary .icon-caret {
   transform: rotate(180deg);
 }
-
+.cart__note .text-area {
+    font-size: 14px;
+}
 .cart-drawer .cart__ctas .view-cart{
   background: #F5F5F5;
   border-radius: 5px;
