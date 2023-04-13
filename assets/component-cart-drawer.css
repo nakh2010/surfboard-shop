@@ -317,6 +317,7 @@ cart-drawer-items {
 .cart-item__quantity-wrapper {
     display: flex;
     max-height: 30px;
+  justify-content: space-between;
 }
 
 .cart-drawer .cart-item:last-child {
