@@ -442,7 +442,14 @@ cart-drawer-items {
 .cart-drawer .cart-item cart-remove-button {
     margin-top: 0;
 }
-
+.cart-drawer cart-remove-button .button {
+    min-height: auto;
+    background: transparent;
+    color: var(--color-base-link);
+    border: none;
+    text-decoration: underline;
+    padding: 0;
+}
 
 @media screen and (max-width: 1024px) {
   .drawer__inner-empty {
