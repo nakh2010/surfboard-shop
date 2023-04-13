@@ -520,6 +520,12 @@ cart-drawer-items {
 
 .cart-drawer .cart__checkout-button {
   max-width: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  min-height: 44px;
 }
 
 .drawer__footer .cart__dynamic-checkout-buttons {
