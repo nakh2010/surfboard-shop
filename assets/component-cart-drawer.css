@@ -531,7 +531,7 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart__ctas .view-cart:hover{
-  
+      background: #e3e0e0;
 }
 
 .cart-drawer .cart__checkout-button {
