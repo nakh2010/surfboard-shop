@@ -501,8 +501,12 @@ cart-drawer-items {
 }
 
 .cart-drawer .tax-note {
-  margin: 1.2rem 0 1rem auto;
+  font-size: 12px;
+  line-height: 15px;
   text-align: left;
+  letter-spacing: 0.01em;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .cart-drawer .product-option dd {
