@@ -22,6 +22,10 @@
 .cart-items *.right {
   text-align: right;
 }
+.button-remove{
+  color: var(--color-base-link);
+  font-size: 14px;
+}
 
 .cart-item__image-container {
   display: inline-flex;
