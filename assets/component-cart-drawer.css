@@ -215,6 +215,11 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   border-top: 0.1rem solid rgba(var(--color-base-text), 0.2);
   padding: 1.5rem 0;
 }
+.drawer__footer:before{
+  content:"";
+  position:absolute;
+  background-color: var(--color-background);
+}
 
 cart-drawer-items.is-empty + .drawer__footer {
   display: none;
