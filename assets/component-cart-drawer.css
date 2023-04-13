@@ -225,7 +225,12 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
   left: -20px;
   top: 0;
 }
-
+.drawer__footer .cart-drawer__footer,
+.drawer__footer .cart__ctas{
+      display: block;
+    z-index: 2;
+    position: relative;
+}
 cart-drawer-items.is-empty + .drawer__footer {
   display: none;
 }
