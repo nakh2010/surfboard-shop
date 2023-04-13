@@ -530,6 +530,10 @@ cart-drawer-items {
   padding: 12px;
 }
 
+.cart-drawer .cart__ctas .view-cart:hover{
+  
+}
+
 .cart-drawer .cart__checkout-button {
   max-width: none;
   font-size: 16px;
