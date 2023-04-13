@@ -421,7 +421,7 @@ cart-drawer-items {
   grid-column: 2 / 5;
 }
 .cart-drawer quantity-input.quantity{
-      min-height: 32px;
+      min-height: 30px;
       max-width: 110px;
 }
 .cart-drawer quantity-input.quantity .quantity__button {
