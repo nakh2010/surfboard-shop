@@ -424,6 +424,9 @@ cart-drawer-items {
       min-height: 32px;
       max-width: 110px;
 }
+.cart-drawer quantity-input.quantity .quantity__button {
+    width: 32px;
+}
 .cart-drawer quantity-input.quantity .quantity__button[name=minus]:focus {
     border-top: 1px solid var(--color-base-link);
     border-bottom: 1px solid var(--color-base-link);
