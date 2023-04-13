@@ -314,12 +314,9 @@ cart-drawer-items {
   padding: 16px 12px;
       row-gap: 6px;
 }
-.cart-drawer .quantity__button {
-    width: 34px;
-}
-.cart-drawer .cart-item__quantity-wrapper {
-     min-height: 30px;
-    max-width: 110px;
+.cart-item__quantity-wrapper {
+    display: flex;
+    max-height: 30px;
 }
 
 .cart-drawer .cart-item:last-child {
@@ -425,6 +422,7 @@ cart-drawer-items {
 }
 .cart-drawer quantity-input.quantity{
       min-height: 32px;
+      max-width: 110px;
 }
 .cart-drawer quantity-input.quantity .quantity__button[name=minus]:focus {
     border-top: 1px solid var(--color-base-link);
