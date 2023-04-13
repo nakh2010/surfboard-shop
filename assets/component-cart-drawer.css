@@ -258,7 +258,7 @@ cart-drawer-items.is-empty + .drawer__footer {
   display: flex;
   position: relative;
   line-height: 1;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 0.8rem;
 }
 
 .drawer__footer > details + .cart-drawer__footer {
