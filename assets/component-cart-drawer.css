@@ -439,6 +439,10 @@ cart-drawer-items {
     border-top-right-radius: var(--inputs-radius);
     border-bottom-right-radius: var(--inputs-radius);
 }
+.cart-drawer .cart-item cart-remove-button {
+    margin-top: 0;
+}
+
 
 @media screen and (max-width: 1024px) {
   .drawer__inner-empty {
