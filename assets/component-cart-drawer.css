@@ -312,6 +312,7 @@ cart-drawer-items {
   border-radius: 5px;
   margin-bottom: 15px;
   padding: 16px 12px;
+      row-gap: 6px;
 }
 
 .cart-drawer .cart-item:last-child {
