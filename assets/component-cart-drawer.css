@@ -315,7 +315,8 @@ cart-drawer-items {
       row-gap: 6px;
 }
 .cart-drawer .cart-item__quantity-wrapper {
-    max-height: 30px;
+     min-height: 30px;
+    max-width: 110px;
 }
 
 .cart-drawer .cart-item:last-child {
