@@ -488,6 +488,9 @@ cart-drawer-items {
 .cart-drawer details[open]>summary .icon-caret {
   transform: rotate(180deg);
 }
+.cart-drawer .cart__ctas .view-cart{
+  
+}
 
 .cart-drawer .cart__checkout-button {
   max-width: none;
