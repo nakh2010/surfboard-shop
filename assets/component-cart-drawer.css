@@ -314,6 +314,9 @@ cart-drawer-items {
   padding: 16px 12px;
       row-gap: 6px;
 }
+.cart-drawer .quantity__button {
+    width: 34px;
+}
 .cart-drawer .cart-item__quantity-wrapper {
      min-height: 30px;
     max-width: 110px;
