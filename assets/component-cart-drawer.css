@@ -517,6 +517,9 @@ cart-drawer-items {
   transform: rotate(180deg);
 }
 
+.cart-drawer .cart__note{
+      margin-top: 30px;
+}
 .cart-drawer .cart__note label{
   top: -2.5rem;
   font-size: 14px;
