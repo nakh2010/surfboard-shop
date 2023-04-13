@@ -37,7 +37,7 @@
         </div>
       {%- endif -%}
       <div class="drawer__header">
-        <h2 class="drawer__heading">{{ cart.item_count }} {% if cart.item_count == 1 %}item{%else%}items{%endif%}</h2>
+        <h2 class="drawer__heading">{{ cart.item_count }} {% if cart.item_count == 1 %}item {% else %}items {% endif %}</h2>
         <button class="drawer__close" type="button" onclick="this.closest('cart-drawer').close()" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
       </div>
       
