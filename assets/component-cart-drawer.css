@@ -401,7 +401,12 @@ cart-drawer-items {
     line-height: 15px;
     letter-spacing: 0.01em;
 }
-
+.cart-drawer .cart-item__name {
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: var(--color-base-heading);
+}
 .cart-drawer .unit-price {
   margin-top: 0.6rem;
 }
