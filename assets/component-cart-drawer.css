@@ -259,6 +259,8 @@ cart-drawer-items.is-empty + .drawer__footer {
   position: relative;
   line-height: 1;
   padding: 1.5rem 0 0.8rem;
+  font-size: 14px;
+  color: var(--color-base-heading);
 }
 
 .drawer__footer > details + .cart-drawer__footer {
