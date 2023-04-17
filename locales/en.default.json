@@ -420,7 +420,7 @@
       "add_to_apple_wallet": "Add to Apple Wallet",
       "qr_image_alt": "QR code — scan to redeem gift card",
       "copy_code": "Copy code",
-      "expired": "Expires on {{ expiry }}",
+      "expired": "Expires on {{ expiry }} test",
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
