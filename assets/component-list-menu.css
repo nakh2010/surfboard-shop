@@ -1,27 +1,14 @@
 .background-transparent *{
       color: #fff;
 }
+.header__inline-menu.menutype-dropdown .header__submenu .header__menu-item,
 .section-header.shopify-section-header-sticky .background-transparent *{
      color: var(--color-base-link);
 }
 .background-transparent{
   
 }
-.background-transparent{
-  
-}
-.background-transparent{
-  
-}
-.background-transparent{
-  
-}
-.background-transparent{
-  
-}
-.background-transparent{
-  
-}
+
 .list-menu--right {
   right: 0;
 }
