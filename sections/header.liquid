@@ -450,18 +450,14 @@
           </ul>
         </nav>
       {%- else -%}
-        {%- assign sectionBlock = 0 -%}
-        {% for block in section.blocks %}
-        {%- assign sectionBlock = forloop.length -%} 
-        {% endfor %}
-        
+
         <nav class="header__inline-menu menutype-{{ section.settings.menu_type_desktop }}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>
-                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu {{ sectionBlock }}">
+                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
