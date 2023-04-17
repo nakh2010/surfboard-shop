@@ -1,14 +1,5 @@
 {
   "sections": {
-    "43463d8d-9b7e-4f2b-9e4c-a9b5bd1aeb10": {
-      "type": "banner-heading",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-b-170667a.jpg",
-        "heading": "Heading",
-        "text_color": "#000",
-        "image_height": "medium"
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -36,7 +27,6 @@
     }
   },
   "order": [
-    "43463d8d-9b7e-4f2b-9e4c-a9b5bd1aeb10",
     "banner",
     "product-grid"
   ]
