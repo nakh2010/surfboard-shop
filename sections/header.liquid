@@ -450,6 +450,11 @@
           </ul>
         </nav>
       {%- else -%}
+        {%- assign sectionBlock = 0 -%}
+        {% for block in section.blocks %}
+        {%- assign sectionBlock = forloop.length -%} 
+        {% endfor %}
+        
         <nav class="header__inline-menu menutype-{{ section.settings.menu_type_desktop }}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
