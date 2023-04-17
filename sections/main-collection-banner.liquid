@@ -27,13 +27,19 @@
             height="{{ collection.image.height }}"
           >
       </div>
-    {% else %}
-    {% endif %}
-    <div class="banner__content">
-      <div class="page-width">
-        <h1>{{- collection.title | escape -}}</h1>
+      <div class="banner__content">
+        <div class="page-width">
+          <h1>{{- collection.title | escape -}}</h1>
+        </div>
       </div>
-    </div>
+    {% else %}
+      <div class="banner__content onlytext">
+        <div class="page-width">
+          <h1>{{- collection.title | escape -}}</h1>
+        </div>
+      </div>
+    {% endif %}
+    
   </div>
   {%- if section.settings.show_collection_description -%}
   <div class="page-width">
