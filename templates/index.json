@@ -69,12 +69,12 @@
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a": {
