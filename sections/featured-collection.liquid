@@ -77,23 +77,23 @@
     </slider-component>
 
     {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-     <quick-add-modal id="QuickAdd-{{ card_product.id }}" class="quick-add-modal">
+     <quick-add-modal id="QuickAdd-{{ product.id }}" class="quick-add-modal">
       <div
         role="dialog"
-        aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}"
+        aria-label="{{ 'products.product.choose_product_options' | t: product_name: product.title | escape }}"
         aria-modal="true"
         class="quick-add-modal__content global-settings-popup"
         tabindex="-1"
       >
         <button
-          id="ModalClose-{{ card_product.id }}"
+          id="ModalClose-{{ product.id }}"
           type="button"
           class="quick-add-modal__toggle"
           aria-label="{{ 'accessibility.close' | t }}"
         >
           {% render 'icon-close' %}
         </button>
-        <div id="QuickAddInfo-{{ card_product.id }}" class="quick-add-modal__content-info"></div>
+        <div id="QuickAddInfo-{{ product.id }}" class="quick-add-modal__content-info"></div>
       </div>
     </quick-add-modal>
     {%- endfor -%}
