@@ -1,5 +1,5 @@
-if (!customElements.get('quick-add-modal1')) {
-  customElements.define('quick-add-modal1', class QuickAddModal extends ModalDialog {
+if (!customElements.get('quick-add-modal')) {
+  customElements.define('quick-add-modal', class QuickAddModal extends ModalDialog {
     constructor() {
       super();
       this.modalContent = this.querySelector('[id^="QuickAddInfo-"]');
