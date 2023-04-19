@@ -369,7 +369,7 @@ slider-component.slider-component-full-width {
   
 }
 .slider-button:not([disabled]):hover {
-  color: rgb(0,0,0);
+  color: rgba(0, 90, 135, 1);
   background: #D9D9D9;
 }
 
