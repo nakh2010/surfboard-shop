@@ -77,9 +77,13 @@
     </slider-component>
 
     {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-     <quick-ex-add-modal id="QuickAdd-{{ product.id }}" class="quick-add-modal">
+     <quick-ex-add-modal id="QuickAdd-{{ product.id }}" class="">
       <div
-        
+        role="dialog"
+        aria-label="{{ 'products.product.choose_product_options' | t: product_name: product.title | escape }}"
+        aria-modal="true"
+        class="quick-add-modal__content global-settings-popup"
+        tabindex="-1"
       >
         <button
           id="ModalClose-{{ product.id }}"
