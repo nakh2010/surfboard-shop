@@ -363,7 +363,7 @@ slider-component.slider-component-full-width {
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .slider-button {
   
