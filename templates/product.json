@@ -73,13 +73,6 @@
           "settings": {
             "show_dynamic_checkout": false
           }
-        },
-        "eadfc799-b011-4025-97b0-993d6a3da03a": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": "contact"
-          }
         }
       },
       "block_order": [
@@ -92,8 +85,7 @@
         "collapsible-row-1",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "eadfc799-b011-4025-97b0-993d6a3da03a"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": false,
