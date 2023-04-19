@@ -326,13 +326,13 @@ slider-component.slider-component-full-width {
 .slider-buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 0;
   width: 100%;
   z-index: 2;
-  transform: translate(0, -25%);
+  transform: translate(0, -30%);
 }
 
 @media screen and (min-width: 990px) {
@@ -363,7 +363,7 @@ slider-component.slider-component-full-width {
   height: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .slider-button:not([disabled]):hover {
