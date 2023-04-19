@@ -90,7 +90,7 @@
     </slider-component>
 
     {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-      <div id="QuickAdd-{{ product.id }}" class="quick-add-modal">
+      <div id="QuickAdd-{{ product.id }}" class="quick-add-modal1">
         <div
           role="dialog"
           aria-label="{{ 'products.product.choose_product_options' | t: product_name: product.title | escape }}"
