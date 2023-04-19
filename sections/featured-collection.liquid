@@ -59,7 +59,7 @@
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id
             %}
-            <modal-opener data-modal="#QuickAdd-{{ product.id }}">
+            <div data-modal="#QuickAdd-{{ product.id }}">
               <button
                 id="{{ product_form_id }}-submit"
                 type="submit"
@@ -71,7 +71,7 @@
               >
                  {% render 'icon-quickview' %}
               </button>
-            </modal-opener>
+            </div>
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}
