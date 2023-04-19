@@ -32,7 +32,7 @@
 -%}
 
 <div class="lsn-featured-collection">
-  <div class="collection {% if section.settings.full_width %} collection--full-width{% endif %}">
+  <div class="collection {% if section.settings.full_width %} collection--full-width {% else %}page-width{% endif %}">
      <div class="lsn-header">
         {% if section.settings.sub_header != blank %}
         <p class="lsn__subtitle center">
