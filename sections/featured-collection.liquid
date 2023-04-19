@@ -75,7 +75,7 @@
         </div>
       {%- endif -%}
     </slider-component>
-
+<div >
     {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
      <quick-lsn-add-modal id="QuickAdd-{{ product.id }}" class="quick-add-modal">
       <div
@@ -97,6 +97,7 @@
       </div>
      </quick-lsn-add-modal>
     {%- endfor -%}
+</div>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
       <div class="center collection__view-all">
