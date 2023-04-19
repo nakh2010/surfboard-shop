@@ -354,7 +354,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button {
-  color: rgba(0,0,0, 0.75);
+  color: rgba(0, 90, 135, 0.1);
   background: rgba(217, 217, 217, 0.2);
   border-radius: 5px;
   border: none;
@@ -371,7 +371,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button .icon {
-  height: 0.6rem;
+  height: 0.8rem;
 }
 
 .slider-button[disabled] .icon {
