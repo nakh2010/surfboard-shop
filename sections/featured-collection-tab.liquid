@@ -38,7 +38,15 @@ class="{% render 'common-class', section: section, class: 'row', bg: true %}">
             {% for i in (0..iter) %}
             {% assign prdt = collection.products[i] %}
             <div class="col-{{-mobile}} col-md-{{-desktop}} card--holder">
-                {% render 'product-card-default' with prdt as product %}
+               {% render 'card-product',
+                  card_product: product,
+                  media_aspect_ratio: section.settings.image_ratio,
+                  show_secondary_image: section.settings.show_secondary_image,
+                  show_vendor: section.settings.show_vendor,
+                  show_rating: section.settings.show_rating,
+                  show_quick_add: section.settings.enable_quick_add,
+                  section_id: section.id
+                %}
             </div>
             {% endfor %}
             {% if section.settings.showMore %}
@@ -54,7 +62,7 @@ class="{% render 'common-class', section: section, class: 'row', bg: true %}">
             <div id="featured--{{-section.id}}-{{-i}}" class="row featured-tabs__content {% if forloop.first %}tab--show{% endif %}">
                 {% for i in (1..4) %}
                 <div class="col-{{-mobile}} col-md-{{-desktop}} card--holder">
-                    {% render 'product-card-fake' with i as i %}
+                    {% render 'card-product', show_vendor: section.settings.show_vendor %}
                 </div>
                 {% endfor %}
             </div>
