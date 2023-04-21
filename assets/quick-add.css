@@ -14,8 +14,12 @@
   width: auto;
   min-width: auto;
   opacity: 0.5;
+  cursor: pointer;
 }
-.card.card--standard:hover .quick-add {
+.quick-add .quick-add__submit:hover {
+  opacity: 1;
+}
+.card.card--standard::hover .quick-add {
   visibility: visible;
 }
 .card--card .quick-add {
