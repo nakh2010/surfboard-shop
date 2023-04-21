@@ -20,7 +20,7 @@
   opacity: 1;
 }
 .underline-links-hover::hover .quick-add {
-  visibility: visible;
+  visibility: visible!important;
 }
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;
