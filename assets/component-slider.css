@@ -364,6 +364,7 @@ slider-component.slider-component-full-width {
   position: absolute;
   top: 38%;
   transform: translate(0px, -38%);
+  z-index: 1;
 }
 .slider-button.slider-button--prev {
    left: 0;
