@@ -15,7 +15,7 @@
   min-width: auto;
   opacity: 0.5;
 }
-.card-wrapper.product-card-wrapper:hover .quick-add {
+.card.card--standard:hover .quick-add {
   visibility: visible;
 }
 .card--card .quick-add {
