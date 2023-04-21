@@ -327,12 +327,9 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  top: 30%;
-  left: 0;
+  position: initial;
   width: 100%;
   z-index: 2;
-  transform: translate(0, -30%);
 }
 
 @media screen and (min-width: 990px) {
@@ -364,6 +361,15 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 38%;
+  transform: translate(0px, -38%);
+}
+.slider-button.slider-button--prev {
+   left: 0;
+}
+.slider-button.slider-button--next {
+   right: 0;
 }
 
 .slider-button:not([disabled]):hover {
