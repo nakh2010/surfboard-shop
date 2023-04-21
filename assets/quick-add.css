@@ -12,6 +12,7 @@
   background: none;
   width: auto;
   min-width: auto;
+  padding: 0;
   opacity: 0.5;
   cursor: pointer;
   z-index: 10;
