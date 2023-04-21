@@ -244,9 +244,11 @@
   box-shadow: none;
   outline: 0;
 }
-
+.quick-add .quick-add__submit {
+  visibility: hidden;
+}
 .underline-links-hover:hover .quick-add__submit{
- visibility: visible;
+   visibility: visible;
 }
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
