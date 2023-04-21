@@ -245,6 +245,9 @@
   outline: 0;
 }
 
+.underline-links-hover:hover .quick-add__submit{
+ visibility: visible;
+}
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
   .card-wrapper .media.media--hover-effect > img:only-child {
