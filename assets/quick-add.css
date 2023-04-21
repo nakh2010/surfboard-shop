@@ -15,6 +15,9 @@
   min-width: auto;
   opacity: 0.5;
 }
+.card-wrapper.product-card-wrapper:hover .quick-add {
+  visibility: visible;
+}
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;
 }
