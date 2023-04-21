@@ -12,6 +12,7 @@
   background: none;
   width: auto;
   min-width: auto;
+  opacity: 0.5;
 }
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;
