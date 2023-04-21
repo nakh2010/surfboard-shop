@@ -247,8 +247,8 @@
 .quick-add .quick-add__submit {
   visibility: hidden;
 }
-.underline-links-hover:hover .quick-add__submit{
-   visibility: visible;
+.card__content:hover .quick-add__submit{
+   visibility: visible!important;
 }
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
