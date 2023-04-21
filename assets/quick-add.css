@@ -6,9 +6,9 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  opacity: 0;
 }
 .quick-add .quick-add__submit {
+  visibility: hidden;
   border: none;
   background: none;
   width: auto;
@@ -19,8 +19,8 @@
 .quick-add .quick-add__submit:hover {
   opacity: 1;
 }
-.underline-links-hover::hover .quick-add {
- opacity: 1;
+.underline-links-hover:hover .quick-add__submit{
+ visibility: visible;
 }
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;
