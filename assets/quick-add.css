@@ -19,7 +19,7 @@
 .quick-add .quick-add__submit:hover {
   opacity: 1;
 }
-.lsn-featured-collection .grid__item.slider__slide:hover .quick-add {
+.underline-links-hover::hover .quick-add {
   visibility: visible;
 }
 .card--card .quick-add {
