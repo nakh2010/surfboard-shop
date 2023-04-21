@@ -244,12 +244,7 @@
   box-shadow: none;
   outline: 0;
 }
-.quick-add .quick-add__submit {
-  visibility: hidden;
-}
-.card__content:hover .quick-add__submit{
-   visibility: visible!important;
-}
+
 @media screen and (min-width: 990px) {
   .card .media.media--hover-effect > img:only-child,
   .card-wrapper .media.media--hover-effect > img:only-child {
