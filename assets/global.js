@@ -1,8 +1,4 @@
-(function ($) {
-  var $ = jQuery = $;
-  
-})(theme.jQuery);  
-/* Built with Barry v1.0.8 */
+
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
   summary.setAttribute('aria-expanded', summary.parentNode.hasAttribute('open'));
