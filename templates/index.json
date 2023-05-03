@@ -386,35 +386,25 @@
         "swipe_on_mobile": false
       }
     },
-    "43d7f0d9-ec41-457d-b6ac-e3a2278671bf": {
-      "type": "featured-collection-tab",
+    "cb735b7b-7f7b-4a29-b0e6-91fb67e25f94": {
+      "type": "lsn-featured-collection",
       "settings": {
-        "displayFor": "display--both",
-        "layout": "default",
-        "nomargin": false,
-        "scopedCSS": "",
-        "height": 0,
-        "padding": 0,
-        "backgroundColor": "rgba(0,0,0,0)",
-        "backgroundPosition": "middle",
-        "backgroundFilter": "none",
-        "backdropIntensity": 50,
-        "parallax": false,
-        "backgroundPattern": false,
-        "overlayOpacity": 0,
-        "overlayColor": "#000000",
-        "contentColor": "rgba(0,0,0,0)",
-        "horizontalAlignment": "center",
-        "verticalAlignment": "middle",
-        "heading": "Check out this section's heading",
-        "headingColor": "rgba(0,0,0,0)",
-        "subheading": "THIS IS A SUBHEADING",
-        "subheadingColor": "rgba(0,0,0,0)",
-        "subheadingPosition": "above",
-        "headingAlignment": "center",
-        "prdtCount": 4,
-        "showMore": true,
-        "showMoreAlignment": "center"
+        "sub_header": "Sub-heading",
+        "header": "Heading",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false
       }
     }
   },
@@ -428,6 +418,6 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "43d7f0d9-ec41-457d-b6ac-e3a2278671bf"
+    "cb735b7b-7f7b-4a29-b0e6-91fb67e25f94"
   ]
 }
