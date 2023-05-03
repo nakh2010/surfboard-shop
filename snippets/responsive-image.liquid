@@ -20,8 +20,7 @@
 <div class="rimage-outer-wrapper" {% unless local_cover or no_max_width %}style="max-width: {{ max_width }}px"{% endunless %}>
   <div class="rimage-wrapper lazyload--placeholder" style="padding-top:{{ 1 | divided_by: local_aspect_ratio | times: 100 }}%"
        {% if animate %}data-cc-animate="{% if animate_type %}{{ animate_type }}{% endif %}" {% if animate_delay %}data-cc-animate-delay="{{ animate_delay }}"{% endif %}{% endif %}>
-    {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-   <img
+       <img
                   srcset="
                     {%- if product.media[1].width >= 165 -%}{{ product.media[1] | image_url: width: 165 }} 165w,{%- endif -%}
                     {%- if product.media[1].width >= 360 -%}{{ product.media[1] | image_url: width: 360 }} 360w,{%- endif -%}
