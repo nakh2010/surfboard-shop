@@ -235,7 +235,7 @@
   {%- if settings.quickbuy_style != 'off' -%}
     {%- unless no_quick_buy_markup or no_quick_buy -%}
       <div class="quickbuy-container">
-        <a href="#" class="close-detail" aria-label="{{ 'products.quick_buy.close' | t }}" tabindex="-1">{% render 'svg-x' %}</a>
+        <a href="#" class="close-detail" aria-label="{{ 'products.quick_buy.close' | t }}" tabindex="-1">Close</a>
         <div class="inner"></div>
       </div>
     {%- endunless -%}
