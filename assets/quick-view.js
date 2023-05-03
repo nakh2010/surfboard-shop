@@ -40,6 +40,7 @@
     $(document).on('click', '.product-list .product-block:not(.collection-block):not(.main-search-result) .quickbuy-toggle', function () {
       var pageWidth = $(window).width(),
       productUrl = $(this).attr('href');
+      console.log('aaaaaaaa');
 
       //Only show dropdown if screen is large enough for it to be useful
       if (pageWidth > 767) {
