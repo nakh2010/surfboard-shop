@@ -449,6 +449,27 @@
         "label": "t:settings_schema.cards.settings.style.label"
       },
       {
+        "type": "select",
+        "id": "quickbuy_style",
+        "label": "Quick buy link style",
+        "info": "Disabled on mobile",
+        "default": "whole",
+        "options": [
+          {
+            "value": "button",
+            "label": "Button"
+          },
+          {
+            "value": "whole",
+            "label": "Whole product"
+          },
+          {
+            "value": "off",
+            "label": "Disabled"
+          }
+        ]
+      },
+      {
         "type": "range",
         "id": "card_image_padding",
         "min": 0,
