@@ -1,4 +1,4 @@
-  theme.loadQuickbuy = function () {
+ var loadQuickbuy = function () {
     // utility function for quickbuy (closes all quickbuys in passed blocks, in a collection grid)
     function contractDetail($blocks, speed) {
       if ($blocks.length > 0) {
@@ -256,4 +256,4 @@
     }
   };
 
-theme.loadQuickbuy();
+loadQuickbuy();
