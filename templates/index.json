@@ -385,73 +385,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
-    },
-    "77aabe96-dae8-422f-9033-377126d0a162": {
-      "type": "newsletter",
-      "blocks": {
-        "template--17192392753437__77aabe96-dae8-422f-9033-377126d0a162-1683173683e0ca9610-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--17192392753437__77aabe96-dae8-422f-9033-377126d0a162-1683173683e0ca9610-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--17192392753437__77aabe96-dae8-422f-9033-377126d0a162-1683173683e0ca9610-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__77aabe96-dae8-422f-9033-377126d0a162-1683173683e0ca9610-0",
-        "template--17192392753437__77aabe96-dae8-422f-9033-377126d0a162-1683173683e0ca9610-1",
-        "template--17192392753437__77aabe96-dae8-422f-9033-377126d0a162-1683173683e0ca9610-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "eecb4b2d-0b0e-4df7-aa09-ce19f01205ff": {
-      "type": "newsletter-form",
-      "blocks": {
-        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails"
-          }
-        },
-        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-0",
-        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-1",
-        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-2"
-      ],
-      "settings": {
-        "background_color": "#005a87",
-        "text_color": "#fff",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
     }
   },
   "order": [
@@ -463,8 +396,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "77aabe96-dae8-422f-9033-377126d0a162",
-    "eecb4b2d-0b0e-4df7-aa09-ce19f01205ff"
+    "d3cdf834-7616-4ca9-a243-d13394d7a4c5"
   ]
 }
