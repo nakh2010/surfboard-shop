@@ -386,43 +386,43 @@
         "swipe_on_mobile": false
       }
     },
-    "33ca94a0-600f-4e0a-9d58-2c03ccfa3f50": {
+    "8ff47d43-b4b2-4273-92ac-904a904b9dc4": {
       "type": "collection-list",
       "blocks": {
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-0": {
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "collection_title": ""
+            "collection_title": "Collection Title"
           }
         },
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-1": {
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "collection_title": ""
+            "collection_title": "Collection Title"
           }
         },
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-2": {
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "collection_title": ""
+            "collection_title": "Collection Title"
           }
         },
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-3": {
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-3": {
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "collection_title": ""
+            "collection_title": "Collection Title"
           }
         }
       },
       "block_order": [
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-0",
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-1",
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-2",
-        "template--17192392753437__33ca94a0-600f-4e0a-9d58-2c03ccfa3f50-1683171732eec8b839-3"
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-0",
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-1",
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-2",
+        "template--17192392753437__8ff47d43-b4b2-4273-92ac-904a904b9dc4-16831719043c6417c1-3"
       ],
       "settings": {
         "subtitle": "Sub-heading",
@@ -440,6 +440,6 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "33ca94a0-600f-4e0a-9d58-2c03ccfa3f50"
+    "8ff47d43-b4b2-4273-92ac-904a904b9dc4"
   ]
 }
