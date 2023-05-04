@@ -20,8 +20,8 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "#612e2e",
+            "image_overlay_opacity": 0,
+            "color_scheme": "rgba(0,0,0,0)",
             "text_alignment_mobile": "center"
           }
         },
@@ -422,7 +422,7 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 50,
+            "image_overlay_opacity": 20,
             "color_scheme": "#000000",
             "text_alignment_mobile": "center"
           }
