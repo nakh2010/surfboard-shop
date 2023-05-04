@@ -3,6 +3,9 @@
   position: relative;
   flex-direction: column;
 }
+.banner__box.content-container{
+      background-color: #fff;
+}
 
 .banner__box {
   text-align: center;
