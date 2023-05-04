@@ -3,7 +3,7 @@
   position: relative;
   flex-direction: column;
 }
-.banner__box.content-container{
+.lsn-banner-img .banner__box.content-container{
       background-color: #fff;
 }
 
