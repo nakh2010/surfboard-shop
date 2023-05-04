@@ -414,7 +414,7 @@
         "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-5": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
@@ -427,13 +427,10 @@
       ],
       "settings": {
         "product": "dark-horse-white-shortboard",
-        "color_scheme": "background-1",
         "secondary_background": false,
         "media_position": "left",
         "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "enable_video_looping": false
       }
     }
   },
