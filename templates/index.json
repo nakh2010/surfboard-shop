@@ -385,16 +385,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
-    },
-    "318bdd04-4bd5-4e9f-8acc-5defe9eb0679": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Contact form",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -406,7 +396,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "318bdd04-4bd5-4e9f-8acc-5defe9eb0679"
+    "d3cdf834-7616-4ca9-a243-d13394d7a4c5"
   ]
 }
