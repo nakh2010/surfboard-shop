@@ -420,35 +420,35 @@
         "padding_bottom": 52
       }
     },
-    "6e450a76-5957-4fae-a206-f67570d8bc26": {
+    "eecb4b2d-0b0e-4df7-aa09-ce19f01205ff": {
       "type": "newsletter-form",
       "blocks": {
-        "template--17192392753437__6e450a76-5957-4fae-a206-f67570d8bc26-1683173745965c4789-0": {
+        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-0": {
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails"
           }
         },
-        "template--17192392753437__6e450a76-5957-4fae-a206-f67570d8bc26-1683173745965c4789-1": {
+        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-1": {
           "type": "text",
           "settings": {
             "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         },
-        "template--17192392753437__6e450a76-5957-4fae-a206-f67570d8bc26-1683173745965c4789-2": {
+        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-2": {
           "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "template--17192392753437__6e450a76-5957-4fae-a206-f67570d8bc26-1683173745965c4789-0",
-        "template--17192392753437__6e450a76-5957-4fae-a206-f67570d8bc26-1683173745965c4789-1",
-        "template--17192392753437__6e450a76-5957-4fae-a206-f67570d8bc26-1683173745965c4789-2"
+        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-0",
+        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-1",
+        "template--17192392753437__eecb4b2d-0b0e-4df7-aa09-ce19f01205ff-16831738437cceaf28-2"
       ],
       "settings": {
-        "background_color": "#FFFFFF",
-        "text_color": "#000000",
+        "background_color": "#005a87",
+        "text_color": "#fff",
         "padding_top": 64,
         "padding_bottom": 64
       }
@@ -465,6 +465,6 @@
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
     "77aabe96-dae8-422f-9033-377126d0a162",
-    "6e450a76-5957-4fae-a206-f67570d8bc26"
+    "eecb4b2d-0b0e-4df7-aa09-ce19f01205ff"
   ]
 }
