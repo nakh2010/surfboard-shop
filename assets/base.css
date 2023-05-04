@@ -642,9 +642,7 @@ hr {
   color: currentColor;
   display: block;
 }
-.gradient {
-    background: #f3f3f3;
-}
+
 .placeholder {
   background-color: var(--color-background);
   color: var(--color-base-text);
