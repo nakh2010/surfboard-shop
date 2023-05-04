@@ -2,6 +2,7 @@
       height: 100%;
     width: 100%;
     object-fit: cover;
+      background: #f2f2f2;
 }
 .lsn-collection-grid .lsn__heading {
     margin-bottom: 40px;
