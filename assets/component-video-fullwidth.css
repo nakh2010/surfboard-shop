@@ -69,6 +69,7 @@
 .lsn-video-fullWidth.text_style_light .lsn_button_style{
    color: #ffffff;
   border-color:#fff;
+      margin-top: 20px;
 }
 .lsn-video-fullWidth.text_style_light .lsn_button_style:hover{
       color: var(--color-primary-button-text);
