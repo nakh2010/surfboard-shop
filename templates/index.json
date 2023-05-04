@@ -386,61 +386,6 @@
         "swipe_on_mobile": false
       }
     },
-    "8dd887ea-fef1-4339-b2ae-2ea86df02141": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17192392753437__8dd887ea-fef1-4339-b2ae-2ea86df02141-1683172757aada0bdf-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17192392753437__8dd887ea-fef1-4339-b2ae-2ea86df02141-1683172757aada0bdf-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__8dd887ea-fef1-4339-b2ae-2ea86df02141-1683172757aada0bdf-0",
-        "template--17192392753437__8dd887ea-fef1-4339-b2ae-2ea86df02141-1683172757aada0bdf-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "16e69e05-5426-4772-b97f-0713034450ea": {
       "type": "hero-slideshow",
       "blocks": {
@@ -503,7 +448,6 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "8dd887ea-fef1-4339-b2ae-2ea86df02141",
     "16e69e05-5426-4772-b97f-0713034450ea"
   ]
 }
