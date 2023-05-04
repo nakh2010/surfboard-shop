@@ -646,7 +646,6 @@ hr {
 .placeholder {
   background-color: var(--color-background);
   color: var(--color-base-text);
-  fill: var(--color-background);
 }
 
 details > * {
