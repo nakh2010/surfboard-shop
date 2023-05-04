@@ -422,8 +422,8 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "",
+            "image_overlay_opacity": 50,
+            "color_scheme": "#000000",
             "text_alignment_mobile": "center"
           }
         }
