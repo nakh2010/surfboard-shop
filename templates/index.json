@@ -385,6 +385,63 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
+    },
+    "f3eb6c2c-7325-488a-a4a7-7198898e148c": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-0",
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-1",
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-2",
+        "template--17192392753437__f3eb6c2c-7325-488a-a4a7-7198898e148c-168317341069ef5442-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second"
+      }
     }
   },
   "order": [
@@ -396,6 +453,7 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "d3cdf834-7616-4ca9-a243-d13394d7a4c5"
+    "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
+    "f3eb6c2c-7325-488a-a4a7-7198898e148c"
   ]
 }
