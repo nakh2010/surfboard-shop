@@ -385,6 +385,56 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
+    },
+    "c96e532b-b2ba-43d3-b30b-22441f0cdb6c": {
+      "type": "featured-product",
+      "blocks": {
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-1",
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-2",
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-3",
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-4",
+        "template--17192392753437__c96e532b-b2ba-43d3-b30b-22441f0cdb6c-1683166117bb63d5ea-5"
+      ],
+      "settings": {
+        "product": "dark-horse-white-shortboard",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -396,6 +446,7 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "d3cdf834-7616-4ca9-a243-d13394d7a4c5"
+    "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
+    "c96e532b-b2ba-43d3-b30b-22441f0cdb6c"
   ]
 }
