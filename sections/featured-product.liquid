@@ -202,9 +202,10 @@
                       {{ block.shopify_attributes }}
                     >
                       {%- for option in product.options_with_values -%}
-                        <fieldset class="js product-form__input">
-                          <legend class="form__label">{{ option.name }}</legend>
-                          {%- for value in option.values -%}
+                      <fieldset class="js product-form__input {% if option.name == 'color' or option.name == 'Color' %} color_swatch{% endif %}">
+                        <legend class="form__label">{{ option.name }}</legend>
+                        {%- for value in option.values -%}
+                          <div class="option-wr">
                             <input
                               type="radio"
                               id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -215,12 +216,13 @@
                                 checked
                               {% endif %}
                             >
-                            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                              {{ value }}
+                            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"{% if option.name == 'color' or option.name == 'Color' %}style="background-color: {{ value | split: ' ' | join: '' }}; background-image: url({{ value | handle | append: '.png' | file_url }});background-size:cover;background-repeat:no-repeat;" data-color="{{ value | escape }}"{% endif %}>
+                              {{ value }}{% if option.name == 'color' or option.name == 'Color' %}{% render 'icon-checkmark' %}{% endif %}
                             </label>
-                          {%- endfor -%}
-                        </fieldset>
-                      {%- endfor -%}
+                          </div>
+                        {%- endfor -%}
+                      </fieldset>
+                    {%- endfor -%}
                       <script type="application/json">
                         {{ product.variants | json }}
                       </script>
