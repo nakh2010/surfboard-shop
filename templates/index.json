@@ -385,47 +385,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
-    },
-    "d98cb9b6-353d-4259-838e-0aa8e5605e27": {
-      "type": "collage",
-      "blocks": {
-        "template--17192392753437__d98cb9b6-353d-4259-838e-0aa8e5605e27-16831654531fb22d78-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "template--17192392753437__d98cb9b6-353d-4259-838e-0aa8e5605e27-16831654531fb22d78-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "template--17192392753437__d98cb9b6-353d-4259-838e-0aa8e5605e27-16831654531fb22d78-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__d98cb9b6-353d-4259-838e-0aa8e5605e27-16831654531fb22d78-0",
-        "template--17192392753437__d98cb9b6-353d-4259-838e-0aa8e5605e27-16831654531fb22d78-1",
-        "template--17192392753437__d98cb9b6-353d-4259-838e-0aa8e5605e27-16831654531fb22d78-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -437,7 +396,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "d98cb9b6-353d-4259-838e-0aa8e5605e27"
+    "d3cdf834-7616-4ca9-a243-d13394d7a4c5"
   ]
 }
