@@ -20,6 +20,9 @@
     object-fit: cover;
   border: none;
 }
+.lsn-video-fullWidth .lsn-sub-with-line{
+      margin-bottom: 15px;
+}
 .lsn-video-fullWidth .lsn__eyebrow{
    position: relative;
 }
