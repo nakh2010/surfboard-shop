@@ -8,7 +8,7 @@
     data-autoplay="{{ section.settings.auto_rotate }}"
   >
     {%- for block in section.blocks -%}
-      <div class="slideshow__slideIndex slider__item slideshow__index"
+      <div class="SlideItem--{{ forloop.index }} slideshow__slideIndex slider__item slideshow__index"
         id="SliderIndex-{{ section.id }}-{{ forloop.index }}"
         {{ block.shopify_attributes }}
         role="group"
@@ -81,7 +81,7 @@
           </div>
         </div>
         <style>
-          #SlideItem-{{ section.id }}-{{ forloop.index }} .banner__media::after {
+          .SlideItem--{{ forloop.index }} .banner__media::after {
             opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
             background: {{ block.settings.color_scheme }};
           }
