@@ -95,7 +95,7 @@
               success: function (result) {
                 //console.log(result);
                 var $newDetail = $('<div>' + result + '</div>').find('.quickbuy-content');
-                 var sssss = $newDetail.find('.more').attr('href', productUrl);
+                 var sssss = $newDetail.find('.detail .title').wrapInner($('<a>').attr('href', productUrl));
 
   
                 // convert to quickbuy content
