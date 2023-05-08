@@ -81,10 +81,6 @@
               {% render 'product-label', product: product, cheapest_variant: cheapest_variant %}
             </div>
           </a>
-          {%- if show_hover_image -%}
-            <a class="image-page-button image-page-button--previous ltr-icon" href="#" aria-label="{{ 'general.accessibility_labels.previous' | t | escape }}" tabindex="-1">{%- render 'svg-chevron-left', stroke_width: 1.3 -%}</a>
-            <a class="image-page-button image-page-button--next ltr-icon" href="#" aria-label="{{ 'general.accessibility_labels.previous' | t | escape }}" tabindex="-1">{%- render 'svg-chevron-right', stroke_width: 1.3 -%}</a>
-          {%- endif -%}
 
           {% if settings.quickbuy_style == 'button' %}
             {% unless no_quick_buy %}
