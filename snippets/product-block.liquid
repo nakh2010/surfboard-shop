@@ -228,17 +228,6 @@
               {%- endfor -%}
             {%- endif -%}
 
-            {%- if settings.enable_product_reviews_collection and product.metafields.reviews.rating_count != blank -%}
-              {%- assign rating_count = product.metafields.reviews.rating_count | plus: 0 -%}
-              {%- if rating_count > 0 -%}
-                <div class="product-block__rating">
-                  {% render 'rating', rating_value: product.metafields.reviews.rating.value %}
-                  <span class="cc-rating-custom-caption">
-                    {{ rating_count }} {{ 'products.product.reviews_link' | t: count: rating_count | downcase }}
-                  </span>
-                </div>
-              {%- endif -%}
-            {%- endif -%}
           </div>
         </div>
       </div>
