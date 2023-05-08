@@ -390,14 +390,14 @@
       "type": "lsn-featured-collection",
       "settings": {
         "title": "Lsn Featured collection",
-        "collection": "",
-        "show_vendor": false,
+        "collection": "frontpage",
+        "show_vendor": true,
         "enable_carousel": true,
         "grid": 4,
         "rows": 1,
         "use_alt_bg": true,
-        "show_view_all": true,
-        "full_width": true
+        "show_view_all": false,
+        "full_width": false
       }
     }
   },
