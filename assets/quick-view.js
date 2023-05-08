@@ -89,7 +89,7 @@
   
             // load in content
             var url = $(this).attr('href');
-            theme.currentQuickbuyRequest = $.get(url, function (response) {
+            let request = $.get(url, function (response) {
               var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
   
               // convert to quickbuy content
