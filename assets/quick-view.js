@@ -1,8 +1,9 @@
   $(document).ready(function () {
     $(".quickbuy-toggle").click(function (e) {
+            console.log('aaaaa');
+
       e.preventDefault();         	 
       	return false;   
-      console.log('aaaaa');
 
     });
 
