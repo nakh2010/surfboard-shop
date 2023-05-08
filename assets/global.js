@@ -549,6 +549,14 @@ Shopify.loadQuickbuy = function () {
   }
 };
 
+$(".product-list .product-block .quickbuy-toggle").click(function(e){
+  e.preventDefault;  
+  console.log("The paragraph was clicked.");
+document.body.classList.remove("has-opt-banner");
+});
+
+
+
 class MenuDrawer extends HTMLElement {
   constructor() {
     super();
