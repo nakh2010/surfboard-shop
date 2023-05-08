@@ -105,10 +105,6 @@
                 $newDetail.find('.sticky-content-container').removeClass('sticky-content-container');
                 $newDetail.find('.store-availability-container').remove();
                 $newDetail.find('[data-enable-history-state="true"]').attr('data-enable-history-state', 'false');
-                $newDetail.find('.gallery .thumbnails').removeClass('mobile-only');
-                ['gallery--layout-carousel-beside', 'gallery--layout-columns-1', 'gallery--layout-columns-2', 'gallery--layout-collage-1', 'gallery--layout-collage-2'].forEach(cl => {
-                  $newDetail.find('.' + cl).removeClass(cl).addClass('gallery--layout-carousel-under');
-                });
     
                 $detailCont.html($newDetail);
               },
