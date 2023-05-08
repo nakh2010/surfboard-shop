@@ -91,7 +91,7 @@
             var urlPro = $(this).attr('href');
             $.ajax({
               type: "GET",
-              url: urlPro,
+              url: "https://surfboard-shop.myshopify.com/products/product-name-3",
               success: function (result) {
                 var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
   
