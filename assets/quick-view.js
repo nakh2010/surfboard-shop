@@ -114,16 +114,6 @@
   
               $detailCont.html($newDetail);
   
-              // the order of these is important:
-              Shopify.initProductGallery($quickbuyCont); // 1
-              $quickbuyCont.find('.product-form').
-              trigger('load-product-form') // 2
-              .on('variantChanged', function () {
-                $quickbuyCont.trigger('changedsize'); // (5)
-              });
-              loadComponents($quickbuyCont); // 3
-              Shopify.initAnimateOnScroll(); // 4
-              $quickbuyCont.trigger('changedsize'); // 5
             }).always(function () {
               Shopify.currentQuickbuyRequest = false;
             });
