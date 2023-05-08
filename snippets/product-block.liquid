@@ -84,7 +84,7 @@
 
           {% if settings.quickbuy_style == 'button' %}
             {% unless no_quick_buy %}
-              <a class="btn btn--secondary quickbuy-toggle" href="{{ product_url }}">{{ 'products.quick_buy.launch' | t }}</a>
+              <a class="btn btn--secondary quickbuy-toggle" href="{{ product_url }}">Quick Buy</a>
             {% endunless %}
           {% endif %}
         </div>
@@ -233,7 +233,7 @@
   {%- if settings.quickbuy_style != 'off' -%}
     {%- unless no_quick_buy_markup or no_quick_buy -%}
       <div class="quickbuy-container">
-        <a href="#" class="close-detail" aria-label="{{ 'products.quick_buy.close' | t }}" tabindex="-1">{% render 'svg-x' %}</a>
+        <a href="#" class="close-detail" aria-label="Colse" tabindex="-1">Coloese</a>
         <div class="inner"></div>
       </div>
     {%- endunless -%}
