@@ -152,7 +152,6 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
-  <a class="btn btn--secondary quickbuy-toggle" href="">Quick buy</a>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
@@ -199,6 +198,8 @@
           </div>
         </div>
         {%- if show_quick_add -%}
+            <a class="btn btn--secondary quickbuy-toggle" href="">Quick buy</a>
+
           <div class="quick-add no-js-hidden">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
             {%- if card_product.variants.size == 1 -%}
