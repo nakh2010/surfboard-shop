@@ -15,7 +15,7 @@
   assign cheapest_variant = product.variants | sort: 'price' | first
 -%}
 
-<div data-product-id="{{ product.id }}" class="product-block grid__item slider__slide" {% if animate %}data-cc-animate{% endif %}>
+<div data-product-id="{{ product.id }}" class="product-block grid__item slider__slide" {% if animate %}data-cc-animate{% endif %} style="float:left;">
   <div class="block-inner">
     <div class="block-inner-inner">
       {% if product.featured_media %}
