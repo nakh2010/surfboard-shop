@@ -93,7 +93,7 @@
               type: "GET",
               url: "https://surfboard-shop.myshopify.com/products/product-name-3",
               success: function (result) {
-                var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
+                var $newDetail = $('<div>' + result + '</div>').find('.quickbuy-content');
   
                 // convert to quickbuy content
                 $newDetail.find('.more').attr('href', productUrl);
