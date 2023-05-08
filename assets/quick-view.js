@@ -89,7 +89,7 @@
   
             // load in content
             var url = $(this).attr('href');
-            var html = $.get(url, function (response) {
+            theme.currentQuickbuyRequest = $.get(url, function (response) {
               var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
   
               // convert to quickbuy content
@@ -125,7 +125,7 @@
               theme.initAnimateOnScroll(); // 4
               $quickbuyCont.trigger('changedsize'); // 5
             }).always(function () {
-              html = false;
+              theme.currentQuickbuyRequest = false;
             });
   
             // enable close button
