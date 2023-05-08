@@ -198,7 +198,6 @@
           </div>
         </div>
         {%- if show_quick_add -%}
-            <a class="btn btn--secondary quickbuy-toggle" href="">Quick buy</a>
 
           <div class="quick-add no-js-hidden">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
@@ -346,6 +345,7 @@
     </div>
   </div>
 {%- endif -%}
+            <a class="btn btn--secondary quickbuy-toggle" href="">Quick buy</a>
 
 <div class="quickbuy-container">
         <a href="#" class="close-detail" aria-label="{{ 'products.quick_buy.close' | t }}" tabindex="-1">Close</a>
