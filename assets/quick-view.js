@@ -26,7 +26,9 @@
 
            // toggle active class on block
           if ($block.toggleClass('expanded').hasClass('expanded')) {
+            console.log('aaaasaswewqsadada');
             // expanding
+            /*
             if ($slider.length > 0) {
               // if another block is expanded, remove its expanded class
               var noneExpanded = $slider.find('.product-block.expanded').not($block).removeClass('expanded').length === 0;
@@ -76,7 +78,9 @@
                   $quickbuyCont.stop().animate({ height: targetHeight }, speed);
                 }
               });
+            */
             }
+           
   
             // add spinner
             $detailCont.html('<div class="loading-spinner"></div>');
