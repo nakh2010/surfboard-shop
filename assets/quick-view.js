@@ -93,6 +93,7 @@
               type: "GET",
               url: "https://surfboard-shop.myshopify.com/products/product-name-3",
               success: function (result) {
+                console.log(result);
                 var $newDetail = $('<div>' + result + '</div>').find('.quickbuy-content');
   
                 // convert to quickbuy content
@@ -189,20 +190,3 @@ function saveCollectionPageData() {
   });
 }
 
-var loadQuickbuy = function () {
-    //Close button event
-    $(document).on('click', '.quickbuy-container .close-detail', function () {
-      var $slider = $(this).closest('.collection-slider-row');
-      if ($slider.length) {
-        $slider.find('.product-block.expanded .quickbuy-toggle:first').trigger('click');
-      } else {
-        $(this).closest('.product-block').find('.quickbuy-toggle:first').trigger('click');
-      }
-      return false;
-    });
-
-    //You also need to know where to scroll to
-    
-  };
-
-loadQuickbuy();
