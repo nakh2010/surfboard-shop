@@ -109,12 +109,6 @@
                   $newDetail.find('.' + cl).removeClass(cl).addClass('gallery--layout-carousel-under');
                 });
     
-                // resize after images load, if present
-                $newDetail.find('.rte img').on('load', function () {
-                  $quickbuyCont.trigger('changedsize');
-                  $(this).off('load');
-                });
-    
                 $detailCont.html($newDetail);
               },
             });
