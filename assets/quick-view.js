@@ -1,6 +1,30 @@
   $(document).ready(function () {
     $(".quickbuy-toggle").click(function (e) {
             console.log('aaaaa');
+      var pageWidth = $(window).width(),
+      productUrl = $(this).attr('href');
+      if (pageWidth > 767) {
+          var $block = $(this).closest('.product-block'),
+          $detailCont = null,
+          $quickbuyCont = null,
+          $slider = $(this).closest('.collection-slider'),
+          $sliderRow = null;
+  
+          // do different things if it's inside a slideshow
+          if ($slider.length > 0) {
+            console.log('$slider.length > 0');
+            $sliderRow = $slider.closest('.collection-slider-row');
+            // slider without detail
+            if ($sliderRow.find('.quickbuy-container').length === 0) {
+              return;
+            }
+            $quickbuyCont = $sliderRow.find('.quickbuy-container');
+          } else {
+            console.log('else $slider.length > 0');
+            $quickbuyCont = $block.find('.quickbuy-container');
+          }
+          $detailCont = $quickbuyCont.find('.inner');
+      }
 
       e.preventDefault();         	 
       	return false;   
@@ -51,7 +75,6 @@ var loadQuickbuy = function () {
     $(document).on('click', '.product-list .product-block:not(.collection-block):not(.main-search-result) .quickbuy-toggle', function () {
       var pageWidth = $(window).width(),
       productUrl = $(this).attr('href');
-      console.log('aaaaaaaa');
 
       //Only show dropdown if screen is large enough for it to be useful
       if (pageWidth > 767) {
