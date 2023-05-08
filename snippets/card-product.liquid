@@ -114,6 +114,7 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
+          <a class="btn btn--secondary quickbuy-toggle" href="{{ card_product.url }}">Quick buy</a>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
