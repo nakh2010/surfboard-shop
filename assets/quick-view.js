@@ -95,6 +95,7 @@
               success: function (result) {
                 //console.log(result);
                 var $newDetail = $('<div>' + result + '</div>').find('.quickbuy-content');
+                 var sssss = $newDetail.find('.more').attr('href', productUrl);
 
   
                 // convert to quickbuy content
@@ -106,7 +107,7 @@
                 $newDetail.find('.sticky-content-container').removeClass('sticky-content-container');
                 $newDetail.find('.store-availability-container').remove();
                 $newDetail.find('[data-enable-history-state="true"]').attr('data-enable-history-state', 'false');
-                console.log($newDetail.find('.more').attr('href', productUrl););
+                console.log(sssss);
     
                 $detailCont.html($newDetail);
               },
