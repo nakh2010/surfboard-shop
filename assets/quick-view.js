@@ -60,7 +60,7 @@
   
                 // unload existing quickbuy
                 $('.product-form', this).trigger('unload-product-form');
-                theme.destroyProductGallery(this);
+                Shopify.destroyProductGallery(this);
                 // unload components
                 unloadComponents(this);
               });
@@ -115,17 +115,17 @@
               $detailCont.html($newDetail);
   
               // the order of these is important:
-              theme.initProductGallery($quickbuyCont); // 1
+              Shopify.initProductGallery($quickbuyCont); // 1
               $quickbuyCont.find('.product-form').
               trigger('load-product-form') // 2
               .on('variantChanged', function () {
                 $quickbuyCont.trigger('changedsize'); // (5)
               });
               loadComponents($quickbuyCont); // 3
-              theme.initAnimateOnScroll(); // 4
+              Shopify.initAnimateOnScroll(); // 4
               $quickbuyCont.trigger('changedsize'); // 5
             }).always(function () {
-              theme.currentQuickbuyRequest = false;
+              Shopify.currentQuickbuyRequest = false;
             });
   
             // enable close button
