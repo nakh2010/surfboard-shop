@@ -330,6 +330,7 @@ Shopify.loadQuickbuy = function () {
   // quick buy - managing slide-down quickbuy in both grids and carousels
   var droppyDownAnimSpeed = 500;
   $(document).on('click', '.product-list .product-block:not(.collection-block):not(.main-search-result) .quickbuy-toggle', function () {
+    console.log('aaaaaaa');
     var pageWidth = $(window).width(),
     productUrl = $(this).attr('href');
 
