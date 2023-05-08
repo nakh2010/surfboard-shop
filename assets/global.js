@@ -289,6 +289,7 @@ Shopify.CountryProvinceSelector.prototype = {
   }
 };
 
+
 Shopify.loadQuickbuy = function () {
   // utility function for quickbuy (closes all quickbuys in passed blocks, in a collection grid)
   function contractDetail($blocks, speed) {
