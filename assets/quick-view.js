@@ -93,8 +93,9 @@
               type: "GET",
               url: "https://surfboard-shop.myshopify.com/products/product-name-3",
               success: function (result) {
-                console.log(result);
+                //console.log(result);
                 var $newDetail = $('<div>' + result + '</div>').find('.quickbuy-content');
+
   
                 // convert to quickbuy content
                 $newDetail.find('.more').attr('href', productUrl);
@@ -105,6 +106,7 @@
                 $newDetail.find('.sticky-content-container').removeClass('sticky-content-container');
                 $newDetail.find('.store-availability-container').remove();
                 $newDetail.find('[data-enable-history-state="true"]').attr('data-enable-history-state', 'false');
+                console.log($newDetail.find('.more').attr('href', productUrl););
     
                 $detailCont.html($newDetail);
               },
