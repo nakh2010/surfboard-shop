@@ -31,7 +31,7 @@
       assign ratio = 1
     endif
   -%}
-  <div class="product-block card-wrapper product-card-wrapper underline-links-hover">
+  <div class="card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
         card
@@ -114,7 +114,6 @@
                 {{ card_product.title | escape }}
               </a>
             </h3>
-          <a class="btn btn--secondary quickbuy-toggle" href="{{ card_product.url }}">Quick buy</a>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
@@ -198,7 +197,6 @@
           </div>
         </div>
         {%- if show_quick_add -%}
-
           <div class="quick-add no-js-hidden">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
             {%- if card_product.variants.size == 1 -%}
@@ -345,9 +343,3 @@
     </div>
   </div>
 {%- endif -%}
-            <a class="btn btn--secondary quickbuy-toggle" href="">Quick buy</a>
-
-<div class="quickbuy-container">
-        <a href="#" class="close-detail" aria-label="{{ 'products.quick_buy.close' | t }}" tabindex="-1">Close</a>
-        <div class="inner"></div>
-      </div>
