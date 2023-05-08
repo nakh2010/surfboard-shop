@@ -93,37 +93,32 @@
               type: "GET",
               url: urlPro,
               success: function (result) {
-                console.log(result);
+                var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
+  
+                // convert to quickbuy content
+                $newDetail.find('.more').attr('href', productUrl);
+                $newDetail.find('.detail .title').wrapInner($('<a>').attr('href', productUrl));
+                $newDetail.find('.show-gallery').removeClass('show-gallery').attr('href', productUrl);
+                $newDetail.find('.not-in-quickbuy').remove();
+                $newDetail.find('.only-in-quickbuy').removeClass('only-in-quickbuy');
+                $newDetail.find('.sticky-content-container').removeClass('sticky-content-container');
+                $newDetail.find('.store-availability-container').remove();
+                $newDetail.find('[data-enable-history-state="true"]').attr('data-enable-history-state', 'false');
+                $newDetail.find('.gallery .thumbnails').removeClass('mobile-only');
+                ['gallery--layout-carousel-beside', 'gallery--layout-columns-1', 'gallery--layout-columns-2', 'gallery--layout-collage-1', 'gallery--layout-collage-2'].forEach(cl => {
+                  $newDetail.find('.' + cl).removeClass(cl).addClass('gallery--layout-carousel-under');
+                });
+    
+                // resize after images load, if present
+                $newDetail.find('.rte img').on('load', function () {
+                  $quickbuyCont.trigger('changedsize');
+                  $(this).off('load');
+                });
+    
+                $detailCont.html($newDetail);
               },
             });
-            let request = $.get(url, function (response) {
-              var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
-  
-              // convert to quickbuy content
-              $newDetail.find('.more').attr('href', productUrl);
-              $newDetail.find('.detail .title').wrapInner($('<a>').attr('href', productUrl));
-              $newDetail.find('.show-gallery').removeClass('show-gallery').attr('href', productUrl);
-              $newDetail.find('.not-in-quickbuy').remove();
-              $newDetail.find('.only-in-quickbuy').removeClass('only-in-quickbuy');
-              $newDetail.find('.sticky-content-container').removeClass('sticky-content-container');
-              $newDetail.find('.store-availability-container').remove();
-              $newDetail.find('[data-enable-history-state="true"]').attr('data-enable-history-state', 'false');
-              $newDetail.find('.gallery .thumbnails').removeClass('mobile-only');
-              ['gallery--layout-carousel-beside', 'gallery--layout-columns-1', 'gallery--layout-columns-2', 'gallery--layout-collage-1', 'gallery--layout-collage-2'].forEach(cl => {
-                $newDetail.find('.' + cl).removeClass(cl).addClass('gallery--layout-carousel-under');
-              });
-  
-              // resize after images load, if present
-              $newDetail.find('.rte img').on('load', function () {
-                $quickbuyCont.trigger('changedsize');
-                $(this).off('load');
-              });
-  
-              $detailCont.html($newDetail);
-  
-            }).always(function () {
-              Shopify.currentQuickbuyRequest = false;
-            });
+
   
             // enable close button
             $quickbuyCont.find('.close-detail').removeAttr('tabindex');
