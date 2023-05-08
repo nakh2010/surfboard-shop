@@ -88,7 +88,14 @@
             $quickbuyCont.trigger('changedsize');
   
             // load in content
-            var url = $(this).attr('href');
+            var urlPro = $(this).attr('href');
+            $.ajax({
+              type: "GET",
+              url: urlPro,
+              success: function (result) {
+                console.log(result);
+              },
+            });
             let request = $.get(url, function (response) {
               var $newDetail = $('<div>' + response + '</div>').find('.quickbuy-content');
   
