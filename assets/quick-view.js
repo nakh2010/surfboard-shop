@@ -1,4 +1,5 @@
   $(document).ready(function () {
+    var droppyDownAnimSpeed = 500;
     $(".quickbuy-toggle").click(function (e) {
             console.log('aaaaa');
       var pageWidth = $(window).width(),
@@ -179,42 +180,70 @@
 
   });
 
-var loadQuickbuy = function () {
-    // utility function for quickbuy (closes all quickbuys in passed blocks, in a collection grid)
-    function contractDetail($blocks, speed) {
-      if ($blocks.length > 0) {
-        $blocks.removeClass('expanded');
-        $blocks.find('.quickbuy-container').stop().animate({ height: 0 }, speed, function () {
-          $(this).find('.inner').empty();
-        });
-        $blocks.stop().each(function () {
-          $(this).animate({ paddingBottom: 0 }, speed);
-        });
+// utility function for quickbuy (closes all quickbuys in passed blocks, in a collection grid)
+
+function contractDetail($blocks, speed) {
+  if ($blocks.length > 0) {
+    $blocks.removeClass('expanded');
+    $blocks.find('.quickbuy-container').stop().animate({ height: 0 }, speed, function () {
+      $(this).find('.inner').empty();
+    });
+    $blocks.stop().each(function () {
+      $(this).animate({ paddingBottom: 0 }, speed);
+    });
+  }
+}
+// handle components
+function loadComponents(componentContainer) {
+  $(componentContainer).closest('[data-components]').each(function () {
+    $(this).data('components').split(',').forEach(component => {
+      $(document).trigger('cc:component:load', [component, componentContainer]);
+    });
+  });
+  $(componentContainer).find('.cc-accordion').on('transitionend.qbLoadComponents', function () {
+    $(this).closest('.quickbuy-container').trigger('changedsize');
+  });
+
+  $(document).trigger('cc:component:load', ['custom-select', '.quickbuy-container']);
+}
+
+function unloadComponents(componentContainer) {
+  $(componentContainer).find('.cc-accordion').off('.qbLoadComponents');
+  $(componentContainer).closest('[data-components]').each(function () {
+    $(this).data('components').split(',').forEach(component => {
+      $(document).trigger('cc:component:unload', [component, componentContainer]);
+    });
+  });
+}
+
+function saveCollectionPageData() {
+  $('.collection-listing').each(function () {
+    var $blocks = $(this).find('.product-block');
+    if ($blocks.length <= 1) return true; // Skip for empty colls
+    var row = 0;
+    var currTop = 0;
+    //Heights are fixed. Check two in case somebody has expanded one...
+    var blockHeight = Math.min($blocks.first().outerHeight(), $($blocks[1]).outerHeight());
+    var blockPageOffset = $blocks.first().offset().top;
+    $blocks.each(function (index) {
+      var currOffsetTop = $(this).offset().top;
+      if (index == 0) {
+        currTop = currOffsetTop;
+      } else {
+        if (currOffsetTop > currTop) {
+          row++;
+          currTop = currOffsetTop;
+        }
       }
-    }
+      $(this).data({
+        offsetTop: blockPageOffset + row * blockHeight });
 
-    // handle components
-    function loadComponents(componentContainer) {
-      $(componentContainer).closest('[data-components]').each(function () {
-        $(this).data('components').split(',').forEach(component => {
-          $(document).trigger('cc:component:load', [component, componentContainer]);
-        });
-      });
-      $(componentContainer).find('.cc-accordion').on('transitionend.qbLoadComponents', function () {
-        $(this).closest('.quickbuy-container').trigger('changedsize');
-      });
+    });
+  });
+}
 
-      $(document).trigger('cc:component:load', ['custom-select', '.quickbuy-container']);
-    }
+var loadQuickbuy = function () {
 
-    function unloadComponents(componentContainer) {
-      $(componentContainer).find('.cc-accordion').off('.qbLoadComponents');
-      $(componentContainer).closest('[data-components]').each(function () {
-        $(this).data('components').split(',').forEach(component => {
-          $(document).trigger('cc:component:unload', [component, componentContainer]);
-        });
-      });
-    }
 
     // quick buy - managing slide-down quickbuy in both grids and carousels
     var droppyDownAnimSpeed = 500;
@@ -410,31 +439,7 @@ var loadQuickbuy = function () {
     });
 
     //You also need to know where to scroll to
-    function saveCollectionPageData() {
-      $('.collection-listing').each(function () {
-        var $blocks = $(this).find('.product-block');
-        if ($blocks.length <= 1) return true; // Skip for empty colls
-        var row = 0;
-        var currTop = 0;
-        //Heights are fixed. Check two in case somebody has expanded one...
-        var blockHeight = Math.min($blocks.first().outerHeight(), $($blocks[1]).outerHeight());
-        var blockPageOffset = $blocks.first().offset().top;
-        $blocks.each(function (index) {
-          var currOffsetTop = $(this).offset().top;
-          if (index == 0) {
-            currTop = currOffsetTop;
-          } else {
-            if (currOffsetTop > currTop) {
-              row++;
-              currTop = currOffsetTop;
-            }
-          }
-          $(this).data({
-            offsetTop: blockPageOffset + row * blockHeight });
-
-        });
-      });
-    }
+    
   };
 
 loadQuickbuy();
