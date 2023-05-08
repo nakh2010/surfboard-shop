@@ -2,11 +2,8 @@
     $(".quickbuy-toggle").click(function (e) {
       e.preventDefault();         	 
       	return false;   
-      var id = $(this).attr('data-id');
-      $(".list_item").css('display','none');
-      $("."+id+"_list").css('display','block');
-      $(".col-tabs-list li").removeClass('arrow');
-      $(this).addClass('arrow');
+      console.log('aaaaa');
+
     });
 
   });
