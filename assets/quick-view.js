@@ -113,52 +113,8 @@
               },
             });
 
-  
-            // enable close button
-            $quickbuyCont.find('.close-detail').removeAttr('tabindex');
-  
-            // scroll to appropriate position
-            // qb: top of quick buy
-            // bl: top of product block
-            var scrollMode = 'qb';
-            var scrollOffset = -120;
-  
-            if ($('.section-header').css('position') == 'sticky') {
-              scrollOffset -= $('.section-header').height();
-            }
-  
-            if (scrollMode == 'qb') {
-              $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $quickbuyCont.offset().top + scrollOffset }, 500);
-            } else {
-              if ($slider.length > 0) {
-                // simple for slider
-                $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $block.offset().top }, 500);
-              } else {
-                // need to use top of block when no quickbuys are visible
-                saveCollectionPageData();
-                var offsetTop = typeof $block.data('offsetTop') != 'undefined' ? $block.data('offsetTop') : $block.offset().top;
-                $('html:not(:animated),body:not(:animated)').animate({ scrollTop: offsetTop + scrollOffset }, 500);
-              }
-            }
           } else {
-            // close
-            unloadComponents($quickbuyCont);
-            if ($slider.length > 0) {
-              // collapse detail container
-              $quickbuyCont.stop().animate({ height: 0 }, droppyDownAnimSpeed, function () {
-                // remove details
-                $detailCont.empty();
-              });
-            } else {
-              contractDetail($block, droppyDownAnimSpeed);
-            }
-  
-            // scroll to top of closing block
-            var scrollUpOffset = -140;
-            $('html:not(:animated),body:not(:animated)').animate({ scrollTop: $block.offset().top + scrollUpOffset }, 500);
-  
-            // disable close button
-            $quickbuyCont.find('.close-detail').attr('tabindex', '-1');
+
           }
   
           return false;
