@@ -1,4 +1,17 @@
- var loadQuickbuy = function () {
+  $(document).ready(function () {
+    $(".quickbuy-toggle").click(function (e) {
+      e.preventDefault();         	 
+      	return false;   
+      var id = $(this).attr('data-id');
+      $(".list_item").css('display','none');
+      $("."+id+"_list").css('display','block');
+      $(".col-tabs-list li").removeClass('arrow');
+      $(this).addClass('arrow');
+    });
+
+  });
+
+var loadQuickbuy = function () {
     // utility function for quickbuy (closes all quickbuys in passed blocks, in a collection grid)
     function contractDetail($blocks, speed) {
       if ($blocks.length > 0) {
