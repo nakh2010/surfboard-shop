@@ -78,8 +78,9 @@
                   $quickbuyCont.stop().animate({ height: targetHeight }, speed);
                 }
               });
-            */
+          
             }
+            */
            
   
             // add spinner
