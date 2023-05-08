@@ -152,6 +152,7 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+  <a class="btn btn--secondary quickbuy-toggle" href="{{ card_product.url }}">Quick buy</a>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
