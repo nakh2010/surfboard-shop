@@ -91,6 +91,10 @@ body.overflow-hidden{
 .quick-add-modal__content .product__media-wrapper{
       width: 100% !important;
     max-width: 100% !important;
+      display: flex;
+    align-items: center;
+}
+.quick-add-modal__content .product__media-wrapper media-gallery{
 }
 .quick-add-modal__content .detail.product__info-wrapper{
       width: 100% !important;
