@@ -66,7 +66,6 @@ if (!customElements.get('product-form')) {
           console.error(e);
         })
         .finally(() => {
-          //$('.quick-add-modal .quick-add-modal__toggle').trigger('click');
           this.submitButton.classList.remove('loading');
           if (this.cart && this.cart.classList.contains('is-empty')) this.cart.classList.remove('is-empty');
           if (!this.error) this.submitButton.removeAttribute('aria-disabled');

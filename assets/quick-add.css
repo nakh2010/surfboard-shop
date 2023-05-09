@@ -13,10 +13,6 @@ body.overflow-hidden:before{
     background: rgba(11,11,11,.4);
   content:"";
 }
-body.overflow-hidden{
-  
-}
-
 .quick-add {
   position: relative;
   grid-row-start: 4;
