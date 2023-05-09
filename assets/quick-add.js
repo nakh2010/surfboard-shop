@@ -15,6 +15,7 @@ if (!customElements.get('lsn-quick-add-modal')) {
     }
 
     show(opener) {
+      console.log('opener');
       opener.setAttribute('aria-disabled', true);
       opener.classList.add('loading');
       opener.querySelector('.loading-overlay__spinner').classList.remove('hidden');
@@ -40,6 +41,7 @@ if (!customElements.get('lsn-quick-add-modal')) {
           super.show(opener);
         })
         .finally(() => {
+          console.log('finally');
           opener.removeAttribute('aria-disabled');
           opener.classList.remove('loading');
           opener.querySelector('.loading-overlay__spinner').classList.add('hidden');
