@@ -15,7 +15,6 @@ if (!customElements.get('lsn-quick-add-modal')) {
     }
 
     show(opener) {
-      document.body.classList.add('activeQuick');
       opener.setAttribute('aria-disabled', true);
       opener.classList.add('loading');
       opener.querySelector('.loading-overlay__spinner').classList.remove('hidden');
