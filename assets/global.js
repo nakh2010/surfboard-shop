@@ -1084,5 +1084,13 @@ $('.testimonials').slick({
   autoplay: false,
 });
 
+$(document).mouseup(function (e) {
+  var $quickAdd = $('.quick-add-modal');
+  if (!$quickAdd.is(e.target) && $quickAdd.has(e.target).length === 0)
+  {
+    
+  }
+});
+
 
 
