@@ -40,7 +40,6 @@ if (!customElements.get('lsn-quick-add-modal')) {
           super.show(opener);
         })
         .finally(() => {
-          console.log('finally');
           opener.removeAttribute('aria-disabled');
           opener.classList.remove('loading');
           opener.querySelector('.loading-overlay__spinner').classList.add('hidden');
