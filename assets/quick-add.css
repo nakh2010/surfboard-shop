@@ -95,6 +95,9 @@ body.overflow-hidden{
     align-items: center;
 }
 .quick-add-modal__content .product__media-wrapper media-gallery{
+      display: block;
+    width: 40%;
+    padding-right: 20px;
 }
 .quick-add-modal__content .detail.product__info-wrapper{
       width: 100% !important;
