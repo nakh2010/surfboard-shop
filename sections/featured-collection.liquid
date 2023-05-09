@@ -77,7 +77,7 @@
     </slider-component>
 
     {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-     <lsn-quick-add-modal id="QuickAdd-{{ product.id }}" class="quick-add-modal">
+     <quick-add-modal id="QuickAdd-{{ product.id }}" class="quick-add-modal">
       <div
         role="dialog"
         aria-label="{{ 'products.product.choose_product_options' | t: product_name: product.title | escape }}"
@@ -95,7 +95,7 @@
         </button>
         <div id="QuickAddInfo-{{ product.id }}" class="quick-add-modal__content-info"></div>
       </div>
-     </lsn-quick-add-modal>
+     </quick-add-modal>
     {%- endfor -%}
 
 
