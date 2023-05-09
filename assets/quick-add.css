@@ -100,8 +100,8 @@ body.overflow-hidden{
 .quick-add-modal__content .thumbnail-slider{
   display:none !important;
 }
-.quick-add-modal__content{
-  
+.quick-add-modal__content .quick-add-hidden{
+    display:none !important;
 }
 .quick-add-modal__content{
   
