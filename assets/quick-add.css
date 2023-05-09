@@ -121,8 +121,9 @@ body.overflow-hidden{
 .quick-add-modal__content a.link.product__view-details {
       display: block !important;
 }
-.quick-add-modal__content{
-  
+.quick-add-modal__content .product__info-container {
+    padding-bottom: 50px;
+
 }
 @media screen and (min-width: 750px) {
 
