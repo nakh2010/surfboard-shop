@@ -87,7 +87,7 @@ body.overflow-hidden{
       width: 100%;
 }
 .quick-add-modal__content .product{
-  
+      display: block;
 }
 .quick-add-modal__content .product__media-wrapper{
       width: 100% !important;
