@@ -1,7 +1,9 @@
 .product {
   margin: 0;
 }
-
+.quick-buy-product__info{
+      display: none;
+}
 .product.grid {
   gap: 0;
 }
