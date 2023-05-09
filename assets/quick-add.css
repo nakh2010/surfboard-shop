@@ -118,8 +118,8 @@ body.overflow-hidden{
     font-size: 20px;
     line-height: 26px;
 }
-.quick-add-modal__content{
-  
+.quick-add-modal__content a.link.product__view-details {
+      display: block !important;
 }
 .quick-add-modal__content{
   
