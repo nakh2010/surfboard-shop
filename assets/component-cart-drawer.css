@@ -293,6 +293,8 @@ cart-drawer {
 
 .cart-drawer__overlay:empty {
   display: block;
+      background: #000;
+    opacity: 0.3;
 }
 
 .cart-drawer__form {
