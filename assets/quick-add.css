@@ -88,10 +88,12 @@ body.overflow-hidden{
   
 }
 .quick-add-modal__content .product__media-wrapper{
-  
+      width: 100%;
+    max-width: 100%;
 }
 .quick-add-modal__content .detail.product__info-wrapper{
-  
+      width: 100%;
+    max-width: 100%;
 }
 .quick-add-modal__content{
   
