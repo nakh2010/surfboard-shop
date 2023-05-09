@@ -118,8 +118,9 @@ body.overflow-hidden{
     letter-spacing: 0;
     margin-bottom: 8px;
 }
-.quick-add-modal__content .quick-buy-product__info{
-  
+.quick-add-modal__content .quick-buy-product__info .price .price-item {
+    font-size: 20px;
+    line-height: 26px;
 }
 .quick-add-modal__content{
   
