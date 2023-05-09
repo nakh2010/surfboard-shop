@@ -95,8 +95,8 @@ body.overflow-hidden{
       width: 100%;
     max-width: 100%;
 }
-.quick-add-modal__content{
-  
+.quick-add-modal__content .thumbnail-slider{
+  display:none;
 }
 .quick-add-modal__content{
   
