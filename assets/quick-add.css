@@ -84,6 +84,7 @@ body.overflow-hidden{
 }
 .quick-add-modal__content .quick-buy-product__info {
     display: block;
+      width: 100%;
 }
 .quick-add-modal__content .product{
   
