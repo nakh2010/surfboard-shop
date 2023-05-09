@@ -16,6 +16,9 @@ body.overflow-hidden:before{
 body.overflow-hidden{
   
 }
+.quick-buy-product__info {
+    display: block;
+}
 .quick-add {
   position: relative;
   grid-row-start: 4;
