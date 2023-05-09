@@ -393,11 +393,11 @@
         "collection": "frontpage",
         "show_vendor": true,
         "enable_carousel": true,
-        "grid": 4,
+        "grid": 3,
         "rows": 1,
         "use_alt_bg": true,
         "show_view_all": false,
-        "full_width": false
+        "full_width": true
       }
     }
   },
