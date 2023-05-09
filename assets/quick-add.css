@@ -88,15 +88,15 @@ body.overflow-hidden{
   
 }
 .quick-add-modal__content .product__media-wrapper{
-      width: 100%;
-    max-width: 100%;
+      width: 100% !important;
+    max-width: 100% !important;
 }
 .quick-add-modal__content .detail.product__info-wrapper{
-      width: 100%;
-    max-width: 100%;
+      width: 100% !important;
+    max-width: 100% !important;
 }
 .quick-add-modal__content .thumbnail-slider{
-  display:none;
+  display:none !important;
 }
 .quick-add-modal__content{
   
