@@ -41,7 +41,6 @@ class DetailsModal extends HTMLElement {
     event.target.closest('details').setAttribute('open', true);
     document.body.addEventListener('click', this.onBodyClickEvent);
     document.body.classList.add('overflow-hidden');
-    event.target.closest('details').appendChild('<span class="drawer__overlay"></span>');
 
     trapFocus(
       this.detailsContainer.querySelector('[tabindex="-1"]'),
