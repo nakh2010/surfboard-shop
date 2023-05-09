@@ -16,9 +16,7 @@ body.overflow-hidden:before{
 body.overflow-hidden{
   
 }
-.quick-buy-product__info {
-    display: block;
-}
+
 .quick-add {
   position: relative;
   grid-row-start: 4;
@@ -83,6 +81,9 @@ body.overflow-hidden{
     max-height: 100%;
     margin: 0;
     border: none;
+}
+.quick-add-modal__content .quick-buy-product__info {
+    display: block;
 }
 .quick-add-modal__content .product{
   
