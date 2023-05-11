@@ -50,8 +50,8 @@ body.overflow-hidden:before{
 .quick-add .quick-add__submit .loading-overlay__spinner svg .path {
     stroke: #000;
 }
-.quick-add .quick-add__submit .loading-overlay__spinner {
-  opacity: 1;
+.quick-add .quick-add__submit.loading .icon.icon-plus {
+  display:none;
 }
 
 .card--card .quick-add {
