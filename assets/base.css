@@ -1136,8 +1136,8 @@ summary::-webkit-details-marker {
 @media screen and (max-width: 529px) {
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
   .grid--peek .grid__item {
-    width: calc(66% - var(--grid-mobile-horizontal-spacing) - 3rem);
-    max-width: 66%;
+    width: calc(70% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    max-width: 70%;
   }
 }
 
