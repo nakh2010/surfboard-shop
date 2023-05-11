@@ -62,7 +62,7 @@
         "header": "YOU CAME TO THE RIGHT PLACE",
         "collection": "frontpage",
         "products_to_show": 8,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -385,20 +385,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
-    },
-    "44ceb02c-b156-428f-ac54-0b73ff9d13d1": {
-      "type": "lsn-featured-collection",
-      "settings": {
-        "title": "Lsn Featured collection",
-        "collection": "frontpage",
-        "show_vendor": true,
-        "enable_carousel": true,
-        "grid": 3,
-        "rows": 1,
-        "use_alt_bg": true,
-        "show_view_all": false,
-        "full_width": true
-      }
     }
   },
   "order": [
@@ -410,7 +396,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "d3cdf834-7616-4ca9-a243-d13394d7a4c5",
-    "44ceb02c-b156-428f-ac54-0b73ff9d13d1"
+    "d3cdf834-7616-4ca9-a243-d13394d7a4c5"
   ]
 }
