@@ -10,7 +10,13 @@
 {%- endif -%}
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
-
+<style>
+  @media screen and (max-width: 749px){
+    .lsn-featured-collection slider-component.page-width {
+        padding: 0;
+    }
+  }
+</style>
 {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
 
