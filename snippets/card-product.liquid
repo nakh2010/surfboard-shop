@@ -208,6 +208,7 @@
                     value="{{ card_product.selected_or_first_available_variant.id }}"
                     disabled
                   >
+                {%- if card_product.selected_or_first_available_variant.available -%}
                   <button
                     id="{{ product_form_id }}-submit"
                     type="submit"
@@ -222,10 +223,7 @@
                     {% endif %}
                   >
                     <span>
-                     {%- if card_product.selected_or_first_available_variant.available -%}
-                        {% render 'icon-plus' %}
-                      {%- endif -%}
-                     
+                        {% render 'icon-plus' %}                     
                     </span>
                     <span class="sold-out-message hidden">
                       {{ 'products.product.sold_out' | t }}
@@ -243,6 +241,8 @@
                       </svg>
                     </div>
                   </button>
+                 {%- endif -%}
+
                 {%- endform -%}
               </product-form>
             {%- else -%}
