@@ -38,6 +38,7 @@ body.overflow-hidden:before{
 .quick-add .quick-add__submit svg{
       display: block;
     width: 10px;
+      transition: transform .2s ease-in-out;
 }
 .quick-add .quick-add__submit:hover {
   opacity: 1;
