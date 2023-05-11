@@ -222,7 +222,12 @@
                     {% endif %}
                   >
                     <span>
-                     {% render 'icon-plus' %}
+                     {%- if card_product.selected_or_first_available_variant.available -%}
+                        {% render 'icon-plus' %}
+                      {%- else -%}
+                        {{ 'products.product.sold_out' | t }}
+                      {%- endif -%}
+                     
                     </span>
                     <span class="sold-out-message hidden">
                       {{ 'products.product.sold_out' | t }}
