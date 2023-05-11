@@ -44,6 +44,9 @@ body.overflow-hidden:before{
     width: 10px;
       transition: transform .2s ease-in-out;
 }
+.quick-add .quick-add__submit .loading-overlay__spinner {
+    width: auto;
+}
 .quick-add .quick-add__submit:hover svg{
       transform: rotate(90deg);
 }
