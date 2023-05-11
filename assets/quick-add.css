@@ -47,7 +47,10 @@ body.overflow-hidden:before{
 .quick-add .quick-add__submit:hover svg{
       transform: rotate(90deg);
 }
-.quick-add .quick-add__submit:hover {
+.quick-add .quick-add__submit .loading-overlay__spinner svg .path {
+    stroke: #000;
+}
+.quick-add .quick-add__submit .loading-overlay__spinner {
   opacity: 1;
 }
 
