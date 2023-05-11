@@ -1133,6 +1133,13 @@ summary::-webkit-details-marker {
     width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 }
+@media screen and (max-width: 529px) {
+  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
+  .grid--peek .grid__item {
+    width: calc(66% - var(--grid-mobile-horizontal-spacing) - 3rem);
+    max-width: 66%;
+  }
+}
 
 @media screen and (min-width: 750px) and (max-width: 1024px) {
   .slider--tablet.grid--peek .grid__item {
