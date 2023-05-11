@@ -60,6 +60,9 @@ body.overflow-hidden:before{
 .quick-add .quick-add__submit.loading .loading-overlay__spinner {
     display: flex !important;
 }
+.quick-add .quick-add__submit .sold-out-message{
+      font-size: 10px;
+}
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;
 }
