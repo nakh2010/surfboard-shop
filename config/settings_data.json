@@ -134,7 +134,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "BUY ONE, GET THE SECOND FOR 10% OFF",
+              "text": "BUY ONE, GET THE SECOND FOR 15% OFF",
               "text_alignment": "center",
               "link": ""
             }
@@ -142,7 +142,7 @@
           "74ce2d61-bfe7-496e-b28d-224898af65db": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING ON ALL ORDER OVER $99",
+              "text": "UP TO 30% OFF FOR SUMMER SALE",
               "text_alignment": "center",
               "link": ""
             }
