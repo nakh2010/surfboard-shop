@@ -134,7 +134,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "UP TO 50% OFF",
+              "text": "Buy one, get the second for 20% off",
               "text_alignment": "center",
               "link": ""
             }
