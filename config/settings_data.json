@@ -134,7 +134,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "UP TO 50%",
+              "text": "UP TO 50% OFF",
               "text_alignment": "center",
               "link": ""
             }
@@ -142,7 +142,7 @@
           "74ce2d61-bfe7-496e-b28d-224898af65db": {
             "type": "announcement",
             "settings": {
-              "text": "SALE OFF 50% BKACK FRIDAY- 2",
+              "text": "FREE SHIPPING ON ALL ORDER OVER $99",
               "text_alignment": "center",
               "link": ""
             }
