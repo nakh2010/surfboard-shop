@@ -166,8 +166,9 @@
           },
           "c5064441-41c9-4495-bf2a-be0d7b9b8d88": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "WELCOME TO OUR STORE",
               "text_alignment": "center",
               "link": ""
             }
