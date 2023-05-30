@@ -61,10 +61,7 @@
 @media screen and (max-width:749px) {
     .lsn_block-testimonials .wrapper_testimonials {
         padding: 80px 20px;
-    }
-    .lsn_block-testimonials .page-width{
-        padding: 0;
-    }  
+    } 
 }
 @media screen and (max-width:379px) {
 .lsn_block-testimonials .sum_testimonials div {
