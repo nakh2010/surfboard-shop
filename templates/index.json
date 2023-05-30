@@ -395,6 +395,89 @@
         "hide_variants": false,
         "enable_video_looping": false
       }
+    },
+    "0ce2b88c-2918-4c47-bf59-c52255e33374": {
+      "type": "reviews",
+      "blocks": {
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-0": {
+          "type": "column",
+          "settings": {
+            "name": "Name",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-1": {
+          "type": "column",
+          "settings": {
+            "name": "Name",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-2": {
+          "type": "column",
+          "settings": {
+            "name": "Name",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-3": {
+          "type": "column",
+          "settings": {
+            "name": "Name",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-4": {
+          "type": "column",
+          "settings": {
+            "name": "Name",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-0",
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-1",
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-2",
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-3",
+        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-4"
+      ],
+      "settings": {
+        "background_color": "#005A87",
+        "header": "Heading"
+      }
+    },
+    "fe23e5ae-f4a7-43b3-b459-c131cf191b43": {
+      "type": "testimonials",
+      "blocks": {
+        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-0": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Heading",
+            "testimonials": "Share what your customers are saying about your products, your company...",
+            "label": "Learn more",
+            "link": ""
+          }
+        },
+        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-1": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Heading",
+            "testimonials": "Share what your customers are saying about your products, your company...",
+            "label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-0",
+        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-1"
+      ],
+      "settings": {
+        "bg_style": "color",
+        "bg_color": "#FFFFFF",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -406,6 +489,8 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
-    "7b5f29ca-b78f-4136-a4d6-3335a5244f23"
+    "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
+    "0ce2b88c-2918-4c47-bf59-c52255e33374",
+    "fe23e5ae-f4a7-43b3-b459-c131cf191b43"
   ]
 }
