@@ -89,6 +89,9 @@ text-transform: uppercase;
 .lsn-slideshow .slick-dots li.slick-active button{
   background: #fff;
 }
+.banner--desktop-transparent .banner__box {
+    background: transparent;
+}
 @media screen and (min-width: 1025px) {
   .lsn-slideshow .tablet-hero,
   .lsn-slideshow .mobile-hero{
