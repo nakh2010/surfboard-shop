@@ -1,7 +1,7 @@
 .lsn_block-testimonials .wrapper_testimonials{
     display: block;
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 40px;
 }
 .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials{
     padding: 40px 0;
