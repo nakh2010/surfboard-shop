@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1024px) {
     .lsn_block-testimonials .wrapper_testimonials {
-        padding: 50px;
+        padding: 80px 40px;
     }
     .lsn_block-testimonials .sum_testimonials div {
         font-size: 20px;
