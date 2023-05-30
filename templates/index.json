@@ -427,6 +427,38 @@
         "bg_color": "#f1f1f1",
         "text_color": "#000000"
       }
+    },
+    "923122b7-2833-408b-9cf9-fd9b4c3c46e3": {
+      "type": "testimonials",
+      "blocks": {
+        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-0": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Heading",
+            "testimonials": "Share what your customers are saying about your products, your company...",
+            "label": "Learn more",
+            "link": ""
+          }
+        },
+        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-1": {
+          "type": "testimonial",
+          "settings": {
+            "heading": "Heading",
+            "testimonials": "Share what your customers are saying about your products, your company...",
+            "label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-0",
+        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-1"
+      ],
+      "settings": {
+        "bg_style": "color",
+        "bg_color": "#f1f1f1",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -439,6 +471,7 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
-    "029898b1-fef6-4b45-8bef-f2289b82bb56"
+    "029898b1-fef6-4b45-8bef-f2289b82bb56",
+    "923122b7-2833-408b-9cf9-fd9b4c3c46e3"
   ]
 }
