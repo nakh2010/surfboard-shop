@@ -431,15 +431,6 @@
     "923122b7-2833-408b-9cf9-fd9b4c3c46e3": {
       "type": "testimonials",
       "blocks": {
-        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-0": {
-          "type": "testimonial",
-          "settings": {
-            "heading": "Heading",
-            "testimonials": "Share what your customers are saying about your products, your company...",
-            "label": "Learn more",
-            "link": ""
-          }
-        },
         "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-1": {
           "type": "testimonial",
           "settings": {
@@ -451,7 +442,6 @@
         }
       },
       "block_order": [
-        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-0",
         "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-1"
       ],
       "settings": {
