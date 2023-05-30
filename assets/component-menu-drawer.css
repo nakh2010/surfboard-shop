@@ -191,6 +191,7 @@ menu-drawer > details[open] > summary::before {
   width: 100%;
   padding: 0;
   border:none;
+      max-width: 360px;
   background-color: var(--color-background);
   overflow-x: hidden;
   filter: drop-shadow(
