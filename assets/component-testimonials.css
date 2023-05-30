@@ -68,4 +68,7 @@
     font-size: 18px;
     line-height: 26px;
  }
+  .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials {
+    padding: 30px 0;
+}
 }
