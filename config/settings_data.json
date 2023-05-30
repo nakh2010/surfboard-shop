@@ -234,6 +234,7 @@
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/sticky-logo.png",
+          "logo_transparent": "shopify:\/\/shop_images\/lasaona-logo.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
