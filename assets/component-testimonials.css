@@ -63,9 +63,9 @@
         padding: 80px 20px;
     } 
 }
-@media screen and (max-width:379px) {
+@media screen and (max-width:479px) {
 .lsn_block-testimonials .sum_testimonials div {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 26px;
  }
 }
