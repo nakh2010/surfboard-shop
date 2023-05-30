@@ -233,7 +233,7 @@
           "b2aa7c0d-ca2b-4657-b548-093cd912e3c2"
         ],
         "settings": {
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/lasaona-logo.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
