@@ -396,61 +396,10 @@
         "enable_video_looping": false
       }
     },
-    "0ce2b88c-2918-4c47-bf59-c52255e33374": {
-      "type": "reviews",
-      "blocks": {
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-0": {
-          "type": "column",
-          "settings": {
-            "name": "Name",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
-          }
-        },
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-1": {
-          "type": "column",
-          "settings": {
-            "name": "Name",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
-          }
-        },
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-2": {
-          "type": "column",
-          "settings": {
-            "name": "Name",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
-          }
-        },
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-3": {
-          "type": "column",
-          "settings": {
-            "name": "Name",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
-          }
-        },
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-4": {
-          "type": "column",
-          "settings": {
-            "name": "Name",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-0",
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-1",
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-2",
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-3",
-        "template--17192392753437__0ce2b88c-2918-4c47-bf59-c52255e33374-168541428197ca5860-4"
-      ],
-      "settings": {
-        "background_color": "#005A87",
-        "header": "Heading"
-      }
-    },
-    "fe23e5ae-f4a7-43b3-b459-c131cf191b43": {
+    "029898b1-fef6-4b45-8bef-f2289b82bb56": {
       "type": "testimonials",
       "blocks": {
-        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-0": {
+        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0": {
           "type": "testimonial",
           "settings": {
             "heading": "Heading",
@@ -459,7 +408,7 @@
             "link": ""
           }
         },
-        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-1": {
+        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-1": {
           "type": "testimonial",
           "settings": {
             "heading": "Heading",
@@ -470,12 +419,12 @@
         }
       },
       "block_order": [
-        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-0",
-        "template--17192392753437__fe23e5ae-f4a7-43b3-b459-c131cf191b43-168541433678d5d4c1-1"
+        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0",
+        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-1"
       ],
       "settings": {
-        "bg_style": "color",
-        "bg_color": "#FFFFFF",
+        "bg_style": "transparent",
+        "bg_color": "#f1f1f1",
         "text_color": "#000000"
       }
     }
@@ -490,7 +439,6 @@
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
-    "0ce2b88c-2918-4c47-bf59-c52255e33374",
-    "fe23e5ae-f4a7-43b3-b459-c131cf191b43"
+    "029898b1-fef6-4b45-8bef-f2289b82bb56"
   ]
 }
