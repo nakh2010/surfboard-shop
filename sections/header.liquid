@@ -389,6 +389,15 @@
                 width: section.settings.logo_width,
                 alt: logo_alt
               }}
+              {{ section.settings.logo_transparent | image_url: width: section.settings.width | image_tag:
+                class: 'header__heading-logo logo_transparent',
+                widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                height: logo_height,
+                width: section.settings.logo_width,
+                alt: logo_alt
+              }}
+              
+            
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
@@ -855,6 +864,11 @@
       "type": "image_picker",
       "id": "logo",
       "label": "t:sections.header.settings.logo.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_transparent",
+      "label": "Logo transparent"
     },
     {
       "type": "range",
