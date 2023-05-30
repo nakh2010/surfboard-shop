@@ -3,6 +3,9 @@
     text-align: center;
     padding: 100px 0;
 }
+.lsn_block-testimonials.bg_style_transparent .wrapper_testimonials{
+    padding: 40px 0;
+}
 .lsn_block-testimonials .sum_testimonials{
     display: block;
     margin: 0 auto;
