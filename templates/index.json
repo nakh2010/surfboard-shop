@@ -28,12 +28,12 @@
         "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-2.jpg",
+            "image": "shopify:\/\/shop_images\/sacha-verheij-X0rRYtJy0R8-unsplash.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "SUMMER SALE 30% OFF ON ALL ORDERS",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "anchor_label": "Anchor label",
             "anchor_link": "",
