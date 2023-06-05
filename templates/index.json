@@ -58,7 +58,7 @@
             "anchor_label": "",
             "anchor_link": "",
             "box_align": "middle-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 20,
             "color_scheme": "",
