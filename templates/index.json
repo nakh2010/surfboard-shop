@@ -15,7 +15,7 @@
             "button_label": "SHOP NOW",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
-            "anchor_label": "How it works",
+            "anchor_label": "",
             "anchor_link": "",
             "box_align": "middle-left",
             "show_text_box": false,
