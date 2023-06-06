@@ -42,7 +42,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Returns & Warranty Policy",
+            "heading": "Shipping",
             "icon": "none",
             "content": "",
             "page": "returns-warranty-policy"
