@@ -42,10 +42,10 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Returns & Warranty Policy",
             "icon": "none",
-            "content": "<p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
-            "page": ""
+            "content": "",
+            "page": "returns-warranty-policy"
           }
         },
         "variant_picker": {
