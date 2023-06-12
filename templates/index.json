@@ -225,7 +225,7 @@
           "settings": {
             "collection": "frontpage",
             "image": "shopify:\/\/shop_images\/65-35.jpg",
-            "collection_title": "KIDS"
+            "collection_title": "Best sellers"
           }
         },
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1": {
@@ -800,6 +800,9 @@
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0",
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1",
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-2"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "desktop_content_position": "center",
