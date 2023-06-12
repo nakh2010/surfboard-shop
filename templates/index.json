@@ -849,53 +849,6 @@
         "text_color": "#ffffff",
         "image_height": "small"
       }
-    },
-    "4d618453-e5eb-4490-98e0-c5b2668a70c0": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17192392753437__4d618453-e5eb-4490-98e0-c5b2668a70c0-168656060240de6baf-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "IMPROVE YOUR SKILLS",
-            "heading_size": "h1"
-          }
-        },
-        "template--17192392753437__4d618453-e5eb-4490-98e0-c5b2668a70c0-168656060240de6baf-1": {
-          "type": "text",
-          "settings": {
-            "text": "If you love carving smooth turns and riding with grace, a classic longboard or a traditional single-fin might be your go-to choice",
-            "text_style": "subtitle"
-          }
-        },
-        "template--17192392753437__4d618453-e5eb-4490-98e0-c5b2668a70c0-168656060240de6baf-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__4d618453-e5eb-4490-98e0-c5b2668a70c0-168656060240de6baf-0",
-        "template--17192392753437__4d618453-e5eb-4490-98e0-c5b2668a70c0-168656060240de6baf-1",
-        "template--17192392753437__4d618453-e5eb-4490-98e0-c5b2668a70c0-168656060240de6baf-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/istockphoto-143918362-170667a.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
     }
   },
   "order": [
@@ -920,7 +873,6 @@
     "029898b1-fef6-4b45-8bef-f2289b82bb56",
     "29a15a56-c312-4831-b91b-b77f3abd2c01",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7",
-    "9a363dee-2ab9-4557-8ab5-c3b83842fe71",
-    "4d618453-e5eb-4490-98e0-c5b2668a70c0"
+    "9a363dee-2ab9-4557-8ab5-c3b83842fe71"
   ]
 }
