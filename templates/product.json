@@ -48,12 +48,6 @@
             "page": "returns-warranty-policy"
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -73,7 +67,6 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons"
       ],
