@@ -849,6 +849,35 @@
         "text_color": "#ffffff",
         "image_height": "small"
       }
+    },
+    "8c62c57d-e5ca-425b-8a91-c5c9e440b270": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17192392753437__8c62c57d-e5ca-425b-8a91-c5c9e440b270-16865614590b7a2d1e-0": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "Unleash the Fun with Our Vibrant Funboards!",
+            "text": "<p>Ready to experience the thrill of riding a funboard? Browse our collection and find the perfect board to add a dash of excitement to your surf adventures.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/funboard"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__8c62c57d-e5ca-425b-8a91-c5c9e440b270-16865614590b7a2d1e-0"
+      ],
+      "settings": {
+        "layout_style": "sixty-five",
+        "bg_style": "transparent",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/50-2.jpg",
+        "image_tab": "shopify:\/\/shop_images\/50-2.jpg",
+        "image_mob": "shopify:\/\/shop_images\/50-2.jpg",
+        "image_overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -873,6 +902,7 @@
     "029898b1-fef6-4b45-8bef-f2289b82bb56",
     "29a15a56-c312-4831-b91b-b77f3abd2c01",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7",
-    "9a363dee-2ab9-4557-8ab5-c3b83842fe71"
+    "9a363dee-2ab9-4557-8ab5-c3b83842fe71",
+    "8c62c57d-e5ca-425b-8a91-c5c9e440b270"
   ]
 }
