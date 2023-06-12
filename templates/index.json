@@ -768,7 +768,7 @@
           "type": "testimonial",
           "settings": {
             "heading": "Highly recommend",
-            "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend \n-Jake M., avid surfer",
+            "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend \nJake M.",
             "label": "",
             "link": ""
           }
@@ -776,8 +776,8 @@
         "3c261b58-d32a-469e-b2f5-1b2cba150f4d": {
           "type": "testimonial",
           "settings": {
-            "heading": "Finding the right surfboard was crucial for my performance",
-            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\" - Sarah Johnson, Professional Surfer",
+            "heading": "Thanks for incredibly helpful and the valuable information",
+            "testimonials": "The website provided valuable information and a user-friendly interface that made the selection process a breeze. I reached out to their customer support team with a few questions, and they were incredibly helpful and patient, guiding me towards the perfect board. \nEmily L.",
             "label": "",
             "link": ""
           }
