@@ -292,8 +292,8 @@
         "91c35506-580b-4cfd-af69-1cdba86dc1d1": {
           "type": "Item",
           "settings": {
-            "question": "Question title",
-            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "question": "How do I care for and maintain my surfboard?",
+            "text_body": "<p>Proper care and maintenance are essential for prolonging the lifespan of your surfboard. We recommend rinsing your board with fresh water after each use to remove salt and sand. Regularly inspect and repair any dings or cracks to prevent water seepage. Additionally, store your board in a cool, dry place away from direct sunlight. For a more in-depth guide, feel free to refer to our surfboard care instructions.<\/p>",
             "video_url": "",
             "image": "shopify:\/\/shop_images\/65-35-2.jpg"
           }
