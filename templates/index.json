@@ -301,8 +301,8 @@
         "45e0f12d-3066-46cc-ab06-225c255644fa": {
           "type": "Item",
           "settings": {
-            "question": "Question title",
-            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "question": "What materials are used in your surfboard construction?",
+            "text_body": "<p>We prioritize using high-quality materials to ensure the durability and performance of our surfboards. Our boards are often constructed using a combination of lightweight and durable materials, such as epoxy resin, fiberglass, and EPS foam cores. These materials are carefully selected to provide the perfect balance of strength, flexibility, and responsiveness.<\/p>",
             "video_url": ""
           }
         },
