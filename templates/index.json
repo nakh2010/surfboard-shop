@@ -241,22 +241,14 @@
           "settings": {
             "collection": "shop-skates",
             "image": "shopify:\/\/shop_images\/istockphoto-b-170667a.jpg",
-            "collection_title": "SURF"
-          }
-        },
-        "e64ed384-30a9-4fd6-a541-bc5418fac28d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shop-skates",
-            "collection_title": "SOFTBOARDS"
+            "collection_title": "LONGBOARD"
           }
         }
       },
       "block_order": [
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-0",
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1",
-        "969f040a-63f0-4c3b-92ee-f5715010e3a5",
-        "e64ed384-30a9-4fd6-a541-bc5418fac28d"
+        "969f040a-63f0-4c3b-92ee-f5715010e3a5"
       ],
       "settings": {
         "subtitle": "IF YOU LIKE SURFING",
