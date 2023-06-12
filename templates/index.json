@@ -759,7 +759,7 @@
           "type": "testimonial",
           "settings": {
             "heading": "Finding the right surfboard was crucial for my performance",
-            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\" \n- Sarah Johnson, Professional Surfer",
+            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\" \nSarah Johnson.",
             "label": "",
             "link": ""
           }
