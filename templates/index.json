@@ -757,10 +757,10 @@
         "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0": {
           "type": "testimonial",
           "settings": {
-            "heading": "Finding the perfect surfboard?",
-            "testimonials": "Discover the board that will take your surfing to new heights and join us in celebrating the stoke and spirit of surfing. Get ready to carve, glide, and experience the thrill of catching the perfect wave with our surfboards.",
-            "label": "Learn more",
-            "link": "shopify:\/\/collections"
+            "heading": "",
+            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like the Oceanic Pro X. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\" - Sarah Johnson, Professional Surfer",
+            "label": "",
+            "link": ""
           }
         }
       },
@@ -770,6 +770,42 @@
       "settings": {
         "bg_style": "transparent",
         "bg_color": "#f1f1f1",
+        "text_color": "#000000"
+      }
+    },
+    "29a15a56-c312-4831-b91b-b77f3abd2c01": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>"
+          }
+        },
+        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0",
+        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1",
+        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "bg_style": "color",
+        "bg_color": "#FFFFFF",
         "text_color": "#000000"
       }
     }
@@ -793,6 +829,7 @@
     "197bc186-fa36-4e4f-86c7-a9a7c34c1a71",
     "11692661-410e-4e3e-b2e3-a5999f8c193b",
     "ccac3eb0-aa4f-4ae6-acb3-cc6bc87b79c7",
-    "029898b1-fef6-4b45-8bef-f2289b82bb56"
+    "029898b1-fef6-4b45-8bef-f2289b82bb56",
+    "29a15a56-c312-4831-b91b-b77f3abd2c01"
   ]
 }
