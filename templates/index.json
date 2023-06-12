@@ -243,12 +243,21 @@
             "image": "shopify:\/\/shop_images\/istockphoto-b-170667a.jpg",
             "collection_title": "LONGBOARD"
           }
+        },
+        "10003f8b-d21b-4037-9b9b-8f09bd201e31": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/tatonomusic-FFCgotROOTY-unsplash.jpg",
+            "collection_title": "SHOP A"
+          }
         }
       },
       "block_order": [
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-0",
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1",
-        "969f040a-63f0-4c3b-92ee-f5715010e3a5"
+        "969f040a-63f0-4c3b-92ee-f5715010e3a5",
+        "10003f8b-d21b-4037-9b9b-8f09bd201e31"
       ],
       "settings": {
         "subtitle": "IF YOU LIKE SURFING",
