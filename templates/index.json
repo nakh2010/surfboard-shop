@@ -869,7 +869,7 @@
       ],
       "settings": {
         "layout_style": "sixty-five",
-        "bg_style": "transparent",
+        "bg_style": "image",
         "background_color": "#F5F5F5",
         "font_color": "dark",
         "layout": "left",
