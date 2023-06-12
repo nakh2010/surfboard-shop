@@ -779,19 +779,19 @@
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>"
+            "heading": "<p>Surfing is more than just a sport—it's a way of life<\/p>"
           }
         },
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Our surfboards are built to perform. Whether you're seeking the rush of riding massive waves or gracefully gliding through gentle swells, our range of boards caters to all skill levels and wave conditions. We believe that every surfer deserves a board that not only enhances their performance but also becomes an extension of themselves.<\/p>"
           }
         },
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
