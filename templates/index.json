@@ -97,6 +97,27 @@
         "swipe_on_mobile": true
       }
     },
+    "0881b66f-d901-4640-b95b-4cd81217aad2": {
+      "type": "featured-collection",
+      "settings": {
+        "sub_header": "Shop Funboard",
+        "header": "LET'S GET SUMMER VIBES",
+        "collection": "funboard",
+        "products_to_show": 6,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true
+      }
+    },
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a": {
       "type": "video-full-width",
       "settings": {
@@ -695,6 +716,7 @@
   "order": [
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
     "25396aee-9226-46a3-9cd9-3a40f494d087",
+    "0881b66f-d901-4640-b95b-4cd81217aad2",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
