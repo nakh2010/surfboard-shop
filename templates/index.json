@@ -240,7 +240,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "shop-skates",
-            "image": "shopify:\/\/shop_images\/istockphoto-b-170667a.jpg",
+            "image": "shopify:\/\/shop_images\/LifestyleFunsterMango-Web-Ready_1500x-2_600x_440ed65b-8f0a-445b-ba54-b75c300ccddc.jpg",
             "collection_title": "LONGBOARD"
           }
         },
@@ -809,7 +809,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "bg_style": "color",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "text_color": "#000000"
       }
     }
