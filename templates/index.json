@@ -83,7 +83,7 @@
         "header": "YOU CAME TO THE RIGHT PLACE",
         "collection": "frontpage",
         "products_to_show": 6,
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
