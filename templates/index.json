@@ -743,50 +743,18 @@
         "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0": {
           "type": "testimonial",
           "settings": {
-            "heading": "Heading",
-            "testimonials": "Share what your customers are saying about your products, your company...",
+            "heading": "Finding the perfect surfboard?",
+            "testimonials": "Discover the board that will take your surfing to new heights and join us in celebrating the stoke and spirit of surfing. Get ready to carve, glide, and experience the thrill of catching the perfect wave with a surfboard",
             "label": "Learn more",
-            "link": ""
-          }
-        },
-        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-1": {
-          "type": "testimonial",
-          "settings": {
-            "heading": "Heading",
-            "testimonials": "Share what your customers are saying about your products, your company...",
-            "label": "Learn more",
-            "link": ""
+            "link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
-        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0",
-        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-1"
+        "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0"
       ],
       "settings": {
         "bg_style": "transparent",
-        "bg_color": "#f1f1f1",
-        "text_color": "#000000"
-      }
-    },
-    "923122b7-2833-408b-9cf9-fd9b4c3c46e3": {
-      "type": "testimonials",
-      "blocks": {
-        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-1": {
-          "type": "testimonial",
-          "settings": {
-            "heading": "Heading",
-            "testimonials": "Share what your customers are saying about your products, your company...",
-            "label": "Learn more",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__923122b7-2833-408b-9cf9-fd9b4c3c46e3-1685414585983f87a5-1"
-      ],
-      "settings": {
-        "bg_style": "color",
         "bg_color": "#f1f1f1",
         "text_color": "#000000"
       }
@@ -810,7 +778,6 @@
     "197bc186-fa36-4e4f-86c7-a9a7c34c1a71",
     "11692661-410e-4e3e-b2e3-a5999f8c193b",
     "ccac3eb0-aa4f-4ae6-acb3-cc6bc87b79c7",
-    "029898b1-fef6-4b45-8bef-f2289b82bb56",
-    "923122b7-2833-408b-9cf9-fd9b4c3c46e3"
+    "029898b1-fef6-4b45-8bef-f2289b82bb56"
   ]
 }
