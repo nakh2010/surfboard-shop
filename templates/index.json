@@ -350,7 +350,7 @@
         "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_6.png",
+            "image": "shopify:\/\/shop_images\/tried_and_tested-removebg-preview.png",
             "title": "Tried & Tested",
             "text": "<p>Years of testing and feedback from our customers have made Journal the most used and tested Opencart theme in the world<\/p>"
           }
@@ -358,17 +358,9 @@
         "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_6.png",
+            "image": "shopify:\/\/shop_images\/most_love-removebg-preview.png",
             "title": "Most Loved",
             "text": "<p>With an average 97% satisfaction rate, over 20.000 people have come to love Journal more than any other Opencart theme<\/p>"
-          }
-        },
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_6.png",
-            "title": "Column",
-            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
           }
         }
       },
@@ -376,8 +368,7 @@
         "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-0",
         "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-1",
         "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-2",
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-3",
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-4"
+        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-3"
       ],
       "settings": {
         "background_color": "#005a87",
