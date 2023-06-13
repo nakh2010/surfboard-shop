@@ -507,6 +507,7 @@
                              {%- when 'megastyleone' -%}
                                {% assign menu_title =  link.title %}
                                {% assign block_heading =  block.settings.heading %}
+                             <p>{{ menu_title }}--block_heading={{ block_heading }}</p>
                                {% if menu_title == block_heading %}
                                 <div class="mega_content_column collection-list">
                                   {% for product in block.settings.collection.products limit: 4 %}
