@@ -237,13 +237,26 @@
               "text_3": "",
               "link_3": ""
             }
+          },
+          "e2def80e-727d-4a27-bc04-94fc546c3c97": {
+            "type": "megastyletwo",
+            "settings": {
+              "heading": "SURFBOARDS",
+              "text_1": "",
+              "link_1": "",
+              "text_2": "",
+              "link_2": "",
+              "text_3": "",
+              "link_3": ""
+            }
           }
         },
         "block_order": [
           "11cf9a5a-2d67-41d6-a8b9-04c8d2e4d0df",
           "ac8f9df1-70ba-421c-b2c1-9172780dde28",
           "b2aa7c0d-ca2b-4657-b548-093cd912e3c2",
-          "e7a856a1-1d55-4757-b132-4e824f9bb40b"
+          "e7a856a1-1d55-4757-b132-4e824f9bb40b",
+          "e2def80e-727d-4a27-bc04-94fc546c3c97"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/sticky-logo.png",
