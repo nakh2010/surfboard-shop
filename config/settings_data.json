@@ -190,13 +190,6 @@
       "header": {
         "type": "header",
         "blocks": {
-          "6434226d-ae8d-4a6b-9022-400feb1a050d": {
-            "type": "megastyleone",
-            "settings": {
-              "heading": "SURFBOARDS",
-              "collection": "frontpage"
-            }
-          },
           "ac8f9df1-70ba-421c-b2c1-9172780dde28": {
             "type": "megastyletwo",
             "settings": {
@@ -225,12 +218,19 @@
               "text_3": "",
               "link_3": ""
             }
+          },
+          "11cf9a5a-2d67-41d6-a8b9-04c8d2e4d0df": {
+            "type": "megastyleone",
+            "settings": {
+              "heading": "SHOP",
+              "collection": "frontpage"
+            }
           }
         },
         "block_order": [
-          "6434226d-ae8d-4a6b-9022-400feb1a050d",
           "ac8f9df1-70ba-421c-b2c1-9172780dde28",
-          "b2aa7c0d-ca2b-4657-b548-093cd912e3c2"
+          "b2aa7c0d-ca2b-4657-b548-093cd912e3c2",
+          "11cf9a5a-2d67-41d6-a8b9-04c8d2e4d0df"
         ],
         "settings": {
           "logo": "shopify:\/\/shop_images\/sticky-logo.png",
