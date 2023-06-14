@@ -102,7 +102,7 @@
       "settings": {
         "sub_header": "Shop Funboard",
         "header": "LET'S GET SUMMER VIBES",
-        "collection": "funboard",
+        "collection": "fun-boards",
         "products_to_show": 6,
         "columns_desktop": 2,
         "full_width": false,
@@ -231,7 +231,7 @@
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "funboard",
+            "collection": "fun-boards",
             "image": "shopify:\/\/shop_images\/igor-starkov-f4mLA8nDbRg-unsplash.jpg",
             "collection_title": ""
           }
@@ -860,7 +860,7 @@
             "heading": "Unleash the Fun with Our Vibrant Funboards!",
             "text": "<p>Ready to experience the thrill of riding a funboard? Browse our collection and find the perfect board to add a dash of excitement to your surf adventures.<\/p>",
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/funboard"
+            "button_link": "shopify:\/\/collections\/fun-boards"
           }
         }
       },
