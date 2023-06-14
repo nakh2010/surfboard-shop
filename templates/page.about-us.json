@@ -6,9 +6,37 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "d3a67d64-0089-4f7a-84d1-c75826601141": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19389185065245__d3a67d64-0089-4f7a-84d1-c75826601141-16867354941adb6cf6-0": {
+          "type": "heading",
+          "settings": {
+            "sub_heading": "",
+            "heading": "About Us",
+            "text": "<p>Welcome to Born To Surf!<\/p><p>We are passionate about riding the waves and sharing our love for the ocean with fellow surf enthusiasts like you. Whether you're a seasoned pro or just starting your surfing journey, we've got the perfect surfboard to suit your needs and take your wave-riding experience to new heights.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19389185065245__d3a67d64-0089-4f7a-84d1-c75826601141-16867354941adb6cf6-0"
+      ],
+      "settings": {
+        "layout_style": "fifty-fifty",
+        "bg_style": "transparent",
+        "background_color": "#F5F5F5",
+        "font_color": "dark",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/about_us_1.jpg",
+        "image_overlay_opacity": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d3a67d64-0089-4f7a-84d1-c75826601141"
   ]
 }
