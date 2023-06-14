@@ -123,7 +123,7 @@
       "settings": {
         "sub_header": "SHOP LONGBOARD",
         "header": "FEEL THE BEAT OF THE OCEAN",
-        "collection": "longboard",
+        "collection": "longboards",
         "products_to_show": 6,
         "columns_desktop": 2,
         "full_width": false,
@@ -239,7 +239,7 @@
         "969f040a-63f0-4c3b-92ee-f5715010e3a5": {
           "type": "featured_collection",
           "settings": {
-            "collection": "longboard",
+            "collection": "longboards",
             "image": "shopify:\/\/shop_images\/LifestyleFunsterMango-Web-Ready_1500x-2_600x_440ed65b-8f0a-445b-ba54-b75c300ccddc.jpg",
             "collection_title": "LONGBOARD"
           }
