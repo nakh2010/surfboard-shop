@@ -34,10 +34,58 @@
         "image": "shopify:\/\/shop_images\/about_us_1.jpg",
         "image_overlay_opacity": 0
       }
+    },
+    "d8881a01-adc8-4cea-98b7-586e4236f6df": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19389185065245__d8881a01-adc8-4cea-98b7-586e4236f6df-1686735748b1fb3a17-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19389185065245__d8881a01-adc8-4cea-98b7-586e4236f6df-1686735748b1fb3a17-1": {
+          "type": "text",
+          "settings": {
+            "text": "Join our community of passionate surfers and let us be a part of your wave-riding adventures. Whether you're searching for your first board or adding to your quiver, We are here to help you make the perfect choice. Dive into our collection today and experience the thrill of riding the perfect wave with a surfboard that's tailor-made for you.",
+            "text_style": "subtitle"
+          }
+        },
+        "template--19389185065245__d8881a01-adc8-4cea-98b7-586e4236f6df-1686735748b1fb3a17-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19389185065245__d8881a01-adc8-4cea-98b7-586e4236f6df-1686735748b1fb3a17-0",
+        "template--19389185065245__d8881a01-adc8-4cea-98b7-586e4236f6df-1686735748b1fb3a17-1",
+        "template--19389185065245__d8881a01-adc8-4cea-98b7-586e4236f6df-1686735748b1fb3a17-2"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "d3a67d64-0089-4f7a-84d1-c75826601141"
+    "d3a67d64-0089-4f7a-84d1-c75826601141",
+    "d8881a01-adc8-4cea-98b7-586e4236f6df"
   ]
 }
