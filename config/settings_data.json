@@ -226,28 +226,19 @@
               "link_3": ""
             }
           },
-          "e7a856a1-1d55-4757-b132-4e824f9bb40b": {
-            "type": "megastyletwo",
-            "settings": {
-              "heading": "",
-              "text_1": "",
-              "link_1": "",
-              "text_2": "",
-              "link_2": "",
-              "text_3": "",
-              "link_3": ""
-            }
-          },
           "e2def80e-727d-4a27-bc04-94fc546c3c97": {
             "type": "megastyletwo",
             "settings": {
               "heading": "SURFBOARDS",
-              "text_1": "",
-              "link_1": "",
-              "text_2": "",
-              "link_2": "",
-              "text_3": "",
-              "link_3": ""
+              "image_1": "shopify:\/\/shop_images\/tatonomusic-FFCgotROOTY-unsplash.jpg",
+              "text_1": "ALL SURFBOARDS",
+              "link_1": "shopify:\/\/collections\/frontpage",
+              "image_2": "shopify:\/\/shop_images\/supchil.jpg",
+              "text_2": "FUNBOARDS",
+              "link_2": "shopify:\/\/collections\/funboard",
+              "image_3": "shopify:\/\/shop_images\/asap-rocky-7jSkK3DLmnM-unsplash.jpg",
+              "text_3": "LONGBOARDS",
+              "link_3": "shopify:\/\/collections\/longboard"
             }
           }
         },
@@ -255,7 +246,6 @@
           "11cf9a5a-2d67-41d6-a8b9-04c8d2e4d0df",
           "ac8f9df1-70ba-421c-b2c1-9172780dde28",
           "b2aa7c0d-ca2b-4657-b548-093cd912e3c2",
-          "e7a856a1-1d55-4757-b132-4e824f9bb40b",
           "e2def80e-727d-4a27-bc04-94fc546c3c97"
         ],
         "settings": {
