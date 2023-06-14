@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -27,7 +28,7 @@
       "settings": {
         "layout_style": "fifty-fifty",
         "bg_style": "transparent",
-        "background_color": "#F5F5F5",
+        "background_color": "#f5f5f5",
         "font_color": "dark",
         "layout": "left",
         "image": "shopify:\/\/shop_images\/about_us_1.jpg",
