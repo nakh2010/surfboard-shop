@@ -96,6 +96,10 @@
     position: relative;
       height: 100%;
     object-fit: cover;
+  	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
 }
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection-name{
       display: block;
@@ -125,8 +129,8 @@
 .lsn-collection-grid .wrapper-collection-grid .collection_item .collection-name:hover{
       background: #fff;
 }
-.lsn-collection-grid .wrapper-collection-grid .collection_item:hover .collection-name{
-  
+.lsn-collection-grid .wrapper-collection-grid .collection_item:hover .collection_image img{
+  transform: scale(1.2);
 }
 @media screen and (min-width: 1025px) {
   .wrapper-collection-grid.number_block_5 .collection-name,
