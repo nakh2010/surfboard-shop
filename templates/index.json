@@ -746,7 +746,6 @@
         "template--17192392753437__029898b1-fef6-4b45-8bef-f2289b82bb56-1685414585983f87a5-0": {
           "type": "testimonial",
           "settings": {
-            "heading": "Finding the right surfboard was crucial for my performance",
             "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\"",
             "author": "Sarah Johnson"
           }
@@ -754,7 +753,6 @@
         "745a0d7b-42c0-4f1c-8c9d-764ba0950b1f": {
           "type": "testimonial",
           "settings": {
-            "heading": "Highly recommend",
             "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend",
             "author": "Jake M."
           }
@@ -762,7 +760,6 @@
         "3c261b58-d32a-469e-b2f5-1b2cba150f4d": {
           "type": "testimonial",
           "settings": {
-            "heading": "Thanks for incredibly helpful and the valuable information",
             "testimonials": "The website provided valuable information and a user-friendly interface that made the selection process a breeze. I reached out to their customer support team with a few questions, and they were incredibly helpful and patient, guiding me towards the perfect board.",
             "author": "Emily L."
           }
@@ -774,6 +771,7 @@
         "3c261b58-d32a-469e-b2f5-1b2cba150f4d"
       ],
       "settings": {
+        "heading": "Heading",
         "bg_style": "transparent",
         "bg_color": "#f1f1f1",
         "text_color": "#000000"
