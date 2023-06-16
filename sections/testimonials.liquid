@@ -38,6 +38,10 @@
               {% if block.settings.testimonials != blank %}
               <div>{{ block.settings.testimonials }}</div>
               {% endif %}
+             {% if block.settings.author != blank %}
+              <span class="">{{ block.settings.author }}</span>
+              {% endif %}
+         
           </div>
           {% endfor %}
       </div>
