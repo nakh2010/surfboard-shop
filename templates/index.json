@@ -169,9 +169,9 @@
         "font_color": "#005a87",
         "columns_desktop": 6,
         "text_color": "#000000",
-        "sub_header": "Lorem Ipsum",
-        "header": "Where does it come from?",
-        "text_description": "<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<\/p>"
+        "sub_header": "",
+        "header": "As SEEN IN",
+        "text_description": ""
       }
     },
     "54bbbde7-3046-46a0-a30b-90e054ab36fb": {
@@ -181,7 +181,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/65-35.jpg",
+            "image": "shopify:\/\/shop_images\/ScreenshotatJun1614-55-44.png",
             "collection_title": "Best sellers"
           }
         },
