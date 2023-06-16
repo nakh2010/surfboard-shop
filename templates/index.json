@@ -88,7 +88,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": true,
