@@ -112,6 +112,7 @@
     },
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47": {
       "type": "logo-list",
+      "disabled": true,
       "blocks": {
         "template--17192392753437__2cd37e9f-b05c-4cdd-898b-7f27a9417a47-167299327956e7e770-0": {
           "type": "Thumbnails",
@@ -217,8 +218,8 @@
         "10003f8b-d21b-4037-9b9b-8f09bd201e31"
       ],
       "settings": {
-        "subtitle": "IF YOU LIKE SURFING",
-        "heading": "YOU CAME TO THE RIGHT PLACE"
+        "subtitle": "",
+        "heading": "YOU CAN FIND ANYTHING HERE"
       }
     },
     "6d784db5-ca87-47b2-be23-32705c5d2c95": {
