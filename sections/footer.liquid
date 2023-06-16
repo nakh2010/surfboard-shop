@@ -114,7 +114,9 @@
                       {%- endif -%}
                     {%- endform -%}
                      {%- if block.settings.sub_heading != blank -%}
+                       {%- unless form.posted_successfully? -%}
                       <p class="footer-block__text">{{ block.settings.sub_heading | escape }}</p>
+                          {%- endunless -%}
                     {%- endif -%}
                 
                   </div>
