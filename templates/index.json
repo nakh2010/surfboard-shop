@@ -726,15 +726,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "9a363dee-2ab9-4557-8ab5-c3b83842fe71": {
-      "type": "banner-heading",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/sacha-verheij-X0rRYtJy0R8-unsplash.jpg",
-        "heading": "GET SUMMER VIBES",
-        "text_color": "#ffffff",
-        "image_height": "small"
-      }
     }
   },
   "order": [
@@ -754,7 +745,6 @@
     "ccac3eb0-aa4f-4ae6-acb3-cc6bc87b79c7",
     "29a15a56-c312-4831-b91b-b77f3abd2c01",
     "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2",
-    "d6d96b19-0540-4bb2-b551-85b66afe68e7",
-    "9a363dee-2ab9-4557-8ab5-c3b83842fe71"
+    "d6d96b19-0540-4bb2-b551-85b66afe68e7"
   ]
 }
