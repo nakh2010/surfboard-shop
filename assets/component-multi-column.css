@@ -15,7 +15,6 @@
 .lsn--multi-column .wrapp_image svg,
 .lsn--multi-column .wrapp_image img{
     display: block;
-    max-width: 100%;
     position: absolute;
     top: 0;
     left: 50%;
@@ -26,6 +25,8 @@
     -moz-transform: translate(-50%, 0%);
     -o-transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%);
+      max-width: 200px;
+    height: auto;
 }
 .lsn--multi-column .multicolumn-caption{
       padding: 0 6px;
