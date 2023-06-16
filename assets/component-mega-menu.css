@@ -56,10 +56,10 @@
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-      -webkit-transition: all .55s ease-out;
-    -moz-transition: all .55s ease-out;
-    -ms-transition: all .55s ease-out;
-    -o-transition: all .55s ease-out;
+    -webkit-transition: all .55s ease-out;
+  -moz-transition: all .55s ease-out;
+  -ms-transition: all .55s ease-out;
+  -o-transition: all .55s ease-out;
 }
 .mega_content_column .proInfo{
   
