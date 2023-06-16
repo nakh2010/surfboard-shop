@@ -12,6 +12,10 @@
 .footer .newsletter-form__field-wrapper .field__label {
     top: calc(1rem + var(--inputs-border-width));
 }
+.footer .field__input:not(:placeholder-shown)~.field__label, 
+.footer .field__input:-webkit-autofill~.field__label{
+    top: calc(var(--inputs-border-width) + 0.5rem);
+}
 .footer__content-top .footer-block.grid__item p,
 .footer__content-top .footer-block.grid__item a{
       text-decoration: none;
