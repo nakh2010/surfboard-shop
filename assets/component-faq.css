@@ -54,6 +54,9 @@
     display: block;
     margin-bottom: 0;
 }
+.lsn-section-faq .lsn-js-faq-body p:first-child{
+   margin-top: 0;
+}
 .lsn-section-faq .sum_heading .lsn__eyebrow {
     font-size: 16px;
     line-height: 20px;
