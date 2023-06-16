@@ -56,6 +56,10 @@
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+      -webkit-transition: all .55s ease-out;
+    -moz-transition: all .55s ease-out;
+    -ms-transition: all .55s ease-out;
+    -o-transition: all .55s ease-out;
 }
 .mega_content_column .proInfo{
   
@@ -101,7 +105,7 @@
   overflow: hidden;
 }
 .mega_content_column.gallery-list a:hover img{
-  
+      transform: scale(1.15);
 }
 .mega_content_column.gallery-list h4{
   text-transform: uppercase;
