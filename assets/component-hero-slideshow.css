@@ -113,7 +113,7 @@
 @media screen and (max-width: 1024px) and (min-width: 750px){
   .lsn-slideshow .has-tablet .desktop-hero,
   .lsn-slideshow .mobile-hero,
-  .lsn-slideshow .tablet-hero{
+  .lsn-slideshow svg.tablet-hero{
         display: none !important;
   }
   .lsn-slideshow .banner__heading.h0{
