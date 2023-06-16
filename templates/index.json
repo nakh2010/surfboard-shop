@@ -237,6 +237,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "longboards",
+            "image": "shopify:\/\/shop_images\/alice-kotlyarenko-dyDr19bQldc-unsplash.jpg",
             "collection_title": "LONGBOARD"
           }
         },
