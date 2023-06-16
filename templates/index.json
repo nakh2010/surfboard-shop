@@ -192,7 +192,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "fun-boards",
-            "image": "shopify:\/\/shop_images\/igor-starkov-f4mLA8nDbRg-unsplash.jpg",
+            "image": "shopify:\/\/shop_images\/Screenshot_at_Jun_16_16-33-15.png",
             "collection_title": ""
           }
         },
@@ -200,7 +200,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "longboards",
-            "image": "shopify:\/\/shop_images\/alice-kotlyarenko-dyDr19bQldc-unsplash.jpg",
+            "image": "shopify:\/\/shop_images\/supchil.jpg",
             "collection_title": "LONGBOARD"
           }
         },
@@ -299,7 +299,7 @@
         "layout": "right",
         "image": "shopify:\/\/shop_images\/imagecut_1.jpg",
         "image_tab": "shopify:\/\/shop_images\/imagecut_1.jpg",
-        "image_mob": "shopify:\/\/shop_images\/imagecut_1.jpg",
+        "image_mob": "shopify:\/\/shop_images\/asap-rocky-7jSkK3DLmnM-unsplash.jpg",
         "image_overlay_opacity": 0
       }
     },
