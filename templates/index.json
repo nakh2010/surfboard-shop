@@ -96,46 +96,6 @@
         "swipe_on_mobile": true
       }
     },
-    "0881b66f-d901-4640-b95b-4cd81217aad2": {
-      "type": "featured-collection",
-      "settings": {
-        "sub_header": "Shop Funboard",
-        "header": "LET'S GET SUMMER VIBES",
-        "collection": "fun-boards",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true
-      }
-    },
-    "f906b324-a986-4491-a388-d6574c17b8e0": {
-      "type": "featured-collection",
-      "settings": {
-        "sub_header": "SHOP LONGBOARD",
-        "header": "FEEL THE BEAT OF THE OCEAN",
-        "collection": "longboards",
-        "products_to_show": 6,
-        "columns_desktop": 2,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true
-      }
-    },
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a": {
       "type": "video-full-width",
       "settings": {
@@ -237,7 +197,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "longboards",
-            "image": "shopify:\/\/shop_images\/alice-kotlyarenko-dyDr19bQldc-unsplash.jpg",
             "collection_title": "LONGBOARD"
           }
         },
@@ -259,20 +218,6 @@
       "settings": {
         "subtitle": "IF YOU LIKE SURFING",
         "heading": "YOU CAME TO THE RIGHT PLACE"
-      }
-    },
-    "5d660fc7-b315-4b74-9c17-31a9b57f5339": {
-      "type": "video-full-width",
-      "settings": {
-        "sub_header": "",
-        "header": "Surfing provides many health benefits",
-        "label": "",
-        "link": "",
-        "text_style": "light",
-        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/064c6cd92e4048398661395c9e95ec7d.mp4",
-        "video_url": "",
-        "video_link_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a87000f179104d6286b2dba07ea01517.mp4",
-        "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
       }
     },
     "6d784db5-ca87-47b2-be23-32705c5d2c95": {
@@ -846,12 +791,9 @@
   "order": [
     "43aa2b18-a78b-4a0b-bbed-09022507f215",
     "25396aee-9226-46a3-9cd9-3a40f494d087",
-    "0881b66f-d901-4640-b95b-4cd81217aad2",
-    "f906b324-a986-4491-a388-d6574c17b8e0",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
-    "5d660fc7-b315-4b74-9c17-31a9b57f5339",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
