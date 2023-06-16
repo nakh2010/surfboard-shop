@@ -112,12 +112,14 @@
                       {%- if form.posted_successfully? -%}
                         <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
                       {%- endif -%}
+                       {%- if block.settings.sub_heading != blank -%}
+                         {%- unless form.posted_successfully? -%}
+                         <p class="footer-block__text">{{ block.settings.sub_heading | escape }}</p>
+                         {%- endunless -%}
+                      {%- endif -%}
+                      
                     {%- endform -%}
-                     {%- if block.settings.sub_heading != blank -%}
-                       {%- unless form.posted_successfully? -%}
-                       <p class="footer-block__text">{{ block.settings.sub_heading | escape }}</p>
-                       {%- endunless -%}
-                    {%- endif -%}
+
                 
                   </div>
 
