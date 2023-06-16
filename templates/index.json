@@ -85,13 +85,13 @@
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
+        "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true
       }
