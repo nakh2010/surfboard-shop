@@ -36,7 +36,7 @@ if (!customElements.get('lsn-quick-add-modal')) {
 
           this.removeGalleryListSemantic();
           this.updateImageSizes();
-          this.preventVariantURLSwitching();
+          //this.preventVariantURLSwitching();
           super.show(opener);
         })
         .finally(() => {
