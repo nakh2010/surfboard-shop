@@ -272,59 +272,6 @@
         "link": "#"
       }
     },
-    "31263647-91e9-402b-b96d-d3c190807fdf": {
-      "type": "multi-column",
-      "blocks": {
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/q.png",
-            "title": "Top-selling",
-            "text": "<p>Weekly rankings, maintaining its position as the best-selling theme for month and year without interruption.<\/p>"
-          }
-        },
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gua.png",
-            "title": "Top-rated",
-            "text": "<p>After more than 3 years of unwavering dedication and hard work, our product has received the best overall rating from over 2500 reviews.<\/p>"
-          }
-        },
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/te1.png",
-            "title": "Tried & Tested",
-            "text": "<p>With extensive testing and valuable feedback from our customers, Born-to-Surf has earned the reputation of being the most widely used.<\/p>"
-          }
-        },
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/most_love-removebg-preview_1.png",
-            "title": "Most Loved",
-            "text": "<p>Born-to-Surf has reached the hearts of over 20,000 individuals, as evidenced by an impressive average satisfaction rate of 95%.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-0",
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-1",
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-2",
-        "template--17192392753437__31263647-91e9-402b-b96d-d3c190807fdf-1672306922d64d1a13-3"
-      ],
-      "settings": {
-        "background_color": "#005a87",
-        "font_color": "#ffffff",
-        "sub_header": "",
-        "header": "DISCOVER THE PINNACLE OF SUCCESS WITH OUR PRODUCTS",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b": {
       "type": "image-with-text",
       "blocks": {
@@ -687,43 +634,6 @@
         "enable_video_looping": false
       }
     },
-    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2": {
-      "type": "testimonials",
-      "blocks": {
-        "13b6e277-379a-42ce-988d-441a00e4ef6c": {
-          "type": "testimonial",
-          "settings": {
-            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\"",
-            "author": "Sarah Johnson"
-          }
-        },
-        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb": {
-          "type": "testimonial",
-          "settings": {
-            "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend",
-            "author": "Jake M."
-          }
-        },
-        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae": {
-          "type": "testimonial",
-          "settings": {
-            "testimonials": "The website provided valuable information and a user-friendly interface that made the selection process a breeze. I reached out to their customer support team with a few questions, and they were incredibly helpful and patient, guiding me towards the perfect board.",
-            "author": "Emily L."
-          }
-        }
-      },
-      "block_order": [
-        "13b6e277-379a-42ce-988d-441a00e4ef6c",
-        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb",
-        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae"
-      ],
-      "settings": {
-        "heading": "",
-        "bg_style": "transparent",
-        "bg_color": "#f1f1f1",
-        "text_color": "#000000"
-      }
-    },
     "29a15a56-c312-4831-b91b-b77f3abd2c01": {
       "type": "rich-text",
       "blocks": {
@@ -763,6 +673,43 @@
         "text_color": "#000000"
       }
     },
+    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2": {
+      "type": "testimonials",
+      "blocks": {
+        "13b6e277-379a-42ce-988d-441a00e4ef6c": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\"",
+            "author": "Sarah Johnson"
+          }
+        },
+        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend",
+            "author": "Jake M."
+          }
+        },
+        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "The website provided valuable information and a user-friendly interface that made the selection process a breeze. I reached out to their customer support team with a few questions, and they were incredibly helpful and patient, guiding me towards the perfect board.",
+            "author": "Emily L."
+          }
+        }
+      },
+      "block_order": [
+        "13b6e277-379a-42ce-988d-441a00e4ef6c",
+        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb",
+        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_style": "transparent",
+        "bg_color": "#f1f1f1",
+        "text_color": "#000000"
+      }
+    },
     "d6d96b19-0540-4bb2-b551-85b66afe68e7": {
       "type": "featured-blog",
       "settings": {
@@ -797,7 +744,6 @@
     "2cd37e9f-b05c-4cdd-898b-7f27a9417a47",
     "54bbbde7-3046-46a0-a30b-90e054ab36fb",
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
-    "31263647-91e9-402b-b96d-d3c190807fdf",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7a6782d6-0e9c-4637-9237-d66d8a89b8cc",
     "68924728-40b0-4488-9b68-336c579e9f03",
@@ -806,8 +752,8 @@
     "197bc186-fa36-4e4f-86c7-a9a7c34c1a71",
     "11692661-410e-4e3e-b2e3-a5999f8c193b",
     "ccac3eb0-aa4f-4ae6-acb3-cc6bc87b79c7",
-    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2",
     "29a15a56-c312-4831-b91b-b77f3abd2c01",
+    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7",
     "9a363dee-2ab9-4557-8ab5-c3b83842fe71"
   ]
