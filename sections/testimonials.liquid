@@ -28,13 +28,15 @@
 {% endfor %}
 <testimonial-component id="section-testimonials-{{ section.id }}" class="lsn_block-testimonials bg_style_{{ bg_style }}">
   <div class="page-width">
+   {% if section.settings.heading != blank %}
+    <h2 class="lsn__heading center" style="color:{{ section.settings.font_color }};">
+      {{ section.settings.heading | escape }}
+    </h2>
+  {% endif %}
     <div class="wrapper_testimonials">
       <div id="lsn-testimonial-{{ section.id }}" class="testimonials" data-number="{{ count_block }}">
        {%- for block in section.blocks -%}
           <div class="sum_testimonials">
-              {% if block.settings.heading != blank %}
-              <h4>{{ block.settings.heading }}</h4>
-              {% endif %}
               {% if block.settings.testimonials != blank %}
               <div>{{ block.settings.testimonials }}</div>
               {% endif %}
