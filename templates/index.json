@@ -48,7 +48,9 @@
         "de04d09d-5c54-4db0-8c51-6af9cca699f5": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tatonomusic-FFCgotROOTY-unsplash.jpg",
+            "image": "shopify:\/\/shop_images\/about_us_1.jpg",
+            "image-tablet": "shopify:\/\/shop_images\/about_us_1.jpg",
+            "image-mobile": "shopify:\/\/shop_images\/about_us_1.jpg",
             "heading": "looking to improve your skills and catch bigger waves?",
             "heading_size": "h0",
             "subheading": "",
