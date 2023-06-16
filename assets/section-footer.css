@@ -9,6 +9,9 @@
 .footer__newsletter {
   max-width: 380px;
 }
+.footer .newsletter-form__field-wrapper .field__label {
+    top: calc(1rem + var(--inputs-border-width));
+}
 .footer__content-top .footer-block.grid__item p,
 .footer__content-top .footer-block.grid__item a{
       text-decoration: none;
