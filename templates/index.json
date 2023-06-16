@@ -64,32 +64,12 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "1a22d350-9390-44f0-b627-a10bd2b3ac97": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "anchor_label": "Anchor label",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-0",
         "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-1",
-        "de04d09d-5c54-4db0-8c51-6af9cca699f5",
-        "1a22d350-9390-44f0-b627-a10bd2b3ac97"
+        "de04d09d-5c54-4db0-8c51-6af9cca699f5"
       ],
       "settings": {
         "layout": "full_bleed",
