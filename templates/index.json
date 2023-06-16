@@ -307,7 +307,7 @@
           "type": "Item",
           "settings": {
             "question": "Do you offer international shipping?",
-            "text_body": "<p>Yes, we offer international shipping to bring our exceptional surfboards to surfers around the world. We understand the passion for surfing knows no boundaries, and we strive to deliver our products to enthusiasts everywhere. Please note that shipping fees and delivery times may vary depending on your location. For more information, refer to our shipping policy or contact our customer support team.<\/p>",
+            "text_body": "<p>Yes, we offer international shipping to bring our exceptional surfboards to surfers around the world. We understand the passion for surfing knows no boundaries, and we strive to deliver our products to enthusiasts everywhere. <\/p><p>Please note that shipping fees and delivery times may vary depending on your location. For more information, refer to our shipping policy or contact our customer support team.<\/p>",
             "video_url": ""
           }
         }
