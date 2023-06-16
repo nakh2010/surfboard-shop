@@ -6,8 +6,8 @@
     line-height: 20px;
     margin-top: 16px;
 }
-.footer__newsletter {
-  max-width: 380px;
+.footer__newsletter .newsletter-form__field-wrapper {
+    max-width: 380px;
 }
 .footer .newsletter-form__field-wrapper .field__label {
     top: calc(1rem + var(--inputs-border-width));
