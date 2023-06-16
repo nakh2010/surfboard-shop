@@ -36,6 +36,9 @@
   clear: both;
   display: table;
 }
+.featured-product .product__media-item .product__media img{
+      object-fit: contain;
+}
 
 @media screen and (min-width: 750px) {
   .featured-product .product__media-item {
