@@ -7,16 +7,16 @@
     flex-flow: row wrap;
 }
 .lsn-section-faq .lsn-faqs .sum_heading{
-    -ms-flex: 0 0 42%;
-    flex: 0 0 42%;
-    max-width: 42%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
     position: relative;
     padding-right: 40px;
 }
 .lsn-section-faq .lsn-faqs .lsn-faq_content{
-    -ms-flex: 0 0 58%;
-    flex: 0 0 58%;
-    max-width: 58%;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
     position: relative;
 }
 .lsn-section-faq .lsn-faq_body .faq-item {
