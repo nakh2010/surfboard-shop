@@ -66,6 +66,13 @@
     padding-bottom: 0 !important;
     margin: 0 auto;
 }
+  .lsn--multi-column .wrapp_image svg, 
+  .lsn--multi-column .wrapp_image img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
   .lsn--multi-column .lsn-multicolumn-list .lsn-multicolumn-item:last-child{
      margin-bottom: 0px;
   }
