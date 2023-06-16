@@ -105,7 +105,11 @@
   overflow: hidden;
 }
 .mega_content_column.gallery-list a:hover img{
-      transform: scale(1.15);
+      transform: translate(-50%,-50%) scale(1.15);
+    -webkit-transform: translate(-50%,-50%) scale(1.15);
+    -moz-transform: translate(-50%,-50%) scale(1.15);
+    -o-transform: translate(-50%,-50%) scale(1.15);
+    -ms-transform: translate(-50%,-50%) scale(1.15);
 }
 .mega_content_column.gallery-list h4{
   text-transform: uppercase;
