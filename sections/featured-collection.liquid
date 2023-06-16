@@ -81,28 +81,6 @@
       {%- endif -%}
     </slider-component>
 
-    {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-     <lsn-quick-add-modal id="QuickAdd-{{ product.id }}" class="quick-add-modal index-{{ forloop.index }}">
-      <div
-        role="dialog"
-        aria-label="{{ 'products.product.choose_product_options' | t: product_name: product.title | escape }}"
-        aria-modal="true"
-        class="quick-add-modal__content global-settings-popup"
-        tabindex="-1"
-      >
-        <button
-          id="ModalClose-{{ product.id }}"
-          type="button"
-          class="quick-add-modal__toggle"
-          aria-label="{{ 'accessibility.close' | t }}"
-        >
-          {% render 'icon-close' %}
-        </button>
-        <div id="QuickAddInfo-{{ product.id }}" class="quick-add-modal__content-info"></div>
-      </div>
-     </lsn-quick-add-modal>
-    {%- endfor -%}
-
 
     {%- if section.settings.show_view_all and more_in_collection -%}
       <div class="center collection__view-all">
