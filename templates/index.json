@@ -26,9 +26,9 @@
         "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero.jpg",
-            "image-tablet": "shopify:\/\/shop_images\/tablet-hero.jpg",
-            "image-mobile": "shopify:\/\/shop_images\/mobile-hero.jpg",
+            "image": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
+            "image-tablet": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
+            "image-mobile": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
             "heading": "Ride the Waves with Style and Confidence",
             "heading_size": "h0",
             "subheading": "",
@@ -327,35 +327,6 @@
         "image": "shopify:\/\/shop_images\/Flick004_600x_5cfa547f-ce8a-402f-b8ce-dbbc870fb503.webp",
         "image_tab": "shopify:\/\/shop_images\/Flick004_600x_5cfa547f-ce8a-402f-b8ce-dbbc870fb503.webp",
         "image_mob": "shopify:\/\/shop_images\/Flick004_600x_5cfa547f-ce8a-402f-b8ce-dbbc870fb503.webp",
-        "image_overlay_opacity": 0
-      }
-    },
-    "68924728-40b0-4488-9b68-336c579e9f03": {
-      "type": "image-with-text",
-      "blocks": {
-        "0bd638e5-eaf5-480e-8134-4e1ee6e2366a": {
-          "type": "heading",
-          "settings": {
-            "sub_heading": "Surfing",
-            "heading": "Pack your wetsuit and get ready",
-            "text": "<p>As the summer sun invites you to embrace the great outdoors, pack your wetsuit, wax your board, and head to the nearest surf break. The waves await, ready to offer an exhilarating ride and an experience that will leave you longing for more. Surfing in the summer is not just a sport but a way of life—a connection to nature, a source of joy, and an eternal reminder of the beauty and power of the ocean.<\/p>",
-            "button_label": "Learn more",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "0bd638e5-eaf5-480e-8134-4e1ee6e2366a"
-      ],
-      "settings": {
-        "layout_style": "fifty-fifty",
-        "bg_style": "color",
-        "background_color": "#f5f5f5",
-        "font_color": "dark",
-        "layout": "right",
-        "image": "shopify:\/\/shop_images\/istockphoto-1289031501-170667a.webp",
-        "image_tab": "shopify:\/\/shop_images\/istockphoto-1289031501-170667a.webp",
-        "image_mob": "shopify:\/\/shop_images\/istockphoto-1289031501-170667a.webp",
         "image_overlay_opacity": 0
       }
     },
@@ -737,7 +708,6 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7a6782d6-0e9c-4637-9237-d66d8a89b8cc",
-    "68924728-40b0-4488-9b68-336c579e9f03",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
     "beb3984c-8ab6-49de-8b4a-21c29baf9e27",
     "197bc186-fa36-4e4f-86c7-a9a7c34c1a71",
