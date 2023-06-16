@@ -103,7 +103,7 @@
         "header": "LET'S GET SUMMER VIBES",
         "collection": "fun-boards",
         "products_to_show": 6,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -237,7 +237,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "longboards",
-            "image": "shopify:\/\/shop_images\/LifestyleFunsterMango-Web-Ready_1500x-2_600x_440ed65b-8f0a-445b-ba54-b75c300ccddc.jpg",
             "collection_title": "LONGBOARD"
           }
         },
