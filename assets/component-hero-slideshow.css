@@ -132,7 +132,8 @@
 
 @media screen and (max-width: 749px) {
   .lsn-slideshow .has-tablet .desktop-hero,
-  .lsn-slideshow .has-mobile .tablet-hero{
+  .lsn-slideshow .has-mobile .tablet-hero,
+  .lsn-slideshow svg.mobile-hero,{
         display: none !important;
   }
   .lsn-slideshow .banner__heading.h0{
