@@ -1081,6 +1081,7 @@ $('.testimonials').slick({
   speed: 300,
   infinite: true,
   autoplaySpeed: 10000,
+  adaptiveHeight: true,
   autoplay: false,
 });
 
