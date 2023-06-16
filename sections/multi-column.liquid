@@ -35,7 +35,7 @@
         -%}
       {% for block in section.blocks %}
       <div class="lsn-multicolumn-item {% if section.settings.column_alignment == 'center' %} center{% endif %}">
-        <span class="wrapp_image" style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;">
+        <span class="wrapp_image" style="padding-bottom: 56.376518%;">
            {%- if block.settings.image != blank -%}
               {%- capture sizes -%}(min-width: 1025px) 480px, (min-width: 750px) 480px, calc(100vw - 30px){%- endcapture -%}
               {{ block.settings.image | image_url: width: 1420 | image_tag:
