@@ -90,8 +90,6 @@
 .lsn__subtitle{
       font-size: 22px;
     line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
     color: var(--color-base-heading);
     display: block;
     margin: 0;
