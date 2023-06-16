@@ -418,6 +418,9 @@ customElements.define('menu-drawer', MenuDrawer);
 class HeaderDrawer extends MenuDrawer {
   constructor() {
     super();
+    var headerHeight = $('#shopify-section-header').outerHeight();
+    $(".template-index #shopify-section-header").css('margin-bottom','-'+headerHeight+'px');
+    $(".template-index sticky-header").addClass('background-transparent');
   }
 
   openMenuDrawer(summaryElement) {
