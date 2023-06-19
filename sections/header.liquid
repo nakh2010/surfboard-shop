@@ -208,70 +208,46 @@
                                   {%- endfor -%}
                                 </ul>
                                {% for block in section.blocks %}
-                               {% case block.type %}
-                                 {%- when 'megastyleone' -%}
-                                   {% assign menu_title = link.title %}
-                                   {% assign block_heading =  block.settings.heading %}
+                                  {% assign menu_title =  link.title | handleize | strip %}
+                                  {% assign block_heading =  block.settings.heading | handleize | strip %}
                                    {% if menu_title == block_heading %}
-                                    <div class="mobile_mega_collection">
-                                      <a href="/collections/all">
-                                        <span class="wrapper-img">
-                                          <span class="wrapper-img-chill">
-                                            {% assign collection = block.settings.collection %}
-                                            {% if collection.image %}
-                                            <img src="{{ collection.image.src | collection_img_url: '360x' }}" alt="{{ collection.title | escape  }}" />
-                                            {% else %}
-                                            <img src="{{ collection.products.first.featured_image.src | product_img_url: '640x' }}" alt="{{ collection.title | escape  }}" />
-                                            {% endif %}
-                                          </span>
-                                        </span>
-                                      <h4>All products</h4>
-                                      </a>
-                                    </div>
-                                   {% endif %}
-                                 
-                                 {%- when 'megastyletwo' -%}
-                                    {% assign menu_title =  link.title %}
-                                    {% assign block_heading =  block.settings.heading %}
-                                     {% if menu_title == block_heading %}
-                                     <div class="mobile_gallery_mega">
-                                      <div class="wr_gallery_scroll">
-                                      {% assign global = block.settings %}
-    
-                                      {% for i in (1..3) %}
-                                        {% capture megaItem_image %}image_{{ i }}{% endcapture %}
-                                        {% capture megaItem_text %}text_{{ i }}{% endcapture %}
-                                        {% capture megaItem_link %}link_{{ i }}{% endcapture %}
-                                        {% if global[megaItem_image] != blank %}
-                                        <div class="mega_image megaCol_item">
-                                          <a href="{{ global[megaItem_link] }}">
-                                            <span class="wrapper-img">
-                                              <span class="wrapper-img-chill">
-                                                {% if global[megaItem_image] %}
-                                                  <img
-                                                      srcset="{{ global[megaItem_image] | image_url }}"
-                                                      src="{{ global[megaItem_image] | image_url: '360x' }}"
-                                                      alt="{{ global[megaItem_text] }}"
-                                                      loading="lazy"
-                                                      width="{{ megaItem_image.width }}"
-                                                      height="{{ megaItem_image.height }}"
-                                                    >
-                                                {% else %}
-                                                  {{ 'image' | placeholder_svg_tag: 'product-item' }}
-                                                {% endif %}
-                                              </span>
+                                   <div class="mobile_gallery_mega">
+                                    <div class="wr_gallery_scroll">
+                                    {% assign global = block.settings %}
+  
+                                    {% for i in (1..3) %}
+                                      {% capture megaItem_image %}image_{{ i }}{% endcapture %}
+                                      {% capture megaItem_text %}text_{{ i }}{% endcapture %}
+                                      {% capture megaItem_link %}link_{{ i }}{% endcapture %}
+                                      {% if global[megaItem_image] != blank %}
+                                      <div class="mega_image megaCol_item">
+                                        <a href="{{ global[megaItem_link] }}">
+                                          <span class="wrapper-img">
+                                            <span class="wrapper-img-chill">
+                                              {% if global[megaItem_image] %}
+                                                <img
+                                                    srcset="{{ global[megaItem_image] | image_url }}"
+                                                    src="{{ global[megaItem_image] | image_url: '360x' }}"
+                                                    alt="{{ global[megaItem_text] }}"
+                                                    loading="lazy"
+                                                    width="{{ megaItem_image.width }}"
+                                                    height="{{ megaItem_image.height }}"
+                                                  >
+                                              {% else %}
+                                                {{ 'image' | placeholder_svg_tag: 'product-item' }}
+                                              {% endif %}
                                             </span>
-                                            {% if global[megaItem_text] != blank %}
-                                              <h4>{{ global[megaItem_text] }}</h4>
-                                            {% endif %}
-                                          </a>
-                                        </div>
-                                      {% endif %}
-                                      {% endfor %}
-                                       </div>
+                                          </span>
+                                          {% if global[megaItem_text] != blank %}
+                                            <h4>{{ global[megaItem_text] }}</h4>
+                                          {% endif %}
+                                        </a>
+                                      </div>
+                                    {% endif %}
+                                    {% endfor %}
                                      </div>
-                                     {% endif %}
-                               {%- endcase -%}
+                                   </div>
+                                   {% endif %}
                               {% endfor %}
                           
                               </div>
@@ -503,79 +479,46 @@
                             {%- endfor -%}
                           </ul>
                           {% for block in section.blocks %}
-                           {% case block.type %}
-                             {%- when 'megastyleone' -%}
-                               {% assign menu_title =  link.title | handleize | strip %}
-                               {% assign block_heading =  block.settings.heading | handleize | strip %}
+                              {% assign menu_title =  link.title | handleize | strip %}
+                              {% assign block_heading =  block.settings.heading | handleize | strip %}
                                {% if menu_title == block_heading %}
-                                <div class="mega_content_column collection-list">
-                                  {% for product in block.settings.collection.products limit: 4 %}
-                                    <div class="mega_product megaCol_item">
+                               <div class="mega_content_column gallery-list">
+                                {% assign global = block.settings %}
+
+                                {% for i in (1..3) %}
+                                  {% capture megaItem_image %}image_{{ i }}{% endcapture %}
+                                  {% capture megaItem_text %}text_{{ i }}{% endcapture %}
+                                  {% capture megaItem_link %}link_{{ i }}{% endcapture %}
+                                  {% if global[megaItem_image] != blank %}
+                                  <div class="mega_image megaCol_item">
+                                    <a href="{{ global[megaItem_link] }}">
                                       <span class="wrapper-img">
                                         <span class="wrapper-img-chill">
-                                          {% if product.featured_media %}
+                                          {% if global[megaItem_image] %}
                                             <img
-                                                srcset="{{ product.featured_media | image_url }}"
-                                                src="{{ product.featured_media | image_url: '360x' }}"
-                                                alt="{{ product.title }}"
+                                                srcset="{{ global[megaItem_image] | image_url }}"
+                                                src="{{ global[megaItem_image] | image_url: '360x' }}"
+                                                alt="{{ global[megaItem_text] }}"
                                                 loading="lazy"
-                                                width="{{ product.featured_media.width }}"
-                                                height="{{ product.featured_media.height }}"
+                                                width="{{ megaItem_image.width }}"
+                                                height="{{ megaItem_image.height }}"
                                               >
                                           {% else %}
-                                            {{ 'product-1' | placeholder_svg_tag: 'product-item' }}
+                                            {{ 'image' | placeholder_svg_tag: 'product-item' }}
                                           {% endif %}
                                         </span>
                                       </span>
-                                      <div class="proInfo">
-                                        <h3 class="proName">{{ product.title }}</h3>
-                                      </div>
-                                    </div>
-                                  {% endfor %}
-                                </div>
+                                      {% if global[megaItem_text] != blank %}
+                                        <h4>{{ global[megaItem_text] }}</h4>
+                                      {% endif %}
+                                    </a>
+                                  </div>
+                                {% endif %}
+                                {% endfor %}
+                               </div>
                                {% endif %}
-                             
-                             {%- when 'megastyletwo' -%}
-                                {% assign menu_title =  link.title %}
-                                {% assign block_heading =  block.settings.heading %}
-                                 {% if menu_title == block_heading %}
-                                 <div class="mega_content_column gallery-list">
-                                  {% assign global = block.settings %}
 
-                                  {% for i in (1..3) %}
-                                    {% capture megaItem_image %}image_{{ i }}{% endcapture %}
-                                    {% capture megaItem_text %}text_{{ i }}{% endcapture %}
-                                    {% capture megaItem_link %}link_{{ i }}{% endcapture %}
-                                    {% if global[megaItem_image] != blank %}
-                                    <div class="mega_image megaCol_item">
-                                      <a href="{{ global[megaItem_link] }}">
-                                        <span class="wrapper-img">
-                                          <span class="wrapper-img-chill">
-                                            {% if global[megaItem_image] %}
-                                              <img
-                                                  srcset="{{ global[megaItem_image] | image_url }}"
-                                                  src="{{ global[megaItem_image] | image_url: '360x' }}"
-                                                  alt="{{ global[megaItem_text] }}"
-                                                  loading="lazy"
-                                                  width="{{ megaItem_image.width }}"
-                                                  height="{{ megaItem_image.height }}"
-                                                >
-                                            {% else %}
-                                              {{ 'image' | placeholder_svg_tag: 'product-item' }}
-                                            {% endif %}
-                                          </span>
-                                        </span>
-                                        {% if global[megaItem_text] != blank %}
-                                          <h4>{{ global[megaItem_text] }}</h4>
-                                        {% endif %}
-                                      </a>
-                                    </div>
-                                  {% endif %}
-                                  {% endfor %}
-                                 </div>
-                                 {% endif %}
-                           {%- endcase -%}
-                          {% endfor %}
+                            {% endfor %}
                         </div>
 
                       </div>
