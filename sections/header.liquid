@@ -500,8 +500,8 @@
                                                 src="{{ global[megaItem_image] | image_url: '600x' }}"
                                                 alt="{{ global[megaItem_text] }}"
                                                 loading="lazy"
-                                                width="{{ megaItem_image.width }}"
-                                                height="{{ megaItem_image.height }}"
+                                                width="600"
+                                                height="600"
                                               >
                                           {% else %}
                                             {{ 'image' | placeholder_svg_tag: 'product-item' }}
