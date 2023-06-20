@@ -332,6 +332,43 @@
         "image_overlay_opacity": 0
       }
     },
+    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2": {
+      "type": "testimonials",
+      "blocks": {
+        "13b6e277-379a-42ce-988d-441a00e4ef6c": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\"",
+            "author": "Sarah Johnson"
+          }
+        },
+        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend",
+            "author": "Jake M."
+          }
+        },
+        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "The website provided valuable information and a user-friendly interface that made the selection process a breeze. I reached out to their customer support team with a few questions, and they were incredibly helpful and patient, guiding me towards the perfect board.",
+            "author": "Emily L."
+          }
+        }
+      },
+      "block_order": [
+        "13b6e277-379a-42ce-988d-441a00e4ef6c",
+        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb",
+        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_style": "transparent",
+        "bg_color": "#f1f1f1",
+        "text_color": "#000000"
+      }
+    },
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23": {
       "type": "featured-product",
       "blocks": {
@@ -613,7 +650,7 @@
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Surfing is more than just a sport—it's a way of life<\/p>"
+            "heading": "<p><strong>SURFING IS MORE THAN JUST A SPORT—IT'S A WAY OF LIFE<\/strong><\/p>"
           }
         },
         "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1": {
@@ -646,43 +683,6 @@
         "text_color": "#000000"
       }
     },
-    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2": {
-      "type": "testimonials",
-      "blocks": {
-        "13b6e277-379a-42ce-988d-441a00e4ef6c": {
-          "type": "testimonial",
-          "settings": {
-            "testimonials": "\"I've been surfing for over a decade, and I've never experienced anything like Born-to-Surf. The board's exceptional speed and responsiveness have truly transformed my surfing skills. Wave Riders Surfboards has exceeded my expectations, and I highly recommend their products to all surf enthusiasts.\"",
-            "author": "Sarah Johnson"
-          }
-        },
-        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb": {
-          "type": "testimonial",
-          "settings": {
-            "testimonials": "I've experienced a significant improvement in my surfing ability and have had some of the best sessions of my life. Highly recommend",
-            "author": "Jake M."
-          }
-        },
-        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae": {
-          "type": "testimonial",
-          "settings": {
-            "testimonials": "The website provided valuable information and a user-friendly interface that made the selection process a breeze. I reached out to their customer support team with a few questions, and they were incredibly helpful and patient, guiding me towards the perfect board.",
-            "author": "Emily L."
-          }
-        }
-      },
-      "block_order": [
-        "13b6e277-379a-42ce-988d-441a00e4ef6c",
-        "f09a3f9b-cc90-4fa8-a54c-a8b744e329eb",
-        "bf3d8b39-0f46-47a8-a702-ba3a68b024ae"
-      ],
-      "settings": {
-        "heading": "",
-        "bg_style": "transparent",
-        "bg_color": "#f1f1f1",
-        "text_color": "#000000"
-      }
-    },
     "d6d96b19-0540-4bb2-b551-85b66afe68e7": {
       "type": "featured-blog",
       "settings": {
@@ -710,13 +710,13 @@
     "6d784db5-ca87-47b2-be23-32705c5d2c95",
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7a6782d6-0e9c-4637-9237-d66d8a89b8cc",
+    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
     "beb3984c-8ab6-49de-8b4a-21c29baf9e27",
     "197bc186-fa36-4e4f-86c7-a9a7c34c1a71",
     "11692661-410e-4e3e-b2e3-a5999f8c193b",
     "ccac3eb0-aa4f-4ae6-acb3-cc6bc87b79c7",
     "29a15a56-c312-4831-b91b-b77f3abd2c01",
-    "30fe1d41-fe1d-4bae-a087-d56e92e8d6f2",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7"
   ]
 }
