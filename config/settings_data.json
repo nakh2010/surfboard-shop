@@ -299,7 +299,7 @@
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
-          "margin_top": 80
+          "margin_top": 100
         }
       },
       "main-password-header": {
