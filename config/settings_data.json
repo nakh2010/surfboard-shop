@@ -259,6 +259,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "f58d1817-a338-488c-b5ca-6ca002f5ff85": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_heading": "Be the first to know",
+              "sub_heading": "Subscribe to our newsletter for the latest updates and exclusive offers!"
+            }
+          },
           "f41619d3-f4a6-468c-8b39-4eddc5e391f6": {
             "type": "link_list",
             "settings": {
@@ -278,20 +285,13 @@
             "settings": {
               "heading": "GET CONNECTED"
             }
-          },
-          "f58d1817-a338-488c-b5ca-6ca002f5ff85": {
-            "type": "newsletter",
-            "settings": {
-              "newsletter_heading": "Be the first to know",
-              "sub_heading": "Subscribe to our newsletter for the latest updates and exclusive offers!"
-            }
           }
         },
         "block_order": [
+          "f58d1817-a338-488c-b5ca-6ca002f5ff85",
           "f41619d3-f4a6-468c-8b39-4eddc5e391f6",
           "footer-0",
-          "50640806-6a8f-40e5-b05d-26041c6fe2cf",
-          "f58d1817-a338-488c-b5ca-6ca002f5ff85"
+          "50640806-6a8f-40e5-b05d-26041c6fe2cf"
         ],
         "settings": {
           "background_color": "#005a87",
