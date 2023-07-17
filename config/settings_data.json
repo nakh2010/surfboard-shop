@@ -1,8 +1,8 @@
 {
   "current": {
     "colors_base": "#292929",
-    "colors_heading": "#000000",
-    "colors_button_background": "#000000",
+    "colors_heading": "#292929",
+    "colors_button_background": "#292929",
     "colors_button_second_text": "#448ebf",
     "type_header_font": "karla_n4",
     "heading_scale": 100,
