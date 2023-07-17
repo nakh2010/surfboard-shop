@@ -1,9 +1,12 @@
 {
   "current": {
     "colors_base": "#292929",
-    "type_header_font": "roboto_condensed_n7",
+    "colors_heading": "#000000",
+    "colors_button_background": "#000000",
+    "colors_button_second_text": "#448ebf",
+    "type_header_font": "karla_n4",
     "heading_scale": 100,
-    "type_body_font": "rajdhani_n5",
+    "type_body_font": "karla_n4",
     "body_scale": 100,
     "page_width": 1500,
     "spacing_sections": 100,
