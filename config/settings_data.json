@@ -159,7 +159,7 @@
           "c5064441-41c9-4495-bf2a-be0d7b9b8d88": {
             "type": "announcement",
             "settings": {
-              "text": "WELCOME TO THE HEAVEN OF SURFBOARDS",
+              "text": "SIGN UP FOR 15% OFF. HERE!",
               "text_alignment": "center",
               "link": ""
             }
@@ -182,7 +182,7 @@
           "ce08ee3d-33fa-447d-90b3-a1921541dc94"
         ],
         "custom_css": [
-          "p{color:#ffff;}"
+          "p {color: #ffff;}"
         ],
         "settings": {
           "background_announcement": "#E8581B"
