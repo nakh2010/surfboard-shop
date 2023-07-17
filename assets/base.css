@@ -2196,7 +2196,9 @@ input[type='checkbox'] {
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
 }
-
+.header.boder-bottom{
+  border-bottom: 1px solid #d2d5d9;
+}
 @media screen and (min-width: 1025px) {
   .header--top-left,
   .header--middle-left:not(.header--has-menu) {
