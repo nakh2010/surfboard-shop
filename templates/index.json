@@ -406,6 +406,13 @@
           "settings": {
             "show_dynamic_checkout": false
           }
+        },
+        "cf8434bc-2aef-4163-b2c1-aa780a191c4c": {
+          "type": "text",
+          "settings": {
+            "text": "The Bom Bora softboard is a safe, suitable, and super-fun choice for all skill levels! Due to its construction, it's the board to beat between the flags – perfect for families. Catch waves without stress and stay stable as you learn to surf with these durable softboards.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -414,7 +421,8 @@
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-2",
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-3",
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-4",
-        "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-5"
+        "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-5",
+        "cf8434bc-2aef-4163-b2c1-aa780a191c4c"
       ],
       "settings": {
         "product": "bom-bora-softboard-60-lime-swirl",
