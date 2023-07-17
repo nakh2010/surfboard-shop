@@ -469,6 +469,13 @@
           "settings": {
             "show_dynamic_checkout": false
           }
+        },
+        "56997b4a-fb1d-4ec7-8191-3e5e55098241": {
+          "type": "text",
+          "settings": {
+            "text": "Available in Dragonfruit and Mango, the Funster is the perfect choice for novice\/intermediate surfers looking for a blast out on the water! With paddle power to tackle bigger days and extra nose rocker for steeper drops, it's the ideal way to set you up for a good time. Not to mention the incredible strength of the PU core and 6oz + 4oz + TAIL PATCH (deck) and 6oz + TAIL PATCH (bottom) - it's built to last!",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -477,7 +484,8 @@
         "ab5a8a90-61fd-4c5e-a5bd-1a9bd1858240",
         "ef991d1b-0b24-46d5-8e7f-a7a52fa2f611",
         "4f004a1b-1873-4603-99cc-3c42958c0eb5",
-        "6e5cca60-bb10-4f6b-a263-9b6132eab69d"
+        "6e5cca60-bb10-4f6b-a263-9b6132eab69d",
+        "56997b4a-fb1d-4ec7-8191-3e5e55098241"
       ],
       "settings": {
         "product": "amazing-grace-funboard",
