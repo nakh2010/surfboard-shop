@@ -208,7 +208,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/cut.png",
+            "image": "shopify:\/\/shop_images\/Shop_all.png",
             "collection_title": "SHOP ALL"
           }
         }
