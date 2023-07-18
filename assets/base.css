@@ -2705,6 +2705,14 @@ details-disclosure > details {
     color: #fff;
   word-break: break-word;
 }
+.badge.color-sold_out{
+  
+}
+.badge.color-on_sale {
+     background-color: #da0c0c;
+    border-color: #da0c0c;
+    color: #fff;
+}
 
 @media screen and (forced-colors: active) {
   .icon {
