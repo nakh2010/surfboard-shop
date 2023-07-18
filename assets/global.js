@@ -1093,5 +1093,22 @@ $(document).mouseup(function (e) {
   }
 });
 
+$(document).ready(function(){
+  var windowWidth = $(window).width();
+  if (windowWidth <= 767) {
+      $('.table-responsive').addClass('table-scroll');
+  }
+});
+
+$(window).resize(function() {
+  var windowWidth = $(window).width();
+  if (windowWidth <= 767) {
+      $('.table-responsive').addClass('table-scroll');
+  }else{
+    $('.table-responsive').removeClass('table-scroll');
+  }
+
+});
+
 
 
