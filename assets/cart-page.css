@@ -11,7 +11,10 @@
     margin: 0;
 }
 .panels-total p{
-  
+      display: block;
+    margin: 0;
+    letter-spacing: 0;
+    margin-bottom: 16px;
 }
 .cart-page-title{
   
