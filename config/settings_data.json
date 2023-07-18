@@ -3,7 +3,7 @@
     "colors_base": "#292929",
     "colors_heading": "#292929",
     "colors_button_background": "#292929",
-    "colors_button_second_text": "#005a87",
+    "colors_button_second_text": "#448ebf",
     "type_header_font": "karla_n4",
     "heading_scale": 100,
     "type_body_font": "karla_n4",
@@ -188,7 +188,7 @@
           "p {color: #ffff;}"
         ],
         "settings": {
-          "background_announcement": "#005A87"
+          "background_announcement": "#005a87"
         }
       },
       "header": {
