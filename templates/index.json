@@ -148,7 +148,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "softboards",
-            "image": "shopify:\/\/shop_images\/chartreuse.png",
+            "image": "shopify:\/\/shop_images\/rose.png",
             "collection_title": "SOFTBOARDS"
           }
         },
@@ -157,7 +157,7 @@
           "settings": {
             "collection": "accessories",
             "image": "shopify:\/\/shop_images\/black-board.png",
-            "collection_title": ""
+            "collection_title": "Accessories"
           }
         },
         "10003f8b-d21b-4037-9b9b-8f09bd201e31": {
