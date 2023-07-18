@@ -347,7 +347,8 @@ display: block;
     border-color: rgba(21,96,189,1);
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 749px) {
 cart-items {
     position: relative;
     top: 0;
@@ -355,10 +356,6 @@ cart-items {
   #shopify-section-breadcrumb .page-width{
     padding:0 !important;
   }
-}
-
-@media screen and (max-width: 767px) {
-
     .table-responsive {
         position: relative;
       width: 100%;
