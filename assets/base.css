@@ -2009,8 +2009,6 @@ input[type='checkbox'] {
 
 .quantity__input[type='number'] {
   -moz-appearance: textfield;
-  border-left: 1px solid var(--color-base-link);
-  border-right: 1px solid var(--color-base-link);
 }
 
 /* component-modal */
