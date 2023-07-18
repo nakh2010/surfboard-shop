@@ -36,62 +36,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "43aa2b18-a78b-4a0b-bbed-09022507f215": {
-      "type": "hero-slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sacha-verheij-X0rRYtJy0R8-unsplash.jpg",
-            "heading": "SUMMER SALE 30% OFF ON ALL ORDERS",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/frontpage",
-            "button_style_secondary": true,
-            "anchor_label": "",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "#000000",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
-            "image-tablet": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
-            "image-mobile": "shopify:\/\/shop_images\/347405159_1270201343889012_1983748646026489663_n.jpg",
-            "heading": "Ride the Waves with Style and Confidence",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true,
-            "anchor_label": "",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "rgba(0,0,0,0)",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-1",
-        "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-0"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "auto_rotate": false
-      }
-    },
     "25396aee-9226-46a3-9cd9-3a40f494d087": {
       "type": "featured-collection",
       "settings": {
@@ -506,7 +450,6 @@
   },
   "order": [
     "1b12d6ec-377a-4e8d-bb25-5214d19bc68c",
-    "43aa2b18-a78b-4a0b-bbed-09022507f215",
     "25396aee-9226-46a3-9cd9-3a40f494d087",
     "ede3b668-ee9c-4876-b8e5-c5b32a33686a",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
