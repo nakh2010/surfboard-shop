@@ -147,10 +147,6 @@
 
 }
 @media screen and (max-width: 1024px) and (min-width: 750px){
-  .lsn__subtitle{
-      font-size: 20px;
-    line-height: 24px;
-  }
   .lsn__heading{
      font-style: normal;
     font-size: 28px;
