@@ -194,35 +194,6 @@
       "header": {
         "type": "header",
         "blocks": {
-          "ac8f9df1-70ba-421c-b2c1-9172780dde28": {
-            "type": "megastyletwo",
-            "settings": {
-              "heading": "ACCESSORIES",
-              "image_1": "shopify:\/\/shop_images\/black-board.png",
-              "text_1": "Surfboard Bags",
-              "link_1": "",
-              "image_2": "shopify:\/\/shop_images\/65-35-2.jpg",
-              "text_2": "TRACTION",
-              "link_2": "",
-              "image_3": "shopify:\/\/shop_images\/65-35.jpg",
-              "text_3": "LEASHES",
-              "link_3": ""
-            }
-          },
-          "b2aa7c0d-ca2b-4657-b548-093cd912e3c2": {
-            "type": "megastyletwo",
-            "settings": {
-              "heading": "SOFTBOARDS",
-              "image_1": "shopify:\/\/shop_images\/image.png",
-              "text_1": "Base",
-              "link_1": "",
-              "image_2": "shopify:\/\/shop_images\/50-4.jpg",
-              "text_2": "Surf",
-              "link_2": "",
-              "text_3": "",
-              "link_3": ""
-            }
-          },
           "e2def80e-727d-4a27-bc04-94fc546c3c97": {
             "type": "megastyletwo",
             "settings": {
@@ -230,18 +201,16 @@
               "image_1": "shopify:\/\/shop_images\/image-removebg-preview_30.png",
               "text_1": "ALL SURFBOARDS",
               "link_1": "shopify:\/\/collections\/all",
-              "image_2": "shopify:\/\/shop_images\/supchil.jpg",
-              "text_2": "FUN BOARDS",
-              "link_2": "shopify:\/\/collections\/fun-boards",
-              "image_3": "shopify:\/\/shop_images\/asap-rocky-7jSkK3DLmnM-unsplash.jpg",
-              "text_3": "LONGBOARDS",
-              "link_3": "shopify:\/\/collections\/longboards"
+              "image_2": "shopify:\/\/shop_images\/chartreuse.png",
+              "text_2": "SOFTBOARDS",
+              "link_2": "shopify:\/\/collections\/softboards",
+              "image_3": "shopify:\/\/shop_images\/image-removebg-preview_40.png",
+              "text_3": "ACCESSORIES",
+              "link_3": "shopify:\/\/collections\/accessories"
             }
           }
         },
         "block_order": [
-          "ac8f9df1-70ba-421c-b2c1-9172780dde28",
-          "b2aa7c0d-ca2b-4657-b548-093cd912e3c2",
           "e2def80e-727d-4a27-bc04-94fc546c3c97"
         ],
         "settings": {
