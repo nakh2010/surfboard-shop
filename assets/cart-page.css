@@ -147,6 +147,7 @@ table th:first-child,
   font-size: 14px;
     color: rgba(105,114,120,1);
     letter-spacing: 0;
+      text-align: center;
 }
 .cart-table .td-name {
     display: table-cell;
