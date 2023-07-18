@@ -357,6 +357,39 @@ cart-items {
   }
 }
 
+@media screen and (max-width: 767px) {
+
+    .table-responsive {
+        position: relative;
+      width: 100%;
+      margin-bottom: 15px;
+      overflow-y: hidden;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      border: 1px solid #ddd;
+  }
+
+  .table-responsive.table-scroll:before {
+    content: 'Scroll → ';
+    background-color: rgba(233,235,237,1);
+    --background-color: rgba(233,235,237,1);
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgba(224,226,230,1);
+    display: block;
+    padding: 2px 6px;
+    text-align: center;
+    left: 0;
+    position: sticky;
+}
+  .cart-item__image {
+    max-width: 66px;
+}
+  
+ 
+
+}
+
 
 
 
