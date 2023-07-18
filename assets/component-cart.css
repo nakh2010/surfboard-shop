@@ -190,7 +190,10 @@ cart-items {
     padding: 11px;
     text-transform: capitalize;
 }
-
+.btn.btn-default.continue:hover{
+      color: rgb(var(--color-primary-button-background));
+    border-color: rgb(var(--color-primary-button-background));
+}
 .cart__dynamic-checkout-buttons div[role='button'] {
   border-radius: var(--buttons-radius-outset) !important;
 }
