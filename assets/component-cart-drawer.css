@@ -445,9 +445,9 @@ cart-drawer-items {
     letter-spacing: 0.01em;
 }
 .cart-drawer .cart-item__name {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.2;
-    letter-spacing: 0.01em;
+    letter-spacing: 0;
     color: var(--color-base-heading);
 }
 .cart-drawer .unit-price {
