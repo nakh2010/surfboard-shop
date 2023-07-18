@@ -44,34 +44,11 @@
             "color_scheme": "rgba(0,0,0,0)",
             "text_alignment_mobile": "center"
           }
-        },
-        "de04d09d-5c54-4db0-8c51-6af9cca699f5": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tatonomusic-FFCgotROOTY-unsplash.jpg",
-            "image-tablet": "shopify:\/\/shop_images\/tatonomusic-FFCgotROOTY-unsplash.jpg",
-            "image-mobile": "shopify:\/\/shop_images\/tatonomusic-FFCgotROOTY-unsplash.jpg",
-            "heading": "looking to improve your skills and catch bigger waves?",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "SHOP NOW",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "anchor_label": "",
-            "anchor_link": "",
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 20,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-1",
-        "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-0",
-        "de04d09d-5c54-4db0-8c51-6af9cca699f5"
+        "template--17192392753437__43aa2b18-a78b-4a0b-bbed-09022507f215-16778168832d4f4940-0"
       ],
       "settings": {
         "layout": "full_bleed",
