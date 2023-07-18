@@ -1,4 +1,7 @@
-
+.lsn-slideshow{
+      max-height: calc(100vh - 60px);
+    overflow: hidden;
+}
 .lsn-slideshow .slideshow__slideIndex.slider__item{
    position: relative;
 }
