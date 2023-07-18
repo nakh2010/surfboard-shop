@@ -250,7 +250,15 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {% if template == 'cart' %}
+        <div class="page-width">
+          <div id="wrapp-cartPage" class="cart-page {% if cart == empty %} is-empty{% endif %}">
+          {{ content_for_layout }}
+          </div>
+        </div>
+      {% else %}
       {{ content_for_layout }}
+      {% endif %}
     </main>
 
     {% section 'footer' %}
