@@ -1,5 +1,5 @@
 .lsn-slideshow{
-      max-height: calc(100vh - 60px);
+      max-height: calc(100vh - 110px);
     overflow: hidden;
 }
 .lsn-slideshow .slideshow__slideIndex.slider__item{
