@@ -139,8 +139,8 @@
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/girl-enjoying-summer_1.jpg",
+            "collection": "all",
+            "image": "shopify:\/\/shop_images\/teel.png",
             "collection_title": "Best sellers"
           }
         },
