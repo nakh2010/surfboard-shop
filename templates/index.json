@@ -141,7 +141,7 @@
           "settings": {
             "collection": "longboards",
             "image": "shopify:\/\/shop_images\/ScreenshotatJul1814-17-40.png",
-            "collection_title": "Longboar"
+            "collection_title": "Longboards"
           }
         },
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1": {
@@ -155,9 +155,9 @@
         "969f040a-63f0-4c3b-92ee-f5715010e3a5": {
           "type": "featured_collection",
           "settings": {
-            "collection": "longboards",
-            "image": "shopify:\/\/shop_images\/supchil.jpg",
-            "collection_title": "LONGBOARD"
+            "collection": "accessories",
+            "image": "shopify:\/\/shop_images\/black-board.png",
+            "collection_title": ""
           }
         },
         "10003f8b-d21b-4037-9b9b-8f09bd201e31": {
