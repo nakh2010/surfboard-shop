@@ -172,6 +172,17 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  text-decoration: none;
+    text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    -webkit-text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
 }
 
 .card__heading:last-child {
