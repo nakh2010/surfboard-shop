@@ -194,6 +194,13 @@ cart-items {
 }
 
 .cart__ctas {
+      margin-top: 25px;
+    transition: all .1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: none;
+    gap: 0;
   text-align: center;
 }
 
