@@ -83,7 +83,7 @@
     {%- endif -%}
 
     <div class="product-grid-container" id="ProductGridContainer">
-      {%- paginate collection.products by 5000 -%}
+      {%- paginate collection.products by section.settings.products_per_page -%}
         {%- if collection.products.size == 0 -%}
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
             <div class="loading-overlay gradient"></div>
@@ -102,47 +102,46 @@
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               {%- for product in collection.products -%}
-                  {% assign lazy_load = false %}
-                  {%- if forloop.index > 2 -%}
-                    {%- assign lazy_load = true -%}
-                  {%- endif -%}
-                  <li class="grid__item">
-                    {% capture available %}
-                   {% for variant in product.variants %}   
-                   {% if variant.available == true %}
-                      {{ variant.title }}   
-                     {% endif %}
-                   {% endfor %}
-                {% endcapture %}
-                      
-                  {% assign checkColor = false  %}
-                  {% for product_option in product.options_with_values %}
-                  {% if product_option.name == "Colour" or  product_option.name == "Color"%}
-                    {% if product_option.values.size > 1 %}
-                        {% assign checkColor = true  %}
-                    {% endif %}                  
-                  {% endif  %}
-                  {% endfor %}
-                
-                {% if checkColor %}
-                  {% for option in product.options_with_values %}
-                    {% if option.name == "Colour" or  option.name == "Color"%}
-  
-                        {% assign index = forloop.index0 %}
-                        {% assign colorlist = '' %}
-                        {% assign color = '' %}
-                        {% for variant in product.variants %}
-                        {% capture color %}
-                        {{ variant.options[index] }}
-                            {% endcapture %}
-                            {% unless colorlist contains color %}
-                              {% render 'card-product-separate-color', 
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                {% capture available %}
+                 {% for variant in product.variants %}   
+                 {% if variant.available == true %}
+                    {{ variant.title }}   
+                   {% endif %}
+                 {% endfor %}
+              {% endcapture %}
+                    
+                {% assign checkColor = false  %}
+                {% for product_option in product.options_with_values %}
+                {% if product_option.name == "Colour" or  product_option.name == "Color"%}
+                  {% if product_option.values.size > 1 %}
+                      {% assign checkColor = true  %}
+                  {% endif %}                  
+                {% endif  %}
+                {% endfor %}
+              
+              {% if checkColor %}
+                {% for option in product.options_with_values %}
+                  {% if option.name == "Colour" or  option.name == "Color"%}
+
+                      {% assign index = forloop.index0 %}
+                      {% assign colorlist = '' %}
+                      {% assign color = '' %}
+                      {% for variant in product.variants %}
+                      {% capture color %}
+                      {{ variant.options[index] }}
+                          {% endcapture %}
+                          {% unless colorlist contains color %}
+                            <li class="grid__item">
+                              {% render 'card-product-separate-color',
                                 productMain: product,
                                 card_product: variant,
                                 title: product.title,
                                 product_options: product.options,
                                 color: color,
-                                available: available,
                                 media_aspect_ratio: section.settings.image_ratio,
                                 show_secondary_image: section.settings.show_secondary_image,
                                 show_vendor: section.settings.show_vendor,
@@ -150,18 +149,21 @@
                                 lazy_load: lazy_load,
                                 show_quick_add: section.settings.enable_quick_add,
                                 section_id: section.id
+            
                               %}
-                             
-                      {% capture tempList %}
-                        {{colorlist | append: color | append: " " }}
-                      {% endcapture %}
-                      {% assign colorlist = tempList %}
-                      {% endunless %}
-                      {% endfor %}
-                    {% endif  %}
-                  {% endfor %}
-              
-                {% else %}
+                            </li>
+                           
+                    {% capture tempList %}
+                      {{colorlist | append: color | append: " " }}
+                    {% endcapture %}
+                    {% assign colorlist = tempList %}
+                    {% endunless %}
+                    {% endfor %}
+                  {% endif  %}
+                {% endfor %}
+            
+              {% else %}
+                <li class="grid__item">
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -173,10 +175,10 @@
                     section_id: section.id
 
                   %}
-                {% endif %}
-                
-                  
                 </li>
+              {% endif %}
+                
+                
               {%- endfor -%}
             </ul>
     
