@@ -140,8 +140,8 @@
           "type": "featured_collection",
           "settings": {
             "collection": "all",
-            "image": "shopify:\/\/shop_images\/teel.png",
-            "collection_title": "Shop"
+            "image": "shopify:\/\/shop_images\/Screenshot_at_Jul_17_11-36-43.png",
+            "collection_title": "Shop all"
           }
         },
         "template--17192392753437__54bbbde7-3046-46a0-a30b-90e054ab36fb-1678437137de1c1d13-1": {
@@ -163,9 +163,9 @@
         "10003f8b-d21b-4037-9b9b-8f09bd201e31": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories",
-            "image": "shopify:\/\/shop_images\/image-removebg-preview_40.png",
-            "collection_title": "ACCESSORIES"
+            "collection": "all",
+            "image": "shopify:\/\/shop_images\/AdobeStock_613250566_Preview.jpg",
+            "collection_title": "shop all"
           }
         }
       },
