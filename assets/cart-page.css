@@ -5,11 +5,14 @@
       margin-top: 35px;
       margin-bottom: 40px;
 }
+.cart-page-title{
+  
+}
 .route-checkout-cart {
     background: #fff;
 }
 .route-checkout-cart .cart-page {
-    --sticky-top-distance-custom: 170px;
+    --sticky-top-distance-custom: 100px;
     --cart-bottom-width: 33%;
     --cart-bottom-space: 32px;
     gap: var(--cart-bottom-space);
