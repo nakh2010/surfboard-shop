@@ -302,13 +302,14 @@ display: block;
 .cart-item__quantity-wrapper .quantity {
     border-radius: 4px;
       width: 110px;
-    min-height: 36px;
+    min-height: 38px;
     overflow: hidden;
     border: 1px solid;
     border-color: rgba(224,226,230,1);
 }
 .cart-item__quantity-wrapper .quantity__button {
     width: 32px;
+      background: transparent;
 }
 .cart-item__image-container {
     border: none;
