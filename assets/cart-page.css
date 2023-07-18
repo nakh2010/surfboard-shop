@@ -218,7 +218,7 @@ table th:first-child,
 cart-remove-button a{
       border-radius: 4px !important;
     padding: 0.7em !important;
-    color: rgba(255,255,255,.9) !important;
+    color: rgba(255,255,255,.9);
     width: 38px !important;
     height: 38px !important;
     display: flex;
