@@ -5,6 +5,14 @@
       margin-top: 35px;
       margin-bottom: 40px;
 }
+.panels-total .title-sum{
+      display: block;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+.panels-total p{
+  
+}
 .cart-page-title{
   
 }
