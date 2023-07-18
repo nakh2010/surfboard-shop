@@ -57,7 +57,7 @@ cart-items {
 
 .cart__items {
   position: relative;
-  padding-bottom: 3rem;
+  padding-bottom: 0;
   border-bottom: 0.1rem solid rgba(var(--color-base-text), 0.08);
 }
 
