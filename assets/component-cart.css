@@ -172,6 +172,24 @@ cart-items {
 .cart__blocks > * + * {
   margin-top: 1rem;
 }
+.btn.btn-default.continue{
+  color: rgba(105,114,120,1);
+    background-color: rgba(255,255,255,0);
+    --background-color: rgba(255,255,255,0);
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: 14px;
+    -webkit-text-decoration: none;
+    letter-spacing: 0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 11px;
+    text-transform: capitalize;
+}
 
 .cart__dynamic-checkout-buttons div[role='button'] {
   border-radius: var(--buttons-radius-outset) !important;
