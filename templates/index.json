@@ -34,7 +34,7 @@
             "subheading": "",
             "button_label": "SHOP NOW",
             "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "anchor_label": "",
             "anchor_link": "",
             "box_align": "middle-left",
