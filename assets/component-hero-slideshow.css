@@ -26,7 +26,6 @@
      position: relative !important;
     width: 100% !important;
     height: auto !important;
-    max-height: calc(100vh - 100px);
     object-fit: cover;
     min-height: 80vh;
 }
