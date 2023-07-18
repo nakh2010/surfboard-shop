@@ -2700,9 +2700,9 @@ details-disclosure > details {
   line-height: 1;
   padding: 0.5rem 1.3rem 0.6rem 1.3rem;
   text-align: center;
-  background-color: rgb(var(--color-badge-background));
-  border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
-  color: rgb(var(--color-primary-button-background));
+     background-color: #da0c0c;
+    border-color: #da0c0c;
+    color: #fff;
   word-break: break-word;
 }
 
