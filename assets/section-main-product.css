@@ -1214,7 +1214,7 @@ a.product__text {
   padding: 0;
   color: var(--color-base-text);
   cursor: pointer;
-  background-color: transparent;
+    background: #f1f1f1;
 }
 
 .thumbnail:hover {
