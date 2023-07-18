@@ -21,7 +21,7 @@
 .price .price-item {
   display: inline-block;
   margin: 0 1rem 0 0;
-  color: rgb(var(--color-primary-button-background));
+  color: var(--color-base-heading);
   font-style: normal;
   font-size: 28px;
   line-height: 36px;
