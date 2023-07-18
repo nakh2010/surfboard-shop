@@ -235,7 +235,7 @@
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
 </head>
 
-  <body class="{{ page.handle }} template-{{ template | remove: "page." }}">
+  <body class="{{ page.handle }} template-{{ template | remove: "page." }} {% if template == 'cart' %} route-checkout-cart {% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
