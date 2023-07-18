@@ -2783,7 +2783,7 @@ details-disclosure > details {
   border: var(--media-border-width) solid rgba(var(--color-primary-button-background), var(--media-border-opacity));
   border-radius: var(--media-radius);
   overflow: visible !important;
-     background: #f1f1f1;
+  background-color: var(--color-background);
 }
 
 .global-media-settings:after {
