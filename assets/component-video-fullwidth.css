@@ -84,19 +84,19 @@
 }
 @media screen and (min-width: 750px){
   .video-height--use_screen_one_third .video-section__media{
-       padding-bottom:54vh;
+       padding-bottom:20vh;
   }
   .video-height--use_screen_one_half .video-section__media{
-       padding-bottom:74vh;
+       padding-bottom:40vh;
   }
   .video-height--use_screen_two_thirds .video-section__media{
-       padding-bottom:74vh;
+       padding-bottom:60vh;
   }
   .video-height--use_screen_three_quarters .video-section__media{
-       padding-bottom:74vh;
+       padding-bottom:78vh;
   }
   .video-height--use_screen_full .video-section__media{
-       padding-bottom:90vh;
+       padding-bottom:92vh;
   }
 
 }
