@@ -225,6 +225,8 @@
 
 .facets__summary span {
   transition: text-decoration var(--duration-short) ease;
+      color: var(--color-base-link);
+    letter-spacing: 0;
 }
 
 .facets__summary:hover span {
