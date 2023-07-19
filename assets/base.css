@@ -743,7 +743,7 @@ summary::-webkit-details-marker {
   display: block;
   cursor: default;
   content: ' ';
-  background: transparent;
+    background: rgba(0,0,0,0.5);
 }
 
 .disclosure-has-popup > summary::before {
