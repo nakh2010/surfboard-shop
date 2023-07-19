@@ -13,6 +13,9 @@
 .blog-articles .card-wrapper .rte-width {
     max-width: 100%;
 }
+.css-1qx5btw{
+      color: var(--color-base-link);
+}
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr;
