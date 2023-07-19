@@ -2591,7 +2591,13 @@ details[open] > .header__submenu {
 }
 
 details[open] > .header__menu-item {
-  text-decoration: underline;
+      text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    -webkit-text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 
 details[open]:hover > .header__menu-item {
