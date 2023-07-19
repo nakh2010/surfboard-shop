@@ -91,12 +91,6 @@
           "settings": {
           }
         },
-        "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-3": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-4": {
           "type": "quantity_selector",
           "settings": {
@@ -120,7 +114,6 @@
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-0",
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-1",
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-2",
-        "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-3",
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-4",
         "template--17192392753437__7b5f29ca-b78f-4136-a4d6-3335a5244f23-16854141606a9244df-5",
         "cf8434bc-2aef-4163-b2c1-aa780a191c4c"
@@ -148,7 +141,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "softboards",
-            "image": "shopify:\/\/shop_images\/rose.png",
             "collection_title": "SOFTBOARDS"
           }
         },
