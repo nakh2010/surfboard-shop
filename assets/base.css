@@ -2184,6 +2184,7 @@ input[type='checkbox'] {
   -moz-transition: all 150ms ease-out;
   -ms-transition: all 150ms ease-out;
   -o-transition: all 150ms ease-out;
+      box-shadow: 0 1px 4px #80808040;
 }
 
 .header-wrapper--border-bottom {
