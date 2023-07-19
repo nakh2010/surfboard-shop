@@ -16,6 +16,9 @@
 .css-1qx5btw{
       color: var(--color-base-link);
 }
+.blog-articles .card-wrapper:hover .arrow-continue{
+      transform: translateX(10px) translateZ(0px);
+}
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr;
