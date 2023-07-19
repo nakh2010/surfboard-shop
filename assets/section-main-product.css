@@ -321,6 +321,7 @@ fieldset.product-form__input .form__label {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   border-radius: var(--inputs-radius);
+      min-height: 47px;
 }
 
 .no-js .product-form__submit.button--secondary {
