@@ -7,7 +7,6 @@
     overflow:hidden;
     position:relative;
     height:0;
-    border-radius: 20px;
 }
 .lsn-video-fullWidth .video-section__media iframe,
 .lsn-video-fullWidth .video-section__media video{
@@ -114,8 +113,5 @@
   .lsn-video-fullWidth .lsn__eyebrow:after {
     width: 40px;
   }
-  .lsn-video-fullWidth .video-section__media {
-    padding-bottom: calc(100vh - 120px);
-}
 
 }
