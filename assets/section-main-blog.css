@@ -16,6 +16,13 @@
 .css-1qx5btw{
       color: var(--color-base-link);
 }
+.blog-articles .card-wrapper .arrow-continue{
+transition: all 250ms ease-out;
+-webkit-transition: all 250ms ease-out;
+-moz-transition: all 250ms ease-out;
+-ms-transition: all 250ms ease-out;
+-o-transition: all 250ms ease-out;
+}
 .blog-articles .card-wrapper:hover .arrow-continue{
       transform: translateX(10px) translateZ(0px);
 }
