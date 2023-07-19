@@ -211,7 +211,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
 }
 .footer-block--newsletter ul.footer__list-social {
   margin-top: 20px;
