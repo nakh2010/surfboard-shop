@@ -2705,8 +2705,9 @@ details-disclosure > details {
   word-break: break-word;
 }
 .badge.color-sold_out{
-      background-color: #424242;
-    border-color: #424242;
+    border-color: rgb(var(--color-primary-button-background));
+    opacity: .5;
+    background-color: rgb(var(--color-primary-button-background));
 }
 .badge.color-on_sale {
      background-color: #da0c0c;
