@@ -61,7 +61,7 @@
     max-height: none;
     overflow-y: initial;
 }
-.collection-facets-vertical facet-filters-form{
+.collection-facets-vertical .facets-container facet-filters-form{
       background: #f1f1f1;
     padding: 20px 15px;
     border-radius: 5px;
