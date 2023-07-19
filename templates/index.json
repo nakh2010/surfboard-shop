@@ -156,7 +156,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "accessories",
-            "image": "shopify:\/\/shop_images\/black-board.png",
             "collection_title": "Accessories"
           }
         },
@@ -263,9 +262,9 @@
       ],
       "settings": {
         "heading": "",
-        "bg_style": "transparent",
+        "bg_style": "color",
         "bg_color": "#f1f1f1",
-        "text_color": "#000000"
+        "text_color": "#292929"
       }
     },
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b": {
@@ -442,9 +441,7 @@
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "show_view_all": true
       }
     }
   },
