@@ -31,6 +31,15 @@
   letter-spacing: 0.01em;
   text-transform: capitalize;
 }
+.footer__content-top .footer-block.grid__item a:hover{
+      text-decoration-style: dotted;
+    -webkit-text-decoration-style: dotted;
+    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    -webkit-text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
 .footer__content-top .footer__list-social a{
       padding-top: 2px;
 }
