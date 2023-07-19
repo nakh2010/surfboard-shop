@@ -8,7 +8,7 @@
 .background-transparent{
   
 }
-.section-header.shopify-section-header-sticky .background-transparent .cart-count-bubble{
+.section-header.shopify-section-header-sticky .background-transparent .cart-count-bubble span{
   color: #fff;
 }
 
