@@ -8,6 +8,9 @@
 .background-transparent{
   
 }
+.section-header.shopify-section-header-sticky .background-transparent .cart-count-bubble{
+  color: #fff;
+}
 
 .list-menu--right {
   right: 0;
