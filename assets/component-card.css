@@ -363,11 +363,11 @@
 .card-information
   > *:not(.visually-hidden:first-child)
   + *:not(.rating) {
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
 }
 
 .card-information .caption {
-  letter-spacing: 0.07rem;
+  letter-spacing: 0;
 }
 
 .card-article-info {
