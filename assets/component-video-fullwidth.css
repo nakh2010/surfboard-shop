@@ -82,16 +82,16 @@
       margin: 0;
 }
 .video-height--use_screen_one_third .video-section__media{
-     padding-bottom:20vh;
+     padding-bottom:18vh;
 }
 .video-height--use_screen_one_half .video-section__media{
-     padding-bottom:40vh;
+     padding-bottom:36vh;
 }
 .video-height--use_screen_two_thirds .video-section__media{
-     padding-bottom:60vh;
+     padding-bottom:56vh;
 }
 .video-height--use_screen_three_quarters .video-section__media{
-     padding-bottom:78vh;
+     padding-bottom:76vh;
 }
 .video-height--use_screen_full .video-section__media{
      padding-bottom:92vh;
