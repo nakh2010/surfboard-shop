@@ -235,18 +235,18 @@
               "sub_heading": "Subscribe to our newsletter for the latest updates and exclusive offers!"
             }
           },
-          "f41619d3-f4a6-468c-8b39-4eddc5e391f6": {
-            "type": "link_list",
-            "settings": {
-              "heading": "SHOP",
-              "menu": "shop"
-            }
-          },
           "d7f9e711-73b7-4004-ac58-0c3849d1cee4": {
             "type": "link_list",
             "settings": {
               "heading": "SUPPORTS",
               "menu": "supports"
+            }
+          },
+          "f41619d3-f4a6-468c-8b39-4eddc5e391f6": {
+            "type": "link_list",
+            "settings": {
+              "heading": "SHOP",
+              "menu": "shop"
             }
           },
           "footer-0": {
@@ -259,8 +259,8 @@
         },
         "block_order": [
           "f58d1817-a338-488c-b5ca-6ca002f5ff85",
-          "f41619d3-f4a6-468c-8b39-4eddc5e391f6",
           "d7f9e711-73b7-4004-ac58-0c3849d1cee4",
+          "f41619d3-f4a6-468c-8b39-4eddc5e391f6",
           "footer-0"
         ],
         "settings": {
