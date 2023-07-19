@@ -596,7 +596,6 @@ h6:empty {
 }
 
 .link--text:hover {
-   color: var(--color-base-link);
   text-decoration-style: dotted;
   -webkit-text-decoration-style: dotted;
   text-decoration-line: underline;
