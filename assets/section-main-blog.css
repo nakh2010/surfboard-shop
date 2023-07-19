@@ -26,6 +26,10 @@ transition: all 250ms ease-out;
 .blog-articles .card-wrapper:hover .arrow-continue{
       transform: translateX(10px) translateZ(0px);
 }
+.article-card .card__heading{
+      text-transform: uppercase;
+    font-size: 16px;
+}
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr;
