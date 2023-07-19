@@ -98,7 +98,7 @@
   <body class="gradient">
     <header class="gift-card__title">
       {%- if settings.logo != blank -%}
-        {{ settings.logo | image_url: '360x' }}
+        <img src="{{ settings.logo | image_url: width: 320, height: 320 }}">
       {%- else -%}
         <span class="h2">{{ shop.name }}</span>
       {%- endif -%}
