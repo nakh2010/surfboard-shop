@@ -84,7 +84,15 @@
       margin: 0;
 }
 @media screen and (min-width: 750px){
-
+  .video-height--small .video-section__media{
+    
+  }
+  .video-height--medium .video-section__media{
+    
+  }
+  .video-height--large .video-section__media{
+    
+  }
 
 }
 @media screen and (max-width: 1024px){
