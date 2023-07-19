@@ -55,7 +55,38 @@
 .collection__title .title:not(:only-child) {
   margin-bottom: 1rem;
 }
-
+.collection-facets-vertical #main-collection-filters .facets-container{
+     position: sticky;
+    top: 95px;
+    max-height: none;
+    overflow-y: initial;
+}
+.collection-facets-vertical facet-filters-form{
+      background: #f1f1f1;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+.collection-facets-vertical{
+  
+}
+.collection-facets-vertical{
+  
+}
+.collection-facets-vertical{
+  
+}
+.collection-facets-vertical{
+  
+}
+.collection-facets-vertical{
+  
+}
+.collection-facets-vertical{
+  
+}
+.collection-facets-vertical{
+  
+}
 @media screen and (min-width: 990px) {
   .collection__title--desktop-slider .title {
     margin-bottom: 2.5rem;
