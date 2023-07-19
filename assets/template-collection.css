@@ -57,7 +57,7 @@
 }
 .collection-facets-vertical #main-collection-filters .facets-container{
      position: sticky;
-    top: 95px;
+    top: 90px;
     max-height: none;
     overflow-y: initial;
 }
