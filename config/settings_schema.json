@@ -1285,6 +1285,16 @@
     ]
   },
   {
+    "name": "Gift Card",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      }
+    ]
+  },
+  {
     "name": "Popup",
     "settings": [
       {
