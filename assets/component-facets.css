@@ -583,9 +583,11 @@ a.active-facets__button.focused .active-facets__button-inner,
   height: 100vh;
   z-index: 3;
 }
-
+.collection-facets-vertical .mobile-facets__inner{
+    padding-top: 125px;
+}
 .mobile-facets__inner {
-      padding-top: 125px;
+    
   background-color: var(--color-background);
   width: calc(100% - 5rem);
   margin-left: auto;
