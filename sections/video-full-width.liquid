@@ -21,25 +21,6 @@
       {%- endif -%}
      {%- endif -%}
   </div>
-  <div class="video-section-small">
-    {%- if section.settings.video_link_mobile != blank -%}
-      <div class="video-section__media">
-        <video class="lsn_video" width="100%" autoplay loop muted playsinline>
-          <source src="{{ section.settings.video_link_mobile }}" type="video/mp4">
-        </video>
-      </div>
-     {%- else -%}
-        {%- if section.settings.video_url_mobile.type == 'youtube' -%}
-          <div class="video-section__media">
-            <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url_mobile.id }}?autoplay=1&loop=1&mute=1&playlist={{ section.settings.video_url_mobile.id }}" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.header | escape }}"></iframe>
-          </div>
-        {%- else -%}
-          <div class="video-section__media">
-            <iframe src="https://player.vimeo.com/video/{{ section.settings.video_url_mobile.id }}?autoplay=1&loop=1&color=ef0800&title=0&byline=0&portrait=0&muted=true" class="js-vimeo" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.header | escape }}"></iframe>
-          </div>
-        {%- endif -%}
-     {%- endif -%} 
-  </div>
     
   <div class="video_caption">
     {% if section.settings.sub_header != blank %}
@@ -100,11 +81,6 @@
         "label": "Text Style"
       },
       {
-          "type": "header",
-          "content": "Video - On Large screens",
-          "info": "Desktop & Tablet"
-      },
-      {
         "type": "text",
         "id": "video_link",
         "label": "Url",
@@ -119,29 +95,6 @@
         ],
         "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "label": "Url",
-        "placeholder": "t:sections.video.settings.video_url.placeholder",
-        "info": "Accept youtube or vimeo"
-      },
-      {
-          "type": "header",
-          "content": "Video - On small screens",
-          "info": "Mobile"
-      },
-      {
-        "type": "text",
-        "id": "video_link_mobile",
-        "label": "Url",
-        "info": "Video file type: .mp4"
-      },
-      {
-        "type": "video_url",
-        "id": "video_url_mobile",
-        "accept": [
-          "youtube",
-          "vimeo"
-        ],
-        "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "label": "Video Url - Mobile",
         "placeholder": "t:sections.video.settings.video_url.placeholder",
         "info": "Accept youtube or vimeo"
       }
