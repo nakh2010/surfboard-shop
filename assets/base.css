@@ -1308,6 +1308,9 @@ button.shopify-payment-button__button--unbranded {
   background-color: rgb(var(--color-primary-button-background));
   border-color: rgb(var(--color-primary-button-background));
 }
+.password-button.button {
+    border: 1px solid;
+}
 .button:hover,
 .button:focus-visible,
 .button:focus,
