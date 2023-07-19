@@ -83,13 +83,19 @@
       margin: 0;
 }
 @media screen and (min-width: 750px){
-  .video-height--small .video-section__media{
+  .video-height--use_screen_one_third .video-section__media{
        padding-bottom:54vh;
   }
-  .video-height--medium .video-section__media{
+  .video-height--use_screen_one_half .video-section__media{
        padding-bottom:74vh;
   }
-  .video-height--large .video-section__media{
+  .video-height--use_screen_two_thirds .video-section__media{
+       padding-bottom:74vh;
+  }
+  .video-height--use_screen_three_quarters .video-section__media{
+       padding-bottom:74vh;
+  }
+  .video-height--use_screen_full .video-section__media{
        padding-bottom:90vh;
   }
 
