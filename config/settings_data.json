@@ -198,13 +198,10 @@
             "type": "megastyletwo",
             "settings": {
               "heading": "SURFBOARDS",
-              "image_1": "shopify:\/\/shop_images\/image-removebg-preview_30.png",
               "text_1": "ALL SURFBOARDS",
               "link_1": "shopify:\/\/collections\/all",
-              "image_2": "shopify:\/\/shop_images\/chartreuse.png",
               "text_2": "SOFTBOARDS",
               "link_2": "shopify:\/\/collections\/softboards",
-              "image_3": "shopify:\/\/shop_images\/image-removebg-preview_40.png",
               "text_3": "ACCESSORIES",
               "link_3": "shopify:\/\/collections\/accessories"
             }
@@ -257,13 +254,21 @@
             "settings": {
               "heading": "GET CONNECTED"
             }
+          },
+          "d7f9e711-73b7-4004-ac58-0c3849d1cee4": {
+            "type": "link_list",
+            "settings": {
+              "heading": "SUPPORTS",
+              "menu": "supports"
+            }
           }
         },
         "block_order": [
           "f58d1817-a338-488c-b5ca-6ca002f5ff85",
           "f41619d3-f4a6-468c-8b39-4eddc5e391f6",
           "footer-0",
-          "50640806-6a8f-40e5-b05d-26041c6fe2cf"
+          "50640806-6a8f-40e5-b05d-26041c6fe2cf",
+          "d7f9e711-73b7-4004-ac58-0c3849d1cee4"
         ],
         "settings": {
           "background_color": "#005a87",
