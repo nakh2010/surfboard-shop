@@ -198,8 +198,10 @@
             "type": "megastyletwo",
             "settings": {
               "heading": "SURFBOARDS",
+              "image_1": "shopify:\/\/shop_images\/image-removebg-preview_30.png",
               "text_1": "ALL SURFBOARDS",
               "link_1": "shopify:\/\/collections\/all",
+              "image_2": "shopify:\/\/shop_images\/chartreuse.png",
               "text_2": "SOFTBOARDS",
               "link_2": "shopify:\/\/collections\/softboards",
               "image_3": "shopify:\/\/shop_images\/image-removebg-preview_40.png",
