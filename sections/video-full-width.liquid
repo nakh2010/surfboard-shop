@@ -1,7 +1,7 @@
 
 {{ 'component-video-fullwidth.css' | asset_url | stylesheet_tag }}
 
-<div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }}">
+<div class="lsn-video-fullWidth text_style_{{ section.settings.text_style }} video-height--{{ section.settings.video_height }}">
   <div class="video-section-large">
      {%- if section.settings.video_link != blank -%}
        <div class="video-section__media">
