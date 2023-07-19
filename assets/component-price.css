@@ -23,8 +23,8 @@
   margin: 0 1rem 0 0;
   color: var(--color-base-heading);
   font-style: normal;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 30px;
   letter-spacing: 0;
 }
 .product-card-wrapper .price .price-item {
