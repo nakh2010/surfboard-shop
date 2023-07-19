@@ -226,7 +226,6 @@
     text-decoration-thickness: 1px;
     -webkit-text-decoration-thickness: 1px;
     text-underline-offset: 2px;
-  text-decoration: none;
 }
 
 .mega-menu__link--active:hover {
