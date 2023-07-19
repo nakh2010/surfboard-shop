@@ -66,8 +66,9 @@
     padding: 20px 15px;
     border-radius: 5px;
 }
-.collection-facets-vertical{
-  
+#ProductGridContainer{
+      position: relative;
+    z-index: -1;
 }
 .collection-facets-vertical{
   
