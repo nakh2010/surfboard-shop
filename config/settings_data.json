@@ -112,6 +112,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/sticky-logo.png",
     "quickbuy_style": "button",
     "card_color_scheme": "inverse",
     "collection_card_color_scheme": "background-2",
