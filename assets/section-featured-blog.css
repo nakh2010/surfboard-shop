@@ -2,6 +2,9 @@
   margin: 0 1.5rem;
   background: var(--color-background);
 }
+.featured-blog .card__media .media img {
+    object-fit: cover;
+}
 
 @media screen and (min-width: 750px) {
   .blog-placeholder {
