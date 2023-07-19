@@ -4,7 +4,9 @@
   column-gap: var(--grid-mobile-horizontal-spacing);
   row-gap: var(--grid-mobile-vertical-spacing);
 }
-
+.blog-articles .card__media .media img{
+      object-fit: cover;
+}
 .blog-articles .card-wrapper {
   width: 100%;
 }
