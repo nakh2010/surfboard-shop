@@ -68,7 +68,6 @@
 }
 #ProductGridContainer{
       position: relative;
-    z-index: -1;
 }
 .collection-facets-vertical{
   
