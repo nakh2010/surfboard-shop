@@ -66,9 +66,6 @@
     padding: 20px 15px;
     border-radius: 5px;
 }
-.collection-facets-vertical{
-  
-}
 
 @media screen and (min-width: 1024px) {
   .collection-facets-vertical .grid--4-col-desktop .grid__item {
