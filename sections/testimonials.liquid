@@ -33,7 +33,7 @@
       {{ section.settings.heading | escape }}
     </h2>
   {% endif %}
-    <div class="wrapper_testimonials">
+    <div class="wrapper_testimonials {% if section.settings.heading != blank %} hasHeading{% endif %}">
       <div id="lsn-testimonial-{{ section.id }}" class="testimonials" data-number="{{ count_block }}">
        {%- for block in section.blocks -%}
           <div class="sum_testimonials">
