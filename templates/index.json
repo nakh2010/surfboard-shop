@@ -66,8 +66,7 @@
         "text_style": "light",
         "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1323e5ce88e34e7f8702c835ae6616ae.mp4",
         "video_url": "",
-        "video_link_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1323e5ce88e34e7f8702c835ae6616ae.mp4",
-        "video_url_mobile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+        "video_height": "use_screen_two_thirds"
       }
     },
     "54bbbde7-3046-46a0-a30b-90e054ab36fb": {
@@ -198,7 +197,7 @@
         "bf3d8b39-0f46-47a8-a702-ba3a68b024ae"
       ],
       "settings": {
-        "heading": "",
+        "heading": "test",
         "bg_style": "transparent",
         "bg_color": "#f1f1f1",
         "text_color": "#000000"
