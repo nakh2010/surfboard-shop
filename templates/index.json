@@ -324,110 +324,6 @@
         "enable_video_looping": false
       }
     },
-    "beb3984c-8ab6-49de-8b4a-21c29baf9e27": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "775dae17-2f80-4536-9941-e28858402f5b": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "8e479a48-4879-4ba6-bd11-d236e4272482": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "ab5a8a90-61fd-4c5e-a5bd-1a9bd1858240": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "ef991d1b-0b24-46d5-8e7f-a7a52fa2f611": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "4f004a1b-1873-4603-99cc-3c42958c0eb5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "6e5cca60-bb10-4f6b-a263-9b6132eab69d": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "56997b4a-fb1d-4ec7-8191-3e5e55098241": {
-          "type": "text",
-          "settings": {
-            "text": "Available in Dragonfruit and Mango, the Funster is the perfect choice for novice\/intermediate surfers looking for a blast out on the water!",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "775dae17-2f80-4536-9941-e28858402f5b",
-        "8e479a48-4879-4ba6-bd11-d236e4272482",
-        "ab5a8a90-61fd-4c5e-a5bd-1a9bd1858240",
-        "ef991d1b-0b24-46d5-8e7f-a7a52fa2f611",
-        "4f004a1b-1873-4603-99cc-3c42958c0eb5",
-        "6e5cca60-bb10-4f6b-a263-9b6132eab69d",
-        "56997b4a-fb1d-4ec7-8191-3e5e55098241"
-      ],
-      "settings": {
-        "product": "amazing-grace-funboard",
-        "secondary_background": false,
-        "media_position": "right",
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
-    "29a15a56-c312-4831-b91b-b77f3abd2c01": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>SURFING IS MORE THAN JUST A SPORT—IT'S A WAY OF LIFE<\/strong><\/p>"
-          }
-        },
-        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our surfboards are built to perform. Whether you're seeking the rush of riding massive waves or gracefully gliding through gentle swells, our range of boards caters to all skill levels and wave conditions. We believe that every surfer deserves a board that not only enhances their performance but also becomes an extension of themselves.<\/p>"
-          }
-        },
-        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-0",
-        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-1",
-        "template--17192392753437__29a15a56-c312-4831-b91b-b77f3abd2c01-168653937794020ab3-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "bg_style": "color",
-        "bg_color": "#ffffff",
-        "text_color": "#000000"
-      }
-    },
     "d6d96b19-0540-4bb2-b551-85b66afe68e7": {
       "type": "featured-blog",
       "settings": {
@@ -454,8 +350,6 @@
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7a6782d6-0e9c-4637-9237-d66d8a89b8cc",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
-    "beb3984c-8ab6-49de-8b4a-21c29baf9e27",
-    "29a15a56-c312-4831-b91b-b77f3abd2c01",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7"
   ]
 }
