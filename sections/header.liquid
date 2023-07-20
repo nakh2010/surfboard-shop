@@ -500,12 +500,12 @@
                                         <span class="wrapper-img-chill">
                                           {% if global[megaItem_image] %}
                                             <img
-                                                srcset="{{ global[megaItem_image] | image_url: '600x' }}"
-                                                src="{{ global[megaItem_image] | image_url: '600x' }}"
+                                                srcset="{{ global[megaItem_image] | image_url }}"
+                                                src="{{ global[megaItem_image] | image_url: '500x' }}"
                                                 alt="{{ global[megaItem_text] }}"
                                                 loading="lazy"
-                                                width="600"
-                                                height="600"
+                                                width="500"
+                                                height="500"
                                               >
                                           {% else %}
                                             {{ 'image' | placeholder_svg_tag: 'product-item' }}
