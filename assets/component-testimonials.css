@@ -7,7 +7,7 @@
   margin:0;
 }
 .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials.hasHeading{
-    padding: 40px;
+    padding: 40px 0;
 }
 .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials{
     padding: 0px;
@@ -78,7 +78,7 @@
   .lsn_block-testimonials .wrapper_testimonials {
         padding: 50px 20px;
     } 
-  .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials {
-    /*padding: 30px 0;*/
+  .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials.hasHeading{
+    padding: 30px 0;
 }
 }
