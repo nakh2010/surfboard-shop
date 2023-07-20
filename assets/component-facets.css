@@ -750,6 +750,9 @@ details.menu-opening .mobile-facets__close svg {
   overflow-y: auto;
 }
 
+.mobile-facets__main .mobile-facets__details{
+  
+}
 .mobile-facets__details[open] .icon-caret {
   transform: rotate(180deg);
 }
