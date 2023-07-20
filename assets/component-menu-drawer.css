@@ -154,6 +154,10 @@
     display: block;
     margin-top: 8px;
     margin-right: 10px;
+      position: absolute;
+    right: 0;
+    z-index: 2;
+    top: 0;
 }
 .js menu-drawer > details > summary::before,
 .js menu-drawer > details[open]:not(.menu-opening) > summary::before {
