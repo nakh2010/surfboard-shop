@@ -6,8 +6,11 @@
 .lsn_block-testimonials .lsn__heading {
   margin:0;
 }
+.lsn_block-testimonials.bg_style_transparent .wrapper_testimonials.hasHeading{
+    padding: 40px;
+}
 .lsn_block-testimonials.bg_style_transparent .wrapper_testimonials{
-    /*padding: 40px;*/
+    padding: 0px;
 }
 .lsn_block-testimonials .sum_testimonials{
     display: block;
