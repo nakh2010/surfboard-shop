@@ -253,6 +253,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-content: space-between;
   overflow-y: auto;
   width: 100%;
+      padding-top: 50px;
 }
 
 .menu-drawer__navigation {
