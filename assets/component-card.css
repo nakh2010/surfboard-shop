@@ -143,9 +143,9 @@
 }
 
 .card__badge {
-  align-self: flex-end;
-  grid-row-start: 3;
-  justify-self: flex-start;
+    align-self: normal;
+    grid-row-start: 1;
+    justify-self: flex-end;
 }
 
 .card__badge.top {
