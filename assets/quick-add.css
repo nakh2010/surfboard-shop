@@ -14,13 +14,15 @@ body.overflow-hidden:before{
   content:"";
 }
 .quick-add {
-  position: relative;
-  grid-row-start: 4;
-  margin: 0 0 1rem;
-  z-index: 1;
-  position: absolute;
-  top: 10px;
-  left: 10px;
+    grid-row-start: 2;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    bottom: 100%;
+    width: 100%;
+    max-width: calc(100% - 20px);
+    margin-bottom: 10px;
 }
 .quick-add .quick-add__submit {
  background: #fff;
