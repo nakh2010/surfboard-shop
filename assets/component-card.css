@@ -1,4 +1,4 @@
-.product-card-wrapper .card .card__content{
+.product-card-wrapper .card > .card__content{
    position: relative;
 }
 .card-wrapper {
