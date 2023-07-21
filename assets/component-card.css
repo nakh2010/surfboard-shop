@@ -144,6 +144,11 @@
   grid-row-start: 3;
   justify-self: flex-start;
 }
+.card__inner .card__badge {
+    align-self: flex-start;
+    grid-row-start: 1;
+    justify-self: flex-end;
+}
 
 .card__badge.top {
   align-self: flex-start;
