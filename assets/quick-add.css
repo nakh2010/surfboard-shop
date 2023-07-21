@@ -16,13 +16,19 @@ body.overflow-hidden:before{
 .quick-add {
     grid-row-start: 2;
     margin: 0;
-    z-index: 1;
-    position: absolute;
     left: 10px;
     bottom: 100%;
     width: 100%;
     max-width: calc(100% - 20px);
-    margin-bottom: 10px;
+        display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 100%;
+    z-index: 2;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-1.5rem);
+    margin: 0;
 }
 .quick-add .quick-add__submit {
     padding: 12px;
