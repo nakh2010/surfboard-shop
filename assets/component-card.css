@@ -1,3 +1,6 @@
+.product-card-wrapper .card > .card__content{
+   position: relative;
+}
 .card-wrapper {
   color: inherit;
   height: 100%;
@@ -144,6 +147,13 @@
   grid-row-start: 3;
   justify-self: flex-start;
 }
+/*
+.card__badge {
+    align-self: normal;
+    grid-row-start: 1;
+    justify-self: flex-end;
+}
+*/
 
 .card__badge.top {
   align-self: flex-start;
@@ -267,6 +277,12 @@
   .card-wrapper:hover .media.media--hover-effect > img:first-child:only-child {
     transform: scale(1.03);
   }
+  /*
+  .card-wrapper:hover .quick-add .quick-add__submit{
+        opacity: 1;
+    transform: translateY(0);
+  }
+  */
 
   .card-wrapper:hover
     .media.media--hover-effect
