@@ -72,6 +72,9 @@ body.overflow-hidden:before{
 .quick-add .quick-add__submit.loading .icon.icon-plus {
   display:none;
 }
+.quick-add .quick-add__submit.loading > span{
+    display:none;
+}
 .quick-add .quick-add__submit.loading .loading-overlay__spinner {
     display: flex !important;
 }
