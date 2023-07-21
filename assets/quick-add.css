@@ -39,6 +39,7 @@ body.overflow-hidden:before{
     box-shadow: none;
     color: var(--color-primary-button-text);
     background-color: rgb(var(--color-primary-button-background), 0.8);
+      transform: translateY(calc(100% + 10px));
 }
 .quick-add .quick-add__submit svg{
       display: block;
