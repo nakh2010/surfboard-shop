@@ -326,6 +326,9 @@ fieldset.product-form__input .form__label {
 .product-form__submit[aria-disabled="true"] > span{
   display:none;
 }
+.product-form__submit .loading-overlay__spinner .path {
+    stroke: #fff;
+}
 .product-form__submit[aria-disabled="true"] .loading-overlay__spinner{
   
 }
