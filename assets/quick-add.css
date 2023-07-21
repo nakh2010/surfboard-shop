@@ -27,7 +27,7 @@ body.overflow-hidden:before{
     z-index: 2;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-1.5rem);
+    transform: translateY(-1.0rem);
     margin: 0;
 }
 .quick-add .quick-add__submit {
