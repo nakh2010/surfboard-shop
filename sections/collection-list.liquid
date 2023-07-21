@@ -31,7 +31,7 @@
                   width: block.settings.image.width,
                   height: image_height,
                   widths: '960',
-                  alt: block.settings.image.alt | escape
+                  alt: collectionName.title | escape
                 }}
             {% elsif collectionName.image != blank %}
                <img src="{{ collectionName.image.src | collection_img_url: 'large' }}" alt="{{ collectionName.title | escape  }}" />
