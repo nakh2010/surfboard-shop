@@ -1,3 +1,6 @@
+.product-card-wrapper .card .card__content{
+   position: relative;
+}
 .card-wrapper {
   color: inherit;
   height: 100%;
