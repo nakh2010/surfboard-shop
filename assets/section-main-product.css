@@ -323,6 +323,11 @@ fieldset.product-form__input .form__label {
   border-radius: var(--inputs-radius);
       min-height: 47px;
 }
+.product-form__submit:hover{
+    color: var(--color-primary-button-text);
+    background-color: rgb(var(--color-primary-button-background));
+   opacity: 0.9;
+}
 .product-form__submit[aria-disabled="true"] > span{
   display:none;
 }
