@@ -39,7 +39,10 @@ body.overflow-hidden:before{
     box-shadow: none;
     color: var(--color-primary-button-text);
     background-color: rgb(var(--color-primary-button-background), 0.8);
-      transform: translateY(calc(100% + 10px));
+    transform: translateY(calc(100% + 10px));
+    opacity: 0;
+    transition: color var(--duration-long) ease,transform var(--duration-default) ease,opacity var(--duration-default) ease;
+    will-change: transform;
 }
 .quick-add .quick-add__submit svg{
       display: block;
