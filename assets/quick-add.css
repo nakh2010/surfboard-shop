@@ -56,12 +56,12 @@ body.overflow-hidden:before{
 }
 .quick-add .quick-add__submit svg{
       display: block;
-    width: 10px;
+    width: 18px;
       transition: transform .2s ease-in-out;
 }
 .quick-add .quick-add__submit .loading-overlay__spinner {
       width: 100%;
-    max-width: 10px;
+    max-width: 18px;
 }
 .quick-add .quick-add__submit:hover svg{
       transform: rotate(90deg);
