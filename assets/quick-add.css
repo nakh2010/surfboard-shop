@@ -153,6 +153,7 @@ body.overflow-hidden:before{
 }
 .quick-add-modal__content a.link.product__view-details {
       display: block !important;
+      margin-top: 30px;
 }
 .quick-add-modal__content .product__info-container {
     padding-bottom: 50px;
