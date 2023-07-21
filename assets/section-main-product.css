@@ -331,6 +331,8 @@ fieldset.product-form__input .form__label {
 }
 .product-form__submit[aria-disabled="true"] .loading-overlay__spinner{
       display: inline-block !important;
+      width: auto;
+    height: auto;
 }
 
 .no-js .product-form__submit.button--secondary {
