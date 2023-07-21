@@ -330,7 +330,7 @@ fieldset.product-form__input .form__label {
     stroke: rgb(var(--color-primary-button-background));
 }
 .product-form__submit[aria-disabled="true"] .loading-overlay__spinner{
-  
+      display: inline-block !important;
 }
 
 .no-js .product-form__submit.button--secondary {
