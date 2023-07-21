@@ -111,7 +111,6 @@ body.overflow-hidden:before{
   visibility: visible;
   z-index: 101;
       opacity: 1;
-    transform: translateZ(0);
 }
 
 .quick-add-modal__content { 
