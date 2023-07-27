@@ -357,6 +357,53 @@
         "show_author": false,
         "show_view_all": true
       }
+    },
+    "2f93b211-3d1d-45ac-9837-62bd882c27db": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-heading-1",
+        "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-text-1",
+        "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blog.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -369,6 +416,7 @@
     "383d18f4-ddb8-4cb1-a87c-8cbdc762e55b",
     "7a6782d6-0e9c-4637-9237-d66d8a89b8cc",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
-    "d6d96b19-0540-4bb2-b551-85b66afe68e7"
+    "d6d96b19-0540-4bb2-b551-85b66afe68e7",
+    "2f93b211-3d1d-45ac-9837-62bd882c27db"
   ]
 }
