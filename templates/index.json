@@ -364,35 +364,35 @@
         "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-1": {
           "type": "Thumbnails",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sticky-logo.png",
+            "image": "shopify:\/\/shop_images\/download.png",
             "link": ""
           }
         },
         "7bb59a47-5679-4756-807a-20d32e8dac13": {
           "type": "Thumbnails",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sticky-logo.png",
+            "image": "shopify:\/\/shop_images\/Vegan_Logo.png",
             "link": ""
           }
         },
         "2d454a52-1838-400d-95e3-677891079665": {
           "type": "Thumbnails",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sticky-logo.png",
+            "image": "shopify:\/\/shop_images\/googlelogo_dark.png",
             "link": ""
           }
         },
         "7ac3222a-d6c4-4041-a360-5b8b0c2e7bfb": {
           "type": "Thumbnails",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sticky-logo.png",
+            "image": "shopify:\/\/shop_images\/download.png",
             "link": ""
           }
         },
         "7eac1503-4ee4-422d-a3bc-d750bce8a663": {
           "type": "Thumbnails",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sticky-logo.png",
+            "image": "shopify:\/\/shop_images\/downloads.png",
             "link": ""
           }
         },
@@ -400,36 +400,6 @@
           "type": "Thumbnails",
           "settings": {
             "image": "shopify:\/\/shop_images\/sticky-logo.png",
-            "link": ""
-          }
-        },
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-2": {
-          "type": "Thumbnails",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-3": {
-          "type": "Thumbnails",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-4": {
-          "type": "Thumbnails",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-5": {
-          "type": "Thumbnails",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-6": {
-          "type": "Thumbnails",
-          "settings": {
             "link": ""
           }
         }
@@ -440,12 +410,7 @@
         "2d454a52-1838-400d-95e3-677891079665",
         "7ac3222a-d6c4-4041-a360-5b8b0c2e7bfb",
         "7eac1503-4ee4-422d-a3bc-d750bce8a663",
-        "5968484d-fcd8-419b-a166-475ffe7fe464",
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-2",
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-3",
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-4",
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-5",
-        "template--17192392753437__fc922b9a-ddb9-438f-bfc8-af9c2c5ad01e-Thumbnails-6"
+        "5968484d-fcd8-419b-a166-475ffe7fe464"
       ],
       "settings": {
         "background_color": "#ffffff",
