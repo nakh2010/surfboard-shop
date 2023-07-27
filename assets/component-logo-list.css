@@ -19,15 +19,15 @@
      display: block;
     max-width: 100px;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
     height: auto;
     width: auto;
-    transform: translate(-50%);
-    -webkit-transform: translate(-50%,0%);
-    -moz-transform: translate(-50%,0%);
-    -o-transform: translate(-50%,0%);
-    -ms-transform: translate(-50%,0%);
+   transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
 .lsn-logo-list .lsn-list-logo-item{
   display: grid;
