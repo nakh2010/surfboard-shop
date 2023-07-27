@@ -22,10 +22,31 @@
             "color_scheme": "#000000",
             "text_alignment_mobile": "left"
           }
+        },
+        "0a0377bc-e8b3-4397-8760-8c13fb985bf8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unrecognizable-couple-with-surfboards-standing-near-waving-sea.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "template--17192392753437__1b12d6ec-377a-4e8d-bb25-5214d19bc68c-16896655711732dc84-0"
+        "template--17192392753437__1b12d6ec-377a-4e8d-bb25-5214d19bc68c-16896655711732dc84-0",
+        "0a0377bc-e8b3-4397-8760-8c13fb985bf8"
       ],
       "settings": {
         "layout": "full_bleed",
