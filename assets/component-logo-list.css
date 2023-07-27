@@ -16,12 +16,12 @@
     overflow: hidden;
 }
 .lsn-list-logo-item .lsn-wrapp_image img {
-    display: block;
-    max-width: 100%;
+     display: block;
+    max-width: 100px;
     position: absolute;
     top: 0;
     left: 50%;
-    height: 100%;
+    height: auto;
     width: auto;
     transform: translate(-50%);
     -webkit-transform: translate(-50%,0%);
