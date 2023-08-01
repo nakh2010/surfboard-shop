@@ -388,6 +388,7 @@
   text-align: left;
   min-height: calc(4rem + var(--inputs-border-width) * 2);
   min-width: calc(7rem + var(--inputs-border-width) * 2);
+      color: inherit;
 }
 
 .disclosure__button.localization-form__select {
