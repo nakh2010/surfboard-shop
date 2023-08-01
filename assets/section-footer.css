@@ -538,6 +538,7 @@ noscript .localization-selector.link {
 }
 
 .footer .disclosure__link {
+  color: inherit;
   padding: 0.95rem 3.5rem 0.95rem 2rem;
 }
 
