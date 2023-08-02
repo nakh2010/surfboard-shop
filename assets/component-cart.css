@@ -103,6 +103,8 @@ cart-items {
   position: relative;
   border-radius: var(--inputs-radius);
   padding: 1rem 2rem;
+      border: 1px solid #ccc;
+    margin-top: 10px;
 }
 
 .cart__note .text-area {
