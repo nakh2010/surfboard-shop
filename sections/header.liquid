@@ -226,7 +226,7 @@
                                             <span class="wrapper-img-chill">
                                               {% if global[megaItem_image] %}
                                                 <img
-                                                    srcset="{{ global[megaItem_image] | image_url: '360x' }}"
+                                                    srcset="{{ global[megaItem_image] | image_url }}"
                                                     src="{{ global[megaItem_image] | image_url: '360x' }}"
                                                     alt="{{ global[megaItem_text] }}"
                                                     loading="lazy"
