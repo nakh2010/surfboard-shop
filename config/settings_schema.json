@@ -1395,6 +1395,12 @@
         "id": "minimum-spend",
         "label": "Minimum spend for free shipping",
         "default": "500"
+      },
+      {
+        "type": "text",
+        "id": "free-shipping-text",
+        "label": "Free shipping message",
+        "default": "FREE SHIPPING WILL BE APPLIED AT CHECKOUT"
       }
     ]
   }
