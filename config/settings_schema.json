@@ -1385,6 +1385,16 @@
         "id": "sidebar-menu",
         "default": "main-menu",
         "label": "Featured collections"
+      },
+      {
+        "type": "header",
+        "content": "Free shipping message"
+      },
+      {
+        "type": "text",
+        "id": "free-shipping-message",
+        "label": "Minimum spend for free shipping",
+        "default": "500"
       }
     ]
   }
