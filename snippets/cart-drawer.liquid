@@ -52,7 +52,7 @@
           <div class="shipping-calculator"> 
             <p class="text-center free-shipping-text">
               {% if percent == 100 %}
-                FREE SHIPPING WILL BE APPLIED AT CHECKOUT
+                {{settings.free-shipping-text}}
                 {% else %} 
                 {% assign spend_price = priceTotal | minus: cart.total_price  %}
                 Spend {{ spend_price | money }} more and get free shipping!  
