@@ -230,6 +230,10 @@ cart-items {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.cart__note:before,
+.cart__note:after{
+  display:none;
+}
 
 @media screen and (min-width: 750px) {
   .cart-note {
