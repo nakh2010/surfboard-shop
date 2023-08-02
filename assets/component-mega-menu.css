@@ -205,6 +205,9 @@
 .mega-menu__link--level-2:not(:only-child) {
   margin-bottom: 0.8rem;
 }
+.has-sub .mega-menu__link--level-2{
+   margin-bottom: 0;
+}
 
 .header--top-center .mega-menu__list {
   display: flex;
