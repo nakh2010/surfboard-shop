@@ -1392,7 +1392,7 @@
       },
       {
         "type": "text",
-        "id": "free-shipping-message",
+        "id": "minimum-spend",
         "label": "Minimum spend for free shipping",
         "default": "500"
       }
