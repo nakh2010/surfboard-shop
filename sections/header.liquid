@@ -463,7 +463,7 @@
                          {% assign megaMenu =  true %}
                       {% endif %}
                   {% endfor %}
-                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="{% if megaMenu %}mega-menu{% else %} dropdownmenu{% endif %}">
                       <summary class="header__menu-item list-menu__item link focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {% render 'icon-caret' %}
