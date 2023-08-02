@@ -464,7 +464,7 @@
                         <div class="wrapper-mega">
                           <ul class="mega-col mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
                             {%- for childlink in link.links -%}
-                              <li {%- if childlink.links != blank -%}class="has-sub"{%- endif -%}>
+                              <li {% if childlink.links != blank %}class="has-sub"{% endif %}>
                                 <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                   {{ childlink.title | escape }}
                                 </a>
