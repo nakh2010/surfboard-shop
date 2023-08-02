@@ -186,6 +186,10 @@ slideshow-component:not(.page-width) .slider-buttons {
   slideshow-component .slideshow.banner {
       min-height: 70vh;
   }
+  slideshow-component .slideshow.banner .banner__heading{
+    font-size: 30px;
+  }
+  
 }
 
 @media screen and (min-width: 750px) {
