@@ -224,6 +224,12 @@ cart-items {
     gap: 0;
   text-align: center;
 }
+.cart__note {
+    display: block;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 @media screen and (min-width: 750px) {
   .cart-note {
