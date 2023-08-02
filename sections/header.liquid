@@ -455,6 +455,14 @@
               <li>
                 {%- if link.links != blank -%}
                   <header-menu>
+                   {% assign megaMenu =  false %}
+                  {% for block in section.blocks %}
+                      {% assign menu_title =  link.title | handleize | strip %}
+                      {% assign block_heading =  block.settings.heading | handleize | strip %}
+                      {% if menu_title == block_heading %}
+                         {% assign megaMenu =  true %}
+                      {% endif %}
+                  {% endfor %}
                     <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
                       <summary class="header__menu-item list-menu__item link focus-inset">
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
