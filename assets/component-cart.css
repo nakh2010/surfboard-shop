@@ -90,12 +90,11 @@ cart-items {
 }
 
 .cart__note label {
-  display: flex;
-  align-items: flex-end;
-  position: absolute;
-  line-height: 1;
-  height: 1.8rem;
-  top: -3rem;
+  display: block;
+    position: relative;
+    line-height: 1;
+    height: auto;
+    top: 0;
   color: rgba(var(--color-base-text), 0.75);
 }
 
