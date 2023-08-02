@@ -20,7 +20,7 @@
   align-items: center;
   display: flex;
   padding: 1.3rem;
-  color: var(--color-base-text);
+  color: inherit;
 }
 
 .list-social__link:hover .icon {
