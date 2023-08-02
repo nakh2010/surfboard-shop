@@ -316,7 +316,7 @@
   display: inline-flex;
   flex-wrap: wrap;
   flex: initial;
-  padding: 1rem 0;
+  padding: 0;
 }
 
 .localization-form:only-child .button,
