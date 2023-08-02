@@ -337,6 +337,7 @@ cart-drawer-items {
 
   .drawer__inner {
     overflow: scroll;
+    overflow-x: hidden;
   }
 }
 
