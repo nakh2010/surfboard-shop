@@ -189,6 +189,9 @@ slideshow-component:not(.page-width) .slider-buttons {
   slideshow-component .slideshow.banner .banner__heading{
     font-size: 30px;
   }
+  .slideshow__text.slideshow__text-mobile--left {
+    padding: 20px;
+  }
   
 }
 
