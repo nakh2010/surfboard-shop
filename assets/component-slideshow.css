@@ -182,6 +182,11 @@ slideshow-component:not(.page-width) .slider-buttons {
     right: 1.5rem;
   }
 }
+@media screen and (max-width: 639px) {
+  slideshow-component .slideshow.banner {
+      min-height: 70vh;
+  }
+}
 
 @media screen and (min-width: 750px) {
   .slideshow__autoplay.slider-button {
