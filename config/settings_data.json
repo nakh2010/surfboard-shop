@@ -262,9 +262,9 @@
         "settings": {
           "background_color": "#005a87",
           "text_color": "#ffffff",
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false,
           "margin_top": 100
         }
       },
