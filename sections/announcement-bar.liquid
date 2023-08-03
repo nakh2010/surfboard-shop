@@ -19,7 +19,7 @@
 
 <announcement-component  style="visibility: hidden;height: 0;">
   <section class="announcement-bar gradient " role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-     <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}lsn-slider {% endif %}announcement-bar__list count_block_{{ count_block }}" data-number="{{ count_block }}">
+     <div id="sliderAnno-{{ section.id }}" class="{% if count_block > 1 %}lsn-slider {% endif %}announcement-bar__list count_block_{{ count_block }}" data-number="{{ count_block }}" data-autoplay="{{ section.settings.auto_rotate }}">
        {%- for block in section.blocks -%}
         <div class="announcement-bar-item">
         {%- assign data-time = data-time | plus: 1000 -%}
