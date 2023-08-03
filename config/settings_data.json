@@ -181,7 +181,9 @@
 
         ],
         "settings": {
-          "background_announcement": "#005a87"
+          "background_announcement": "#005a87",
+          "color_announcement": "#fff",
+          "auto_rotate": false
         }
       },
       "header": {

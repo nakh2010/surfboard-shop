@@ -548,16 +548,21 @@ class announcementComponent extends HTMLElement {
 
     $(".lsn-slider").each(function(e, t) {
       var a = $(this);
+      var e = a.attr('data-autoplay');
       a.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
         fade: false,
         arrows: false,
         draggable: true,
         dots: false,
         autoplaySpeed: 3000,
       });
+      if("true" == e){
+        a.slick('slickSetOption', 'autoplay', true).slick('slickPlay');
+      }else{
+        a.slick('slickSetOption', 'autoplay', false).slick('slickPause');
+      }
      })
   }
   show() {
