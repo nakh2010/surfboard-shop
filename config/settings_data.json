@@ -212,7 +212,7 @@
           "logo": "shopify:\/\/shop_images\/sticky-logo.png",
           "logo_transparent": "shopify:\/\/shop_images\/lasaona-logo.png",
           "logo_width": 78,
-          "logo_position": "top-center",
+          "logo_position": "middle-center",
           "menu": "main-menu",
           "menu_type_desktop": "mega",
           "show_line_separator": false,
