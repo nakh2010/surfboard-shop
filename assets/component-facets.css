@@ -592,7 +592,7 @@ a.active-facets__button.focused .active-facets__button-inner,
   height: 100%;
   overflow-y: auto;
   pointer-events: all;
-  transition: transform var(--duration-short) ease;
+  transition: all .25s cubic-bezier(.104,.204,.492,1);
   max-width: 46rem;
   display: flex;
   flex-direction: column;
