@@ -1115,5 +1115,10 @@ $(window).resize(function() {
 
 });
 
+(function ($) {
+  var $ = jQuery = $;
+
+})(theme.jQuery);  
+
 
 
