@@ -588,12 +588,12 @@ a.active-facets__button.focused .active-facets__button-inner,
     padding-top: 30px;
   background-color: var(--color-background);
   width: calc(100% - 5rem);
-  margin-left: auto;
+  margin-left: 0;
   height: 100%;
   overflow-y: auto;
   pointer-events: all;
   transition: transform var(--duration-short) ease;
-  max-width: 37.5rem;
+  max-width: 46rem;
   display: flex;
   flex-direction: column;
   border-color: rgba(var(--color-background), var(--drawer-border-opacity));
