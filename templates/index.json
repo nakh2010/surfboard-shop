@@ -715,8 +715,8 @@
         "6bcd8b32-56c4-4ae9-943f-8d9c47f5f2d4": {
           "type": "Item",
           "settings": {
-            "question": "Question title",
-            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "question": "Do you offer international shipping?",
+            "text_body": "<p>Yes, we offer international shipping to bring our exceptional surfboards to surfers around the world. We understand the passion for surfing knows no boundaries, and we strive to deliver our products to enthusiasts everywhere.<\/p><p>Please note that shipping fees and delivery times may vary depending on your location. For more information, refer to our shipping policy or contact our customer support team.<\/p>",
             "video_url": ""
           }
         }
@@ -729,7 +729,7 @@
       ],
       "settings": {
         "sub_header": "",
-        "header": "You have questions, I got the answers",
+        "header": "Frequently Asked Questions",
         "label": "",
         "link": ""
       }
