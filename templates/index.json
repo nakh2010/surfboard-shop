@@ -584,8 +584,8 @@
         "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "accessibility_info": "Slideshow about our brand"
       }
     }
