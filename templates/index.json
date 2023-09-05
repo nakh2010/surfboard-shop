@@ -407,69 +407,26 @@
         "show_text_below": true
       }
     },
-    "1e524d90-37b7-43f6-844b-749ba55748f7": {
-      "type": "collection-list",
-      "blocks": {
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "collection_title": "Collection Title"
-          }
-        },
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "collection_title": "Collection Title"
-          }
-        },
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "collection_title": "Collection Title"
-          }
-        },
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "collection_title": "Collection Title"
-          }
-        }
-      },
-      "block_order": [
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-1",
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-2",
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-3",
-        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-4"
-      ],
-      "settings": {
-        "subtitle": "For A Good Vibe",
-        "heading": "SUMMER"
-      }
-    },
     "8f203eff-467e-41ff-99cd-e1fd3325d20f": {
       "type": "rich-text",
       "blocks": {
         "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>"
+            "heading": "<p>Riding the Waves of Excellence<\/p>"
           }
         },
         "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Our surfboards are meticulously crafted using cutting-edge technology and premium materials, ensuring you glide effortlessly on every wave. Whether you're a seasoned pro or a beginner catching your first break, SurfBoard has the perfect board to match your skills and style<\/p>"
           }
         },
         "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "EXPLORE NOW",
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
@@ -922,7 +879,6 @@
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7",
     "2f93b211-3d1d-45ac-9837-62bd882c27db",
-    "1e524d90-37b7-43f6-844b-749ba55748f7",
     "8f203eff-467e-41ff-99cd-e1fd3325d20f",
     "c1768234-3775-4506-9ece-9f0851f5b072",
     "951bf756-18bb-4e8b-8972-d3cc2b238843",
