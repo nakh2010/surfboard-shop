@@ -456,7 +456,7 @@
         "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-text-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "There's a way of life for those who seek the thrill of the ocean's embrace.",
             "text_style": "body"
           }
         },
@@ -478,6 +478,8 @@
         "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-buttons-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/unrecognizable-couple-with-surfboards-standing-near-waving-sea.png",
+        "image_2": "shopify:\/\/shop_images\/image-removebg-preview_40_1a327318-9ae4-4c8e-8f4f-4978e33f85c4.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
