@@ -138,7 +138,6 @@
     },
     "6d784db5-ca87-47b2-be23-32705c5d2c95": {
       "type": "faqs",
-      "disabled": true,
       "blocks": {
         "6f6c8bbd-0898-4700-b8dd-7355b3f18c81": {
           "type": "Item",
@@ -180,6 +179,7 @@
         "45e0f12d-3066-46cc-ab06-225c255644fa",
         "10b4cbc3-d626-4c10-a594-3add3b0b86f1"
       ],
+      "disabled": true,
       "settings": {
         "sub_header": "Frequently Asked Questions",
         "header": "Surfboard Buying and Maintenance FAQs",
@@ -360,7 +360,6 @@
     },
     "2f93b211-3d1d-45ac-9837-62bd882c27db": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-heading-1": {
           "type": "heading",
@@ -394,6 +393,7 @@
         "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-text-1",
         "template--17192392753437__2f93b211-3d1d-45ac-9837-62bd882c27db-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/blog.png",
         "image_overlay_opacity": 50,
@@ -405,6 +405,188 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "1e524d90-37b7-43f6-844b-749ba55748f7": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_title": "Collection Title"
+          }
+        },
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_title": "Collection Title"
+          }
+        },
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_title": "Collection Title"
+          }
+        },
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "collection_title": "Collection Title"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-1",
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-2",
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-3",
+        "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-4"
+      ],
+      "settings": {
+        "subtitle": "Sub-heading",
+        "heading": "Heading"
+      }
+    },
+    "8f203eff-467e-41ff-99cd-e1fd3325d20f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>"
+          }
+        },
+        "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-heading-1",
+        "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-text-1",
+        "template--17192392753437__8f203eff-467e-41ff-99cd-e1fd3325d20f-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "bg_style": "color",
+        "bg_color": "#FFFFFF",
+        "text_color": "#000000"
+      }
+    },
+    "c1768234-3775-4506-9ece-9f0851f5b072": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-heading-1",
+        "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-text-1",
+        "template--17192392753437__c1768234-3775-4506-9ece-9f0851f5b072-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "951bf756-18bb-4e8b-8972-d3cc2b238843": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17192392753437__951bf756-18bb-4e8b-8972-d3cc2b238843-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/abc.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "",
+            "anchor_link": "shopify:\/\/products\/longboards-red",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17192392753437__951bf756-18bb-4e8b-8972-d3cc2b238843-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unrecognizable-couple-with-surfboards-standing-near-waving-sea.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "anchor_label": "",
+            "anchor_link": "",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__951bf756-18bb-4e8b-8972-d3cc2b238843-slide-1",
+        "template--17192392753437__951bf756-18bb-4e8b-8972-d3cc2b238843-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
@@ -419,6 +601,10 @@
     "7a6782d6-0e9c-4637-9237-d66d8a89b8cc",
     "7b5f29ca-b78f-4136-a4d6-3335a5244f23",
     "d6d96b19-0540-4bb2-b551-85b66afe68e7",
-    "2f93b211-3d1d-45ac-9837-62bd882c27db"
+    "2f93b211-3d1d-45ac-9837-62bd882c27db",
+    "1e524d90-37b7-43f6-844b-749ba55748f7",
+    "8f203eff-467e-41ff-99cd-e1fd3325d20f",
+    "c1768234-3775-4506-9ece-9f0851f5b072",
+    "951bf756-18bb-4e8b-8972-d3cc2b238843"
   ]
 }
