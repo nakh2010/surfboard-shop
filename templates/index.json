@@ -446,8 +446,8 @@
         "template--17192392753437__1e524d90-37b7-43f6-844b-749ba55748f7-featured_collection-4"
       ],
       "settings": {
-        "subtitle": "Sub-heading",
-        "heading": "Heading"
+        "subtitle": "For A Good Vibe",
+        "heading": "SUMMER"
       }
     },
     "8f203eff-467e-41ff-99cd-e1fd3325d20f": {
@@ -797,6 +797,117 @@
         "header": "Heading",
         "text_description": ""
       }
+    },
+    "44b9a13d-b5f1-4c43-af4e-87122b1183f5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-4": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        },
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-5": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-1",
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-2",
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-3",
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-4",
+        "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-5"
+      ],
+      "settings": {
+        "background_color": "#005A87",
+        "font_color": "#ffffff",
+        "sub_header": "Sub-heading",
+        "header": "Heading",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "button_label": "Button Label",
+        "button_link": ""
+      }
+    },
+    "a0d8d80e-13bd-4200-a6cd-5296c1a97117": {
+      "type": "newsletter-form",
+      "blocks": {
+        "template--17192392753437__a0d8d80e-13bd-4200-a6cd-5296c1a97117-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "template--17192392753437__a0d8d80e-13bd-4200-a6cd-5296c1a97117-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--17192392753437__a0d8d80e-13bd-4200-a6cd-5296c1a97117-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__a0d8d80e-13bd-4200-a6cd-5296c1a97117-heading-1",
+        "template--17192392753437__a0d8d80e-13bd-4200-a6cd-5296c1a97117-text-1",
+        "template--17192392753437__a0d8d80e-13bd-4200-a6cd-5296c1a97117-email_form-1"
+      ],
+      "settings": {
+        "background_color": "#005a87",
+        "text_color": "#fff",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "c526826d-9d54-4480-b6fc-beb8b023e009": {
+      "type": "testimonials",
+      "blocks": {
+        "template--17192392753437__c526826d-9d54-4480-b6fc-beb8b023e009-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonials": "Share what your customers are saying about your products, your company...",
+            "author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__c526826d-9d54-4480-b6fc-beb8b023e009-testimonial-1"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_style": "transparent",
+        "bg_color": "#f1f1f1",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -821,6 +932,9 @@
     "d65493a4-c9a2-4dbd-bedb-63a59a2054bd",
     "5ccedefe-d4c1-488a-b922-9988a4da1464",
     "318d3bc9-d530-4f2e-87e0-95254260d18e",
-    "0a65f4ef-d952-4c09-97ec-71e024964333"
+    "0a65f4ef-d952-4c09-97ec-71e024964333",
+    "44b9a13d-b5f1-4c43-af4e-87122b1183f5",
+    "a0d8d80e-13bd-4200-a6cd-5296c1a97117",
+    "c526826d-9d54-4480-b6fc-beb8b023e009"
   ]
 }
