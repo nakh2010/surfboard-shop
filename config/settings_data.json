@@ -106,7 +106,7 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/sticky-logo.png",
     "logo": "shopify:\/\/shop_images\/sticky-logo.png",
-    "popup_enabled": true,
+    "popup_enabled": false,
     "popup_image": "shopify:\/\/shop_images\/whitebikini.png",
     "popup_heading": "Get 50% off",
     "popup_text": "On the item you viewed and get access to  exclusive discounts",

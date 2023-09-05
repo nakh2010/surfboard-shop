@@ -588,6 +588,120 @@
         "change_slides_speed": 3,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "46c931b8-50ec-4ac1-a189-a29fe3e0044e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-1",
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-2",
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-3",
+        "template--17192392753437__46c931b8-50ec-4ac1-a189-a29fe3e0044e-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second"
+      }
+    },
+    "91eaa187-a107-4231-98f4-016830fb98a2": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-1",
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-2",
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-3",
+        "template--17192392753437__91eaa187-a107-4231-98f4-016830fb98a2-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second"
+      }
     }
   },
   "order": [
@@ -605,6 +719,8 @@
     "1e524d90-37b7-43f6-844b-749ba55748f7",
     "8f203eff-467e-41ff-99cd-e1fd3325d20f",
     "c1768234-3775-4506-9ece-9f0851f5b072",
-    "951bf756-18bb-4e8b-8972-d3cc2b238843"
+    "951bf756-18bb-4e8b-8972-d3cc2b238843",
+    "46c931b8-50ec-4ac1-a189-a29fe3e0044e",
+    "91eaa187-a107-4231-98f4-016830fb98a2"
   ]
 }
