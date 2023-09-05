@@ -684,6 +684,55 @@
         "text_color": "#ffffff",
         "image_height": "medium"
       }
+    },
+    "318d3bc9-d530-4f2e-87e0-95254260d18e": {
+      "type": "faqs",
+      "blocks": {
+        "39936c18-0211-47fb-b2d9-a4252c582cfc": {
+          "type": "Item",
+          "settings": {
+            "question": "What size surfboard should I choose?",
+            "text_body": "<p>Choosing the right surfboard size is crucial for optimizing your surfing experience. Factors such as your skill level, weight, and wave conditions play a role in determining the ideal size. We recommend checking out our comprehensive size guide, which provides detailed recommendations based on your individual preferences and characteristics.<\/p>",
+            "video_url": ""
+          }
+        },
+        "206309fc-4e1b-41c8-a41f-60aaa712cac0": {
+          "type": "Item",
+          "settings": {
+            "question": "How do I care for and maintain my surfboard?",
+            "text_body": "<p>Proper care and maintenance are essential for prolonging the lifespan of your surfboard. We recommend rinsing your board with fresh water after each use to remove salt and sand. Regularly inspect and repair any dings or cracks to prevent water seepage. Additionally, store your board in a cool, dry place away from direct sunlight. For a more in-depth guide, feel free to refer to our surfboard care instructions.<\/p>",
+            "video_url": ""
+          }
+        },
+        "e9c64165-227a-48c6-8292-51d5ce89628a": {
+          "type": "Item",
+          "settings": {
+            "question": "Question title",
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": ""
+          }
+        },
+        "6bcd8b32-56c4-4ae9-943f-8d9c47f5f2d4": {
+          "type": "Item",
+          "settings": {
+            "question": "Question title",
+            "text_body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "39936c18-0211-47fb-b2d9-a4252c582cfc",
+        "206309fc-4e1b-41c8-a41f-60aaa712cac0",
+        "e9c64165-227a-48c6-8292-51d5ce89628a",
+        "6bcd8b32-56c4-4ae9-943f-8d9c47f5f2d4"
+      ],
+      "settings": {
+        "sub_header": "",
+        "header": "You have questions, I got the answers",
+        "label": "",
+        "link": ""
+      }
     }
   },
   "order": [
@@ -706,6 +755,7 @@
     "be1276b6-d689-4b10-8c9a-60c88038bf7f",
     "462cc430-d152-49b9-b6d7-7c22ff3d542d",
     "d65493a4-c9a2-4dbd-bedb-63a59a2054bd",
-    "5ccedefe-d4c1-488a-b922-9988a4da1464"
+    "5ccedefe-d4c1-488a-b922-9988a4da1464",
+    "318d3bc9-d530-4f2e-87e0-95254260d18e"
   ]
 }
