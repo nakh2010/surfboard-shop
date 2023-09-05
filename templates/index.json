@@ -733,6 +733,70 @@
         "label": "",
         "link": ""
       }
+    },
+    "0a65f4ef-d952-4c09-97ec-71e024964333": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-1": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/downloads.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-2": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/downloads.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-3": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/downloads.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-4": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vegan_Logo.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-5": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vegan_Logo.png",
+            "link": ""
+          }
+        },
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-6": {
+          "type": "Thumbnails",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vegan_Logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-1",
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-2",
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-3",
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-4",
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-5",
+        "template--17192392753437__0a65f4ef-d952-4c09-97ec-71e024964333-Thumbnails-6"
+      ],
+      "settings": {
+        "background_color": "#ffffff",
+        "font_color": "#005A87",
+        "columns_desktop": 6,
+        "text_color": "#000000",
+        "sub_header": "Sub-heading",
+        "header": "Heading",
+        "text_description": ""
+      }
     }
   },
   "order": [
@@ -756,6 +820,7 @@
     "462cc430-d152-49b9-b6d7-7c22ff3d542d",
     "d65493a4-c9a2-4dbd-bedb-63a59a2054bd",
     "5ccedefe-d4c1-488a-b922-9988a4da1464",
-    "318d3bc9-d530-4f2e-87e0-95254260d18e"
+    "318d3bc9-d530-4f2e-87e0-95254260d18e",
+    "0a65f4ef-d952-4c09-97ec-71e024964333"
   ]
 }
