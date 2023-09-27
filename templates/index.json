@@ -66,7 +66,7 @@
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "outline",
         "enable_desktop_slider": true,
         "show_secondary_image": false,
@@ -439,7 +439,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "bg_style": "color",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "text_color": "#000000"
       }
     },
@@ -749,7 +749,7 @@
       ],
       "settings": {
         "background_color": "#ffffff",
-        "font_color": "#005A87",
+        "font_color": "#005a87",
         "columns_desktop": 6,
         "text_color": "#000000",
         "sub_header": "Sub-heading",
@@ -804,7 +804,7 @@
         "template--17192392753437__44b9a13d-b5f1-4c43-af4e-87122b1183f5-column-5"
       ],
       "settings": {
-        "background_color": "#005A87",
+        "background_color": "#005a87",
         "font_color": "#ffffff",
         "sub_header": "Sub-heading",
         "header": "Heading",
@@ -842,7 +842,7 @@
       ],
       "settings": {
         "background_color": "#005a87",
-        "text_color": "#fff",
+        "text_color": "#ffffff",
         "padding_top": 64,
         "padding_bottom": 64
       }
