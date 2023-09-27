@@ -314,9 +314,23 @@
           "with_photos": false
         }
       },
+      "7612553728132747764": {
+        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/net-promoter-score-form-modal\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "disabled": true,
+        "settings": {
+          "email": "",
+          "name": "",
+          "title": "",
+          "message": "Enable advanced features and increase your monthly order limit to match your business's needs.",
+          "reason": "",
+          "thank_you": "",
+          "label_name": "",
+          "label_email": ""
+        }
+      },
       "4697538150380142411": {
         "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/reviews-popup\/a103faaf-2125-4b0e-89fa-de5149736723",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "layout": "horizontal",
           "effect": "slidetop",
@@ -336,20 +350,6 @@
           "fill_empty": false,
           "random": false,
           "with_photos": false
-        }
-      },
-      "7612553728132747764": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/net-promoter-score-form-modal\/a103faaf-2125-4b0e-89fa-de5149736723",
-        "disabled": true,
-        "settings": {
-          "email": "",
-          "name": "",
-          "title": "",
-          "message": "Enable advanced features and increase your monthly order limit to match your business's needs.",
-          "reason": "",
-          "thank_you": "",
-          "label_name": "",
-          "label_email": ""
         }
       }
     }
