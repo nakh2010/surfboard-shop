@@ -111,7 +111,7 @@
     "popup_heading": "Get 50% off",
     "popup_text": "On the item you viewed and get access to  exclusive discounts",
     "currency_code_enabled": true,
-    "cart_type": "drawer",
+    "cart_type": "page",
     "show_vendor": true,
     "show_cart_note": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/sticky-logo.png",
